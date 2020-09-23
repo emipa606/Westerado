@@ -4,10 +4,10 @@
     <success>Always</success>
     <operations>
       <li Class="PatchOperationTest">
-        <xpath>*/ThingDef[defName="VG_PileofDirt"]</xpath>
+        <xpath>Defs/ThingDef[defName="VG_Campfire"]</xpath>
       </li>
       <li Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName="RawRye_Westerado"]</xpath>
+        <xpath>Defs/ThingDef[defName="RawRye_Westerado"]</xpath>
         <value>
           <thingCategories>
             <li>CookingSupplies</li>
