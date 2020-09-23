@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ConvertMusketToPercussionRifle_Westerado.label>convert musket into percussion rifle</ConvertMusketToPercussionRifle_Westerado.label>
+  <ConvertMusketToPercussionRifle_Westerado.description>Change the musket action from flintlock to percussion.</ConvertMusketToPercussionRifle_Westerado.description>
+  <ConvertMusketToPercussionRifle_Westerado.jobString>Converting musket rifle into percussion rifle.</ConvertMusketToPercussionRifle_Westerado.jobString>
+
+  <ConvertFlintlockToPercussionPistol_Westerado.label>convert flintlock into percussion pistol</ConvertFlintlockToPercussionPistol_Westerado.label>
+  <ConvertFlintlockToPercussionPistol_Westerado.description>Change the flintlock action to percussion.</ConvertFlintlockToPercussionPistol_Westerado.description>
+  <ConvertFlintlockToPercussionPistol_Westerado.jobString>Converting flintlock into percussion pistol.</ConvertFlintlockToPercussionPistol_Westerado.jobString>
+
+
+</LanguageData>

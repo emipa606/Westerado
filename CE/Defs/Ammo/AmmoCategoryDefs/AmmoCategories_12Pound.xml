@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <CombatExtended.AmmoCategoryDef>
+    <defName>Cat12PoundCannonball</defName>
+    <label>cannonball</label>
+    <labelShort>CB</labelShort>
+    <description>The charge detonates on impact, scattering lethal fragments in a small area.</description>
+  </CombatExtended.AmmoCategoryDef>
+  <CombatExtended.AmmoCategoryDef>
+    <defName>Cat12PoundGrapeshot</defName>
+    <label>grapeshot</label>
+    <labelShort>GS</labelShort>
+    <description>The charge detonates on firing, scattering lethal steel balls in a small area.</description>
+  </CombatExtended.AmmoCategoryDef>
+</Defs>

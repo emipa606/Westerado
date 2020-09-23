@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Rustler -->
+
+  <RustlerPawn_Westerado.label>rustler</RustlerPawn_Westerado.label>
+  <RustlerPawn_Westerado.labelPlural>rustlers</RustlerPawn_Westerado.labelPlural>
+
+
+  <!-- Desperado -->
+
+  <DesperadoPawn_Westerado.label>desperado</DesperadoPawn_Westerado.label>
+  <DesperadoPawn_Westerado.labelPlural>desperados</DesperadoPawn_Westerado.labelPlural>
+
+
+  <!-- Gunslinger -->
+
+  <GunslingerPawn_Westerado.label>gunslinger</GunslingerPawn_Westerado.label>
+  <GunslingerPawn_Westerado.labelPlural>gunslingers</GunslingerPawn_Westerado.labelPlural>
+
+
+  <!-- Sharpshooter -->
+
+  <SharpshooterPawn_Westerado.label>sharpshooter</SharpshooterPawn_Westerado.label>
+  <SharpshooterPawn_Westerado.labelPlural>sharpshooters</SharpshooterPawn_Westerado.labelPlural>
+
+
+  <!-- Henchman -->
+
+  <HenchmanPawn_Westerado.label>henchman</HenchmanPawn_Westerado.label>
+  <HenchmanPawn_Westerado.labelPlural>henchmans</HenchmanPawn_Westerado.labelPlural>
+
+
+  <!-- Honcho -->
+
+  <HonchoPawn_Westerado.label>honcho</HonchoPawn_Westerado.label>
+  <HonchoPawn_Westerado.labelPlural>honchos</HonchoPawn_Westerado.labelPlural>
+
+
+</LanguageData>

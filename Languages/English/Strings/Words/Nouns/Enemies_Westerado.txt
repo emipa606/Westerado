@@ -1,0 +1,11 @@
+﻿bandit
+criminal
+raider
+outlaw
+robber
+brigand
+crook
+rogue
+burglar
+mugger
+cannibal

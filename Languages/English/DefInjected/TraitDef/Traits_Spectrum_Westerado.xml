@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DeadEyeTraits_Westerado.degreeDatas.0.label>blood of Harlow</DeadEyeTraits_Westerado.degreeDatas.0.label>
+  <DeadEyeTraits_Westerado.degreeDatas.0.description>[PAWN_nameDef] is a descendant of the legendary 'Harlow', which greatly predisposes [PAWN_objective] to firearms.</DeadEyeTraits_Westerado.degreeDatas.0.description>
+  <DeadEyeTraits_Westerado.degreeDatas.1.label>dead eye</DeadEyeTraits_Westerado.degreeDatas.1.label>
+  <DeadEyeTraits_Westerado.degreeDatas.1.description>[PAWN_nameDef] has a dead eye. This, apparently, increases firearm skills.</DeadEyeTraits_Westerado.degreeDatas.1.description>
+
+  <DollarTrilogyTraits_Westerado.degreeDatas.0.label>good</DollarTrilogyTraits_Westerado.degreeDatas.0.label>
+  <DollarTrilogyTraits_Westerado.degreeDatas.0.description>[PAWN_nameDef] was born with a pretty face, and a fast gun-hand.</DollarTrilogyTraits_Westerado.degreeDatas.0.description>
+  <DollarTrilogyTraits_Westerado.degreeDatas.1.label>bad</DollarTrilogyTraits_Westerado.degreeDatas.1.label>
+  <DollarTrilogyTraits_Westerado.degreeDatas.1.description>[PAWN_nameDef] is just a generally bad person. This subtly repels others during social interactions.</DollarTrilogyTraits_Westerado.degreeDatas.1.description>
+  <DollarTrilogyTraits_Westerado.degreeDatas.2.label>ugly</DollarTrilogyTraits_Westerado.degreeDatas.2.label>
+  <DollarTrilogyTraits_Westerado.degreeDatas.2.description>[PAWN_nameDef] is ugly. More so in character than looks, but also looks. Lazy, quick to anger, deceptive, and gluttonous are all descriptions that would befit [PAWN_objective].</DollarTrilogyTraits_Westerado.degreeDatas.2.description>
+
+
+</LanguageData>

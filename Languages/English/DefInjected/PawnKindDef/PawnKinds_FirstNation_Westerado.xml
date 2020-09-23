@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Poverty tier - penitent -->
+
+  <FirstNation_Slave_Westerado.label>slave</FirstNation_Slave_Westerado.label>
+  <FirstNation_Slave_Westerado.labelPlural>slaves</FirstNation_Slave_Westerado.labelPlural>
+
+
+  <!-- Low tier - archer -->
+
+  <FirstNation_Archer_Westerado.label>archer</FirstNation_Archer_Westerado.label>
+  <FirstNation_Archer_Westerado.labelPlural>archers</FirstNation_Archer_Westerado.labelPlural>
+
+
+  <!-- Mid tier - warrior, hunter, trader -->
+
+  <FirstNation_Warrior_Westerado.label>warrior</FirstNation_Warrior_Westerado.label>
+  <FirstNation_Warrior_Westerado.labelPlural>warriors</FirstNation_Warrior_Westerado.labelPlural>
+
+  <FirstNation_Stalker_Westerado.label>stalker</FirstNation_Stalker_Westerado.label>
+  <FirstNation_Stalker_Westerado.labelPlural>stalkers</FirstNation_Stalker_Westerado.labelPlural>
+
+  <FirstNation_Trader_Westerado.label>trader</FirstNation_Trader_Westerado.label>
+  <FirstNation_Trader_Westerado.labelPlural>traders</FirstNation_Trader_Westerado.labelPlural>
+
+
+  <!-- High tier - berserker, heavy archer, chief melee, chief ranged -->
+
+  <FirstNation_BisonWarrior_Westerado.label>bison warrior</FirstNation_BisonWarrior_Westerado.label>
+  <FirstNation_BisonWarrior_Westerado.labelPlural>bison warriors</FirstNation_BisonWarrior_Westerado.labelPlural>
+
+  <!--[Duplicated] <FirstNation_ChiefMelee_Westerado.label>FirstNation_ChiefMelee_Westerado</FirstNation_ChiefMelee_Westerado.label>-->
+  <!--[Duplicated] <FirstNation_ChiefMelee_Westerado.labelPlural>FirstNation_ChiefMelee_Westerados</FirstNation_ChiefMelee_Westerado.labelPlural>-->
+
+  <FirstNation_ChiefMelee_Westerado.label>eagle chief</FirstNation_ChiefMelee_Westerado.label>
+  <FirstNation_ChiefMelee_Westerado.labelPlural>eagle chiefs</FirstNation_ChiefMelee_Westerado.labelPlural>
+
+  <FirstNation_ChiefRanged_Westerado.label>hawk chief</FirstNation_ChiefRanged_Westerado.label>
+  <FirstNation_ChiefRanged_Westerado.labelPlural>hawk chiefs</FirstNation_ChiefRanged_Westerado.labelPlural>
+
+
+</LanguageData>

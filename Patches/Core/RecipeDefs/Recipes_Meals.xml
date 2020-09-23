@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/RecipeDef[@Name="CookMealBase"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[@Name = "CookMealBase"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+      <value>
+        <li>RawRye_Westerado</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[@Name="CookMealBase"]/fixedIngredientFilter</xpath>
+      <value>
+        <disallowedThingDefs>
+          <li>RawRye_Westerado</li>
+        </disallowedThingDefs>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

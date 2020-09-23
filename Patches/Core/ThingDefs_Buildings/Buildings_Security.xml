@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Fix mortar shells ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="BaseArtilleryWeapon"]/building/fixedStorageSettings/filter</xpath>
+        <value>
+          <disallowedThingDefs>
+            <li>Shell_Cannonball_Westerado</li>
+            <li>Shell_Grapeshot_Westerado</li>
+          </disallowedThingDefs>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

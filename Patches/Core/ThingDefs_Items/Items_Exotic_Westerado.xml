@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="ElephantTusk"]</xpath>
+    <value>
+      <stuffProps>
+        <stuffAdjective>ivory</stuffAdjective>
+        <color>(244,244,240)</color>
+        <commonality>0.05</commonality>
+        <categories>
+          <li>HornsAndAntlers_Westerado</li>
+        </categories>
+        <statFactors>
+          <MaxHitPoints>1.5</MaxHitPoints>
+        </statFactors>
+      </stuffProps>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="ThrumboHorn"]</xpath>
+    <value>
+      <stuffProps>
+        <stuffAdjective>thrumbo horn</stuffAdjective>
+        <color>(206,215,222)</color>
+        <commonality>0.0001</commonality>
+        <categories>
+          <li>HornsAndAntlers_Westerado</li>
+        </categories>
+        <statFactors>
+          <MaxHitPoints>1.5</MaxHitPoints>
+        </statFactors>
+      </stuffProps>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="ThrumboHorn" or defName="ElephantTusk"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>HornsAndAntlerThing_Westerado</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

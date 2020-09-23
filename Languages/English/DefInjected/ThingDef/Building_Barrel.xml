@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--<FermentingBarrel.label>fermenting barrel</FermentingBarrel.label>-->
+  <!--<FermentingBarrel.description>a fermenting barrel for making different types of alcohols.</FermentingBarrel.description>-->
+  <!--<FermentingBarrel_Blueprint.label>fermenting barrel (blueprint)</FermentingBarrel_Blueprint.label>-->
+  <!--<FermentingBarrel_Blueprint_Install.label>fermenting barrel (blueprint)</FermentingBarrel_Blueprint_Install.label>-->
+  <!--<FermentingBarrel_Frame.label>fermenting barrel (building)</FermentingBarrel_Frame.label>-->
+  <!--<FermentingBarrel_Frame.description>a fermenting barrel for making different types of alcohols.</FermentingBarrel_Frame.description>-->
+  <!--[Core] <FermentingBarrel.label>fermenting barrel</FermentingBarrel.label>-->
+  <!--[Core] <FermentingBarrel.description>A barrel for fermenting raw wort into beer.</FermentingBarrel.description>-->
+  <!--[Core] <FermentingBarrel_Blueprint.label>fermenting barrel (blueprint)</FermentingBarrel_Blueprint.label>-->
+  <!--[Core] <FermentingBarrel_Blueprint_Install.label>fermenting barrel (blueprint)</FermentingBarrel_Blueprint_Install.label>-->
+  <!--[Core] <FermentingBarrel_Frame.label>fermenting barrel (building)</FermentingBarrel_Frame.label>-->
+  <!--[Core] <FermentingBarrel_Frame.description>A barrel for fermenting raw wort into beer.</FermentingBarrel_Frame.description>-->
+
+</LanguageData>

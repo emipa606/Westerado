@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Fur Coat -->
+
+  <Apparel_FurCoat_Westerado.label>coat</Apparel_FurCoat_Westerado.label>
+  <Apparel_FurCoat_Westerado.description>A fur coat for staying warm in even the coldest of temperatures.</Apparel_FurCoat_Westerado.description>
+
+
+  <!-- Rebel Coat -->
+
+  <Apparel_RebelCoat_Westerado.label>rebel coat</Apparel_RebelCoat_Westerado.label>
+  <Apparel_RebelCoat_Westerado.description>A grey coat for staying warm on the battlefield, popular with rebels.</Apparel_RebelCoat_Westerado.description>
+
+
+  <!-- Dress Vest -->
+
+  <Apparel_Vest_Westerado.label>vest</Apparel_Vest_Westerado.label>
+  <Apparel_Vest_Westerado.description>A vest for blocking the sun and grit of the desert.</Apparel_Vest_Westerado.description>
+
+
+  <!-- Poncho -->
+
+  <Apparel_Poncho_Westerado.label>poncho</Apparel_Poncho_Westerado.label>
+  <Apparel_Poncho_Westerado.description>A poncho for blocking the sun and grit of the desert.</Apparel_Poncho_Westerado.description>
+
+
+  <!-- Rimind Dress -->
+
+  <Apparel_RimindDress_Westerado.label>rimind dress</Apparel_RimindDress_Westerado.label>
+  <Apparel_RimindDress_Westerado.description>A full-body garment crafted using medieval tools. While it may look primitive, it is effective at insulating the wearer.</Apparel_RimindDress_Westerado.description>
+
+
+  <!-- Rimind Ceremonial Dress -->
+
+  <Apparel_RimindCeremonialDress_Westerado.label>rimind ceremonial dress</Apparel_RimindCeremonialDress_Westerado.label>
+  <Apparel_RimindCeremonialDress_Westerado.description>A full-body garment crafted using medieval tools. A nice looking dress used for mostly ceremonial purposes, however sometimes used in war as well.</Apparel_RimindCeremonialDress_Westerado.description>
+
+
+  <!-- Bandolier -->
+
+  <Apparel_Bandolier_Westerado.label>bandolier</Apparel_Bandolier_Westerado.label>
+  <Apparel_Bandolier_Westerado.description>A bandolier with bullets. Faster reload.</Apparel_Bandolier_Westerado.description>
+
+
+  <!-- First Nation Plate -->
+
+  <Apparel_VestPlateBone_Westerado.label>bone breastplate</Apparel_VestPlateBone_Westerado.label>
+  <Apparel_VestPlateBone_Westerado.description>A breastplate made out of hollowed out bones beaded together with string. Protects against weapons.</Apparel_VestPlateBone_Westerado.description>
+
+
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Different physical description roots for different kinds of artworks. 
+      Added to artworks with tales and taleless art. -->
+
+  <ArtDescription_WeaponGun_Westerado.rulePack.rulesStrings.0>art_description_root->[physical_description_root_westerado]</ArtDescription_WeaponGun_Westerado.rulePack.rulesStrings.0>
+  <ArtDescription_WeaponGun_Westerado.rulePack.rulesStrings.1>physical_description_root_westerado->This weapon is engraved with a [depiction] of [image_westerado]. [desc_sentence_group_westerado]</ArtDescription_WeaponGun_Westerado.rulePack.rulesStrings.1>
+  <ArtDescription_WeaponGun_Westerado.rulePack.rulesStrings.2>physical_description_root_westerado->This weapon bears a [depiction] of [image_westerado]. [desc_sentence_group_westerado]</ArtDescription_WeaponGun_Westerado.rulePack.rulesStrings.2>
+  <ArtDescription_WeaponGun_Westerado.rulePack.rulesStrings.3>physical_description_root_westerado->An engraving on this weapon [depicts] [image_westerado]. [desc_sentence_group_westerado]</ArtDescription_WeaponGun_Westerado.rulePack.rulesStrings.3>
+
+
+</LanguageData>

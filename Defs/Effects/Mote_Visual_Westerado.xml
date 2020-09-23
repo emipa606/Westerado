@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="FoodBitBase">
+    <defName>Mote_PanningWaterBit_Westerado</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <graphicData>
+      <texPath>Things/Mote/PanningWaterBit</texPath>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+    <mote>
+      <fadeInTime>0.08</fadeInTime>
+      <solidTime>0.4</solidTime>
+      <fadeOutTime>0.25</fadeOutTime>
+      <growthRate>0.07</growthRate>
+      <!--<collide>true</collide>
+      <speedPerTime>-0.12</speedPerTime>-->
+    </mote>
+  </ThingDef>
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_PanningPanBit_Westerado</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <graphicData>
+      <texPath>Things/Mote/PanningPanBit</texPath>
+      <shaderType>Mote</shaderType>
+    </graphicData>
+    <mote>
+      <fadeInTime>0.06</fadeInTime>
+      <solidTime>0.6</solidTime>
+      <fadeOutTime>0.06</fadeOutTime>
+      <!--<collide>true</collide>
+      <speedPerTime>-0.12</speedPerTime>-->
+    </mote>
+  </ThingDef>
+</Defs>

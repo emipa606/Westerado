@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <IncidentDef ParentName="DiseaseIncident">
+    <defName>Disease_Dysentery_Westerado</defName>
+    <label>dysentery</label>
+    <diseaseIncident>Dysentery_Westerado</diseaseIncident>
+    <letterLabel>Disease (dysentery)</letterLabel>
+  </IncidentDef>
+</Defs>

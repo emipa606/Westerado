@@ -1,0 +1,5 @@
+﻿gold
+silver
+palladium
+platinum
+copper

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="OrbitalWeaponBase">
+    <defName>MeteoriteGenerator</defName>
+    <label>meteorite generator</label>
+    <description>An ancient control unit for a network of weather-control satellites. This device has had certain failsafes bypassed; it is capable of causing a massive sky-rock disturbance, which will generate a meteorite at a chosen location. The weather network will detect this unauthorized intrusion and lock out the device after use, but the meteorite will be left to tumble to the earth normally.</description>
+    <statBases>
+      <MarketValue>750</MarketValue>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Spawn</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <warmupTime>3</warmupTime>
+        <ai_AvoidFriendlyFireRadius>10</ai_AvoidFriendlyFireRadius>
+        <spawnDef>MeteoriteIncoming</spawnDef>
+        <colonyWideTaleDef>MeteoriteImpact</colonyWideTaleDef>
+        <range>44.9</range>
+        <burstShotCount>1</burstShotCount>
+        <soundAiming>OrbitalTargeter_Aiming</soundAiming>
+        <soundCast>OrbitalTargeter_Fire</soundCast>
+        <onlyManualCast>true</onlyManualCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef>
+</Defs>

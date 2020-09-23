@@ -1,0 +1,9 @@
+﻿frigate
+ship
+navy ship
+schooner
+brig
+man-of-war
+sloop-of-war
+galleon
+clipper

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=========================== Food crops ==============================-->
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Rye_Westerado</defName>
+    <label>rye plant</label>
+    <description>A tall grain plant which produces ears of soft, edible seeds. Rye grows relatively quickly and produces good amounts of grain. Useful in cooking as well as alcohol production.</description>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Nutrition>0.19</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plants/RyePlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>12</pathCost>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.65</fertilityMin>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawRye_Westerado</harvestedThingDef>
+      <harvestYield>16</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <topWindExposure>0.3</topWindExposure>
+      <growDays>6.0</growDays>
+      <!--<immatureGraphicPath>Things/Plants/Immature/chiliPlantImmature</immatureGraphicPath>-->
+      <visualSizeRange>0.8~1.5</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Chili_Westerado</defName>
+    <label>chili plant</label>
+    <description>A medium sized shrub which produces small spicy fruit. Grows relatively quickly, but produces small yields. Can be eaten raw but those of weak constitution should stay away.</description>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Nutrition>0.21</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plants/ChiliPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>12</pathCost>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.60</fertilityMin>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawChili_Westerado</harvestedThingDef>
+      <harvestYield>8</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>4.4</growDays>
+      <immatureGraphicPath>Things/Plants/Immature/ChiliPlant_Immature</immatureGraphicPath>
+      <visualSizeRange>0.4~1.4</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+</Defs>

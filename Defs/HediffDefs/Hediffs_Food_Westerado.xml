@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Jerky -->
+  <!--<HediffDef>
+    <defName>HedJerky_Westerado</defName>
+    <label>Ate Jerky</label>
+    <description>Ate Jerky</description>
+    <initialSeverity>1</initialSeverity>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.0</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+				<minSeverity>0</minSeverity>
+				<label>Well Fed: Jerky</label>
+				<painFactor>0.9</painFactor>
+					<capMods>
+						<li>
+							<capacity>Metabolism</capacity>
+							<offset>-0.15</offset>
+						</li>
+					</capMods>
+			</li>
+		</stages>
+  </HediffDef>-->
+  <!-- Chili -->
+  <HediffDef>
+    <defName>HedChili_Westerado</defName>
+    <label>Ate Chili</label>
+    <description>Ate Chili</description>
+    <initialSeverity>1</initialSeverity>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.062, 0.76, 0.05)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.0</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <label>Well Fed: Chili</label>
+        <painFactor>0.9</painFactor>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.1</offset>
+          </li>
+          <li>
+            <capacity>Metabolism</capacity>
+            <offset>-0.69</offset>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.2</offset>
+          </li>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>0.2</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

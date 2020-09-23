@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <NamerPersonFirstNation_Westerado.rulePack.rulesStrings.0>r_name(p=2)->[WordFirstNation_Westerado] [WordFirstNation_Westerado]</NamerPersonFirstNation_Westerado.rulePack.rulesStrings.0>
+  <NamerPersonFirstNation_Westerado.rulePack.rulesStrings.1>r_name->[WordFirstNation_Westerado] '[AnimalBadass]' [WordFirstNation_Westerado]</NamerPersonFirstNation_Westerado.rulePack.rulesStrings.1>
+  <NamerPersonFirstNation_Westerado.rulePack.rulesStrings.2>r_name->[FirstNationColour_Westerado] [WordFirstNation_Westerado]</NamerPersonFirstNation_Westerado.rulePack.rulesStrings.2>
+  <NamerPersonFirstNation_Westerado.rulePack.rulesStrings.3>r_name->[WordFirstNation_Westerado] [Animal]</NamerPersonFirstNation_Westerado.rulePack.rulesStrings.3>
+  <NamerPersonFirstNation_Westerado.rulePack.rulesStrings.4>r_name->[Animal] [WordFirstNation_Westerado]</NamerPersonFirstNation_Westerado.rulePack.rulesStrings.4>
+  <NamerPersonFirstNation_Westerado.rulePack.rulesStrings.5>r_name->[FirstNationColour_Westerado] [Animal]</NamerPersonFirstNation_Westerado.rulePack.rulesStrings.5>
+  <NamerPersonFirstNation_Westerado.rulePack.rulesStrings.6>r_name->[FirstNationColor_Westerado] [FirstNationNameZ_Westerado]</NamerPersonFirstNation_Westerado.rulePack.rulesStrings.6>
+  <NamerPersonFirstNation_Westerado.rulePack.rulesStrings.7>r_name(p=2)->[FirstNationNameZ_Westerado]</NamerPersonFirstNation_Westerado.rulePack.rulesStrings.7>
+  <NamerPersonFirstNation_Westerado.rulePack.rulesStrings.8>r_name->Little [FirstNation_NameItems_Westerado]</NamerPersonFirstNation_Westerado.rulePack.rulesStrings.8>
+
+
+</LanguageData>

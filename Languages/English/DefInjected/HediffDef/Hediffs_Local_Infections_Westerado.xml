@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Dysentery -->
+
+  <Dysentery_Westerado.label>dysentery</Dysentery_Westerado.label>
+  <Dysentery_Westerado.description>dysentery</Dysentery_Westerado.description>
+  <Dysentery_Westerado.stages.0.label>mild pain</Dysentery_Westerado.stages.0.label>
+  <Dysentery_Westerado.stages.1.label>intense pain</Dysentery_Westerado.stages.1.label>
+
+
+  <!-- Gila Monster -->
+
+  <GilaMonsterVenom_Westerado.label>gila monster venom</GilaMonsterVenom_Westerado.label>
+  <GilaMonsterVenom_Westerado.description>gila monster venom</GilaMonsterVenom_Westerado.description>
+  <GilaMonsterVenom_Westerado.stages.0.label>initial</GilaMonsterVenom_Westerado.stages.0.label>
+  <GilaMonsterVenom_Westerado.stages.1.label>initial</GilaMonsterVenom_Westerado.stages.1.label>
+  <GilaMonsterVenom_Westerado.stages.2.label>minor</GilaMonsterVenom_Westerado.stages.2.label>
+  <GilaMonsterVenom_Westerado.stages.3.label>moderate</GilaMonsterVenom_Westerado.stages.3.label>
+  <GilaMonsterVenom_Westerado.stages.4.label>serious</GilaMonsterVenom_Westerado.stages.4.label>
+  <GilaMonsterVenom_Westerado.stages.5.label>extreme</GilaMonsterVenom_Westerado.stages.5.label>
+
+
+</LanguageData>

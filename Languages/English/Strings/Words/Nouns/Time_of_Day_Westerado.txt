@@ -1,0 +1,10 @@
+﻿high noon
+full moon
+the sun's zenith
+the moon's zenith
+dusk
+dawn
+afternoon
+morning
+night
+sunset

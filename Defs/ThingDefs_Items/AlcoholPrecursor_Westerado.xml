@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="AlcoholPrecursorBase" ParentName="ResourceBase" Abstract="True">
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>10</MarketValue>
+      <DeteriorationRate>1</DeteriorationRate>
+      <Mass>0.8</Mass>
+    </statBases>
+    <thingCategories>
+      <li>PrecursorBase</li>
+    </thingCategories>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>5</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- ========== Alcohol Precursors ========== -->
+  <ThingDef ParentName="AlcoholPrecursorBase">
+    <defName>MoonshineMash_Westerado</defName>
+    <label>undistilled moonshine</label>
+    <description>Mash made from corn and rye. This substance needs to be distilled in a distillery before it becomes drinkable Moonshine.</description>
+    <graphicData>
+      <texPath>Things/Item/Precursor/MoonshineMash</texPath>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="AlcoholPrecursorBase">
+    <defName>RyeMash_Westererado</defName>
+    <label>rye whiskey mash</label>
+    <description>Milled, soaked, and cooked rye. This substance needs to ferment in a fermenting barrel before it becomes drinkable Rye whiskey.</description>
+    <graphicData>
+      <texPath>Things/Item/Precursor/RyeMash</texPath>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="AlcoholPrecursorBase">
+    <defName>SchnappsMash_Westerado</defName>
+    <label>undistilled schnapps</label>
+    <description>Mash made from potatoes. This substance needs to be distilled in a distillery before it becomes drinkable Schnapps.</description>
+    <graphicData>
+      <texPath>Things/Item/Precursor/SchnappsMash</texPath>
+    </graphicData>
+  </ThingDef>
+</Defs>

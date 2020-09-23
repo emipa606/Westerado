@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 12-Pounder Cannon -->
+
+  <Turret_Cannon_Westerado.label>12-pound cannon</Turret_Cannon_Westerado.label>
+  <Turret_Cannon_Westerado.description>A manned 12-pound cannon that launches cannonballs. While it can inflict devastating damage, the cannon's need for direct line of fire makes it more useful for attacking groups of enemies in the field than large fortifications.</Turret_Cannon_Westerado.description>
+
+  <Artillery_Cannon_Westerado.label>12-pound cannon</Artillery_Cannon_Westerado.label>
+  <Artillery_Cannon_Westerado.description>Cannon. Lobs cannonballs towards the enemy. Somewhat inaccurate with decent range.</Artillery_Cannon_Westerado.description>
+
+
+  <!-- Bear Trap -->
+
+  <TrapBearTrap_Westerado.label>bear trap</TrapBearTrap_Westerado.label>
+  <TrapBearTrap_Westerado.description>Jaws of death held away from snapping by a delicate trigger. When the victim disturbs the trigger, the jaws snap together and hurt the victim.</TrapBearTrap_Westerado.description>
+
+
+</LanguageData>

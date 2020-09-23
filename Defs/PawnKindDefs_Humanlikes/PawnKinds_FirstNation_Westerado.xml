@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef Name="FirstNationPawnBase_Westerado" Abstract="True">
+    <race>Human</race>
+    <defaultFactionType>FirstNationCivil</defaultFactionType>
+    <backstoryCategories>
+      <li>Tribal</li>
+    </backstoryCategories>
+    <maxGenerationAge>60</maxGenerationAge>
+    <chemicalAddictionChance>0.08</chemicalAddictionChance>
+    <invNutrition>2.25</invNutrition>
+    <invFoodDef>Pemmican</invFoodDef>
+    <apparelTags>
+      <!--<li>Neolithic</li>-->
+      <li>FirstNationApparel_Westerado</li>
+    </apparelTags>
+  </PawnKindDef>
+  <!-- Poverty tier - penitent -->
+  <PawnKindDef ParentName="FirstNationPawnBase_Westerado">
+    <defName>FirstNation_Slave_Westerado</defName>
+    <label>slave</label>
+    <combatPower>35</combatPower>
+    <chemicalAddictionChance>0.15</chemicalAddictionChance>
+    <invNutrition>0</invNutrition>
+    <itemQuality>Poor</itemQuality>
+    <gearHealthRange>
+      <min>0.2</min>
+      <max>0.7</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>50</min>
+      <max>100</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>90</min>
+      <max>150</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>50</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.25</techHediffsChance>
+  </PawnKindDef>
+  <!-- Low tier - archer -->
+  <PawnKindDef ParentName="FirstNationPawnBase_Westerado">
+    <defName>FirstNation_Archer_Westerado</defName>
+    <label>archer</label>
+    <combatPower>55</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.5</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>180</min>
+      <max>350</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>80</min>
+      <max>120</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>NeolithicRangedBasic</li>
+      <li>NeolithicRangedDecent</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>50</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.03</techHediffsChance>
+  </PawnKindDef>
+  <!-- Mid tier - warrior, hunter, trader -->
+  <PawnKindDef ParentName="FirstNationPawnBase_Westerado">
+    <defName>FirstNation_Warrior_Westerado</defName>
+    <label>warrior</label>
+    <combatPower>70</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <canBeSapper>true</canBeSapper>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>200</min>
+      <max>300</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>Apparel_SingleFeatherBonnetHat_Westerado</li>
+    </apparelRequired>
+    <weaponMoney>
+      <min>150</min>
+      <max>150</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>FirstNationTomahawk_Westerado</li>
+    </weaponTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="FirstNationPawnBase_Westerado" Name="FirstNation_Stalker_Westerado">
+    <defName>FirstNation_Stalker_Westerado</defName>
+    <label>stalker</label>
+    <combatPower>75</combatPower>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>200</min>
+      <max>300</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>Apparel_SingleFeatherBonnetHat_Westerado</li>
+    </apparelRequired>
+    <weaponMoney>
+      <min>350</min>
+      <max>550</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>GunFirstNation_Westerado</li>
+    </weaponTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="FirstNation_Stalker_Westerado">
+    <defName>FirstNation_Trader_Westerado</defName>
+    <label>trader</label>
+    <trader>true</trader>
+    <apparelRequired Inherit="False">
+      <li>Apparel_RoundDomeHat_Westerado</li>
+    </apparelRequired>
+  </PawnKindDef>
+  <!-- High tier - berserker, heavy archer, chief melee, chief ranged -->
+  <PawnKindDef ParentName="FirstNationPawnBase_Westerado">
+    <defName>FirstNation_BisonWarrior_Westerado</defName>
+    <label>bison warrior</label>
+    <combatPower>110</combatPower>
+    <canBeSapper>true</canBeSapper>
+    <apparelMoney>
+      <min>200</min>
+      <max>550</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>Apparel_BisonWarBonnetHat_Westerado</li>
+    </apparelRequired>
+    <weaponMoney>
+      <min>300</min>
+      <max>300</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>FirstNationTomahawk_Westerado</li>
+    </weaponTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="FirstNationPawnBase_Westerado" Name="FirstNationChiefBase_Westerado" Abstract="True">
+    <defName>FirstNation_ChiefMelee_Westerado</defName>
+    <combatPower>160</combatPower>
+    <baseRecruitDifficulty>0.95</baseRecruitDifficulty>
+    <minGenerationAge>30</minGenerationAge>
+    <maxGenerationAge>999</maxGenerationAge>
+    <itemQuality>Good</itemQuality>
+    <factionLeader>true</factionLeader>
+    <canBeSapper>true</canBeSapper>
+    <apparelMoney>
+      <min>450</min>
+      <max>750</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>Apparel_WarBonnetHat_Westerado</li>
+      <li>Apparel_VestPlateBone_Westerado</li>
+    </apparelRequired>
+    <weaponMoney>
+      <min>500</min>
+      <max>1000</max>
+    </weaponMoney>
+  </PawnKindDef>
+  <PawnKindDef ParentName="FirstNationChiefBase_Westerado">
+    <defName>FirstNation_ChiefMelee_Westerado</defName>
+    <label>eagle chief</label>
+    <weaponTags>
+      <li>NeolithicMeleeAdvanced</li>
+    </weaponTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="FirstNationChiefBase_Westerado">
+    <defName>FirstNation_ChiefRanged_Westerado</defName>
+    <label>hawk chief</label>
+    <weaponTags>
+      <li>NeolithicRangedChief</li>
+      <li>GunFirstNation_Westerado</li>
+    </weaponTags>
+  </PawnKindDef>
+</Defs>

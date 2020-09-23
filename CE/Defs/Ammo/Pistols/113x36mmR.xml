@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>Ammo113x36mmR</defName>
+    <label>11.3×36mmR</label>
+    <parent>AmmoPistols</parent>
+    <iconPath>UI/Icons/ThingCategories/CaliberPistol</iconPath>
+  </ThingCategoryDef>
+  <!-- ==================== AmmoSet ========================== -->
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_113x36mmR</defName>
+    <label>11.3×36mmR</label>
+    <ammoTypes>
+      <Ammo_113x36mmR_FMJ>Bullet_113x36mmR_FMJ</Ammo_113x36mmR_FMJ>
+      <Ammo_113x36mmR_AP>Bullet_113x36mmR_AP</Ammo_113x36mmR_AP>
+      <Ammo_113x36mmR_HP>Bullet_113x36mmR_HP</Ammo_113x36mmR_HP>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+  <!-- ==================== Ammo ========================== -->
+  <ThingDef Class="CombatExtended.AmmoDef" Name="113x36mmRBase" ParentName="SmallAmmoBase" Abstract="True">
+    <description>Ancient pistol cartridge originally designed for carbines and revolvers.</description>
+    <statBases>
+      <Mass>0.022</Mass>
+      <Bulk>0.03</Bulk>
+    </statBases>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting</li>
+    </tradeTags>
+    <thingCategories>
+      <li>Ammo113x36mmR</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="113x36mmRBase">
+    <defName>Ammo_113x36mmR_FMJ</defName>
+    <label>11.3×36mmR cartridge (FMJ)</label>
+    <graphicData>
+      <texPath>Things/Ammo/Pistol/FMJ</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.08</MarketValue>
+    </statBases>
+    <ammoClass>FullMetalJacket</ammoClass>
+    <cookOffProjectile>Bullet_113x36mmR_FMJ</cookOffProjectile>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="113x36mmRBase">
+    <defName>Ammo_113x36mmR_AP</defName>
+    <label>11.3×36mmR cartridge (AP)</label>
+    <graphicData>
+      <texPath>Things/Ammo/Pistol/AP</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.11</MarketValue>
+    </statBases>
+    <ammoClass>ArmorPiercing</ammoClass>
+    <cookOffProjectile>Bullet_113x36mmR_AP</cookOffProjectile>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="113x36mmRBase">
+    <defName>Ammo_113x36mmR_HP</defName>
+    <label>11.3×36mmR cartridge (HP)</label>
+    <graphicData>
+      <texPath>Things/Ammo/Pistol/HP</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.11</MarketValue>
+    </statBases>
+    <ammoClass>HollowPoint</ammoClass>
+    <cookOffProjectile>Bullet_113x36mmR_HP</cookOffProjectile>
+  </ThingDef>
+  <!-- ================== Projectiles ================== -->
+  <ThingDef Class="CombatExtended.AmmoDef" Name="Base113x36mmRBullet" ParentName="BaseBullet" Abstract="true">
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <speed>97</speed>
+      <dropsCasings>true</dropsCasings>
+    </projectile>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base113x36mmRBullet">
+    <defName>Bullet_113x36mmR_FMJ</defName>
+    <label>11.3×36mmR bullet (FMJ)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>20</damageAmountBase>
+      <armorPenetrationBase>0.387</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base113x36mmRBullet">
+    <defName>Bullet_113x36mmR_AP</defName>
+    <label>11.3×36mmR bullet (AP)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>12</damageAmountBase>
+      <armorPenetrationBase>0.526</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base113x36mmRBullet">
+    <defName>Bullet_113x36mmR_HP</defName>
+    <label>11.3×36mmR bullet (HP)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>28</damageAmountBase>
+      <armorPenetrationBase>0.188</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
+  <!-- ==================== Recipes ========================== -->
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_113x36mmR_FMJ</defName>
+    <label>make 11.3×36mmR (FMJ) cartridge x500</label>
+    <description>Craft 500 11.3×36mmR (FMJ) cartridges.</description>
+    <jobString>Making 11.3×36mmR (FMJ) cartridges.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>14</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_113x36mmR_FMJ>500</Ammo_113x36mmR_FMJ>
+    </products>
+    <workAmount>2000</workAmount>
+  </RecipeDef>
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_113x36mmR_AP</defName>
+    <label>make 11.3×36mmR (AP) cartridge x500</label>
+    <description>Craft 500 11.3×36mmR (AP) cartridges.</description>
+    <jobString>Making 11.3×36mmR (AP) cartridges.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>18</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_113x36mmR_AP>500</Ammo_113x36mmR_AP>
+    </products>
+    <workAmount>3000</workAmount>
+  </RecipeDef>
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_113x36mmR_HP</defName>
+    <label>make 11.3×36mmR (HP) cartridge x500</label>
+    <description>Craft 500 11.3×36mmR (HP) cartridges.</description>
+    <jobString>Making 11.3×36mmR (HP) cartridges.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>14</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_113x36mmR_HP>500</Ammo_113x36mmR_HP>
+    </products>
+    <workAmount>4250</workAmount>
+  </RecipeDef>
+</Defs>

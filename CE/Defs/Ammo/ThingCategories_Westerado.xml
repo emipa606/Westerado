@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>AmmoMuskets</defName>
+    <label>musket</label>
+    <parent>Ammo</parent>
+    <iconPath>UI/Icons/ThingCategories/CaliberMusket</iconPath>
+  </ThingCategoryDef>
+</Defs>

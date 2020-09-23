@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeMoonshineMash_Westerado.label>make moonshine mash</MakeMoonshineMash_Westerado.label>
+  <MakeMoonshineMash_Westerado.description>Make moonshine mash that can be distilled into moonshine.</MakeMoonshineMash_Westerado.description>
+  <MakeMoonshineMash_Westerado.jobString>Making moonshine mash.</MakeMoonshineMash_Westerado.jobString>
+
+  <MakeSchnappsMash_Westerado.label>make schnapps mash</MakeSchnappsMash_Westerado.label>
+  <MakeSchnappsMash_Westerado.description>Make mash from potatoes.</MakeSchnappsMash_Westerado.description>
+  <MakeSchnappsMash_Westerado.jobString>Making schnapps mash.</MakeSchnappsMash_Westerado.jobString>
+
+  <MakeRyeMash_Westerado.label>make rye mash</MakeRyeMash_Westerado.label>
+  <MakeRyeMash_Westerado.description>Make rye mash for brewing Rye whiskey.</MakeRyeMash_Westerado.description>
+  <MakeRyeMash_Westerado.jobString>Making rye mash.</MakeRyeMash_Westerado.jobString>
+
+
+</LanguageData>

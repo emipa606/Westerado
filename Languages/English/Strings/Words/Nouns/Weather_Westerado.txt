@@ -1,0 +1,6 @@
+﻿fog
+mist
+rain
+sunshine
+snow
+hail

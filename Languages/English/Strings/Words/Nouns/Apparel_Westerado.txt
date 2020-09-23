@@ -1,0 +1,23 @@
+﻿hat
+shirt
+jacket
+top hat
+raincoat
+trenchcoat
+jock strap
+belt
+necktie
+bolo tie
+formal suit
+evening gown
+fur coat
+duster
+shoe
+pair of pants
+set of suspenders
+bow tie
+bowler hat
+fur hat
+formal shirt
+
+

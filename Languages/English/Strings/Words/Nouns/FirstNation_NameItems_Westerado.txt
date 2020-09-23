@@ -1,0 +1,5 @@
+﻿feather
+bison
+buffalo
+bowstring
+tomahawk

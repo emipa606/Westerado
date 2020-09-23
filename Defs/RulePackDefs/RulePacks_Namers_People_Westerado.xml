@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>NamerPersonFirstNation_Westerado</defName>
+    <include>
+      <li>FirstNationWordUtility_Westerado</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=2)-&gt;[WordFirstNation_Westerado] [WordFirstNation_Westerado]</li>
+        <li>r_name-&gt;[WordFirstNation_Westerado] '[AnimalBadass]' [WordFirstNation_Westerado]</li>
+        <li>r_name-&gt;[FirstNationColour_Westerado] [WordFirstNation_Westerado]</li>
+        <li>r_name-&gt;[WordFirstNation_Westerado] [Animal]</li>
+        <li>r_name-&gt;[Animal] [WordFirstNation_Westerado]</li>
+        <li>r_name-&gt;[FirstNationColour_Westerado] [Animal]</li>
+        <li>r_name-&gt;[FirstNationColor_Westerado] [FirstNationNameZ_Westerado]</li>
+        <li>r_name(p=2)-&gt;[FirstNationNameZ_Westerado]</li>
+        <li>r_name-&gt;Little [FirstNation_NameItems_Westerado]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef>
+    <defName>Outlaws_Westerado</defName>
+    <label>outlaw gang</label>
+    <description>A gang of outlaws.\n\nOutlaws are groups of loosely tied together men and women. Their main source of income and growth is theft and banditry, but they'll occasionally form communities as well.\n\nThey use various early industrial weapons and dress in typical outlaw fashion; coats and fancy hats.</description>
+    <pawnSingular>outlaw</pawnSingular>
+    <pawnsPlural>outlaws</pawnsPlural>
+    <listOrderPriority>15</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>honcho</leaderTitle>
+    <factionIconPath>World/WorldObjects/Expanding/OutlawOutpost</factionIconPath>
+    <colorSpectrum>
+      <li>(1.0, 1.0, 0.94)</li>
+      <li>(0.96, 0.96, 0.84)</li>
+      <li>(0.89, 0.85, 0.94)</li>
+      <li>(0.94, 0.91, 0.84)</li>
+    </colorSpectrum>
+    <permanentEnemy>true</permanentEnemy>
+    <factionNameMaker>NamerFactionOutlaws_Westerado</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlaws_Westerado</settlementNameMaker>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Outlander</li>
+    </backstoryCategories>
+    <geneticVariance>0.8</geneticVariance>
+    <hairTags>
+      <li>Rural</li>
+      <li>Punk</li>
+    </hairTags>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>20</commonality>
+        <options>
+          <RustlerPawn_Westerado>2</RustlerPawn_Westerado>
+          <DesperadoPawn_Westerado>7</DesperadoPawn_Westerado>
+          <DesperadoPawn_Westerado>7</DesperadoPawn_Westerado>
+          <GunslingerPawn_Westerado>10</GunslingerPawn_Westerado>
+          <SharpshooterPawn_Westerado>6</SharpshooterPawn_Westerado>
+          <HenchmanPawn_Westerado>1</HenchmanPawn_Westerado>
+          <HonchoPawn_Westerado>1</HonchoPawn_Westerado>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense, mainly ranged with melee mix-ins -->
+        <kindDef>Settlement</kindDef>
+        <options>
+          <RustlerPawn_Westerado>5</RustlerPawn_Westerado>
+          <DesperadoPawn_Westerado>7</DesperadoPawn_Westerado>
+          <DesperadoPawn_Westerado>7</DesperadoPawn_Westerado>
+          <GunslingerPawn_Westerado>10</GunslingerPawn_Westerado>
+          <SharpshooterPawn_Westerado>10</SharpshooterPawn_Westerado>
+          <HenchmanPawn_Westerado>10</HenchmanPawn_Westerado>
+          <HonchoPawn_Westerado>10</HonchoPawn_Westerado>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  </FactionDef>
+</Defs>

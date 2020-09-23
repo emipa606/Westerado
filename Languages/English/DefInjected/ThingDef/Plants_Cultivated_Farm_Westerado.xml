@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Food crops -->
+
+  <Plant_Rye_Westerado.label>rye plant</Plant_Rye_Westerado.label>
+  <Plant_Rye_Westerado.description>A tall grain plant which produces ears of soft, edible seeds. Rye grows relatively quickly and produces good amounts of grain. Useful in cooking as well as alcohol production.</Plant_Rye_Westerado.description>
+
+  <Plant_Chili_Westerado.label>chili plant</Plant_Chili_Westerado.label>
+  <Plant_Chili_Westerado.description>A medium sized shrub which produces small spicy fruit. Grows relatively quickly, but produces small yields. Can be eaten raw but those of weak constitution should stay away.</Plant_Chili_Westerado.description>
+
+
+</LanguageData>
