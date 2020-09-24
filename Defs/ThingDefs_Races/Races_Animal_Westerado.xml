@@ -107,7 +107,7 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Badger/Badger</texPath>
+          <texPath>Things/Pawn/Animal/WBadger/Badger</texPath>
           <drawSize>1.1</drawSize>
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
@@ -118,7 +118,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Badger/Badger</texPath>
+          <texPath>Things/Pawn/Animal/WBadger/Badger</texPath>
           <drawSize>1.3</drawSize>
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
@@ -129,7 +129,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Badger/Badger</texPath>
+          <texPath>Things/Pawn/Animal/WBadger/Badger</texPath>
           <drawSize>1.6</drawSize>
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
@@ -277,7 +277,7 @@
         <label>brown donkey  foal</label>
         <labelPlural>brown donkey foals</labelPlural>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Donkey/Donkey</texPath>
+          <texPath>Things/Pawn/Animal/WDonkey/Donkey</texPath>
           <drawSize>1.00</drawSize>
           <shadowData>
             <volume>(0.2, 0.1, 0.2)</volume>
@@ -291,7 +291,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Donkey/Donkey</texPath>
+          <texPath>Things/Pawn/Animal/WDonkey/Donkey</texPath>
           <drawSize>1.5</drawSize>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
@@ -305,7 +305,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Donkey/Donkey</texPath>
+          <texPath>Things/Pawn/Animal/WDonkey/Donkey</texPath>
           <drawSize>2.5</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
@@ -400,7 +400,7 @@
         <label>black donkey foal</label>
         <labelPlural>black donkey foals</labelPlural>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Donkey/DonkeyBlack</texPath>
+          <texPath>Things/Pawn/Animal/WDonkey/DonkeyBlack</texPath>
           <drawSize>1.00</drawSize>
           <shadowData>
             <volume>(0.2, 0.1, 0.2)</volume>
@@ -414,7 +414,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Donkey/DonkeyBlack</texPath>
+          <texPath>Things/Pawn/Animal/WDonkey/DonkeyBlack</texPath>
           <drawSize>1.5</drawSize>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
@@ -428,7 +428,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Donkey/DonkeyBlack</texPath>
+          <texPath>Things/Pawn/Animal/WDonkey/DonkeyBlack</texPath>
           <drawSize>2.5</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
@@ -522,7 +522,7 @@
         <label>grey donkey foal</label>
         <labelPlural>grey donkey foals</labelPlural>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Donkey/DonkeyGrey</texPath>
+          <texPath>Things/Pawn/Animal/WDonkey/DonkeyGrey</texPath>
           <drawSize>1.00</drawSize>
           <shadowData>
             <volume>(0.2, 0.1, 0.2)</volume>
@@ -536,7 +536,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Donkey/DonkeyGrey</texPath>
+          <texPath>Things/Pawn/Animal/WDonkey/DonkeyGrey</texPath>
           <drawSize>1.5</drawSize>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
@@ -550,7 +550,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Donkey/DonkeyGrey</texPath>
+          <texPath>Things/Pawn/Animal/WDonkey/DonkeyGrey</texPath>
           <drawSize>2.5</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
@@ -676,7 +676,7 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/GilaMonster/GilaMonster</texPath>
+          <texPath>Things/Pawn/Animal/WGilaMonster/GilaMonster</texPath>
           <drawSize>0.75</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -686,7 +686,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/GilaMonster/GilaMonster</texPath>
+          <texPath>Things/Pawn/Animal/WGilaMonster/GilaMonster</texPath>
           <drawSize>1.0</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -696,7 +696,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/GilaMonster/GilaMonster</texPath>
+          <texPath>Things/Pawn/Animal/WGilaMonster/GilaMonster</texPath>
           <drawSize>1.25</drawSize>
           <shadowData>
             <volume>(0.25, 0.3, 0.25)</volume>
@@ -831,7 +831,7 @@
         <label>moose calf</label>
         <labelPlural>moose calves</labelPlural>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Moose/MooseFemale</texPath>
+          <texPath>Things/Pawn/Animal/WMoose/MooseFemale</texPath>
           <drawSize>0.8</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -841,7 +841,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Moose/MooseMale</texPath>
+          <texPath>Things/Pawn/Animal/WMoose/MooseMale</texPath>
           <drawSize>1.90</drawSize>
           <shadowData>
             <volume>(0.375, 0.375, 0.375)</volume>
@@ -849,7 +849,7 @@
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Moose/MooseFemale</texPath>
+          <texPath>Things/Pawn/Animal/WMoose/MooseFemale</texPath>
           <drawSize>1.80</drawSize>
           <shadowData>
             <volume>(0.375, 0.375, 0.375)</volume>
@@ -867,7 +867,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Moose/MooseMale</texPath>
+          <texPath>Things/Pawn/Animal/WMoose/MooseMale</texPath>
           <drawSize>2.7</drawSize>
           <shadowData>
             <volume>(0.5, 0.5, 0.5)</volume>
@@ -875,7 +875,7 @@
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Moose/MooseFemale</texPath>
+          <texPath>Things/Pawn/Animal/WMoose/MooseFemale</texPath>
           <drawSize>2.45</drawSize>
           <shadowData>
             <volume>(0.5, 0.5, 0.5)</volume>
@@ -1006,7 +1006,7 @@
         <label>bison calf</label>
         <labelPlural>bison calves</labelPlural>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Bison/Bisoncalf</texPath>
+          <texPath>Things/Pawn/Animal/WBison/Bisoncalf</texPath>
           <drawSize>1.0</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -1016,7 +1016,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Bison/Bison</texPath>
+          <texPath>Things/Pawn/Animal/WBison/Bison</texPath>
           <drawSize>2.30</drawSize>
           <shadowData>
             <volume>(0.375, 0.375, 0.375)</volume>
@@ -1024,7 +1024,7 @@
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Bison/Bison</texPath>
+          <texPath>Things/Pawn/Animal/WBison/Bison</texPath>
           <drawSize>2.20</drawSize>
           <shadowData>
             <volume>(0.375, 0.375, 0.375)</volume>
@@ -1038,7 +1038,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Bison/Bison</texPath>
+          <texPath>Things/Pawn/Animal/WBison/Bison</texPath>
           <drawSize>3.2</drawSize>
           <shadowData>
             <volume>(0.5, 0.5, 0.5)</volume>
@@ -1046,7 +1046,7 @@
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Bison/Bison</texPath>
+          <texPath>Things/Pawn/Animal/WBison/Bison</texPath>
           <drawSize>2.95</drawSize>
           <shadowData>
             <volume>(0.5, 0.5, 0.5)</volume>
@@ -1209,7 +1209,7 @@
         <label>coyote puppy</label>
         <labelPlural>coyote puppies</labelPlural>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Coyote/Coyote</texPath>
+          <texPath>Things/Pawn/Animal/WCoyote/Coyote</texPath>
           <drawSize>1.05</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -1219,7 +1219,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Coyote/Coyote</texPath>
+          <texPath>Things/Pawn/Animal/WCoyote/Coyote</texPath>
           <drawSize>1.5</drawSize>
           <shadowData>
             <volume>(0.25, 0.3, 0.25)</volume>
@@ -1233,7 +1233,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Coyote/Coyote</texPath>
+          <texPath>Things/Pawn/Animal/WCoyote/Coyote</texPath>
           <drawSize>1.7</drawSize>
           <shadowData>
             <volume>(0.3, 0.4, 0.3)</volume>
@@ -1352,7 +1352,7 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Rattlesnake/Rattlesnake</texPath>
+          <texPath>Things/Pawn/Animal/WRattlesnake/Rattlesnake</texPath>
           <drawSize>1</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -1362,7 +1362,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Rattlesnake/Rattlesnake</texPath>
+          <texPath>Things/Pawn/Animal/WRattlesnake/Rattlesnake</texPath>
           <drawSize>1.25</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -1372,13 +1372,184 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Rattlesnake/Rattlesnake</texPath>
+          <texPath>Things/Pawn/Animal/WRattlesnake/Rattlesnake</texPath>
           <drawSize>1.5</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
           <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Elk_Westerado</defName>
+    <label>wapiti</label>
+    <description>A large member of the deer family, well-adapted to life in cold climates. Domesticated wapiti can be milked, but refuse to carry packs.</description>
+    <statBases>
+      <MoveSpeed>5</MoveSpeed>
+      <MarketValue>300</MarketValue>
+      <ComfyTemperatureMin>-50</ComfyTemperatureMin>
+    </statBases>
+    <uiIconScale>1.6</uiIconScale>
+    <comps>
+      <li Class="CompProperties_Milkable">
+        <milkDef>Milk</milkDef>
+        <milkIntervalDays>2</milkIntervalDays>
+        <milkAmount>12</milkAmount>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>left hoof</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right hoof</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithHooves</body>
+      <herdAnimal>true</herdAnimal>
+      <baseBodySize>2.1</baseBodySize>
+      <baseHungerRate>0.85</baseHungerRate>
+      <baseHealthScale>1.9</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+      <leatherDef>Leather_Plain</leatherDef>
+      <wildness>0.75</wildness>
+      <gestationPeriodDays>25</gestationPeriodDays>
+      <lifeExpectancy>18</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.2</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.6</minAge>
+          <soundWounded>Pawn_Elk_Wounded</soundWounded>
+          <soundDeath>Pawn_Elk_Death</soundDeath>
+          <soundCall>Pawn_Elk_Call</soundCall>
+          <soundAngry>Pawn_Elk_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalCommon</li>
+      <li>AnimalFarm</li>
+    </tradeTags>
+  </ThingDef>
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Elk_Westerado</defName>
+    <label>wapiti</label>
+    <labelPlural>wapiti</labelPlural>
+    <race>Elk_Westerado</race>
+    <combatPower>110</combatPower>
+    <ecoSystemWeight>1.1</ecoSystemWeight>
+    <wildGroupSize>3~9</wildGroupSize>
+    <lifeStages>
+      <li>
+        <label>wapiti calf</label>
+        <labelPlural>wapiti calves</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/WElk/ElkFemale</texPath>
+          <drawSize>1.5</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Elk/Dessicated_ElkFemale</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/WElk/ElkMale</texPath>
+          <drawSize>2.30</drawSize>
+          <shadowData>
+            <volume>(0.375, 0.375, 0.375)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Animal/WElk/ElkFemale</texPath>
+          <drawSize>2.20</drawSize>
+          <shadowData>
+            <volume>(0.375, 0.375, 0.375)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Elk/Dessicated_ElkMale</texPath>
+          <drawSize>2.3</drawSize>
+        </dessicatedBodyGraphicData>
+        <femaleDessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Elk/Dessicated_ElkFemale</texPath>
+          <drawSize>2.2</drawSize>
+        </femaleDessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/WElk/ElkMale</texPath>
+          <drawSize>3.1</drawSize>
+          <shadowData>
+            <volume>(0.5, 0.5, 0.5)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Animal/WElk/ElkFemale</texPath>
+          <drawSize>2.95</drawSize>
+          <shadowData>
+            <volume>(0.5, 0.5, 0.5)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Elk/Dessicated_ElkMale</texPath>
+          <drawSize>3.1</drawSize>
+        </dessicatedBodyGraphicData>
+        <femaleDessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Elk/Dessicated_ElkFemale</texPath>
+          <drawSize>2.95</drawSize>
+        </femaleDessicatedBodyGraphicData>
       </li>
     </lifeStages>
   </PawnKindDef>

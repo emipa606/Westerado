@@ -94,7 +94,7 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/BlackBear/BlackBear</texPath>
+          <texPath>Things/Pawn/Animal/WBlackBear/BlackBear</texPath>
           <drawSize>1.2</drawSize>
           <color>(18,25,32)</color>
           <shadowData>
@@ -109,7 +109,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/BlackBear/BlackBear</texPath>
+          <texPath>Things/Pawn/Animal/WBlackBear/BlackBear</texPath>
           <drawSize>1.85</drawSize>
           <color>(18,25,32)</color>
           <shadowData>
@@ -124,7 +124,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/BlackBear/BlackBear</texPath>
+          <texPath>Things/Pawn/Animal/WBlackBear/BlackBear</texPath>
           <drawSize>2.5</drawSize>
           <color>(18,25,32)</color>
           <shadowData>

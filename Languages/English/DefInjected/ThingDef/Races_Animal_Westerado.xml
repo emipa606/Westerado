@@ -83,5 +83,11 @@
   <Rattlesnake_Westerado.tools.0.label>venom-fangs</Rattlesnake_Westerado.tools.0.label>
   <Rattlesnake_Westerado.tools.1.label>head</Rattlesnake_Westerado.tools.1.label>
 
+  <Elk_Westerado.label>wapiti</Elk_Westerado.label>
+  <Elk_Westerado.description>A large member of the deer family, well-adapted to life in cold climates. Domesticated wapiti can be milked, but refuse to carry packs.</Elk_Westerado.description>
+  <Elk_Westerado.tools.0.label>left hoof</Elk_Westerado.tools.0.label>
+  <Elk_Westerado.tools.1.label>right hoof</Elk_Westerado.tools.1.label>
+  <Elk_Westerado.tools.3.label>head</Elk_Westerado.tools.3.label>
+
 
 </LanguageData>

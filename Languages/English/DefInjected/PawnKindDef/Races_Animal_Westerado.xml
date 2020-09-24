@@ -252,5 +252,30 @@
   <Rattlesnake_Westerado.labelFemale>female rattlesnake</Rattlesnake_Westerado.labelFemale>
   <Rattlesnake_Westerado.labelFemalePlural>female rattlesnakes</Rattlesnake_Westerado.labelFemalePlural>
 
+  <Elk_Westerado.label>wapiti</Elk_Westerado.label>
+  <Elk_Westerado.labelPlural>wapiti</Elk_Westerado.labelPlural>
+  <Elk_Westerado.lifeStages.0.label>wapiti calf</Elk_Westerado.lifeStages.0.label>
+  <Elk_Westerado.lifeStages.0.labelPlural>wapiti calves</Elk_Westerado.lifeStages.0.labelPlural>
+  <Elk_Westerado.lifeStages.0.labelMale>male wapiti calf</Elk_Westerado.lifeStages.0.labelMale>
+  <Elk_Westerado.lifeStages.0.labelMalePlural>male wapiti calves</Elk_Westerado.lifeStages.0.labelMalePlural>
+  <Elk_Westerado.lifeStages.0.labelFemale>female wapiti calf</Elk_Westerado.lifeStages.0.labelFemale>
+  <Elk_Westerado.lifeStages.0.labelFemalePlural>female wapiti calves</Elk_Westerado.lifeStages.0.labelFemalePlural>
+  <Elk_Westerado.lifeStages.1.label>wapiti</Elk_Westerado.lifeStages.1.label>
+  <Elk_Westerado.lifeStages.1.labelPlural>wapiti</Elk_Westerado.lifeStages.1.labelPlural>
+  <Elk_Westerado.lifeStages.1.labelMale>male wapiti</Elk_Westerado.lifeStages.1.labelMale>
+  <Elk_Westerado.lifeStages.1.labelMalePlural>male wapitis</Elk_Westerado.lifeStages.1.labelMalePlural>
+  <Elk_Westerado.lifeStages.1.labelFemale>female wapiti</Elk_Westerado.lifeStages.1.labelFemale>
+  <Elk_Westerado.lifeStages.1.labelFemalePlural>female wapitis</Elk_Westerado.lifeStages.1.labelFemalePlural>
+  <Elk_Westerado.lifeStages.2.label>wapiti</Elk_Westerado.lifeStages.2.label>
+  <Elk_Westerado.lifeStages.2.labelPlural>wapiti</Elk_Westerado.lifeStages.2.labelPlural>
+  <Elk_Westerado.lifeStages.2.labelMale>male wapiti</Elk_Westerado.lifeStages.2.labelMale>
+  <Elk_Westerado.lifeStages.2.labelMalePlural>male wapitis</Elk_Westerado.lifeStages.2.labelMalePlural>
+  <Elk_Westerado.lifeStages.2.labelFemale>female wapiti</Elk_Westerado.lifeStages.2.labelFemale>
+  <Elk_Westerado.lifeStages.2.labelFemalePlural>female wapitis</Elk_Westerado.lifeStages.2.labelFemalePlural>
+  <Elk_Westerado.labelMale>male wapiti</Elk_Westerado.labelMale>
+  <Elk_Westerado.labelMalePlural>male wapiti</Elk_Westerado.labelMalePlural>
+  <Elk_Westerado.labelFemale>female wapiti</Elk_Westerado.labelFemale>
+  <Elk_Westerado.labelFemalePlural>female wapiti</Elk_Westerado.labelFemalePlural>
+
 
 </LanguageData>
