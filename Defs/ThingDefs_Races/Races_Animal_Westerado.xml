@@ -154,7 +154,8 @@
       <wildness>0.15</wildness>
       <trainability>Advanced</trainability>
       <nuzzleMtbHours>100</nuzzleMtbHours>
-      <meatLabel>donkey meat</meatLabel>
+      <useMeatFrom>Donkey</useMeatFrom>
+      <!-- <meatLabel>donkey meat</meatLabel> -->
       <packAnimal>true</packAnimal>
       <gestationPeriodDays>35</gestationPeriodDays>
       <litterSizeCurve>
