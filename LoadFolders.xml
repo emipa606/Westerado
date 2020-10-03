@@ -3,5 +3,6 @@
   <v1.2>
     <li>/</li>
     <li IfModActive="CETeam.CombatExtended">CE</li>
+    <li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
   </v1.2>
 </loadFolders>
