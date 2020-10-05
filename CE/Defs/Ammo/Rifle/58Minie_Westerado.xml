@@ -59,7 +59,8 @@
     <label>.58 Minie bullet (FMJ)</label>
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <damageAmountBase>24</damageAmountBase>
-      <armorPenetrationBase>0.185</armorPenetrationBase>
+      <armorPenetrationSharp>6</armorPenetrationSharp>
+      <armorPenetrationBlunt>35.9</armorPenetrationBlunt>
     </projectile>
   </ThingDef>
   <!-- ==================== Recipes ========================== -->
