@@ -46,5 +46,8 @@
     <ingestible>
       <optimalityOffsetFeedingAnimals>7</optimalityOffsetFeedingAnimals>
     </ingestible>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
   </ThingDef>
 </Defs>
