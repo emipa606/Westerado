@@ -6,7 +6,7 @@
       <li Class="PatchOperationTest">
         <xpath>Defs/ThingDef[defName="VG_Campfire"]</xpath>
       </li>
-      <li Class="PatchOperationAdd">
+      <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="RawRye_Westerado"]</xpath>
         <value>
           <thingCategories>
