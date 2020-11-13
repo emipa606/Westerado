@@ -1,19 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Saloon Doors -->
-
   <SaloonDoor_Westerado.label>saloon door</SaloonDoor_Westerado.label>
   <SaloonDoor_Westerado.description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of. Can't hold a roof.</SaloonDoor_Westerado.description>
-
-
   <!-- Palisade -->
-
   <Palisade_Westerado.label>palisade</Palisade_Westerado.label>
   <Palisade_Westerado.description>An impassable palisade. Incapable of holding up a roof.</Palisade_Westerado.description>
   <Palisade_Westerado_Blueprint.label>palisade (blueprint)</Palisade_Westerado_Blueprint.label>
   <Palisade_Westerado_Frame.label>palisade (building)</Palisade_Westerado_Frame.label>
   <Palisade_Westerado_Frame.description>An impassable palisade. Incapable of holding up a roof.</Palisade_Westerado_Frame.description>
-
-
 </LanguageData>

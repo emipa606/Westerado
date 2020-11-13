@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <CannonballBomb_Westerado.label>cannonball impact</CannonballBomb_Westerado.label>
   <CannonballBomb_Westerado.deathMessage>{0} has died in an explosion.</CannonballBomb_Westerado.deathMessage>
-
-
 </LanguageData>

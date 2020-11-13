@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <Outlaws_Westerado.label>outlaw gang</Outlaws_Westerado.label>
   <Outlaws_Westerado.description>A gang of outlaws.\n\nOutlaws are groups of loosely tied together men and women. Their main source of income and growth is theft and banditry, but they'll occasionally form communities as well.\n\nThey use various early industrial weapons and dress in typical outlaw fashion; coats and fancy hats.</Outlaws_Westerado.description>
   <Outlaws_Westerado.pawnsPlural>outlaws</Outlaws_Westerado.pawnsPlural>
   <Outlaws_Westerado.leaderTitle>honcho</Outlaws_Westerado.leaderTitle>
-
-
 </LanguageData>

@@ -1,26 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <RyeWhiskey_Westerado.label>Rye whiskey</RyeWhiskey_Westerado.label>
   <RyeWhiskey_Westerado.description>Ratherwoman's Rye whiskey is a malty alcohol made from rye.</RyeWhiskey_Westerado.description>
   <RyeWhiskey_Westerado.tools.0.label>bottle</RyeWhiskey_Westerado.tools.0.label>
   <RyeWhiskey_Westerado.tools.1.label>neck</RyeWhiskey_Westerado.tools.1.label>
   <RyeWhiskey_Westerado.ingestible.ingestCommandString>Drink {0}</RyeWhiskey_Westerado.ingestible.ingestCommandString>
   <RyeWhiskey_Westerado.ingestible.ingestReportString>Drinking {0}.</RyeWhiskey_Westerado.ingestible.ingestReportString>
-
   <Moonshine_Westerado.label>Moonshine</Moonshine_Westerado.label>
   <Moonshine_Westerado.description>Robbaz' Moonshine. May require dental appointments after ingestion.</Moonshine_Westerado.description>
   <Moonshine_Westerado.tools.0.label>bottle</Moonshine_Westerado.tools.0.label>
   <Moonshine_Westerado.tools.1.label>neck</Moonshine_Westerado.tools.1.label>
   <Moonshine_Westerado.ingestible.ingestCommandString>Drink {0}</Moonshine_Westerado.ingestible.ingestCommandString>
   <Moonshine_Westerado.ingestible.ingestReportString>Drinking {0}.</Moonshine_Westerado.ingestible.ingestReportString>
-
   <Schnapps_Westerado.label>Schnapps</Schnapps_Westerado.label>
   <Schnapps_Westerado.description>Dragory's Schnapps. Simple, yet delicious.</Schnapps_Westerado.description>
   <Schnapps_Westerado.tools.0.label>bottle</Schnapps_Westerado.tools.0.label>
   <Schnapps_Westerado.tools.1.label>neck</Schnapps_Westerado.tools.1.label>
   <Schnapps_Westerado.ingestible.ingestCommandString>Drink {0}</Schnapps_Westerado.ingestible.ingestCommandString>
   <Schnapps_Westerado.ingestible.ingestReportString>Drinking {0}.</Schnapps_Westerado.ingestible.ingestReportString>
-
-
 </LanguageData>

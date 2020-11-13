@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Black Bear -->
-
   <Bear_BlackBear_Westerado.label>black bear</Bear_BlackBear_Westerado.label>
   <Bear_BlackBear_Westerado.labelPlural>black bears</Bear_BlackBear_Westerado.labelPlural>
   <Bear_BlackBear_Westerado.lifeStages.0.label>black bear</Bear_BlackBear_Westerado.lifeStages.0.label>
@@ -27,6 +25,4 @@
   <Bear_BlackBear_Westerado.labelMalePlural>male black bears</Bear_BlackBear_Westerado.labelMalePlural>
   <Bear_BlackBear_Westerado.labelFemale>female black bear</Bear_BlackBear_Westerado.labelFemale>
   <Bear_BlackBear_Westerado.labelFemalePlural>female black bears</Bear_BlackBear_Westerado.labelFemalePlural>
-
-
 </LanguageData>

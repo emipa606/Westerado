@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Black Bear -->
-
   <Bear_BlackBear_Westerado.label>black bear</Bear_BlackBear_Westerado.label>
   <Bear_BlackBear_Westerado.description>A large omnivorous mammal adapted for temperate and cold climates. Black bears' thick blubber and fur keeps them warm in winter.\n\nWhile their usual diet consists of fish, berries, honey, and scavenged meat, the black bear is capable of using its massive strength and deadly claws to kill live prey. They are very quick and willing to hunt humanoids.</Bear_BlackBear_Westerado.description>
   <Bear_BlackBear_Westerado.tools.0.label>left claw</Bear_BlackBear_Westerado.tools.0.label>
   <Bear_BlackBear_Westerado.tools.1.label>right claw</Bear_BlackBear_Westerado.tools.1.label>
   <Bear_BlackBear_Westerado.tools.3.label>head</Bear_BlackBear_Westerado.tools.3.label>
-
-
 </LanguageData>

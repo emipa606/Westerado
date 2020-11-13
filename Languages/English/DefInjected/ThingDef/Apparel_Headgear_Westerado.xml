@@ -1,45 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Trapper -->
-
   <Apparel_TrapperHat_Westerado.label>trapper hat</Apparel_TrapperHat_Westerado.label>
   <Apparel_TrapperHat_Westerado.description>A funky-looking hat which insulates versus cold well.</Apparel_TrapperHat_Westerado.description>
-
-
   <!-- Flat-brimmed -->
-
   <Apparel_FlatBrimmedCowboyHat_Westerado.label>flat-brimmed cowboy hat</Apparel_FlatBrimmedCowboyHat_Westerado.label>
   <Apparel_FlatBrimmedCowboyHat_Westerado.description>Stylish yet rugged, this hat keeps the sun and rain off - and it gives anyone who wears it a bit of extra charm. It is one of the most important parts of traditional western attire.</Apparel_FlatBrimmedCowboyHat_Westerado.description>
-
-
   <!-- Ten Galleon -->
-
   <Apparel_TenGallon_Westerado.label>ten gallon cowboy hat</Apparel_TenGallon_Westerado.label>
   <Apparel_TenGallon_Westerado.description>Stylish yet rugged, this hat keeps the sun and rain off - and it gives anyone who wears it a bit of extra charm. It is one of the most important parts of traditional western attire.</Apparel_TenGallon_Westerado.description>
-
   <Apparel_SaggyHat_Westerado.label>saggy hat</Apparel_SaggyHat_Westerado.label>
   <Apparel_SaggyHat_Westerado.description>Not very stylish, but cheap. This hat keeps the sun and rain off.</Apparel_SaggyHat_Westerado.description>
-
-
   <!-- Sombrero -->
-
   <Apparel_SombreroHat_Westerado.label>sombrero</Apparel_SombreroHat_Westerado.label>
   <Apparel_SombreroHat_Westerado.description>A funky-looking hat which makes you impervious to spicy food.</Apparel_SombreroHat_Westerado.description>
-
-
   <!-- Top Hat -->
-
   <Apparel_TopHat_Westerado.label>top hat</Apparel_TopHat_Westerado.label>
   <Apparel_TopHat_Westerado.description>Exceptionally stylish, this hat gives anyone who wears it a bit of extra charm. It is one of the most important parts of snake oil salesman attire.</Apparel_TopHat_Westerado.description>
-
-
   <!-- Harlow's Hat -->
-
   <Apparel_HarlowHat_Westerado.label>harlow hat</Apparel_HarlowHat_Westerado.label>
   <Apparel_HarlowHat_Westerado.description>Exceptionally stylish, this hat gives anyone who wears it a bit of extra charm. It is one of the most important parts of snake oil salesman attire.</Apparel_HarlowHat_Westerado.description>
-
-
   <!-- <ThingDef ParentName="RebelHatBase_Westerado">
 		<defName>Apparel_RebelHat_Westerado</defName>
 		<label>rebel hat</label>
@@ -73,11 +53,8 @@
       </tags>
 		</apparel>
 	</ThingDef> -->
-
   <Apparel_RebelHat_Westerado.label>rebel hat</Apparel_RebelHat_Westerado.label>
   <Apparel_RebelHat_Westerado.description>A slumped grey hat, popular with rebels.</Apparel_RebelHat_Westerado.description>
-
-
   <!-- <ThingDef ParentName="CowboyHat">
 		<defName>Apparel_RebelOfficerHat_Westerado</defName>
 		<label>rebel officer hat</label>
@@ -110,17 +87,11 @@
       </tags>
 		</apparel>
 	</ThingDef> -->
-
   <Apparel_RebelOfficerHat_Westerado.label>rebel officer hat</Apparel_RebelOfficerHat_Westerado.label>
   <Apparel_RebelOfficerHat_Westerado.description>A rimmed grey hat, popular with rebel officers.</Apparel_RebelOfficerHat_Westerado.description>
-
-
   <!-- Indian Joe Hat -->
-
   <Apparel_RoundDomeHat_Westerado.label>round dome hat</Apparel_RoundDomeHat_Westerado.label>
   <Apparel_RoundDomeHat_Westerado.description>A funky-looking hat which makes you impervious to spicy food.</Apparel_RoundDomeHat_Westerado.description>
-
-
   <!-- <ThingDef ParentName="HatMakeableBase" Name="WarBonnetBase_Westerado">
     <defName>Apparel_WarBonnetHat_Westerado</defName>
     <label>war bonnet</label>
@@ -174,27 +145,15 @@
       </options>
     </colorGenerator>
   </ThingDef> -->
-
   <Apparel_WarBonnetHat_Westerado.label>war bonnet</Apparel_WarBonnetHat_Westerado.label>
   <Apparel_WarBonnetHat_Westerado.description>A beautiful bonnet signifying status. Mainly used on the battlefield.</Apparel_WarBonnetHat_Westerado.description>
-
-
   <!-- Indian Bison War Bonnet -->
-
   <Apparel_BisonWarBonnetHat_Westerado.label>bison war bonnet</Apparel_BisonWarBonnetHat_Westerado.label>
   <Apparel_BisonWarBonnetHat_Westerado.description>A beautiful bonnet signifying status. Mainly used in war.</Apparel_BisonWarBonnetHat_Westerado.description>
-
-
   <!-- Indian Single Feather Bonnet -->
-
   <Apparel_SingleFeatherBonnetHat_Westerado.label>single feather bonnet</Apparel_SingleFeatherBonnetHat_Westerado.label>
   <Apparel_SingleFeatherBonnetHat_Westerado.description>A beautiful bonnet with a single feather.</Apparel_SingleFeatherBonnetHat_Westerado.description>
-
-
   <!-- Bandana -->
-
   <Apparel_Bandana_Westerado.label>bandana</Apparel_Bandana_Westerado.label>
   <Apparel_Bandana_Westerado.description>Useful when robbing trains or as protection against the environment.</Apparel_Bandana_Westerado.description>
-
-
 </LanguageData>

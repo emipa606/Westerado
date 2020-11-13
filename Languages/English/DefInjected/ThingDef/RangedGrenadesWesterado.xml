@@ -1,22 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Dynamite stick -->
-
   <Weapon_GrenadeDynamite_Westerado.label>dynamite stick</Weapon_GrenadeDynamite_Westerado.label>
   <Weapon_GrenadeDynamite_Westerado.description>Old-school dynamite stick. They can be thrown a very short distance inaccurately, where they'll explode, damaging anything and anyone nearby.</Weapon_GrenadeDynamite_Westerado.description>
   <Weapon_GrenadeDynamite_Westerado.verbs.0.label>throw dynamite stick</Weapon_GrenadeDynamite_Westerado.verbs.0.label>
-
   <Proj_GrenadeDynamite_Westerado.label>dynamite stick</Proj_GrenadeDynamite_Westerado.label>
-
-
   <!-- Dynamite bundle -->
-
   <Weapon_GrenadeDynamiteBundle_Westerado.label>dynamite bundle</Weapon_GrenadeDynamiteBundle_Westerado.label>
   <Weapon_GrenadeDynamiteBundle_Westerado.description>Old-school dynamite stick bundle. They can be thrown a very short distance inaccurately, where they'll explode violently, damaging anything and anyone nearby.</Weapon_GrenadeDynamiteBundle_Westerado.description>
   <Weapon_GrenadeDynamiteBundle_Westerado.verbs.0.label>throw dynamite bundle</Weapon_GrenadeDynamiteBundle_Westerado.verbs.0.label>
-
   <Proj_GrenadeDynamiteBundle_Westerado.label>dynamite bundle</Proj_GrenadeDynamiteBundle_Westerado.label>
-
-
 </LanguageData>

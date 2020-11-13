@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <Frontiersman_Westerado.degreeDatas.0.label>frontiersman</Frontiersman_Westerado.degreeDatas.0.label>
   <Frontiersman_Westerado.degreeDatas.0.description>{PAWN_nameDef} was born for a life on the frontier. {PAWN_possessive} ability to be up and about quickly is increased, {PAWN_pronoun}'s less likely to be bothered by harsh weather, better at getting every last scrap from a fresh kill, and less likely to break down in a tough situation. However, {PAWN_nameDef} longs for the wilderness and will randomly leave to seek it out.</Frontiersman_Westerado.degreeDatas.0.description>
-
-
 </LanguageData>

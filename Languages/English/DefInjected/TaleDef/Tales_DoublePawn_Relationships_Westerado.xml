@@ -1,121 +1,115 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <BondedWithAnimal.label>bond developed</BondedWithAnimal.label>
-  <BondedWithAnimal.rulePack.rulesStrings.0>tale_noun_westerado->[HUMAN_nameDef]'s bonding with [ANIMAL_nameDef]</BondedWithAnimal.rulePack.rulesStrings.0>
-  <BondedWithAnimal.rulePack.rulesStrings.1>image_westerado->[HUMAN_nameFull] bonding with [ANIMAL_nameFull] [circumstance_group_westerado]</BondedWithAnimal.rulePack.rulesStrings.1>
-  <BondedWithAnimal.rulePack.rulesStrings.2>image_westerado->[HUMAN_nameFull] forming a deep bond with [ANIMAL_nameFull] [circumstance_group_westerado]</BondedWithAnimal.rulePack.rulesStrings.2>
-  <BondedWithAnimal.rulePack.rulesStrings.3>image_westerado->[HUMAN_nameFull] realizing [HUMAN_possessive] truly loves [ANIMAL_nameFull] [circumstance_group_westerado]</BondedWithAnimal.rulePack.rulesStrings.3>
-  <BondedWithAnimal.rulePack.rulesStrings.4>circumstance_phrase_westerado->while other animals look on</BondedWithAnimal.rulePack.rulesStrings.4>
-  <BondedWithAnimal.rulePack.rulesStrings.5>circumstance_phrase_westerado->while looking into [ANIMAL_nameDef]'s eyes</BondedWithAnimal.rulePack.rulesStrings.5>
-  <BondedWithAnimal.rulePack.rulesStrings.6>circumstance_phrase_westerado->with a sense of satisfaction</BondedWithAnimal.rulePack.rulesStrings.6>
-  <BondedWithAnimal.rulePack.rulesStrings.7>desc_sentence_westerado->[ANIMAL_nameDef] is snuggling up against [HUMAN_nameDef].</BondedWithAnimal.rulePack.rulesStrings.7>
-  <BondedWithAnimal.rulePack.rulesStrings.8>desc_sentence_westerado->[ANIMAL_nameDef] looks sleepy and drunk with love.</BondedWithAnimal.rulePack.rulesStrings.8>
-  <BondedWithAnimal.rulePack.rulesStrings.9>desc_sentence_westerado->[ANIMAL_nameDef] stands tall and looks noble.</BondedWithAnimal.rulePack.rulesStrings.9>
-  <BondedWithAnimal.rulePack.rulesStrings.10>desc_sentence_westerado->[ANIMAL_nameDef] is responding positively.</BondedWithAnimal.rulePack.rulesStrings.10>
-  <BondedWithAnimal.rulePack.rulesStrings.11>tale_noun->[HUMAN_nameDef]'s bonding with [ANIMAL_nameDef]</BondedWithAnimal.rulePack.rulesStrings.11>
-  <BondedWithAnimal.rulePack.rulesStrings.12>image->[HUMAN_nameFull] bonding with [ANIMAL_nameFull] [circumstance_group]</BondedWithAnimal.rulePack.rulesStrings.12>
-  <BondedWithAnimal.rulePack.rulesStrings.13>image->[HUMAN_nameFull] forming a deep bond with [ANIMAL_nameFull] [circumstance_group]</BondedWithAnimal.rulePack.rulesStrings.13>
-  <BondedWithAnimal.rulePack.rulesStrings.14>image->[HUMAN_nameFull] realizing [HUMAN_possessive] truly loves [ANIMAL_nameFull] [circumstance_group]</BondedWithAnimal.rulePack.rulesStrings.14>
-  <BondedWithAnimal.rulePack.rulesStrings.15>circumstance_phrase->while other animals look on</BondedWithAnimal.rulePack.rulesStrings.15>
-  <BondedWithAnimal.rulePack.rulesStrings.16>circumstance_phrase->while looking into [ANIMAL_nameDef]'s eyes</BondedWithAnimal.rulePack.rulesStrings.16>
-  <BondedWithAnimal.rulePack.rulesStrings.17>circumstance_phrase->with a sense of satisfaction</BondedWithAnimal.rulePack.rulesStrings.17>
-  <BondedWithAnimal.rulePack.rulesStrings.18>desc_sentence->[ANIMAL_nameDef] is snuggling up against [HUMAN_nameDef].</BondedWithAnimal.rulePack.rulesStrings.18>
-  <BondedWithAnimal.rulePack.rulesStrings.19>desc_sentence->[ANIMAL_nameDef] looks sleepy and drunk with love.</BondedWithAnimal.rulePack.rulesStrings.19>
-  <BondedWithAnimal.rulePack.rulesStrings.20>desc_sentence->[ANIMAL_nameDef] stands tall and looks noble.</BondedWithAnimal.rulePack.rulesStrings.20>
-  <BondedWithAnimal.rulePack.rulesStrings.21>desc_sentence->[ANIMAL_nameDef] is responding positively.</BondedWithAnimal.rulePack.rulesStrings.21>
-
+  <BondedWithAnimal.rulePack.rulesStrings.0>tale_noun_westerado-&gt;[HUMAN_nameDef]'s bonding with [ANIMAL_nameDef]</BondedWithAnimal.rulePack.rulesStrings.0>
+  <BondedWithAnimal.rulePack.rulesStrings.1>image_westerado-&gt;[HUMAN_nameFull] bonding with [ANIMAL_nameFull] [circumstance_group_westerado]</BondedWithAnimal.rulePack.rulesStrings.1>
+  <BondedWithAnimal.rulePack.rulesStrings.2>image_westerado-&gt;[HUMAN_nameFull] forming a deep bond with [ANIMAL_nameFull] [circumstance_group_westerado]</BondedWithAnimal.rulePack.rulesStrings.2>
+  <BondedWithAnimal.rulePack.rulesStrings.3>image_westerado-&gt;[HUMAN_nameFull] realizing [HUMAN_possessive] truly loves [ANIMAL_nameFull] [circumstance_group_westerado]</BondedWithAnimal.rulePack.rulesStrings.3>
+  <BondedWithAnimal.rulePack.rulesStrings.4>circumstance_phrase_westerado-&gt;while other animals look on</BondedWithAnimal.rulePack.rulesStrings.4>
+  <BondedWithAnimal.rulePack.rulesStrings.5>circumstance_phrase_westerado-&gt;while looking into [ANIMAL_nameDef]'s eyes</BondedWithAnimal.rulePack.rulesStrings.5>
+  <BondedWithAnimal.rulePack.rulesStrings.6>circumstance_phrase_westerado-&gt;with a sense of satisfaction</BondedWithAnimal.rulePack.rulesStrings.6>
+  <BondedWithAnimal.rulePack.rulesStrings.7>desc_sentence_westerado-&gt;[ANIMAL_nameDef] is snuggling up against [HUMAN_nameDef].</BondedWithAnimal.rulePack.rulesStrings.7>
+  <BondedWithAnimal.rulePack.rulesStrings.8>desc_sentence_westerado-&gt;[ANIMAL_nameDef] looks sleepy and drunk with love.</BondedWithAnimal.rulePack.rulesStrings.8>
+  <BondedWithAnimal.rulePack.rulesStrings.9>desc_sentence_westerado-&gt;[ANIMAL_nameDef] stands tall and looks noble.</BondedWithAnimal.rulePack.rulesStrings.9>
+  <BondedWithAnimal.rulePack.rulesStrings.10>desc_sentence_westerado-&gt;[ANIMAL_nameDef] is responding positively.</BondedWithAnimal.rulePack.rulesStrings.10>
+  <BondedWithAnimal.rulePack.rulesStrings.11>tale_noun-&gt;[HUMAN_nameDef]'s bonding with [ANIMAL_nameDef]</BondedWithAnimal.rulePack.rulesStrings.11>
+  <BondedWithAnimal.rulePack.rulesStrings.12>image-&gt;[HUMAN_nameFull] bonding with [ANIMAL_nameFull] [circumstance_group]</BondedWithAnimal.rulePack.rulesStrings.12>
+  <BondedWithAnimal.rulePack.rulesStrings.13>image-&gt;[HUMAN_nameFull] forming a deep bond with [ANIMAL_nameFull] [circumstance_group]</BondedWithAnimal.rulePack.rulesStrings.13>
+  <BondedWithAnimal.rulePack.rulesStrings.14>image-&gt;[HUMAN_nameFull] realizing [HUMAN_possessive] truly loves [ANIMAL_nameFull] [circumstance_group]</BondedWithAnimal.rulePack.rulesStrings.14>
+  <BondedWithAnimal.rulePack.rulesStrings.15>circumstance_phrase-&gt;while other animals look on</BondedWithAnimal.rulePack.rulesStrings.15>
+  <BondedWithAnimal.rulePack.rulesStrings.16>circumstance_phrase-&gt;while looking into [ANIMAL_nameDef]'s eyes</BondedWithAnimal.rulePack.rulesStrings.16>
+  <BondedWithAnimal.rulePack.rulesStrings.17>circumstance_phrase-&gt;with a sense of satisfaction</BondedWithAnimal.rulePack.rulesStrings.17>
+  <BondedWithAnimal.rulePack.rulesStrings.18>desc_sentence-&gt;[ANIMAL_nameDef] is snuggling up against [HUMAN_nameDef].</BondedWithAnimal.rulePack.rulesStrings.18>
+  <BondedWithAnimal.rulePack.rulesStrings.19>desc_sentence-&gt;[ANIMAL_nameDef] looks sleepy and drunk with love.</BondedWithAnimal.rulePack.rulesStrings.19>
+  <BondedWithAnimal.rulePack.rulesStrings.20>desc_sentence-&gt;[ANIMAL_nameDef] stands tall and looks noble.</BondedWithAnimal.rulePack.rulesStrings.20>
+  <BondedWithAnimal.rulePack.rulesStrings.21>desc_sentence-&gt;[ANIMAL_nameDef] is responding positively.</BondedWithAnimal.rulePack.rulesStrings.21>
   <BecameLover.label>became lover</BecameLover.label>
-  <BecameLover.rulePack.rulesStrings.0>tale_noun_westerado->[PURSUER_nameDef] and [ACCEPTER_nameDef] becoming lovers</BecameLover.rulePack.rulesStrings.0>
-  <BecameLover.rulePack.rulesStrings.1>image_westerado->[PURSUER_nameFull] whispering sweet nothings into [ACCEPTER_nameFull]'s ear [circumstance_group_westerado]</BecameLover.rulePack.rulesStrings.1>
-  <BecameLover.rulePack.rulesStrings.2>image_westerado->[PURSUER_nameFull] leading [ACCEPTER_nameFull] by the hand into bed [circumstance_group_westerado]</BecameLover.rulePack.rulesStrings.2>
-  <BecameLover.rulePack.rulesStrings.3>image_westerado->[PURSUER_nameFull] gambolling in bed with [ACCEPTER_nameFull] [circumstance_group_westerado]</BecameLover.rulePack.rulesStrings.3>
-  <BecameLover.rulePack.rulesStrings.4>image_westerado->[PURSUER_nameFull] deeply kissing [ACCEPTER_nameFull] [circumstance_group_westerado]</BecameLover.rulePack.rulesStrings.4>
-  <BecameLover.rulePack.rulesStrings.5>circumstance_phrase_westerado->in an unrealistically large bed</BecameLover.rulePack.rulesStrings.5>
-  <BecameLover.rulePack.rulesStrings.6>circumstance_phrase_westerado->between the sheets</BecameLover.rulePack.rulesStrings.6>
-  <BecameLover.rulePack.rulesStrings.7>circumstance_phrase_westerado->with few clothes in sight</BecameLover.rulePack.rulesStrings.7>
-  <BecameLover.rulePack.rulesStrings.8>circumstance_phrase_westerado->while both are drenched in sweat</BecameLover.rulePack.rulesStrings.8>
-  <BecameLover.rulePack.rulesStrings.9>desc_sentence_westerado->[PURSUER_nameDef] is snuggling up against [ACCEPTER_nameDef].</BecameLover.rulePack.rulesStrings.9>
-  <BecameLover.rulePack.rulesStrings.10>desc_sentence_westerado->[PURSUER_nameDef] is locking eyes with [ACCEPTER_nameDef].</BecameLover.rulePack.rulesStrings.10>
-  <BecameLover.rulePack.rulesStrings.11>desc_sentence_westerado->[PURSUER_nameDef] is blowing air at [ACCEPTER_nameDef].</BecameLover.rulePack.rulesStrings.11>
-  <BecameLover.rulePack.rulesStrings.12>desc_sentence_westerado->[PURSUER_nameDef] is stylistically bonded with [ACCEPTER_nameDef].</BecameLover.rulePack.rulesStrings.12>
-  <BecameLover.rulePack.rulesStrings.13>desc_sentence_westerado->[PURSUER_nameDef] is a near-mirror image of [ACCEPTER_nameDef].</BecameLover.rulePack.rulesStrings.13>
-  <BecameLover.rulePack.rulesStrings.14>desc_sentence_westerado->[PURSUER_nameDef] is touching [ACCEPTER_nameDef] aggressively.</BecameLover.rulePack.rulesStrings.14>
-  <BecameLover.rulePack.rulesStrings.15>tale_noun->[PURSUER_nameDef] and [ACCEPTER_nameDef] becoming lovers</BecameLover.rulePack.rulesStrings.15>
-  <BecameLover.rulePack.rulesStrings.16>image->[PURSUER_nameFull] whispering sweet nothings into [ACCEPTER_nameFull]'s ear [circumstance_group]</BecameLover.rulePack.rulesStrings.16>
-  <BecameLover.rulePack.rulesStrings.17>image->[PURSUER_nameFull] leading [ACCEPTER_nameFull] by the hand into bed [circumstance_group]</BecameLover.rulePack.rulesStrings.17>
-  <BecameLover.rulePack.rulesStrings.18>image->[PURSUER_nameFull] gambolling in bed with [ACCEPTER_nameFull] [circumstance_group]</BecameLover.rulePack.rulesStrings.18>
-  <BecameLover.rulePack.rulesStrings.19>image->[PURSUER_nameFull] deeply kissing [ACCEPTER_nameFull] [circumstance_group]</BecameLover.rulePack.rulesStrings.19>
-  <BecameLover.rulePack.rulesStrings.20>circumstance_phrase->in an unrealistically large bed</BecameLover.rulePack.rulesStrings.20>
-  <BecameLover.rulePack.rulesStrings.21>circumstance_phrase->between the sheets</BecameLover.rulePack.rulesStrings.21>
-  <BecameLover.rulePack.rulesStrings.22>circumstance_phrase->with few clothes in sight</BecameLover.rulePack.rulesStrings.22>
-  <BecameLover.rulePack.rulesStrings.23>circumstance_phrase->while both are drenched in sweat</BecameLover.rulePack.rulesStrings.23>
-  <BecameLover.rulePack.rulesStrings.24>desc_sentence->[PURSUER_nameDef] is snuggling up against [ACCEPTER_nameDef].</BecameLover.rulePack.rulesStrings.24>
-  <BecameLover.rulePack.rulesStrings.25>desc_sentence->[PURSUER_nameDef] is locking eyes with [ACCEPTER_nameDef].</BecameLover.rulePack.rulesStrings.25>
-  <BecameLover.rulePack.rulesStrings.26>desc_sentence->[PURSUER_nameDef] is blowing air at [ACCEPTER_nameDef].</BecameLover.rulePack.rulesStrings.26>
-  <BecameLover.rulePack.rulesStrings.27>desc_sentence->[PURSUER_nameDef] is stylistically bonded with [ACCEPTER_nameDef].</BecameLover.rulePack.rulesStrings.27>
-  <BecameLover.rulePack.rulesStrings.28>desc_sentence->[PURSUER_nameDef] is a near-mirror image of [ACCEPTER_nameDef].</BecameLover.rulePack.rulesStrings.28>
-  <BecameLover.rulePack.rulesStrings.29>desc_sentence->[PURSUER_nameDef] is touching [ACCEPTER_nameDef] aggressively.</BecameLover.rulePack.rulesStrings.29>
-
+  <BecameLover.rulePack.rulesStrings.0>tale_noun_westerado-&gt;[PURSUER_nameDef] and [ACCEPTER_nameDef] becoming lovers</BecameLover.rulePack.rulesStrings.0>
+  <BecameLover.rulePack.rulesStrings.1>image_westerado-&gt;[PURSUER_nameFull] whispering sweet nothings into [ACCEPTER_nameFull]'s ear [circumstance_group_westerado]</BecameLover.rulePack.rulesStrings.1>
+  <BecameLover.rulePack.rulesStrings.2>image_westerado-&gt;[PURSUER_nameFull] leading [ACCEPTER_nameFull] by the hand into bed [circumstance_group_westerado]</BecameLover.rulePack.rulesStrings.2>
+  <BecameLover.rulePack.rulesStrings.3>image_westerado-&gt;[PURSUER_nameFull] gambolling in bed with [ACCEPTER_nameFull] [circumstance_group_westerado]</BecameLover.rulePack.rulesStrings.3>
+  <BecameLover.rulePack.rulesStrings.4>image_westerado-&gt;[PURSUER_nameFull] deeply kissing [ACCEPTER_nameFull] [circumstance_group_westerado]</BecameLover.rulePack.rulesStrings.4>
+  <BecameLover.rulePack.rulesStrings.5>circumstance_phrase_westerado-&gt;in an unrealistically large bed</BecameLover.rulePack.rulesStrings.5>
+  <BecameLover.rulePack.rulesStrings.6>circumstance_phrase_westerado-&gt;between the sheets</BecameLover.rulePack.rulesStrings.6>
+  <BecameLover.rulePack.rulesStrings.7>circumstance_phrase_westerado-&gt;with few clothes in sight</BecameLover.rulePack.rulesStrings.7>
+  <BecameLover.rulePack.rulesStrings.8>circumstance_phrase_westerado-&gt;while both are drenched in sweat</BecameLover.rulePack.rulesStrings.8>
+  <BecameLover.rulePack.rulesStrings.9>desc_sentence_westerado-&gt;[PURSUER_nameDef] is snuggling up against [ACCEPTER_nameDef].</BecameLover.rulePack.rulesStrings.9>
+  <BecameLover.rulePack.rulesStrings.10>desc_sentence_westerado-&gt;[PURSUER_nameDef] is locking eyes with [ACCEPTER_nameDef].</BecameLover.rulePack.rulesStrings.10>
+  <BecameLover.rulePack.rulesStrings.11>desc_sentence_westerado-&gt;[PURSUER_nameDef] is blowing air at [ACCEPTER_nameDef].</BecameLover.rulePack.rulesStrings.11>
+  <BecameLover.rulePack.rulesStrings.12>desc_sentence_westerado-&gt;[PURSUER_nameDef] is stylistically bonded with [ACCEPTER_nameDef].</BecameLover.rulePack.rulesStrings.12>
+  <BecameLover.rulePack.rulesStrings.13>desc_sentence_westerado-&gt;[PURSUER_nameDef] is a near-mirror image of [ACCEPTER_nameDef].</BecameLover.rulePack.rulesStrings.13>
+  <BecameLover.rulePack.rulesStrings.14>desc_sentence_westerado-&gt;[PURSUER_nameDef] is touching [ACCEPTER_nameDef] aggressively.</BecameLover.rulePack.rulesStrings.14>
+  <BecameLover.rulePack.rulesStrings.15>tale_noun-&gt;[PURSUER_nameDef] and [ACCEPTER_nameDef] becoming lovers</BecameLover.rulePack.rulesStrings.15>
+  <BecameLover.rulePack.rulesStrings.16>image-&gt;[PURSUER_nameFull] whispering sweet nothings into [ACCEPTER_nameFull]'s ear [circumstance_group]</BecameLover.rulePack.rulesStrings.16>
+  <BecameLover.rulePack.rulesStrings.17>image-&gt;[PURSUER_nameFull] leading [ACCEPTER_nameFull] by the hand into bed [circumstance_group]</BecameLover.rulePack.rulesStrings.17>
+  <BecameLover.rulePack.rulesStrings.18>image-&gt;[PURSUER_nameFull] gambolling in bed with [ACCEPTER_nameFull] [circumstance_group]</BecameLover.rulePack.rulesStrings.18>
+  <BecameLover.rulePack.rulesStrings.19>image-&gt;[PURSUER_nameFull] deeply kissing [ACCEPTER_nameFull] [circumstance_group]</BecameLover.rulePack.rulesStrings.19>
+  <BecameLover.rulePack.rulesStrings.20>circumstance_phrase-&gt;in an unrealistically large bed</BecameLover.rulePack.rulesStrings.20>
+  <BecameLover.rulePack.rulesStrings.21>circumstance_phrase-&gt;between the sheets</BecameLover.rulePack.rulesStrings.21>
+  <BecameLover.rulePack.rulesStrings.22>circumstance_phrase-&gt;with few clothes in sight</BecameLover.rulePack.rulesStrings.22>
+  <BecameLover.rulePack.rulesStrings.23>circumstance_phrase-&gt;while both are drenched in sweat</BecameLover.rulePack.rulesStrings.23>
+  <BecameLover.rulePack.rulesStrings.24>desc_sentence-&gt;[PURSUER_nameDef] is snuggling up against [ACCEPTER_nameDef].</BecameLover.rulePack.rulesStrings.24>
+  <BecameLover.rulePack.rulesStrings.25>desc_sentence-&gt;[PURSUER_nameDef] is locking eyes with [ACCEPTER_nameDef].</BecameLover.rulePack.rulesStrings.25>
+  <BecameLover.rulePack.rulesStrings.26>desc_sentence-&gt;[PURSUER_nameDef] is blowing air at [ACCEPTER_nameDef].</BecameLover.rulePack.rulesStrings.26>
+  <BecameLover.rulePack.rulesStrings.27>desc_sentence-&gt;[PURSUER_nameDef] is stylistically bonded with [ACCEPTER_nameDef].</BecameLover.rulePack.rulesStrings.27>
+  <BecameLover.rulePack.rulesStrings.28>desc_sentence-&gt;[PURSUER_nameDef] is a near-mirror image of [ACCEPTER_nameDef].</BecameLover.rulePack.rulesStrings.28>
+  <BecameLover.rulePack.rulesStrings.29>desc_sentence-&gt;[PURSUER_nameDef] is touching [ACCEPTER_nameDef] aggressively.</BecameLover.rulePack.rulesStrings.29>
   <Breakup.label>breakup</Breakup.label>
-  <Breakup.rulePack.rulesStrings.0>tale_noun_westerado->the breakup of [DUMPER_nameDef] and [REJECTED_nameDef]</Breakup.rulePack.rulesStrings.0>
-  <Breakup.rulePack.rulesStrings.1>image_westerado->[DUMPER_nameFull] sitting [REJECTED_nameFull] down for an unpleasant talk [circumstance_group_westerado]</Breakup.rulePack.rulesStrings.1>
-  <Breakup.rulePack.rulesStrings.2>image_westerado->[DUMPER_nameFull] standing at a distance from [REJECTED_nameFull] [circumstance_group_westerado]</Breakup.rulePack.rulesStrings.2>
-  <Breakup.rulePack.rulesStrings.3>image_westerado->[DUMPER_nameFull] pushing [REJECTED_nameFull] out of bed [circumstance_group_westerado]</Breakup.rulePack.rulesStrings.3>
-  <Breakup.rulePack.rulesStrings.4>image_westerado->[DUMPER_nameFull] rejecting a hug from [REJECTED_nameFull] [circumstance_group_westerado]</Breakup.rulePack.rulesStrings.4>
-  <Breakup.rulePack.rulesStrings.5>circumstance_phrase_westerado->in a moment of great sadness</Breakup.rulePack.rulesStrings.5>
-  <Breakup.rulePack.rulesStrings.6>circumstance_phrase_westerado->as others look away awkwardly</Breakup.rulePack.rulesStrings.6>
-  <Breakup.rulePack.rulesStrings.7>circumstance_phrase_westerado->as others look on</Breakup.rulePack.rulesStrings.7>
-  <Breakup.rulePack.rulesStrings.8>desc_sentence_westerado->[REJECTED_nameDef] is sobbing uncontrollably.</Breakup.rulePack.rulesStrings.8>
-  <Breakup.rulePack.rulesStrings.9>desc_sentence_westerado->[REJECTED_nameDef] is sneering and crying at the same time.</Breakup.rulePack.rulesStrings.9>
-  <Breakup.rulePack.rulesStrings.10>desc_sentence_westerado->[REJECTED_nameDef] is stony-faced with shock.</Breakup.rulePack.rulesStrings.10>
-  <Breakup.rulePack.rulesStrings.11>desc_sentence_westerado->[DUMPER_nameDef] is stylistically separated from [REJECTED_nameDef].</Breakup.rulePack.rulesStrings.11>
-  <Breakup.rulePack.rulesStrings.12>desc_sentence_westerado->[REJECTED_nameDef] has collapsed on the floor in a quivering heap.</Breakup.rulePack.rulesStrings.12>
-  <Breakup.rulePack.rulesStrings.13>desc_sentence_westerado->[REJECTED_nameDef] is gesticulating angrily at [DUMPER_nameDef].</Breakup.rulePack.rulesStrings.13>
-  <Breakup.rulePack.rulesStrings.14>tale_noun->the breakup of [DUMPER_nameDef] and [REJECTED_nameDef]</Breakup.rulePack.rulesStrings.14>
-  <Breakup.rulePack.rulesStrings.15>image->[DUMPER_nameFull] sitting [REJECTED_nameFull] down for an unpleasant talk [circumstance_group]</Breakup.rulePack.rulesStrings.15>
-  <Breakup.rulePack.rulesStrings.16>image->[DUMPER_nameFull] standing at a distance from [REJECTED_nameFull] [circumstance_group]</Breakup.rulePack.rulesStrings.16>
-  <Breakup.rulePack.rulesStrings.17>image->[DUMPER_nameFull] pushing [REJECTED_nameFull] out of bed [circumstance_group]</Breakup.rulePack.rulesStrings.17>
-  <Breakup.rulePack.rulesStrings.18>image->[DUMPER_nameFull] rejecting a hug from [REJECTED_nameFull] [circumstance_group]</Breakup.rulePack.rulesStrings.18>
-  <Breakup.rulePack.rulesStrings.19>circumstance_phrase->in a moment of great sadness</Breakup.rulePack.rulesStrings.19>
-  <Breakup.rulePack.rulesStrings.20>circumstance_phrase->as others look away awkwardly</Breakup.rulePack.rulesStrings.20>
-  <Breakup.rulePack.rulesStrings.21>circumstance_phrase->as others look on</Breakup.rulePack.rulesStrings.21>
-  <Breakup.rulePack.rulesStrings.22>desc_sentence->[REJECTED_nameDef] is sobbing uncontrollably.</Breakup.rulePack.rulesStrings.22>
-  <Breakup.rulePack.rulesStrings.23>desc_sentence->[REJECTED_nameDef] is sneering and crying at the same time.</Breakup.rulePack.rulesStrings.23>
-  <Breakup.rulePack.rulesStrings.24>desc_sentence->[REJECTED_nameDef] is stony-faced with shock.</Breakup.rulePack.rulesStrings.24>
-  <Breakup.rulePack.rulesStrings.25>desc_sentence->[DUMPER_nameDef] is stylistically separated from [REJECTED_nameDef].</Breakup.rulePack.rulesStrings.25>
-  <Breakup.rulePack.rulesStrings.26>desc_sentence->[REJECTED_nameDef] has collapsed on the floor in a quivering heap.</Breakup.rulePack.rulesStrings.26>
-  <Breakup.rulePack.rulesStrings.27>desc_sentence->[REJECTED_nameDef] is gesticulating angrily at [DUMPER_nameDef].</Breakup.rulePack.rulesStrings.27>
-
+  <Breakup.rulePack.rulesStrings.0>tale_noun_westerado-&gt;the breakup of [DUMPER_nameDef] and [REJECTED_nameDef]</Breakup.rulePack.rulesStrings.0>
+  <Breakup.rulePack.rulesStrings.1>image_westerado-&gt;[DUMPER_nameFull] sitting [REJECTED_nameFull] down for an unpleasant talk [circumstance_group_westerado]</Breakup.rulePack.rulesStrings.1>
+  <Breakup.rulePack.rulesStrings.2>image_westerado-&gt;[DUMPER_nameFull] standing at a distance from [REJECTED_nameFull] [circumstance_group_westerado]</Breakup.rulePack.rulesStrings.2>
+  <Breakup.rulePack.rulesStrings.3>image_westerado-&gt;[DUMPER_nameFull] pushing [REJECTED_nameFull] out of bed [circumstance_group_westerado]</Breakup.rulePack.rulesStrings.3>
+  <Breakup.rulePack.rulesStrings.4>image_westerado-&gt;[DUMPER_nameFull] rejecting a hug from [REJECTED_nameFull] [circumstance_group_westerado]</Breakup.rulePack.rulesStrings.4>
+  <Breakup.rulePack.rulesStrings.5>circumstance_phrase_westerado-&gt;in a moment of great sadness</Breakup.rulePack.rulesStrings.5>
+  <Breakup.rulePack.rulesStrings.6>circumstance_phrase_westerado-&gt;as others look away awkwardly</Breakup.rulePack.rulesStrings.6>
+  <Breakup.rulePack.rulesStrings.7>circumstance_phrase_westerado-&gt;as others look on</Breakup.rulePack.rulesStrings.7>
+  <Breakup.rulePack.rulesStrings.8>desc_sentence_westerado-&gt;[REJECTED_nameDef] is sobbing uncontrollably.</Breakup.rulePack.rulesStrings.8>
+  <Breakup.rulePack.rulesStrings.9>desc_sentence_westerado-&gt;[REJECTED_nameDef] is sneering and crying at the same time.</Breakup.rulePack.rulesStrings.9>
+  <Breakup.rulePack.rulesStrings.10>desc_sentence_westerado-&gt;[REJECTED_nameDef] is stony-faced with shock.</Breakup.rulePack.rulesStrings.10>
+  <Breakup.rulePack.rulesStrings.11>desc_sentence_westerado-&gt;[DUMPER_nameDef] is stylistically separated from [REJECTED_nameDef].</Breakup.rulePack.rulesStrings.11>
+  <Breakup.rulePack.rulesStrings.12>desc_sentence_westerado-&gt;[REJECTED_nameDef] has collapsed on the floor in a quivering heap.</Breakup.rulePack.rulesStrings.12>
+  <Breakup.rulePack.rulesStrings.13>desc_sentence_westerado-&gt;[REJECTED_nameDef] is gesticulating angrily at [DUMPER_nameDef].</Breakup.rulePack.rulesStrings.13>
+  <Breakup.rulePack.rulesStrings.14>tale_noun-&gt;the breakup of [DUMPER_nameDef] and [REJECTED_nameDef]</Breakup.rulePack.rulesStrings.14>
+  <Breakup.rulePack.rulesStrings.15>image-&gt;[DUMPER_nameFull] sitting [REJECTED_nameFull] down for an unpleasant talk [circumstance_group]</Breakup.rulePack.rulesStrings.15>
+  <Breakup.rulePack.rulesStrings.16>image-&gt;[DUMPER_nameFull] standing at a distance from [REJECTED_nameFull] [circumstance_group]</Breakup.rulePack.rulesStrings.16>
+  <Breakup.rulePack.rulesStrings.17>image-&gt;[DUMPER_nameFull] pushing [REJECTED_nameFull] out of bed [circumstance_group]</Breakup.rulePack.rulesStrings.17>
+  <Breakup.rulePack.rulesStrings.18>image-&gt;[DUMPER_nameFull] rejecting a hug from [REJECTED_nameFull] [circumstance_group]</Breakup.rulePack.rulesStrings.18>
+  <Breakup.rulePack.rulesStrings.19>circumstance_phrase-&gt;in a moment of great sadness</Breakup.rulePack.rulesStrings.19>
+  <Breakup.rulePack.rulesStrings.20>circumstance_phrase-&gt;as others look away awkwardly</Breakup.rulePack.rulesStrings.20>
+  <Breakup.rulePack.rulesStrings.21>circumstance_phrase-&gt;as others look on</Breakup.rulePack.rulesStrings.21>
+  <Breakup.rulePack.rulesStrings.22>desc_sentence-&gt;[REJECTED_nameDef] is sobbing uncontrollably.</Breakup.rulePack.rulesStrings.22>
+  <Breakup.rulePack.rulesStrings.23>desc_sentence-&gt;[REJECTED_nameDef] is sneering and crying at the same time.</Breakup.rulePack.rulesStrings.23>
+  <Breakup.rulePack.rulesStrings.24>desc_sentence-&gt;[REJECTED_nameDef] is stony-faced with shock.</Breakup.rulePack.rulesStrings.24>
+  <Breakup.rulePack.rulesStrings.25>desc_sentence-&gt;[DUMPER_nameDef] is stylistically separated from [REJECTED_nameDef].</Breakup.rulePack.rulesStrings.25>
+  <Breakup.rulePack.rulesStrings.26>desc_sentence-&gt;[REJECTED_nameDef] has collapsed on the floor in a quivering heap.</Breakup.rulePack.rulesStrings.26>
+  <Breakup.rulePack.rulesStrings.27>desc_sentence-&gt;[REJECTED_nameDef] is gesticulating angrily at [DUMPER_nameDef].</Breakup.rulePack.rulesStrings.27>
   <Marriage.label>marriage</Marriage.label>
-  <Marriage.rulePack.rulesStrings.0>tale_noun_westerado->the marriage of [SPOUSE1_nameDef] and [SPOUSE2_nameDef]</Marriage.rulePack.rulesStrings.0>
-  <Marriage.rulePack.rulesStrings.1>image_westerado->[SPOUSE1_nameFull] marrying [SPOUSE2_nameFull] [circumstance_group_westerado]</Marriage.rulePack.rulesStrings.1>
-  <Marriage.rulePack.rulesStrings.2>image_westerado->[SPOUSE1_nameFull] saying [SPOUSE1_possessive] marriage vows to [SPOUSE2_nameFull] [circumstance_group_westerado]</Marriage.rulePack.rulesStrings.2>
-  <Marriage.rulePack.rulesStrings.3>image_westerado->[SPOUSE1_nameFull] walking down the aisle with [SPOUSE2_nameFull] [circumstance_group_westerado]</Marriage.rulePack.rulesStrings.3>
-  <Marriage.rulePack.rulesStrings.4>image_westerado->[SPOUSE1_nameFull] holding hands with [SPOUSE2_nameFull] during a marriage ceremony [circumstance_group_westerado]</Marriage.rulePack.rulesStrings.4>
-  <Marriage.rulePack.rulesStrings.5>circumstance_phrase_westerado->in a dignified ceremony</Marriage.rulePack.rulesStrings.5>
-  <Marriage.rulePack.rulesStrings.6>circumstance_phrase_westerado->while both laugh gaily</Marriage.rulePack.rulesStrings.6>
-  <Marriage.rulePack.rulesStrings.7>circumstance_phrase_westerado->while others look on solemnly</Marriage.rulePack.rulesStrings.7>
-  <Marriage.rulePack.rulesStrings.8>desc_sentence_westerado->[SPOUSE1_nameDef] is snuggling up against [SPOUSE2_nameDef].</Marriage.rulePack.rulesStrings.8>
-  <Marriage.rulePack.rulesStrings.9>desc_sentence_westerado->[SPOUSE1_nameDef] is locking eyes with [SPOUSE2_nameDef].</Marriage.rulePack.rulesStrings.9>
-  <Marriage.rulePack.rulesStrings.10>desc_sentence_westerado->[SPOUSE1_nameDef] is blowing air at [SPOUSE2_nameDef].</Marriage.rulePack.rulesStrings.10>
-  <Marriage.rulePack.rulesStrings.11>desc_sentence_westerado->[SPOUSE1_nameDef] is stylistically bonded with [SPOUSE2_nameDef].</Marriage.rulePack.rulesStrings.11>
-  <Marriage.rulePack.rulesStrings.12>desc_sentence_westerado->[SPOUSE1_nameDef] is a near-mirror image of [SPOUSE2_nameDef].</Marriage.rulePack.rulesStrings.12>
-  <Marriage.rulePack.rulesStrings.13>desc_sentence_westerado->[SPOUSE1_nameDef] is touching [SPOUSE2_nameDef] aggressively.</Marriage.rulePack.rulesStrings.13>
-  <Marriage.rulePack.rulesStrings.14>tale_noun->the marriage of [SPOUSE1_nameDef] and [SPOUSE2_nameDef]</Marriage.rulePack.rulesStrings.14>
-  <Marriage.rulePack.rulesStrings.15>image->[SPOUSE1_nameFull] marrying [SPOUSE2_nameFull] [circumstance_group]</Marriage.rulePack.rulesStrings.15>
-  <Marriage.rulePack.rulesStrings.16>image->[SPOUSE1_nameFull] saying [SPOUSE1_possessive] marriage vows to [SPOUSE2_nameFull] [circumstance_group]</Marriage.rulePack.rulesStrings.16>
-  <Marriage.rulePack.rulesStrings.17>image->[SPOUSE1_nameFull] walking down the aisle with [SPOUSE2_nameFull] [circumstance_group]</Marriage.rulePack.rulesStrings.17>
-  <Marriage.rulePack.rulesStrings.18>image->[SPOUSE1_nameFull] holding hands with [SPOUSE2_nameFull] during a marriage ceremony [circumstance_group]</Marriage.rulePack.rulesStrings.18>
-  <Marriage.rulePack.rulesStrings.19>circumstance_phrase->in a dignified ceremony</Marriage.rulePack.rulesStrings.19>
-  <Marriage.rulePack.rulesStrings.20>circumstance_phrase->while both laugh gaily</Marriage.rulePack.rulesStrings.20>
-  <Marriage.rulePack.rulesStrings.21>circumstance_phrase->while others look on solemnly</Marriage.rulePack.rulesStrings.21>
-  <Marriage.rulePack.rulesStrings.22>desc_sentence->[SPOUSE1_nameDef] is snuggling up against [SPOUSE2_nameDef].</Marriage.rulePack.rulesStrings.22>
-  <Marriage.rulePack.rulesStrings.23>desc_sentence->[SPOUSE1_nameDef] is locking eyes with [SPOUSE2_nameDef].</Marriage.rulePack.rulesStrings.23>
-  <Marriage.rulePack.rulesStrings.24>desc_sentence->[SPOUSE1_nameDef] is blowing air at [SPOUSE2_nameDef].</Marriage.rulePack.rulesStrings.24>
-  <Marriage.rulePack.rulesStrings.25>desc_sentence->[SPOUSE1_nameDef] is stylistically bonded with [SPOUSE2_nameDef].</Marriage.rulePack.rulesStrings.25>
-  <Marriage.rulePack.rulesStrings.26>desc_sentence->[SPOUSE1_nameDef] is a near-mirror image of [SPOUSE2_nameDef].</Marriage.rulePack.rulesStrings.26>
-  <Marriage.rulePack.rulesStrings.27>desc_sentence->[SPOUSE1_nameDef] is touching [SPOUSE2_nameDef] aggressively.</Marriage.rulePack.rulesStrings.27>
-
-
+  <Marriage.rulePack.rulesStrings.0>tale_noun_westerado-&gt;the marriage of [SPOUSE1_nameDef] and [SPOUSE2_nameDef]</Marriage.rulePack.rulesStrings.0>
+  <Marriage.rulePack.rulesStrings.1>image_westerado-&gt;[SPOUSE1_nameFull] marrying [SPOUSE2_nameFull] [circumstance_group_westerado]</Marriage.rulePack.rulesStrings.1>
+  <Marriage.rulePack.rulesStrings.2>image_westerado-&gt;[SPOUSE1_nameFull] saying [SPOUSE1_possessive] marriage vows to [SPOUSE2_nameFull] [circumstance_group_westerado]</Marriage.rulePack.rulesStrings.2>
+  <Marriage.rulePack.rulesStrings.3>image_westerado-&gt;[SPOUSE1_nameFull] walking down the aisle with [SPOUSE2_nameFull] [circumstance_group_westerado]</Marriage.rulePack.rulesStrings.3>
+  <Marriage.rulePack.rulesStrings.4>image_westerado-&gt;[SPOUSE1_nameFull] holding hands with [SPOUSE2_nameFull] during a marriage ceremony [circumstance_group_westerado]</Marriage.rulePack.rulesStrings.4>
+  <Marriage.rulePack.rulesStrings.5>circumstance_phrase_westerado-&gt;in a dignified ceremony</Marriage.rulePack.rulesStrings.5>
+  <Marriage.rulePack.rulesStrings.6>circumstance_phrase_westerado-&gt;while both laugh gaily</Marriage.rulePack.rulesStrings.6>
+  <Marriage.rulePack.rulesStrings.7>circumstance_phrase_westerado-&gt;while others look on solemnly</Marriage.rulePack.rulesStrings.7>
+  <Marriage.rulePack.rulesStrings.8>desc_sentence_westerado-&gt;[SPOUSE1_nameDef] is snuggling up against [SPOUSE2_nameDef].</Marriage.rulePack.rulesStrings.8>
+  <Marriage.rulePack.rulesStrings.9>desc_sentence_westerado-&gt;[SPOUSE1_nameDef] is locking eyes with [SPOUSE2_nameDef].</Marriage.rulePack.rulesStrings.9>
+  <Marriage.rulePack.rulesStrings.10>desc_sentence_westerado-&gt;[SPOUSE1_nameDef] is blowing air at [SPOUSE2_nameDef].</Marriage.rulePack.rulesStrings.10>
+  <Marriage.rulePack.rulesStrings.11>desc_sentence_westerado-&gt;[SPOUSE1_nameDef] is stylistically bonded with [SPOUSE2_nameDef].</Marriage.rulePack.rulesStrings.11>
+  <Marriage.rulePack.rulesStrings.12>desc_sentence_westerado-&gt;[SPOUSE1_nameDef] is a near-mirror image of [SPOUSE2_nameDef].</Marriage.rulePack.rulesStrings.12>
+  <Marriage.rulePack.rulesStrings.13>desc_sentence_westerado-&gt;[SPOUSE1_nameDef] is touching [SPOUSE2_nameDef] aggressively.</Marriage.rulePack.rulesStrings.13>
+  <Marriage.rulePack.rulesStrings.14>tale_noun-&gt;the marriage of [SPOUSE1_nameDef] and [SPOUSE2_nameDef]</Marriage.rulePack.rulesStrings.14>
+  <Marriage.rulePack.rulesStrings.15>image-&gt;[SPOUSE1_nameFull] marrying [SPOUSE2_nameFull] [circumstance_group]</Marriage.rulePack.rulesStrings.15>
+  <Marriage.rulePack.rulesStrings.16>image-&gt;[SPOUSE1_nameFull] saying [SPOUSE1_possessive] marriage vows to [SPOUSE2_nameFull] [circumstance_group]</Marriage.rulePack.rulesStrings.16>
+  <Marriage.rulePack.rulesStrings.17>image-&gt;[SPOUSE1_nameFull] walking down the aisle with [SPOUSE2_nameFull] [circumstance_group]</Marriage.rulePack.rulesStrings.17>
+  <Marriage.rulePack.rulesStrings.18>image-&gt;[SPOUSE1_nameFull] holding hands with [SPOUSE2_nameFull] during a marriage ceremony [circumstance_group]</Marriage.rulePack.rulesStrings.18>
+  <Marriage.rulePack.rulesStrings.19>circumstance_phrase-&gt;in a dignified ceremony</Marriage.rulePack.rulesStrings.19>
+  <Marriage.rulePack.rulesStrings.20>circumstance_phrase-&gt;while both laugh gaily</Marriage.rulePack.rulesStrings.20>
+  <Marriage.rulePack.rulesStrings.21>circumstance_phrase-&gt;while others look on solemnly</Marriage.rulePack.rulesStrings.21>
+  <Marriage.rulePack.rulesStrings.22>desc_sentence-&gt;[SPOUSE1_nameDef] is snuggling up against [SPOUSE2_nameDef].</Marriage.rulePack.rulesStrings.22>
+  <Marriage.rulePack.rulesStrings.23>desc_sentence-&gt;[SPOUSE1_nameDef] is locking eyes with [SPOUSE2_nameDef].</Marriage.rulePack.rulesStrings.23>
+  <Marriage.rulePack.rulesStrings.24>desc_sentence-&gt;[SPOUSE1_nameDef] is blowing air at [SPOUSE2_nameDef].</Marriage.rulePack.rulesStrings.24>
+  <Marriage.rulePack.rulesStrings.25>desc_sentence-&gt;[SPOUSE1_nameDef] is stylistically bonded with [SPOUSE2_nameDef].</Marriage.rulePack.rulesStrings.25>
+  <Marriage.rulePack.rulesStrings.26>desc_sentence-&gt;[SPOUSE1_nameDef] is a near-mirror image of [SPOUSE2_nameDef].</Marriage.rulePack.rulesStrings.26>
+  <Marriage.rulePack.rulesStrings.27>desc_sentence-&gt;[SPOUSE1_nameDef] is touching [SPOUSE2_nameDef] aggressively.</Marriage.rulePack.rulesStrings.27>
 </LanguageData>

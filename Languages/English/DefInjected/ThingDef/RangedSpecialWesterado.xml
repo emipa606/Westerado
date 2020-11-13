@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MeteoriteGenerator.label>meteorite generator</MeteoriteGenerator.label>
   <MeteoriteGenerator.description>An ancient control unit for a network of weather-control satellites. This device has had certain failsafes bypassed; it is capable of causing a massive sky-rock disturbance, which will generate a meteorite at a chosen location. The weather network will detect this unauthorized intrusion and lock out the device after use, but the meteorite will be left to tumble to the earth normally.</MeteoriteGenerator.description>
-
-
 </LanguageData>

@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <QuadrupedAnimalWithHoovesAndHorns_Westerado.label>quadruped animal</QuadrupedAnimalWithHoovesAndHorns_Westerado.label>
   <QuadrupedAnimalWithHoovesAndHorns_Westerado.corePart.parts.3.customLabel>left lung</QuadrupedAnimalWithHoovesAndHorns_Westerado.corePart.parts.3.customLabel>
   <QuadrupedAnimalWithHoovesAndHorns_Westerado.corePart.parts.4.customLabel>right lung</QuadrupedAnimalWithHoovesAndHorns_Westerado.corePart.parts.4.customLabel>
@@ -20,6 +19,4 @@
   <QuadrupedAnimalWithHoovesAndHorns_Westerado.corePart.parts.11.parts.0.customLabel>rear left hoof</QuadrupedAnimalWithHoovesAndHorns_Westerado.corePart.parts.11.parts.0.customLabel>
   <QuadrupedAnimalWithHoovesAndHorns_Westerado.corePart.parts.12.customLabel>rear right leg</QuadrupedAnimalWithHoovesAndHorns_Westerado.corePart.parts.12.customLabel>
   <QuadrupedAnimalWithHoovesAndHorns_Westerado.corePart.parts.12.parts.0.customLabel>rear right hoof</QuadrupedAnimalWithHoovesAndHorns_Westerado.corePart.parts.12.parts.0.customLabel>
-
-
 </LanguageData>

@@ -1,11 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <RunWild_Westerado.label>running wild</RunWild_Westerado.label>
   <RunWild_Westerado.beginLetter>{0} is fed up with civilization.\n\n[PAWN_pronoun] realized that wild creatures are always free. So, [PAWN_pronoun] has decided to leave your faction and live with the animals.\n\nYou can attempt to tame or arrest [PAWN_possessive] to get [PAWN_possessive] back</RunWild_Westerado.beginLetter>
   <RunWild_Westerado.beginLetterLabel>run wild</RunWild_Westerado.beginLetterLabel>
   <RunWild_Westerado.recoveryMessage>{0} has had a change of heart and is coming back to the colony.</RunWild_Westerado.recoveryMessage>
   <RunWild_Westerado.baseInspectLine>Mental state: Running wild</RunWild_Westerado.baseInspectLine>
-
-
 </LanguageData>

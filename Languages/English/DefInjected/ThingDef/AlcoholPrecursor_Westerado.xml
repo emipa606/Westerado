@@ -1,16 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Alcohol Precursors -->
-
   <MoonshineMash_Westerado.label>moonshine mash</MoonshineMash_Westerado.label>
   <MoonshineMash_Westerado.description>Mash made from corn and rye. This substance needs to be distilled in a distillery before it becomes drinkable Moonshine.</MoonshineMash_Westerado.description>
-
   <RyeMash_Westererado.label>rye mash</RyeMash_Westererado.label>
   <RyeMash_Westererado.description>Milled, soaked, and cooked rye. This substance needs to ferment in a fermenting barrel before it becomes drinkable Rye whiskey.</RyeMash_Westererado.description>
-
   <SchnappsMash_Westerado.label>undistilled schnapps</SchnappsMash_Westerado.label>
   <SchnappsMash_Westerado.description>Mash made from potatoes. This substance needs to be distilled in a distillery before it becomes drinkable Schnapps.</SchnappsMash_Westerado.description>
-
-
 </LanguageData>

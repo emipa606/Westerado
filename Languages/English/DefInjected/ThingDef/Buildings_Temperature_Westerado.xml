@@ -1,19 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Large Campfire -->
-
   <CampfireLarge.label>campfire (large)</CampfireLarge.label>
   <CampfireLarge.description>Cooks meals and produces heat, and burns out after a few days. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable.</CampfireLarge.description>
   <CampfireLarge_Blueprint.label>campfire (large) (blueprint)</CampfireLarge_Blueprint.label>
   <CampfireLarge_Frame.label>campfire (large) (building)</CampfireLarge_Frame.label>
   <CampfireLarge_Frame.description>Cooks meals and produces heat, and burns out after a few days. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable.</CampfireLarge_Frame.description>
-
-
   <!-- Wood Stove -->
-
   <WoodStove_Westerado.label>wood-burning stove</WoodStove_Westerado.label>
   <WoodStove_Westerado.description>A device that converts wood into heat.</WoodStove_Westerado.description>
-
-
 </LanguageData>

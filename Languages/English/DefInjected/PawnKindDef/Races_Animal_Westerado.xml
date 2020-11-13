@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Badger -->
-
   <Badger_Westerado.label>badger</Badger_Westerado.label>
   <Badger_Westerado.labelPlural>badgers</Badger_Westerado.labelPlural>
   <Badger_Westerado.lifeStages.0.label>badger</Badger_Westerado.lifeStages.0.label>
@@ -27,10 +25,7 @@
   <Badger_Westerado.labelMalePlural>male badgers</Badger_Westerado.labelMalePlural>
   <Badger_Westerado.labelFemale>female badger</Badger_Westerado.labelFemale>
   <Badger_Westerado.labelFemalePlural>female badgers</Badger_Westerado.labelFemalePlural>
-
-
   <!-- Brown Donkey Def -->
-
   <BrownDonkey_Westerado.label>brown donkey</BrownDonkey_Westerado.label>
   <BrownDonkey_Westerado.labelPlural>brown donkeys</BrownDonkey_Westerado.labelPlural>
   <BrownDonkey_Westerado.lifeStages.0.label>brown donkey  foal</BrownDonkey_Westerado.lifeStages.0.label>
@@ -55,10 +50,7 @@
   <BrownDonkey_Westerado.labelMalePlural>male brown donkeys</BrownDonkey_Westerado.labelMalePlural>
   <BrownDonkey_Westerado.labelFemale>brown jenny</BrownDonkey_Westerado.labelFemale>
   <BrownDonkey_Westerado.labelFemalePlural>brown jennys</BrownDonkey_Westerado.labelFemalePlural>
-
-
   <!-- Black Donkey Def -->
-
   <BlackDonkey_Westerado.label>black donkey</BlackDonkey_Westerado.label>
   <BlackDonkey_Westerado.labelPlural>black donkeys</BlackDonkey_Westerado.labelPlural>
   <BlackDonkey_Westerado.lifeStages.0.label>black donkey foal</BlackDonkey_Westerado.lifeStages.0.label>
@@ -83,10 +75,7 @@
   <BlackDonkey_Westerado.labelMalePlural>male black donkeys</BlackDonkey_Westerado.labelMalePlural>
   <BlackDonkey_Westerado.labelFemale>black jenny</BlackDonkey_Westerado.labelFemale>
   <BlackDonkey_Westerado.labelFemalePlural>black jennys</BlackDonkey_Westerado.labelFemalePlural>
-
-
   <!-- Grey Donkey Def -->
-
   <GreyDonkey_Westerado.label>grey donkey</GreyDonkey_Westerado.label>
   <GreyDonkey_Westerado.labelPlural>grey donkeys</GreyDonkey_Westerado.labelPlural>
   <GreyDonkey_Westerado.lifeStages.0.label>grey donkey foal</GreyDonkey_Westerado.lifeStages.0.label>
@@ -111,10 +100,7 @@
   <GreyDonkey_Westerado.labelMalePlural>male grey donkeys</GreyDonkey_Westerado.labelMalePlural>
   <GreyDonkey_Westerado.labelFemale>grey jenny</GreyDonkey_Westerado.labelFemale>
   <GreyDonkey_Westerado.labelFemalePlural>grey jennys</GreyDonkey_Westerado.labelFemalePlural>
-
-
   <!-- Gila Monster -->
-
   <GilaMonster_Westerado.label>gila monster</GilaMonster_Westerado.label>
   <GilaMonster_Westerado.labelPlural>gila monsters</GilaMonster_Westerado.labelPlural>
   <GilaMonster_Westerado.lifeStages.0.label>gila monster</GilaMonster_Westerado.lifeStages.0.label>
@@ -139,10 +125,7 @@
   <GilaMonster_Westerado.labelMalePlural>male gila monsters</GilaMonster_Westerado.labelMalePlural>
   <GilaMonster_Westerado.labelFemale>female gila monster</GilaMonster_Westerado.labelFemale>
   <GilaMonster_Westerado.labelFemalePlural>female gila monsters</GilaMonster_Westerado.labelFemalePlural>
-
-
   <!-- Moose -->
-
   <Moose_Westerado.label>moose</Moose_Westerado.label>
   <Moose_Westerado.labelPlural>moose</Moose_Westerado.labelPlural>
   <Moose_Westerado.lifeStages.0.label>moose calf</Moose_Westerado.lifeStages.0.label>
@@ -167,10 +150,7 @@
   <Moose_Westerado.labelMalePlural>male moose</Moose_Westerado.labelMalePlural>
   <Moose_Westerado.labelFemale>female moose</Moose_Westerado.labelFemale>
   <Moose_Westerado.labelFemalePlural>female moose</Moose_Westerado.labelFemalePlural>
-
-
   <!-- Bison -->
-
   <Bison_Westerado.label>bison</Bison_Westerado.label>
   <Bison_Westerado.labelPlural>bisons</Bison_Westerado.labelPlural>
   <Bison_Westerado.lifeStages.0.label>bison calf</Bison_Westerado.lifeStages.0.label>
@@ -195,10 +175,7 @@
   <Bison_Westerado.labelMalePlural>male bisons</Bison_Westerado.labelMalePlural>
   <Bison_Westerado.labelFemale>bison cow</Bison_Westerado.labelFemale>
   <Bison_Westerado.labelFemalePlural>female bisons</Bison_Westerado.labelFemalePlural>
-
-
   <!-- Coyote -->
-
   <Coyote_Westerado.label>coyote</Coyote_Westerado.label>
   <Coyote_Westerado.labelPlural>coyotes</Coyote_Westerado.labelPlural>
   <Coyote_Westerado.lifeStages.0.label>coyote puppy</Coyote_Westerado.lifeStages.0.label>
@@ -223,10 +200,7 @@
   <Coyote_Westerado.labelMalePlural>male coyotes</Coyote_Westerado.labelMalePlural>
   <Coyote_Westerado.labelFemale>female coyote</Coyote_Westerado.labelFemale>
   <Coyote_Westerado.labelFemalePlural>female coyotes</Coyote_Westerado.labelFemalePlural>
-
-
   <!-- Rattlesnake -->
-
   <Rattlesnake_Westerado.label>rattlesnake</Rattlesnake_Westerado.label>
   <Rattlesnake_Westerado.labelPlural>rattlesnakes</Rattlesnake_Westerado.labelPlural>
   <Rattlesnake_Westerado.lifeStages.0.label>rattlesnake</Rattlesnake_Westerado.lifeStages.0.label>
@@ -251,7 +225,6 @@
   <Rattlesnake_Westerado.labelMalePlural>male rattlesnakes</Rattlesnake_Westerado.labelMalePlural>
   <Rattlesnake_Westerado.labelFemale>female rattlesnake</Rattlesnake_Westerado.labelFemale>
   <Rattlesnake_Westerado.labelFemalePlural>female rattlesnakes</Rattlesnake_Westerado.labelFemalePlural>
-
   <Elk_Westerado.label>wapiti</Elk_Westerado.label>
   <Elk_Westerado.labelPlural>wapiti</Elk_Westerado.labelPlural>
   <Elk_Westerado.lifeStages.0.label>wapiti calf</Elk_Westerado.lifeStages.0.label>
@@ -276,6 +249,4 @@
   <Elk_Westerado.labelMalePlural>male wapiti</Elk_Westerado.labelMalePlural>
   <Elk_Westerado.labelFemale>female wapiti</Elk_Westerado.labelFemale>
   <Elk_Westerado.labelFemalePlural>female wapiti</Elk_Westerado.labelFemalePlural>
-
-
 </LanguageData>

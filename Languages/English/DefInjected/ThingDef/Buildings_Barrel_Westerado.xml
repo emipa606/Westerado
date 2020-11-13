@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- <ThingDef ParentName="VG_BuildingBase">
     <defName>FermentingBarrel</defName>
     <label>fermenting barrel</label>
@@ -73,13 +72,10 @@
       </li>
     </comps>
   </ThingDef> -->
-
   <Distillery_Westerado.label>distillery</Distillery_Westerado.label>
   <Distillery_Westerado.description>a fermenting barrel for making different types of alcohols.</Distillery_Westerado.description>
   <Distillery_Westerado_Blueprint.label>distillery (blueprint)</Distillery_Westerado_Blueprint.label>
   <Distillery_Westerado_Blueprint_Install.label>distillery (blueprint)</Distillery_Westerado_Blueprint_Install.label>
   <Distillery_Westerado_Frame.label>distillery (building)</Distillery_Westerado_Frame.label>
   <Distillery_Westerado_Frame.description>a fermenting barrel for making different types of alcohols.</Distillery_Westerado_Frame.description>
-
-
 </LanguageData>

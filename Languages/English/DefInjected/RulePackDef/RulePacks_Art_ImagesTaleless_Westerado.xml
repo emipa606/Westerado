@@ -1,64 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <TalelessImages.rulePack.rulesStrings.0>image_westerado->a [outlander_westerado] surrounded by [outlander_westerado]s</TalelessImages.rulePack.rulesStrings.0>
-  <TalelessImages.rulePack.rulesStrings.1>image_westerado->a [outlander_westerado] playing [game] with [quantity_adjphrase] [outlander_westerado]s</TalelessImages.rulePack.rulesStrings.1>
-  <TalelessImages.rulePack.rulesStrings.2>image_westerado->a [outlander_westerado] [subject_desc] holding a [weapon_westerado]</TalelessImages.rulePack.rulesStrings.2>
-  <TalelessImages.rulePack.rulesStrings.3>image_westerado->a solitary [outlander_westerado]</TalelessImages.rulePack.rulesStrings.3>
-  <TalelessImages.rulePack.rulesStrings.4>image_westerado->a [adjective] [outlander_westerado] wearing a [apparel_westerado]</TalelessImages.rulePack.rulesStrings.4>
-  <TalelessImages.rulePack.rulesStrings.5>image_westerado->a lone [apparel_westerado] [subject_desc]</TalelessImages.rulePack.rulesStrings.5>
-  <TalelessImages.rulePack.rulesStrings.6>image_westerado->[animal]s playing [game]</TalelessImages.rulePack.rulesStrings.6>
-  <TalelessImages.rulePack.rulesStrings.7>image_westerado->an abstracted depiction of [concept]</TalelessImages.rulePack.rulesStrings.7>
-  <TalelessImages.rulePack.rulesStrings.8>image_westerado->a [community_westerado]</TalelessImages.rulePack.rulesStrings.8>
-  <TalelessImages.rulePack.rulesStrings.9>image_westerado->a [weapon_westerado]</TalelessImages.rulePack.rulesStrings.9>
-  <TalelessImages.rulePack.rulesStrings.10>image_westerado->[quantity_adjphrase] [weapon_westerado]s</TalelessImages.rulePack.rulesStrings.10>
-  <TalelessImages.rulePack.rulesStrings.11>image_westerado->the minor celebrity [personname] [subject_desc]</TalelessImages.rulePack.rulesStrings.11>
-  <TalelessImages.rulePack.rulesStrings.12>image_westerado->a [ship_westerado] [combat_navy_westerado] a [ship_westerado]</TalelessImages.rulePack.rulesStrings.12>
-  <TalelessImages.rulePack.rulesStrings.13>image_westerado->[quantity_adjphrase] [ship_westerado] [combat_navy_westerado] [quantity_adjphrase] [ship_westerado]</TalelessImages.rulePack.rulesStrings.13>
-  <TalelessImages.rulePack.rulesStrings.14>image_westerado->a [ship_westerado] [combat_navy_westerado] a [ship_westerado], gunpowder smoke fills the space between them</TalelessImages.rulePack.rulesStrings.14>
-  <TalelessImages.rulePack.rulesStrings.15>image_westerado->[quantity_adjphrase] [ship_westerado] [combat_navy_westerado] [quantity_adjphrase] [ship_westerado], gunpowder smoke fills the space between them</TalelessImages.rulePack.rulesStrings.15>
-  <TalelessImages.rulePack.rulesStrings.16>image_westerado->a [ship_westerado] [combat_navy_westerado] a [ship_westerado] in the [weather_westerado]</TalelessImages.rulePack.rulesStrings.16>
-  <TalelessImages.rulePack.rulesStrings.17>image_westerado->[quantity_adjphrase] [ship_westerado] [combat_navy_westerado] [quantity_adjphrase] [ship_westerado] in the [weather_westerado]</TalelessImages.rulePack.rulesStrings.17>
-  <TalelessImages.rulePack.rulesStrings.18>image_westerado->a [ship_westerado] [combat_navy_westerado] a [ship_westerado] at [timeofday_westerado]</TalelessImages.rulePack.rulesStrings.18>
-  <TalelessImages.rulePack.rulesStrings.19>image_westerado->[quantity_adjphrase] [ship_westerado] [combat_navy_westerado] [quantity_adjphrase] [ship_westerado] at [timeofday_westerado]</TalelessImages.rulePack.rulesStrings.19>
-  <TalelessImages.rulePack.rulesStrings.20>image_westerado->a lone [ship_westerado] in [weather_ocean_westerado]</TalelessImages.rulePack.rulesStrings.20>
-  <TalelessImages.rulePack.rulesStrings.21>image_westerado->a lone [ship_westerado] in [weather_ocean_westerado] at [timeofday_westerado]</TalelessImages.rulePack.rulesStrings.21>
-  <TalelessImages.rulePack.rulesStrings.22>image_westerado->two [ship_westerado]s facing opposite directions</TalelessImages.rulePack.rulesStrings.22>
-  <TalelessImages.rulePack.rulesStrings.23>image_westerado->a [outlander_westerado] envisioning [alexjones_westerado] in a dream</TalelessImages.rulePack.rulesStrings.23>
-  <TalelessImages.rulePack.rulesStrings.24>image->a solitary [Character] [desc_pawn]</TalelessImages.rulePack.rulesStrings.24>
-  <TalelessImages.rulePack.rulesStrings.25>image->a solitary [Character] [desc_pawn] near a [TerrainFeature]</TalelessImages.rulePack.rulesStrings.25>
-  <TalelessImages.rulePack.rulesStrings.26>image->a solitary [Character] [desc_pawn] near a [Community]</TalelessImages.rulePack.rulesStrings.26>
-  <TalelessImages.rulePack.rulesStrings.27>image->a [Character] [desc_pawn] surrounded by [Character]s</TalelessImages.rulePack.rulesStrings.27>
-  <TalelessImages.rulePack.rulesStrings.28>image->[Character]s playing [Game]</TalelessImages.rulePack.rulesStrings.28>
-  <TalelessImages.rulePack.rulesStrings.29>image->a [Character] [desc_pawn] playing [Game] with [Quantity_adjphrase] [Character]s</TalelessImages.rulePack.rulesStrings.29>
-  <TalelessImages.rulePack.rulesStrings.30>image->a [Character] [desc_pawn] holding a [Weapon]</TalelessImages.rulePack.rulesStrings.30>
-  <TalelessImages.rulePack.rulesStrings.31>image->a [Character] [desc_pawn] eating a [Vegetable]</TalelessImages.rulePack.rulesStrings.31>
-  <TalelessImages.rulePack.rulesStrings.32>image->[Quantity_adjphrase] [PersonJob]s and [PersonJob]s eating [Vegetable]s together</TalelessImages.rulePack.rulesStrings.32>
-  <TalelessImages.rulePack.rulesStrings.33>image->the minor celebrity [NamePerson] [desc_pawn]</TalelessImages.rulePack.rulesStrings.33>
-  <TalelessImages.rulePack.rulesStrings.34>image->a [Character] wearing a [Apparel] [desc_pawn]</TalelessImages.rulePack.rulesStrings.34>
-  <TalelessImages.rulePack.rulesStrings.35>image->a [Community]</TalelessImages.rulePack.rulesStrings.35>
-  <TalelessImages.rulePack.rulesStrings.36>image->a [TerrainFeature]</TalelessImages.rulePack.rulesStrings.36>
-  <TalelessImages.rulePack.rulesStrings.37>image->a [Weapon]</TalelessImages.rulePack.rulesStrings.37>
-  <TalelessImages.rulePack.rulesStrings.38>image->a [TreeType] tree</TalelessImages.rulePack.rulesStrings.38>
-  <TalelessImages.rulePack.rulesStrings.39>image->a [NaturalObject]</TalelessImages.rulePack.rulesStrings.39>
-  <TalelessImages.rulePack.rulesStrings.40>image->[Quantity_adjphrase] [Weapon]s</TalelessImages.rulePack.rulesStrings.40>
-  <TalelessImages.rulePack.rulesStrings.41>image->[Quantity_adjphrase] [Vegetable]s</TalelessImages.rulePack.rulesStrings.41>
-  <TalelessImages.rulePack.rulesStrings.42>image->an empty [Apparel]</TalelessImages.rulePack.rulesStrings.42>
-  <TalelessImages.rulePack.rulesStrings.43>image->a [Shape]</TalelessImages.rulePack.rulesStrings.43>
-  <TalelessImages.rulePack.rulesStrings.44>image->a [Shape] surrounded by [Shape]s</TalelessImages.rulePack.rulesStrings.44>
-  <TalelessImages.rulePack.rulesStrings.45>image->an abstracted rendering of [ConceptAny]</TalelessImages.rulePack.rulesStrings.45>
-  <TalelessImages.rulePack.rulesStrings.46>image->a [AdjectiveAny] abstract shape</TalelessImages.rulePack.rulesStrings.46>
-  <TalelessImages.rulePack.rulesStrings.47>desc_pawn(p=12)-></TalelessImages.rulePack.rulesStrings.47>
-  <TalelessImages.rulePack.rulesStrings.48>desc_pawn->flying through the air</TalelessImages.rulePack.rulesStrings.48>
-  <TalelessImages.rulePack.rulesStrings.49>desc_pawn->suspended in the air</TalelessImages.rulePack.rulesStrings.49>
-  <TalelessImages.rulePack.rulesStrings.50>desc_pawn->moving to the left</TalelessImages.rulePack.rulesStrings.50>
-  <TalelessImages.rulePack.rulesStrings.51>desc_pawn->moving to the right</TalelessImages.rulePack.rulesStrings.51>
-  <TalelessImages.rulePack.rulesStrings.52>desc_pawn->sitting on a table</TalelessImages.rulePack.rulesStrings.52>
-  <TalelessImages.rulePack.rulesStrings.53>desc_pawn->seen through a looking glass</TalelessImages.rulePack.rulesStrings.53>
-  <TalelessImages.rulePack.rulesStrings.54>desc_pawn->rendered in silhouette</TalelessImages.rulePack.rulesStrings.54>
-  <TalelessImages.rulePack.rulesStrings.55>desc_pawn->riding on a [Animal] wearing a [Apparel]</TalelessImages.rulePack.rulesStrings.55>
-  <TalelessImages.rulePack.rulesStrings.56>desc_pawn->looking [AdjectiveAny]</TalelessImages.rulePack.rulesStrings.56>
-  <TalelessImages.rulePack.rulesStrings.57>desc_pawn->covered in [Gore]</TalelessImages.rulePack.rulesStrings.57>
-
-
+  <TalelessImages.rulePack.rulesStrings.0>image_westerado-&gt;a [outlander_westerado] surrounded by [outlander_westerado]s</TalelessImages.rulePack.rulesStrings.0>
+  <TalelessImages.rulePack.rulesStrings.1>image_westerado-&gt;a [outlander_westerado] playing [game] with [quantity_adjphrase] [outlander_westerado]s</TalelessImages.rulePack.rulesStrings.1>
+  <TalelessImages.rulePack.rulesStrings.2>image_westerado-&gt;a [outlander_westerado] [subject_desc] holding a [weapon_westerado]</TalelessImages.rulePack.rulesStrings.2>
+  <TalelessImages.rulePack.rulesStrings.3>image_westerado-&gt;a solitary [outlander_westerado]</TalelessImages.rulePack.rulesStrings.3>
+  <TalelessImages.rulePack.rulesStrings.4>image_westerado-&gt;a [adjective] [outlander_westerado] wearing a [apparel_westerado]</TalelessImages.rulePack.rulesStrings.4>
+  <TalelessImages.rulePack.rulesStrings.5>image_westerado-&gt;a lone [apparel_westerado] [subject_desc]</TalelessImages.rulePack.rulesStrings.5>
+  <TalelessImages.rulePack.rulesStrings.6>image_westerado-&gt;[animal]s playing [game]</TalelessImages.rulePack.rulesStrings.6>
+  <TalelessImages.rulePack.rulesStrings.7>image_westerado-&gt;an abstracted depiction of [concept]</TalelessImages.rulePack.rulesStrings.7>
+  <TalelessImages.rulePack.rulesStrings.8>image_westerado-&gt;a [community_westerado]</TalelessImages.rulePack.rulesStrings.8>
+  <TalelessImages.rulePack.rulesStrings.9>image_westerado-&gt;a [weapon_westerado]</TalelessImages.rulePack.rulesStrings.9>
+  <TalelessImages.rulePack.rulesStrings.10>image_westerado-&gt;[quantity_adjphrase] [weapon_westerado]s</TalelessImages.rulePack.rulesStrings.10>
+  <TalelessImages.rulePack.rulesStrings.11>image_westerado-&gt;the minor celebrity [personname] [subject_desc]</TalelessImages.rulePack.rulesStrings.11>
+  <TalelessImages.rulePack.rulesStrings.12>image_westerado-&gt;a [ship_westerado] [combat_navy_westerado] a [ship_westerado]</TalelessImages.rulePack.rulesStrings.12>
+  <TalelessImages.rulePack.rulesStrings.13>image_westerado-&gt;[quantity_adjphrase] [ship_westerado] [combat_navy_westerado] [quantity_adjphrase] [ship_westerado]</TalelessImages.rulePack.rulesStrings.13>
+  <TalelessImages.rulePack.rulesStrings.14>image_westerado-&gt;a [ship_westerado] [combat_navy_westerado] a [ship_westerado], gunpowder smoke fills the space between them</TalelessImages.rulePack.rulesStrings.14>
+  <TalelessImages.rulePack.rulesStrings.15>image_westerado-&gt;[quantity_adjphrase] [ship_westerado] [combat_navy_westerado] [quantity_adjphrase] [ship_westerado], gunpowder smoke fills the space between them</TalelessImages.rulePack.rulesStrings.15>
+  <TalelessImages.rulePack.rulesStrings.16>image_westerado-&gt;a [ship_westerado] [combat_navy_westerado] a [ship_westerado] in the [weather_westerado]</TalelessImages.rulePack.rulesStrings.16>
+  <TalelessImages.rulePack.rulesStrings.17>image_westerado-&gt;[quantity_adjphrase] [ship_westerado] [combat_navy_westerado] [quantity_adjphrase] [ship_westerado] in the [weather_westerado]</TalelessImages.rulePack.rulesStrings.17>
+  <TalelessImages.rulePack.rulesStrings.18>image_westerado-&gt;a [ship_westerado] [combat_navy_westerado] a [ship_westerado] at [timeofday_westerado]</TalelessImages.rulePack.rulesStrings.18>
+  <TalelessImages.rulePack.rulesStrings.19>image_westerado-&gt;[quantity_adjphrase] [ship_westerado] [combat_navy_westerado] [quantity_adjphrase] [ship_westerado] at [timeofday_westerado]</TalelessImages.rulePack.rulesStrings.19>
+  <TalelessImages.rulePack.rulesStrings.20>image_westerado-&gt;a lone [ship_westerado] in [weather_ocean_westerado]</TalelessImages.rulePack.rulesStrings.20>
+  <TalelessImages.rulePack.rulesStrings.21>image_westerado-&gt;a lone [ship_westerado] in [weather_ocean_westerado] at [timeofday_westerado]</TalelessImages.rulePack.rulesStrings.21>
+  <TalelessImages.rulePack.rulesStrings.22>image_westerado-&gt;two [ship_westerado]s facing opposite directions</TalelessImages.rulePack.rulesStrings.22>
+  <TalelessImages.rulePack.rulesStrings.23>image_westerado-&gt;a [outlander_westerado] envisioning [alexjones_westerado] in a dream</TalelessImages.rulePack.rulesStrings.23>
+  <TalelessImages.rulePack.rulesStrings.24>image-&gt;a solitary [Character] [desc_pawn]</TalelessImages.rulePack.rulesStrings.24>
+  <TalelessImages.rulePack.rulesStrings.25>image-&gt;a solitary [Character] [desc_pawn] near a [TerrainFeature]</TalelessImages.rulePack.rulesStrings.25>
+  <TalelessImages.rulePack.rulesStrings.26>image-&gt;a solitary [Character] [desc_pawn] near a [Community]</TalelessImages.rulePack.rulesStrings.26>
+  <TalelessImages.rulePack.rulesStrings.27>image-&gt;a [Character] [desc_pawn] surrounded by [Character]s</TalelessImages.rulePack.rulesStrings.27>
+  <TalelessImages.rulePack.rulesStrings.28>image-&gt;[Character]s playing [Game]</TalelessImages.rulePack.rulesStrings.28>
+  <TalelessImages.rulePack.rulesStrings.29>image-&gt;a [Character] [desc_pawn] playing [Game] with [Quantity_adjphrase] [Character]s</TalelessImages.rulePack.rulesStrings.29>
+  <TalelessImages.rulePack.rulesStrings.30>image-&gt;a [Character] [desc_pawn] holding a [Weapon]</TalelessImages.rulePack.rulesStrings.30>
+  <TalelessImages.rulePack.rulesStrings.31>image-&gt;a [Character] [desc_pawn] eating a [Vegetable]</TalelessImages.rulePack.rulesStrings.31>
+  <TalelessImages.rulePack.rulesStrings.32>image-&gt;[Quantity_adjphrase] [PersonJob]s and [PersonJob]s eating [Vegetable]s together</TalelessImages.rulePack.rulesStrings.32>
+  <TalelessImages.rulePack.rulesStrings.33>image-&gt;the minor celebrity [NamePerson] [desc_pawn]</TalelessImages.rulePack.rulesStrings.33>
+  <TalelessImages.rulePack.rulesStrings.34>image-&gt;a [Character] wearing a [Apparel] [desc_pawn]</TalelessImages.rulePack.rulesStrings.34>
+  <TalelessImages.rulePack.rulesStrings.35>image-&gt;a [Community]</TalelessImages.rulePack.rulesStrings.35>
+  <TalelessImages.rulePack.rulesStrings.36>image-&gt;a [TerrainFeature]</TalelessImages.rulePack.rulesStrings.36>
+  <TalelessImages.rulePack.rulesStrings.37>image-&gt;a [Weapon]</TalelessImages.rulePack.rulesStrings.37>
+  <TalelessImages.rulePack.rulesStrings.38>image-&gt;a [TreeType] tree</TalelessImages.rulePack.rulesStrings.38>
+  <TalelessImages.rulePack.rulesStrings.39>image-&gt;a [NaturalObject]</TalelessImages.rulePack.rulesStrings.39>
+  <TalelessImages.rulePack.rulesStrings.40>image-&gt;[Quantity_adjphrase] [Weapon]s</TalelessImages.rulePack.rulesStrings.40>
+  <TalelessImages.rulePack.rulesStrings.41>image-&gt;[Quantity_adjphrase] [Vegetable]s</TalelessImages.rulePack.rulesStrings.41>
+  <TalelessImages.rulePack.rulesStrings.42>image-&gt;an empty [Apparel]</TalelessImages.rulePack.rulesStrings.42>
+  <TalelessImages.rulePack.rulesStrings.43>image-&gt;a [Shape]</TalelessImages.rulePack.rulesStrings.43>
+  <TalelessImages.rulePack.rulesStrings.44>image-&gt;a [Shape] surrounded by [Shape]s</TalelessImages.rulePack.rulesStrings.44>
+  <TalelessImages.rulePack.rulesStrings.45>image-&gt;an abstracted rendering of [ConceptAny]</TalelessImages.rulePack.rulesStrings.45>
+  <TalelessImages.rulePack.rulesStrings.46>image-&gt;a [AdjectiveAny] abstract shape</TalelessImages.rulePack.rulesStrings.46>
+  <TalelessImages.rulePack.rulesStrings.47>desc_pawn(p=12)-&gt;</TalelessImages.rulePack.rulesStrings.47>
+  <TalelessImages.rulePack.rulesStrings.48>desc_pawn-&gt;flying through the air</TalelessImages.rulePack.rulesStrings.48>
+  <TalelessImages.rulePack.rulesStrings.49>desc_pawn-&gt;suspended in the air</TalelessImages.rulePack.rulesStrings.49>
+  <TalelessImages.rulePack.rulesStrings.50>desc_pawn-&gt;moving to the left</TalelessImages.rulePack.rulesStrings.50>
+  <TalelessImages.rulePack.rulesStrings.51>desc_pawn-&gt;moving to the right</TalelessImages.rulePack.rulesStrings.51>
+  <TalelessImages.rulePack.rulesStrings.52>desc_pawn-&gt;sitting on a table</TalelessImages.rulePack.rulesStrings.52>
+  <TalelessImages.rulePack.rulesStrings.53>desc_pawn-&gt;seen through a looking glass</TalelessImages.rulePack.rulesStrings.53>
+  <TalelessImages.rulePack.rulesStrings.54>desc_pawn-&gt;rendered in silhouette</TalelessImages.rulePack.rulesStrings.54>
+  <TalelessImages.rulePack.rulesStrings.55>desc_pawn-&gt;riding on a [Animal] wearing a [Apparel]</TalelessImages.rulePack.rulesStrings.55>
+  <TalelessImages.rulePack.rulesStrings.56>desc_pawn-&gt;looking [AdjectiveAny]</TalelessImages.rulePack.rulesStrings.56>
+  <TalelessImages.rulePack.rulesStrings.57>desc_pawn-&gt;covered in [Gore]</TalelessImages.rulePack.rulesStrings.57>
 </LanguageData>
