@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Plants Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/ThingDef[defName="Plant_Chili_Westerado"]</xpath>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/RecipeDef[defName="CookChiliPot_Westerado"]/ingredients/li/filter/thingDefs/li[text()="RawChili_Westerado"]</xpath>
+          <value>
+            <li>VCE_RawPepper</li>
+          </value>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/RecipeDef[defName="CookChiliPot_Westerado"]/defaultIngredientFilter/thingDefs/li[text()="RawChili_Westerado"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/RecipeDef[defName="CookChiliPot_Westerado"]/fixedIngredientFilter/thingDefs/li[text()="RawChili_Westerado"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/ThingDef[defName="RawChili_Westerado"]</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

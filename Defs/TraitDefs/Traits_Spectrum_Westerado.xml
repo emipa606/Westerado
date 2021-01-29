@@ -45,12 +45,6 @@
         <label>bad</label>
         <description>[PAWN_nameDef] is just a generally bad person. This subtly repels others during social interactions.</description>
         <degree>-1</degree>
-        <randomMentalState>MurderousRage</randomMentalState>
-        <randomMentalStateMtbDaysMoodCurve>
-          <points>
-            <li>(0, 40)</li>
-          </points>
-        </randomMentalStateMtbDaysMoodCurve>
         <statOffsets>
           <MeleeHitChance>0.15</MeleeHitChance>
           <SocialImpact>-0.10</SocialImpact>
@@ -61,12 +55,6 @@
         <label>ugly</label>
         <description>[PAWN_nameDef] is ugly. More so in character than looks, but also looks. Lazy, quick to anger, deceptive, and gluttonous are all descriptions that would befit [PAWN_objective].</description>
         <degree>-2</degree>
-        <randomMentalState>SocialFighting</randomMentalState>
-        <randomMentalStateMtbDaysMoodCurve>
-          <points>
-            <li>(0, 25)</li>
-          </points>
-        </randomMentalStateMtbDaysMoodCurve>
         <statOffsets>
           <AimingDelayFactor>-0.25</AimingDelayFactor>
           <RestRateMultiplier>-0.20</RestRateMultiplier>
