@@ -18,6 +18,7 @@
   <loadAfter>
     <li>syrchalis.universalfermenter</li>
     <li>CETeam.CombatExtended</li>
+    <li>syrchalis.traitvalue</li>
   </loadAfter>
   <description>[img]https://i.imgur.com/WAEzk68.png[/img]
 Update of Soyuz, DanRatherman, SpiderCamp, and dismarzeros mod
@@ -38,6 +39,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1634367989
 - Fixed graphics for animals and added a Wapiti as an Elk-variant instead of overwriting vanilla.
 - Added patches for Vanilla Plants Expanded and Vanilla Furniture Expanded - Security, via Röstli 
 - Added patch for Infectious Creatures to harvest rattlesnake venom-gland
+- Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2451324814][SYR] Trait Value[/url]
 
 Works well with
 [list]

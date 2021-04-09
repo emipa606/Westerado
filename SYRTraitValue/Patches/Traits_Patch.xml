@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/TraitDef[defName = "Frontiersman_Westerado"]</xpath>
+    <value>
+      <li Class="SyrTraitValue.TraitValueExtension">
+        <traitValues>
+          <li>20</li>
+        </traitValues>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/TraitDef[defName = "DeadEyeTraits_Westerado"]</xpath>
+    <value>
+      <li Class="SyrTraitValue.TraitValueExtension">
+        <traitValues>
+          <li>1, 10</li>
+          <li>2, 20</li>
+        </traitValues>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/TraitDef[defName = "DollarTrilogyTraits_Westerado"]</xpath>
+    <value>
+      <li Class="SyrTraitValue.TraitValueExtension">
+        <traitValues>
+          <li>1, 10</li>
+          <li>-1, -10</li>
+          <li>-2, -20</li>
+        </traitValues>
+      </li>
+    </value>
+  </Operation>
+</Patch>
