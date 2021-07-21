@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Simple Ivory</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/RecipeDef[defName="ProcessIvoryWldBoar"]/ingredients/li/filter/thingDefs/li[text()="WildBoarTusk"]</xpath>
+          <value>
+            <li>BoarTusk_Westerado</li>
+          </value>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/ThingDef[defName="WildBoarTusk"]</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

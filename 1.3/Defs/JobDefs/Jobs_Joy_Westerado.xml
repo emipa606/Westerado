@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Meditative -->
+  <JobDef>
+    <defName>Whittle_Westerado</defName>
+    <driverClass>JobDriver_RelaxAlone</driverClass>
+    <reportString>whittling.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joySkill>Crafting</joySkill>
+    <joyXpPerTick>0.004</joyXpPerTick>
+    <joyKind>Meditative</joyKind>
+    <taleOnCompletion>Meditated</taleOnCompletion>
+  </JobDef>
+  <!-- Building interaction -->
+  <JobDef>
+    <defName>PlayPoker_Westerado</defName>
+    <driverClass>JobDriver_PlayPoker</driverClass>
+    <reportString>playing poker.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joyMaxParticipants>4</joyMaxParticipants>
+    <joyGainRate>1.2</joyGainRate>
+    <joySkill>Intellectual</joySkill>
+    <joyXpPerTick>0.004</joyXpPerTick>
+    <joyKind>Gaming_Cerebral</joyKind>
+    <taleOnCompletion>PlayedGame</taleOnCompletion>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+</Defs>

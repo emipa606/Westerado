@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Bison_Westerado</defName>
+    <label>bison fur</label>
+    <description>Tanned bison fur. It is durable in combat, and provides protection from weather.</description>
+    <graphicData>
+      <color>(162,106,57)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.6</MarketValue>
+      <StuffPower_Armor_Sharp>0.78</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(162,106,57)</color>
+      <commonality>0.035</commonality>
+      <statFactors>
+        <MaxHitPoints>1.25</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_GilaMonster_Westerado</defName>
+    <label>gila-monster skin</label>
+    <description>The tanned skin of a cold-blooded Gila Monster. Gila Monster skin is reasonably tough, but does not insulate well at all.</description>
+    <statBases>
+      <MarketValue>2.6</MarketValue>
+      <StuffPower_Armor_Sharp>0.68</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.28</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+    </statBases>
+    <graphicData>
+      <color>(51,26,37)</color>
+    </graphicData>
+    <stuffProps>
+      <color>(51,26,37)</color>
+      <commonality>0.045</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Coyote_Westerado</defName>
+    <label>coyote fur</label>
+    <description>The pelt of a coyote. It protects well from the cold and sharp objects alike.</description>
+    <graphicData>
+      <color>(161,134,113)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+      <StuffPower_Armor_Sharp>0.62</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.12</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>25</StuffPower_Insulation_Cold>
+    </statBases>
+    <stuffProps>
+      <color>(161,134,113)</color>
+      <commonality>0.080</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+</Defs>

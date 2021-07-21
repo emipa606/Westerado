@@ -1,0 +1,671 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ========== Trapper ========== -->
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>Apparel_TrapperHat_Westerado</defName>
+    <label>trapper hat</label>
+    <description>A funky-looking hat which insulates versus cold well.</description>
+    <recipeMaker>
+      <researchPrerequisite>FrontierTech_Westerado</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Hats/TrapperHat/TrapperHat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>3000</WorkToMake>
+      <Mass>0.22</Mass>
+      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.50</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.10</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Hats/TrapperHat/TrapperHat</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialBasic</li>
+        <li>Outlaw_Westerado</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <!--<colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.54,0.15,1)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(0.9,0.6,0.18,1)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(0.9,0.42,0.23,1)</only>
+        </li>
+      </options>
+    </colorGenerator>-->
+  </ThingDef>
+  <!-- ==================== Cowboy Hat Spin-offs ==================== -->
+  <!-- ========== Flat-brimmed ========== -->
+  <ThingDef ParentName="CowboyHat">
+    <defName>Apparel_FlatBrimmedCowboyHat_Westerado</defName>
+    <label>flat-brimmed cowboy hat</label>
+    <description>Stylish yet rugged, this hat keeps the sun and rain off - and it gives anyone who wears it a bit of extra charm. It is one of the most important parts of traditional western attire.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Hats/FlatBrimmedHat/FlatBrimmedHat</texPath>
+    </graphicData>
+    <costStuffCount>20</costStuffCount>
+    <statBases>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.14</Mass>
+      <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Hats/FlatBrimmedHat/FlatBrimmedHat</wornGraphicPath>
+      <tags>
+        <li>IndustrialBasic</li>
+        <li>Outlaw_Westerado</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  <!-- ========== Ten Galleon ========== -->
+  <ThingDef ParentName="CowboyHat">
+    <defName>Apparel_TenGallon_Westerado</defName>
+    <label>ten gallon cowboy hat</label>
+    <description>Stylish yet rugged, this hat keeps the sun and rain off - and it gives anyone who wears it a bit of extra charm. It is one of the most important parts of traditional western attire.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Hats/TenGallonHat/TenGallonHat</texPath>
+    </graphicData>
+    <costStuffCount>20</costStuffCount>
+    <statBases>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.18</Mass>
+      <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.10</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Hats/TenGallonHat/TenGallonHat</wornGraphicPath>
+      <tags>
+        <li>IndustrialBasic</li>
+        <li>Outlaw_Westerado</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  <!-- ========== Ten Galleon ========== -->
+  <ThingDef ParentName="CowboyHat">
+    <defName>Apparel_SaggyHat_Westerado</defName>
+    <label>saggy hat</label>
+    <description>Not very stylish, but cheap. This hat keeps the sun and rain off.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Hats/SaggyHat/SaggyHat</texPath>
+    </graphicData>
+    <costStuffCount>15</costStuffCount>
+    <statBases>
+      <WorkToMake>850</WorkToMake>
+      <Mass>0.22</Mass>
+      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>-0.10</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Hats/SaggyHat/SaggyHat</wornGraphicPath>
+      <tags>
+        <li>Outlaw_Westerado</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  <!-- ========== Sombrero ========== -->
+  <ThingDef ParentName="CowboyHat">
+    <defName>Apparel_SombreroHat_Westerado</defName>
+    <label>sombrero</label>
+    <description>A funky-looking hat which makes you impervious to spicy food.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Hats/SombreroHat/SombreroHat</texPath>
+    </graphicData>
+    <costStuffCount>20</costStuffCount>
+    <statBases>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.22</Mass>
+      <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.60</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.10</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Hats/SombreroHat/SombreroHat</wornGraphicPath>
+      <tags>
+        <li>IndustrialBasic</li>
+        <li>Outlaw_Westerado</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  <!-- ========== Top Hat ========== -->
+  <ThingDef ParentName="CowboyHat">
+    <defName>Apparel_TopHat_Westerado</defName>
+    <label>top hat</label>
+    <description>Exceptionally stylish, this hat gives anyone who wears it a bit of extra charm. It is one of the most important parts of snake oil salesman attire.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Hats/WesteradoTopHat/WesteradoTopHat</texPath>
+    </graphicData>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <Mass>0.20</Mass>
+      <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+      <TradePriceImprovement>0.15</TradePriceImprovement>
+      <NegotiationAbility>0.15</NegotiationAbility>
+    </equippedStatOffsets>
+    <generateCommonality>0.05</generateCommonality>
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Hats/WesteradoTopHat/WesteradoTopHat</wornGraphicPath>
+      <tags>
+        <li>IndustrialBasic</li>
+        <li>Outlaw_Westerado</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  <!-- ========== Harlow's Hat ========== -->
+  <ThingDef ParentName="CowboyHat">
+    <defName>Apparel_HarlowHat_Westerado</defName>
+    <label>harlow hat</label>
+    <description>Exceptionally stylish, this hat gives anyone who wears it a bit of extra charm. It is one of the most important parts of snake oil salesman attire.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Hats/HarlowHat/HarlowHat</texPath>
+    </graphicData>
+    <costStuffCount>75</costStuffCount>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>0.16</Mass>
+      <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.20</SocialImpact>
+    </equippedStatOffsets>
+    <generateCommonality>0.001</generateCommonality>
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Hats/HarlowHat/HarlowHat</wornGraphicPath>
+      <tags>
+        <li>Outlaw_Westerado</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  <!-- ==================== Rebel ==================== -->
+  <!-- ========== Rebel Hat ========== -->
+  <!--<ThingDef ParentName="RebelHatBase_Westerado">
+		<defName>Apparel_RebelHat_Westerado</defName>
+		<label>rebel hat</label>
+		<description>A slumped grey hat, popular with rebels.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Hats/RebelHat/RebelHat</texPath>
+		</graphicData>
+		<costList>
+      <Cloth>35</Cloth>
+			<Steel>3</Steel>
+    </costList>
+		<statBases>
+			<WorkToMake>4200</WorkToMake>
+      <MaxHitPoints>75</MaxHitPoints>
+      <Mass>0.2</Mass>
+      <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <Insulation_Cold>0.12</Insulation_Cold>
+      <Insulation_Heat>0.25</Insulation_Heat>
+      <EquipDelay>1.2</EquipDelay>
+		</statBases>
+		<generateCommonality>0.25</generateCommonality>
+		<equippedStatOffsets>
+		  <SocialImpact>-0.10</SocialImpact>
+			<MeleeDodgeChance>0.05</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Hats/RebelHat/RebelHat</wornGraphicPath>
+			<tags>
+        <li>RebelApparel_Westerado</li>
+      </tags>
+		</apparel>
+	</ThingDef>-->
+  <ThingDef ParentName="HatMakeableBase" Name="RebelHatBase_Westerado">
+    <defName>Apparel_RebelHat_Westerado</defName>
+    <label>rebel hat</label>
+    <description>A slumped grey hat, popular with rebels.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Hats/RebelHat/RebelHat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Cloth>35</Cloth>
+      <Steel>2</Steel>
+    </costList>
+    <statBases>
+      <WorkToMake>4200</WorkToMake>
+      <MaxHitPoints>75</MaxHitPoints>
+      <Mass>0.2</Mass>
+      <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <Insulation_Cold>0.12</Insulation_Cold>
+      <Insulation_Heat>0.25</Insulation_Heat>
+      <EquipDelay>1.2</EquipDelay>
+    </statBases>
+    <generateCommonality>0.25</generateCommonality>
+    <equippedStatOffsets>
+      <SocialImpact>-0.10</SocialImpact>
+      <MeleeDodgeChance>0.05</MeleeDodgeChance>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Hats/RebelHat/RebelHat</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>RebelApparel_Westerado</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.7,0.7,0.9,1)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(1.0,1.0,1.0,1)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(0.9,0.9,0.9,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  <!-- ========== Rebel Officer Hat ========== -->
+  <!--<ThingDef ParentName="CowboyHat">
+		<defName>Apparel_RebelOfficerHat_Westerado</defName>
+		<label>rebel officer hat</label>
+		<description>A rimmed grey hat, popular with rebel officers.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Hats/RebelOfficerHat/RebelOfficerHat</texPath>
+		</graphicData>
+		<costList>
+      <Cloth>45</Cloth>
+			<Steel>5</Steel>
+    </costList>
+		<statBases>
+			<WorkToMake>4200</WorkToMake>
+      <MaxHitPoints>75</MaxHitPoints>
+      <Mass>0.3</Mass>
+      <ArmorRating_Sharp>0.16</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.07</ArmorRating_Blunt>
+      <Insulation_Cold>0.18</Insulation_Cold>
+      <Insulation_Heat>0.22</Insulation_Heat>
+      <EquipDelay>1.2</EquipDelay>
+		</statBases>
+		<generateCommonality>0.15</generateCommonality>
+		<equippedStatOffsets>
+		  <SocialImpact>-0.15</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Hats/RebelOfficerHat/RebelOfficerHat</wornGraphicPath>
+			<tags>
+        <li>RebelApparel_Westerado</li>
+      </tags>
+		</apparel>
+	</ThingDef>-->
+  <ThingDef ParentName="RebelHatBase_Westerado">
+    <defName>Apparel_RebelOfficerHat_Westerado</defName>
+    <label>rebel officer hat</label>
+    <description>A rimmed grey hat, popular with rebel officers.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Hats/RebelOfficerHat/RebelOfficerHat</texPath>
+    </graphicData>
+    <costList>
+      <Cloth>45</Cloth>
+      <Steel>3</Steel>
+    </costList>
+    <statBases>
+      <WorkToMake>4800</WorkToMake>
+      <MaxHitPoints>75</MaxHitPoints>
+      <Mass>0.3</Mass>
+      <ArmorRating_Sharp>0.16</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.07</ArmorRating_Blunt>
+      <Insulation_Cold>0.18</Insulation_Cold>
+      <Insulation_Heat>0.22</Insulation_Heat>
+      <EquipDelay>1.2</EquipDelay>
+    </statBases>
+    <generateCommonality>0.15</generateCommonality>
+    <equippedStatOffsets>
+      <SocialImpact>-0.15</SocialImpact>
+      <MeleeDodgeChance>0.07</MeleeDodgeChance>
+    </equippedStatOffsets>
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Hats/RebelOfficerHat/RebelOfficerHat</wornGraphicPath>
+      <tags>
+        <li>RebelApparel_Westerado</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  <!-- ==================== First Nation ==================== -->
+  <!-- ========== Indian Joe Hat ========== -->
+  <ThingDef ParentName="CowboyHat">
+    <defName>Apparel_RoundDomeHat_Westerado</defName>
+    <label>round dome hat</label>
+    <description>A funky-looking hat which makes you impervious to spicy food.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Hats/IndianJoeHat/IndianJoeHat</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <costStuffCount>35</costStuffCount>
+    <statBases>
+      <WorkToMake>3600</WorkToMake>
+      <Mass>0.26</Mass>
+      <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.10</SocialImpact>
+      <TradePriceImprovement>0.05</TradePriceImprovement>
+      <NegotiationAbility>0.05</NegotiationAbility>
+    </equippedStatOffsets>
+    <generateAllowChance>0.25</generateAllowChance>
+    <generateCommonality>0.001</generateCommonality>
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Hats/IndianJoeHat/IndianJoeHat</wornGraphicPath>
+      <tags>
+        <li>FirstNationApparelTrader_Westerado</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  <!-- ========== Indian War Bonnet ========== -->
+  <!--<ThingDef ParentName="HatMakeableBase" Name="WarBonnetBase_Westerado">
+    <defName>Apparel_WarBonnetHat_Westerado</defName>
+    <label>war bonnet</label>
+    <description>A beautiful bonnet signifying status. Mainly used on the battlefield.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Hats/WarBonnet/WarBonnet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Cloth>80</Cloth>
+    </costList>
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1.4</Mass>
+      <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.20</SocialImpact>
+			<MeleeHitChance>0.15</MeleeHitChance>
+			<MeleeDPS>0.10</MeleeDPS>
+			<MeleeDodgeChance>0.05</MeleeDodgeChance>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Hats/WarBonnet/WarBonnet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>FirstNationApparelChief_Westerado</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>4</weight>
+          <only>RGBA(1,1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>-->
+  <ThingDef ParentName="HatMakeableBase" Name="WarBonnetBase_Westerado">
+    <defName>Apparel_WarBonnetHat_Westerado</defName>
+    <label>war bonnet</label>
+    <description>A beautiful bonnet signifying status. Mainly used on the battlefield.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Hats/WarBonnet/WarBonnet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Cloth>80</Cloth>
+    </costList>
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1.4</Mass>
+      <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.20</SocialImpact>
+      <MeleeHitChance>0.15</MeleeHitChance>
+      <MeleeDPS>0.10</MeleeDPS>
+      <MeleeDodgeChance>0.05</MeleeDodgeChance>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Hats/WarBonnet/WarBonnet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>FirstNationApparelChief_Westerado</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(1.0,1.0,1.0,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  <!-- ========== Indian Bison War Bonnet ========== -->
+  <ThingDef ParentName="WarBonnetBase_Westerado">
+    <defName>Apparel_BisonWarBonnetHat_Westerado</defName>
+    <label>bison war bonnet</label>
+    <description>A beautiful bonnet signifying status. Mainly used in war.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Hats/BisonWarBonnet/BisonWarBonnet</texPath>
+    </graphicData>
+    <costList>
+      <Cloth>20</Cloth>
+      <Corpse_Bison_Westerado>1</Corpse_Bison_Westerado>
+      <!--<Bison_Westerado_Leather>60</Bison_Westerado_Leather>-->
+    </costList>
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1.8</Mass>
+      <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+      <MeleeHitChance>0.15</MeleeHitChance>
+      <MeleeDPS>0.10</MeleeDPS>
+      <MeleeDodgeChance>0.05</MeleeDodgeChance>
+    </equippedStatOffsets>
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Hats/BisonWarBonnet/BisonWarBonnet</wornGraphicPath>
+      <tags>
+        <li>FirstNationApparelBison_Westerado</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  <!-- ========== Indian Single Feather Bonnet ========== -->
+  <ThingDef ParentName="WarBonnetBase_Westerado">
+    <defName>Apparel_SingleFeatherBonnetHat_Westerado</defName>
+    <label>single feather bonnet</label>
+    <description>A beautiful bonnet with a single feather.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Hats/SingleFeatherBonnet/SingleFeatherBonnet</texPath>
+    </graphicData>
+    <costList>
+      <Cloth>40</Cloth>
+    </costList>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <MaxHitPoints>75</MaxHitPoints>
+      <Mass>0.7</Mass>
+      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.10</SocialImpact>
+      <MeleeDodgeChance>0.05</MeleeDodgeChance>
+    </equippedStatOffsets>
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Hats/SingleFeatherBonnet/SingleFeatherBonnet</wornGraphicPath>
+      <tags>
+        <li>FirstNationApparel_Westerado</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  <!-- ==================== Misc ==================== -->
+  <!-- ========== Bandana ========== -->
+  <ThingDef ParentName="HatMakeableBase" Name="Bandana_Westerado">
+    <defName>Apparel_Bandana_Westerado</defName>
+    <label>bandana</label>
+    <description>Useful when robbing trains or as protection against the environment.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Hats/DesperadoBandana/DesperadoBandana</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>12</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>2500</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.8</Mass>
+      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.6</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <EatingSpeed>-0.15</EatingSpeed>
+      <ToxicSensitivity>-0.15</ToxicSensitivity>
+      <SocialImpact>-0.15</SocialImpact>
+      <TradePriceImprovement>-0.15</TradePriceImprovement>
+      <NegotiationAbility>-0.15</NegotiationAbility>
+    </equippedStatOffsets>
+    <generateAllowChance>0.33</generateAllowChance>
+    <generateCommonality>0.001</generateCommonality>
+    <apparel>
+      <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+      <bodyPartGroups>
+        <li>Mouth</li>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Hats/DesperadoBandana/DesperadoBandana</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialBasic</li>
+        <li>Outlaw_Westerado</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>5</weight>
+          <min>RGBA(0.3,0.3,0.3,1)</min>
+          <max>RGBA(0.8,0.8,0.8,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+</Defs>

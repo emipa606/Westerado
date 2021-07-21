@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="VG_BuildingBase" Abstract="True">
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+    <statBases>
+      <SellPriceFactor>0.70</SellPriceFactor>
+    </statBases>
+  </ThingDef>
+  <!-- <ThingDef ParentName="VG_BuildingBase">
+    <defName>FermentingBarrel</defName>
+    <label>fermenting barrel</label>
+    <description>a fermenting barrel for making different types of alcohols.</description>
+    <graphicData>
+      <texPath>Things/Building/FermentingBarrel/FermentingBarrel</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <damageData>
+        <rect>(0.05,0.1,0.9,0.9)</rect>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <canOverlapZones>false</canOverlapZones>
+    <fillPercent>0.45</fillPercent>
+    <pathCost>60</pathCost>
+    <rotatable>true</rotatable>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <useHitPoints>true</useHitPoints>
+    <tickerType>Rare</tickerType>
+    <statBases>
+      <Cleanliness>-7</Cleanliness>
+      <WorkToBuild>700</WorkToBuild>
+      <Mass>10</Mass>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <designationCategory>Production</designationCategory>
+    <researchPrerequisites>
+      <li>Brewing</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="Drinks.CompProperties_UniversalFermenter">
+        <products>
+          <li>
+            <thingDef>Beer</thingDef>
+            <ingredientFilter>
+              <thingDefs>
+                <li>Wort</li>
+              </thingDefs>
+            </ingredientFilter>
+            <maxCapacity>40</maxCapacity>
+            <baseFermentationDuration>300000</baseFermentationDuration>
+            <efficiency>1</efficiency>
+          </li>
+          <li>
+            <thingDef>RyeWhiskey_Westerado</thingDef>
+            <ingredientFilter>
+              <thingDefs>
+                <li>RyeMash_Westererado</li>
+              </thingDefs>
+            </ingredientFilter>
+            <maxCapacity>30</maxCapacity>
+            <baseFermentationDuration>420000</baseFermentationDuration>
+            <efficiency>1</efficiency>
+          </li>
+        </products>
+      </li>
+    </comps>
+  </ThingDef> -->
+  <ThingDef ParentName="VG_BuildingBase">
+    <defName>Distillery_Westerado</defName>
+    <label>distillery</label>
+    <description>a fermenting barrel for making different types of alcohols.</description>
+    <graphicData>
+      <texPath>Things/Building/Production/Distillery/Distillery</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <damageData>
+        <rect>(0.05,0.1,0.9,0.9)</rect>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <canOverlapZones>false</canOverlapZones>
+    <fillPercent>0.45</fillPercent>
+    <pathCost>60</pathCost>
+    <rotatable>false</rotatable>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>20</Steel>
+    </costList>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <useHitPoints>true</useHitPoints>
+    <tickerType>Rare</tickerType>
+    <statBases>
+      <Cleanliness>-8</Cleanliness>
+      <WorkToBuild>1200</WorkToBuild>
+      <Mass>28</Mass>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <designationCategory>Production</designationCategory>
+    <researchPrerequisites>
+      <li>DistillingTech_Westerado</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="UniversalFermenter.CompProperties_UniversalFermenter">
+        <showProductIcon>true</showProductIcon>
+        <barOffset>(0.0, 0.25)</barOffset>
+        <barScale>(1.0, 1.0)</barScale>
+        <processes>
+          <li>
+            <thingDef>Moonshine_Westerado</thingDef>
+            <ingredientFilter>
+              <thingDefs>
+                <li>MoonshineMash_Westerado</li>
+              </thingDefs>
+            </ingredientFilter>
+            <maxCapacity>30</maxCapacity>
+            <processDays>9.666</processDays>
+          </li>
+          <li>
+            <thingDef>Schnapps_Westerado</thingDef>
+            <ingredientFilter>
+              <thingDefs>
+                <li>SchnappsMash_Westerado</li>
+              </thingDefs>
+            </ingredientFilter>
+            <maxCapacity>30</maxCapacity>
+            <processDays>9.166</processDays>
+          </li>
+        </processes>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Security</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/ThingDef[defName="VFES_BearTrap"]</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

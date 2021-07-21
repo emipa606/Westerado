@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef Name="ConvertWeapon_Westerado" Abstract="True">
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <!--<requiredGiverWorkType>Crafting</requiredGiverWorkType>-->
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workSkill>Crafting</workSkill>
+    <recipeUsers>
+      <li>TableMachining</li>
+    </recipeUsers>
+    <researchPrerequisite>PercussionTech_Westerado</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="ConvertWeapon_Westerado">
+    <defName>ConvertMusketToPercussionRifle_Westerado</defName>
+    <label>convert musket into percussion rifle</label>
+    <description>Change the musket action from flintlock to percussion.</description>
+    <jobString>Converting musket rifle into percussion rifle.</jobString>
+    <workAmount>7500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gun_MusketRifle_Westerado</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Gun_PercussionRifle_Westerado>1</Gun_PercussionRifle_Westerado>
+    </products>
+    <skillRequirements>
+      <Crafting>7</Crafting>
+    </skillRequirements>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Gun_MusketRifle_Westerado</li>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Gun_MusketRifle_Westerado</li>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="ConvertWeapon_Westerado">
+    <defName>ConvertFlintlockToPercussionPistol_Westerado</defName>
+    <label>convert flintlock into percussion pistol</label>
+    <description>Change the flintlock action to percussion.</description>
+    <jobString>Converting flintlock into percussion pistol.</jobString>
+    <workAmount>7500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gun_FlintlockPistol_Westerado</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Gun_PercussionPistol_Westerado>1</Gun_PercussionPistol_Westerado>
+    </products>
+    <skillRequirements>
+      <Crafting>7</Crafting>
+    </skillRequirements>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Gun_FlintlockPistol_Westerado</li>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Gun_FlintlockPistol_Westerado</li>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+</Defs>

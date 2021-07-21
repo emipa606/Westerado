@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>PanningSpot_Westerado</defName>
+    <label>panning spot</label>
+    <description>A place where one can pan for gold. It's slow, but rewarding work.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Production/PanningSpot/PanningSpot</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <statBases>
+      <WorkToBuild>300</WorkToBuild>
+      <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+    </statBases>
+    <costList>
+      <Steel>5</Steel>
+      <WoodLog>50</WoodLog>
+    </costList>
+    <constructEffect>ConstructWood</constructEffect>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <useHitPoints>false</useHitPoints>
+    <size>(3,3)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,2)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <recipes>
+      <li>PanForGold_Westerado</li>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <comps>
+      <li>
+        <compClass>CompReportWorkSpeed</compClass>
+      </li>
+    </comps>
+    <terrainAffordanceNeeded>
+    </terrainAffordanceNeeded>
+    <placeWorkers>
+      <li>PlaceWorker_WatermillGenerator</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>FrontierTech_Westerado</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <!--
+	<ThingDef ParentName="BuildingBase">
+    <defName>WatermillGenerator</defName>
+    <label>watermill generator</label>
+    <description>Produces electricity from a river. Must be placed with its wheel in moving water. If watermills are placed too close together, the turbulence they generate will interfere and reduce power generation.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Power/WatermillGenerator/WatermillGeneratorBody</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(5,6)</drawSize>
+      <shadowData>
+        <volume>(2.6,1,2.16)</volume>
+        <offset>(-0.20,0,0)</offset>
+      </shadowData>
+    </graphicData>
+    <castEdgeShadows>false</castEdgeShadows>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<fillPercent>1</fillPercent>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>400</MaxHitPoints>
+      <WorkToBuild>4000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <size>(5,6)</size>
+    <costList>
+      <WoodLog>280</WoodLog>
+      <Steel>80</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlantWater</compClass>
+        <basePowerConsumption>-1100</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <rotatable>true</rotatable>
+    <terrainAffordanceNeeded></terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <placeWorkers>
+      <li>PlaceWorker_WatermillGenerator</li>
+    </placeWorkers>
+    <building>
+			<ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <constructEffect>ConstructWood</constructEffect>
+    <researchPrerequisites><li>WatermillGenerator</li></researchPrerequisites>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+  </ThingDef>-->
+</Defs>

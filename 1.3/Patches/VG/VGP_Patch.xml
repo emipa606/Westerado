@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/ThingDef[defName="VG_Campfire"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RawRye_Westerado"]</xpath>
+        <value>
+          <thingCategories>
+            <li>CookingSupplies</li>
+          </thingCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationInsert">
+        <xpath>Defs/ThingDef[@Name="BambooCampfireInsertion_Westerado"]</xpath>
+        <order>Prepend</order>
+        <value>
+          <WorkGiverDef>
+            <defName>DoBillsCookCampfireBamboo_Westerado</defName>
+            <label>cook meals at bamboo campfire</label>
+            <giverClass>WorkGiver_DoBill</giverClass>
+            <workType>Cooking</workType>
+            <priorityInType>96</priorityInType>
+            <fixedBillGiverDefs>
+              <li>VG_Campfire</li>
+            </fixedBillGiverDefs>
+            <verb>cook</verb>
+            <gerund>cooking at</gerund>
+            <requiredCapacities>
+              <li>Manipulation</li>
+            </requiredCapacities>
+            <prioritizeSustains>true</prioritizeSustains>
+          </WorkGiverDef>
+          <WorkGiverDef>
+            <defName>DoBillsHaulCampfire</defName>
+            <label>do bills at campfire</label>
+            <giverClass>WorkGiver_DoBill</giverClass>
+            <workType>Hauling</workType>
+            <priorityInType>29</priorityInType>
+            <fixedBillGiverDefs>
+              <li>VG_Campfire</li>
+            </fixedBillGiverDefs>
+            <verb>work at</verb>
+            <gerund>working at</gerund>
+            <requiredCapacities>
+              <li>Manipulation</li>
+            </requiredCapacities>
+            <prioritizeSustains>true</prioritizeSustains>
+          </WorkGiverDef>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

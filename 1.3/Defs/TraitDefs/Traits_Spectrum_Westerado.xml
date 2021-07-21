@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TraitDef>
+    <defName>DeadEyeTraits_Westerado</defName>
+    <commonality>0.33</commonality>
+    <degreeDatas>
+      <li>
+        <label>blood of Harlow</label>
+        <description>[PAWN_nameDef] is a descendant of the legendary 'Harlow', which greatly predisposes [PAWN_objective] to firearms.</description>
+        <degree>2</degree>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.5</ShootingAccuracyPawn>
+          <AimingDelayFactor>-0.5</AimingDelayFactor>
+        </statOffsets>
+        <marketValueFactorOffset>1.0</marketValueFactorOffset>
+      </li>
+      <li>
+        <label>dead eye</label>
+        <description>[PAWN_nameDef] has a dead eye. This, apparently, increases firearm skills.</description>
+        <degree>1</degree>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
+          <AimingDelayFactor>-0.35</AimingDelayFactor>
+        </statOffsets>
+        <marketValueFactorOffset>0.40</marketValueFactorOffset>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  <TraitDef>
+    <defName>DollarTrilogyTraits_Westerado</defName>
+    <commonality>0.5</commonality>
+    <degreeDatas>
+      <li>
+        <label>good</label>
+        <description>[PAWN_nameDef] was born with a pretty face, and a fast gun-hand.</description>
+        <degree>1</degree>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
+          <AimingDelayFactor>-0.15</AimingDelayFactor>
+          <SocialImpact>0.10</SocialImpact>
+        </statOffsets>
+        <marketValueFactorOffset>0.40</marketValueFactorOffset>
+      </li>
+      <li>
+        <label>bad</label>
+        <description>[PAWN_nameDef] is just a generally bad person. This subtly repels others during social interactions.</description>
+        <degree>-1</degree>
+        <statOffsets>
+          <MeleeHitChance>0.15</MeleeHitChance>
+          <SocialImpact>-0.10</SocialImpact>
+        </statOffsets>
+        <marketValueFactorOffset>-0.40</marketValueFactorOffset>
+      </li>
+      <li>
+        <label>ugly</label>
+        <description>[PAWN_nameDef] is ugly. More so in character than looks, but also looks. Lazy, quick to anger, deceptive, and gluttonous are all descriptions that would befit [PAWN_objective].</description>
+        <degree>-2</degree>
+        <statOffsets>
+          <AimingDelayFactor>-0.25</AimingDelayFactor>
+          <RestRateMultiplier>-0.20</RestRateMultiplier>
+          <HungerRateMultiplier>-0.15</HungerRateMultiplier>
+          <EatingSpeed>-0.15</EatingSpeed>
+          <MentalBreakThreshold>-0.10</MentalBreakThreshold>
+          <SocialImpact>-0.10</SocialImpact>
+        </statOffsets>
+        <marketValueFactorOffset>-0.60</marketValueFactorOffset>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>

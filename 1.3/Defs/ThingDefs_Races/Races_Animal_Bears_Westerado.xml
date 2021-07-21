@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ========================== Black Bear ================================= -->
+  <ThingDef ParentName="BaseBear">
+    <defName>Bear_BlackBear_Westerado</defName>
+    <label>black bear</label>
+    <description>A large omnivorous mammal adapted for temperate and cold climates. Black bears' thick blubber and fur keeps them warm in winter.\n\nWhile their usual diet consists of fish, berries, honey, and scavenged meat, the black bear is capable of using its massive strength and deadly claws to kill live prey. They are very quick and willing to hunt humanoids.</description>
+    <statBases>
+      <MoveSpeed>5.2</MoveSpeed>
+      <ComfyTemperatureMin>-35</ComfyTemperatureMin>
+      <MarketValue>600</MarketValue>
+    </statBases>
+    <tools Inherit="False">
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>13</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>21.6</power>
+        <cooldownTime>2.4</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.55</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <maxPreyBodySize>2.5</maxPreyBodySize>
+      <baseHungerRate>0.42</baseHungerRate>
+      <baseBodySize>1.85</baseBodySize>
+      <baseHealthScale>2.25</baseHealthScale>
+      <gestationPeriodDays>28</gestationPeriodDays>
+      <wildness>0.85</wildness>
+      <lifeExpectancy>26</lifeExpectancy>
+      <manhunterOnTameFailChance>0.125</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.125</manhunterOnDamageChance>
+      <meatLabel>bear meat</meatLabel>
+    </race>
+  </ThingDef>
+  <PawnKindDef ParentName="BearBase">
+    <defName>Bear_BlackBear_Westerado</defName>
+    <label>black bear</label>
+    <race>Bear_BlackBear_Westerado</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/WBlackBear/BlackBear</texPath>
+          <drawSize>1.2</drawSize>
+          <color>(18,25,32)</color>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/WBlackBear/BlackBear</texPath>
+          <drawSize>1.85</drawSize>
+          <color>(18,25,32)</color>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>1.85</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/WBlackBear/BlackBear</texPath>
+          <drawSize>2.5</drawSize>
+          <color>(18,25,32)</color>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

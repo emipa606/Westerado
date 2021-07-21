@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Change stranger in black revolver ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/PawnKindDef[defName="StrangerInBlack"]/weaponMoney</xpath>
+        <value>
+          <weaponMoney>
+            <min>3800</min>
+            <max>3800</max>
+          </weaponMoney>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/PawnKindDef[defName="StrangerInBlack"]/weaponTags</xpath>
+        <value>
+          <weaponTags>
+            <li>Gun_Harlow_Westerado</li>
+          </weaponTags>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/PawnKindDef[defName="StrangerInBlack"]/apparelRequired/li[text() = "Apparel_CowboyHat"]</xpath>
+        <value>
+          <li>Apparel_HarlowHat_Westerado</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

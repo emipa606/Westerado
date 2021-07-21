@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <EffecterDef>
+    <defName>GoldPanEffect_Westerado</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+        <scale>0.3~0.5</scale>
+        <ticksBetweenMotes>20</ticksBetweenMotes>
+        <positionLerpFactor>0.35</positionLerpFactor>
+        <positionRadius>0.2</positionRadius>
+        <moteDef>Mote_PanningWaterBit_Westerado</moteDef>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+        <scale>
+          <min>1.0</min>
+          <max>1.0</max>
+        </scale>
+        <ticksBetweenMotes>40</ticksBetweenMotes>
+        <positionLerpFactor>0.0</positionLerpFactor>
+        <absoluteAngle>true</absoluteAngle>
+        <angle>
+          <min>-5</min>
+          <max>5</max>
+        </angle>
+        <rotation>
+          <min>-10</min>
+          <max>10</max>
+        </rotation>
+        <positionRadius>0.05</positionRadius>
+        <moteDef>Mote_PanningPanBit_Westerado</moteDef>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+  </EffecterDef>
+</Defs>

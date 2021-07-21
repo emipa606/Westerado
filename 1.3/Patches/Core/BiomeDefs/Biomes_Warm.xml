@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Tropical Rainforest ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="TropicalRainforest"]/diseases</xpath>
+    <value>
+      <li>
+        <diseaseInc>Disease_Dysentery_Westerado</diseaseInc>
+        <commonality>80</commonality>
+      </li>
+    </value>
+  </Operation>
+  <!-- ========== Tropical Swamp ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="TropicalSwamp"]/diseases</xpath>
+    <value>
+      <li>
+        <diseaseInc>Disease_Dysentery_Westerado</diseaseInc>
+        <commonality>80</commonality>
+      </li>
+    </value>
+  </Operation>
+</Patch>

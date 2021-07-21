@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TraitDef>
+    <defName>Frontiersman_Westerado</defName>
+    <commonality>0.001</commonality>
+    <degreeDatas>
+      <li>
+        <label>frontiersman</label>
+        <description>{PAWN_nameDef} was born for a life on the frontier. {PAWN_possessive} ability to be up and about quickly is increased, {PAWN_pronoun}'s less likely to be bothered by harsh weather, better at getting every last scrap from a fresh kill, and less likely to break down in a tough situation. However, {PAWN_nameDef} longs for the wilderness and will randomly leave to seek it out.</description>
+        <skillGains>
+          <li>
+            <key>Shooting</key>
+            <value>2</value>
+          </li>
+          <li>
+            <key>Melee</key>
+            <value>1</value>
+          </li>
+          <li>
+            <key>Cooking</key>
+            <value>1</value>
+          </li>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>0.10</MoveSpeed>
+          <EatingSpeed>0.05</EatingSpeed>
+          <ButcheryFleshEfficiency>0.05</ButcheryFleshEfficiency>
+          <ButcheryFleshSpeed>0.05</ButcheryFleshSpeed>
+          <FoodPoisonChance>-0.05</FoodPoisonChance>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+          <ComfyTemperatureMin>-10.00</ComfyTemperatureMin>
+          <ComfyTemperatureMax>10.00</ComfyTemperatureMax>
+        </statOffsets>
+        <randomMentalState>GiveUpExit</randomMentalState>
+        <randomMentalStateMtbDaysMoodCurve>
+          <points>
+            <li>(0, 5)</li>
+            <li>(50, 75)</li>
+            <li>(100, 100)</li>
+          </points>
+        </randomMentalStateMtbDaysMoodCurve>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>Wimp</li>
+    </conflictingTraits>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Cooking</li>
+    </requiredWorkTags>
+  </TraitDef>
+</Defs>

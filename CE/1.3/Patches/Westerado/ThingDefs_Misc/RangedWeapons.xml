@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Check for Combat Extended -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_BoltActionRifle"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+          <researchPrerequisite>BoltActionTech_Westerado</researchPrerequisite>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_Revolver"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+          <researchPrerequisite>DoubleActionTech_Westerado</researchPrerequisite>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_PumpShotgun"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+          <researchPrerequisite>PumpActionTech_Westerado</researchPrerequisite>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_IncendiaryLauncher"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+          <researchPrerequisite>GasOperation</researchPrerequisite>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

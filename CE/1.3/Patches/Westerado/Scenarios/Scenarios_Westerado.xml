@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ScenarioDef[defName="WesteradoScenario_Westerado"]/scenario/parts</xpath>
+    <value>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>Ammo_58Minie_Westerado</thingDef>
+        <count>150</count>
+      </li>
+    </value>
+  </Operation>
+</Patch>

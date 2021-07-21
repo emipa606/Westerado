@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--==================================== Ranged ====================================-->
+  <ThingDef Name="BaseGun_Westerado" Abstract="True" ParentName="BaseWeapon">
+    <techLevel>Industrial</techLevel>
+    <smeltable>true</smeltable>
+    <thingCategories>
+      <li>WeaponsRanged</li>
+    </thingCategories>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <statBases>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponGun_Westerado</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponGun_Westerado</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef Name="BaseGunWithQuality_Westerado" Abstract="True" ParentName="BaseGun_Westerado">
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef Name="BaseMakeableGun_Westerado" ParentName="BaseGunWithQuality_Westerado" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  <ThingDef Name="BaseHumanGun_Westerado" ParentName="BaseGunWithQuality_Westerado" Abstract="True">
+    <weaponTags>
+      <li>Gun_Westerado</li>
+    </weaponTags>
+  </ThingDef>
+  <ThingDef Name="BaseHumanMakeableGun_Westerado" ParentName="BaseMakeableGun_Westerado" Abstract="True">
+    <weaponTags>
+      <li>Gun_Westerado</li>
+    </weaponTags>
+  </ThingDef>
+  <ThingDef Name="BaseHarlowGun_Westerado" Abstract="True" ParentName="BaseWeapon">
+    <techLevel>Industrial</techLevel>
+    <smeltable>true</smeltable>
+    <thingCategories>
+      <li>WeaponsRanged</li>
+    </thingCategories>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <statBases>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponGun_Westerado</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponGun_Westerado</descriptionMaker>
+        <minQualityForArtistic>Awful</minQualityForArtistic>
+      </li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

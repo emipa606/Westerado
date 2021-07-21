@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- RulePacks included in various places but which are not global -->
+  <RulePackDef>
+    <defName>FirstNationWordUtility_Westerado</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>WordFirstNation_Westerado(p=3)-&gt;[WordFirstNationFile_Westerado]</li>
+        <li>WordFirstNation_Westerado(p=3)-&gt;[FNSyl_Westerado][FNSyl_Westerado]</li>
+        <li>WordFirstNation_Westerado(p=2)-&gt;[FNSyl_Westerado][FNSyl_Westerado][FNSyl_Westerado]</li>
+        <li>WordFirstNation_Westerado-&gt;[FNSyl_Westerado][FNSyl_Westerado][FNSyl_Westerado][FNSyl_Westerado]</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>WordFirstNationFile_Westerado-&gt;Words/Foreign/FirstNation_Westerado</li>
+        <li>FNSyl_Westerado-&gt;WordParts/Syllables_FirstNation_Westerado</li>
+        <li>FirstNationColour_Westerado-&gt;Words/Foreign/FirstNationColors_Westerado</li>
+        <li>FirstNationNameZ_Westerado-&gt;Names/FirstNationNames_Westerado</li>
+        <li>FirstNationItemNameZ_Westerado-&gt;Words/Nouns/FirstNation_NameItems_Westerado</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+</Defs>
