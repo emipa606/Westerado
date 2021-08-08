@@ -28,5 +28,6 @@
         <li>Cloth</li>
       </thingDefs>
     </apparelStuffFilter>
+    <settlementTexturePath>World/WorldObjects/Expanding/HomeCamp</settlementTexturePath>
   </FactionDef>
 </Defs>
