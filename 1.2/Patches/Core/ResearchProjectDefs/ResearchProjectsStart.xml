@@ -4,13 +4,23 @@
   <Operation Class="PatchOperationSequence">
     <success>Always</success>
     <operations>
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/ResearchProjectDef[defName="Smithing"]</xpath>
-        <value>
-          <tags>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ResearchProjectDef[defName="Smithing"]/tags</xpath>
+        <success>Always</success>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/ResearchProjectDef[defName="Smithing"]</xpath>
+          <value>
+            <tags>
+              <li>WesteradoStart</li>
+            </tags>
+          </value>
+        </nomatch>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/ResearchProjectDef[defName="Smithing"]/tags</xpath>
+          <value>
             <li>WesteradoStart</li>
-          </tags>
-        </value>
+          </value>
+        </match>
       </li>
       <li Class="PatchOperationAdd">
         <xpath>Defs/ResearchProjectDef[defName="ComplexClothing"]/tags</xpath>
