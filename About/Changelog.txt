@@ -1,5 +1,8 @@
 # Changelog for Westerado
 
+1.0.16.0 - Added support for Simple FX: Smoke
+
+
 1.0.15.0 - Added conditional patch for smithing tags
 
 
