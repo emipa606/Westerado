@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="FurnitureWithQualityBase">
+    <defName>BarCabinet_Westerado</defName>
+    <label>Bar Cabinet</label>
+    <graphicData>
+      <texPath>Things/Building/Furniture/Cabinet/BarCabinet</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>7500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>12</Beauty>
+      <Mass>90</Mass>
+    </statBases>
+    <description>A place to store WHISKEY.</description>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>120</costStuffCount>
+    <size>(2,1)</size>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <fixedStorageSettings>
+        <priority>Preferred</priority>
+        <filter>
+          <categories>
+            <li>Drugs</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
+    </building>
+    <staticSunShadowHeight Inherit="False">0.33</staticSunShadowHeight>
+  </ThingDef>
+</Defs>
