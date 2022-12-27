@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef Name="PrecursorBase" Abstract="True">
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <recipeUsers>
+      <li>Brewery</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>6</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+  <RecipeDef ParentName="PrecursorBase">
+    <defName>MakeMoonshineMash_Westerado</defName>
+    <label>make moonshine mash</label>
+    <description>Make mash from corn and rye.</description>
+    <jobString>Making moonshine mash.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawCorn</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawRye_Westerado</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawCorn</li>
+        <li>RawRye_Westerado</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MoonshineMash_Westerado>5</MoonshineMash_Westerado>
+    </products>
+    <researchPrerequisite>DistillingTech_Westerado</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="PrecursorBase">
+    <defName>MakeSchnappsMash_Westerado</defName>
+    <label>make schnapps mash</label>
+    <description>Make mash from potatoes.</description>
+    <jobString>Making schnapps mash.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawPotatoes</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawPotatoes</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SchnappsMash_Westerado>5</SchnappsMash_Westerado>
+    </products>
+    <researchPrerequisite>DistillingTech_Westerado</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="PrecursorBase">
+    <defName>MakeRyeMash_Westerado</defName>
+    <label>make rye mash</label>
+    <description>Make rice mash for brewing saki.</description>
+    <jobString>Making rice mash.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawRye_Westerado</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawRye_Westerado</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <RyeMash_Westererado>5</RyeMash_Westererado>
+    </products>
+  </RecipeDef>
+</Defs>

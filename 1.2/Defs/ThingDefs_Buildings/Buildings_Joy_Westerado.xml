@@ -50,7 +50,6 @@
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
     <uiIconScale>0.9</uiIconScale>
   </ThingDef>
-
   <ThingDef ParentName="FurnitureWithQualityBase">
     <defName>Piano_Westerado</defName>
     <label>piano</label>

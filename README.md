@@ -21,6 +21,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1634367989
 - Added patches for Vanilla Plants Expanded and Vanilla Furniture Expanded - Security, via Röstli 
 - Added patch for Infectious Creatures to harvest rattlesnake venom-gland
 - Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=2451324814][SYR] Trait Value
+- Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=2574489704]Simple FX: Smoke
 
 Works well with
 
@@ -133,6 +134,8 @@ If you're looking for something like this but slightly different you can checkou
 All original content (e.g. text, imagery, sounds) in this mod is licensed under the All original content (e.g. text, imagery, sounds) in this mod is licensed under the http://creativecommons.org/licenses/by-sa/4.0/]CC-BY-SA 4.0 license.
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2236973780]Last updated 2022-12-27
+	
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
 

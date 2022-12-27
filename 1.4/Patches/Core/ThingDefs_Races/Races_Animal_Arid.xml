@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Gazelle horns ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Gazelle"]/lifeStages/li[3]</xpath>
+    <value>
+      <butcherBodyPart>
+        <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+        <thing>GazelleHorn_Westerado</thing>
+        <allowFemale>true</allowFemale>
+      </butcherBodyPart>
+    </value>
+  </Operation>
+</Patch>

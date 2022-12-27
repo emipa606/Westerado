@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef Name="VG_DrugBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+      <Beauty>-6</Beauty>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>400</stackLimit>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <alwaysHaulable>true</alwaysHaulable>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <pathCost>15</pathCost>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <ingestible>
+      <preferability>NeverForNutrition</preferability>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <joyKind>Chemical</joyKind>
+      <chairSearchRadius>8</chairSearchRadius>
+    </ingestible>
+    <storedConceptLearnOpportunity>DrugPolicies</storedConceptLearnOpportunity>
+  </ThingDef>
+  <ThingDef Abstract="True" ParentName="VG_DrugBase" Name="LiquorCloset">
+    <equippedAngleOffset>-150</equippedAngleOffset>
+    <rotatable>false</rotatable>
+    <stackLimit>75</stackLimit>
+    <statBases>
+      <DeteriorationRate>0.5</DeteriorationRate>
+      <MarketValue>9</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+    <ingestible>
+      <foodType>Fluid, Processed, Liquor</foodType>
+      <joy>0.17</joy>
+      <nurseable>true</nurseable>
+      <drugCategory>Social</drugCategory>
+      <ingestSound>Ingest_Beer</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <chairSearchRadius>25</chairSearchRadius>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AlcoholHigh</hediffDef>
+          <severity>0.15</severity>
+          <toleranceChemical>Alcohol</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AlcoholTolerance</hediffDef>
+          <severity>0.032</severity>
+          <divideByBodySize>true</divideByBodySize>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <thingCategories>
+      <li>Drugs</li>
+    </thingCategories>
+    <equipmentType>Primary</equipmentType>
+    <techLevel>Neolithic</techLevel>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>Alcohol</chemical>
+        <addictiveness>0.010</addictiveness>
+        <minToleranceToAddict>0.25</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <listOrder>10</listOrder>
+      </li>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>bottle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>neck</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="LiquorCloset">
+    <defName>RyeWhiskey_Westerado</defName>
+    <label>rye whiskey</label>
+    <description>Ratherwoman's Rye whiskey is a malty alcohol made from rye.</description>
+    <graphicData>
+      <texPath>Things/Item/RyeWhiskey</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>18</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LiquorCloset">
+    <defName>Moonshine_Westerado</defName>
+    <label>moonshine</label>
+    <description>Robbaz' Moonshine. May require dental appointments after ingestion.</description>
+    <graphicData>
+      <texPath>Things/Item/Moonshine</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>16</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LiquorCloset">
+    <defName>Schnapps_Westerado</defName>
+    <label>schnapps</label>
+    <description>Dragory's Schnapps. Simple, yet delicious.</description>
+    <graphicData>
+      <texPath>Things/Item/Schnapps</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>17</MarketValue>
+    </statBases>
+  </ThingDef>
+</Defs>

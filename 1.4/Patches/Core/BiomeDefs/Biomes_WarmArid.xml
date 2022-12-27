@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Arid Shrubland ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="AridShrubland"]/diseases</xpath>
+    <value>
+      <li>
+        <diseaseInc>Disease_Dysentery_Westerado</diseaseInc>
+        <commonality>80</commonality>
+      </li>
+    </value>
+  </Operation>
+  <!-- ========== Desert ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="Desert"]/diseases</xpath>
+    <value>
+      <li>
+        <diseaseInc>Disease_Dysentery_Westerado</diseaseInc>
+        <commonality>80</commonality>
+      </li>
+    </value>
+  </Operation>
+  <!-- ========== Extreme Desert ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="ExtremeDesert"]/diseases</xpath>
+    <value>
+      <li>
+        <diseaseInc>Disease_Dysentery_Westerado</diseaseInc>
+        <commonality>80</commonality>
+      </li>
+    </value>
+  </Operation>
+</Patch>

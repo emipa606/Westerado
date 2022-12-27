@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <MentalBreakDef>
+    <defName>RunWild_Westerado</defName>
+    <label>run wild</label>
+    <intensity>Extreme</intensity>
+    <mentalState>RunWild_Westerado</mentalState>
+    <workerClass>MentalBreakWorker_RunWild</workerClass>
+    <baseCommonality>0.5</baseCommonality>
+    <commonalityFactorPerPopulationCurve>
+      <points>
+        <li>(2, 0.1)</li>
+        <li>(7, 1)</li>
+      </points>
+    </commonalityFactorPerPopulationCurve>
+  </MentalBreakDef>
+  <MentalStateDef ParentName="BaseMentalState">
+    <defName>RunWild_Westerado</defName>
+    <label>running wild</label>
+    <stateClass>MentalState_GiveUpExit</stateClass>
+    <category>Misc</category>
+    <prisonersCanDo>false</prisonersCanDo>
+    <moodRecoveryThought>Catharsis</moodRecoveryThought>
+    <blockNormalThoughts>true</blockNormalThoughts>
+    <nameColor>(232, 170, 0)</nameColor>
+    <beginLetterLabel>run wild</beginLetterLabel>
+    <beginLetter>{0} is fed up with civilization.\n\n[PAWN_pronoun] realized that wild creatures are always free. So, [PAWN_pronoun] has decided to leave your faction and live with the animals.\n\nYou can attempt to tame or arrest [PAWN_possessive] to get [PAWN_possessive] back</beginLetter>
+    <beginLetterDef>NegativeEvent</beginLetterDef>
+    <recoveryMessage>{0} has had a change of heart and is coming back to the colony.</recoveryMessage>
+    <baseInspectLine>Mental state: Running wild</baseInspectLine>
+    <tale>MentalStateGaveUp</tale>
+    <allowBeatfire>true</allowBeatfire>
+    <escapingPrisonersIgnore>true</escapingPrisonersIgnore>
+  </MentalStateDef>
+  <!--<MentalBreakDef>
+    <defName>GiveUpExit</defName>
+    <mentalState>GiveUpExit</mentalState>
+    <intensity>Extreme</intensity>
+    <baseCommonality>1</baseCommonality>
+    <commonalityFactorPerPopulationCurve>
+      <points>
+        <li>(7, 0)</li>
+        <li>(12, 1)</li>
+      </points>
+    </commonalityFactorPerPopulationCurve>
+  </MentalBreakDef>
+  <MentalStateDef ParentName="BaseMentalState">
+    <defName>GiveUpExit</defName>
+    <label>giving up and leaving</label>
+    <stateClass>MentalState_GiveUpExit</stateClass>
+    <category>Misc</category>
+    <prisonersCanDo>false</prisonersCanDo>
+    <moodRecoveryThought>Catharsis</moodRecoveryThought>
+    <blockNormalThoughts>true</blockNormalThoughts>
+    <nameColor>(0.65, 0.9, 0.93)</nameColor>
+    <beginLetterLabel>gave up</beginLetterLabel>
+    <beginLetter>{0} has given up on this community.\n\n[PAWN_pronoun] has decided to leave and pursue a better life elsewhere. You can try to arrest [PAWN_objective] as [PAWN_pronoun] leaves. Otherwise, you may still see [PAWN_objective] again some day.</beginLetter>
+    <beginLetterDef>NegativeEvent</beginLetterDef>
+    <recoveryMessage>{0} has had a change of heart and is coming back to the colony.</recoveryMessage>
+    <baseInspectLine>Mental state: Given up and leaving</baseInspectLine>
+    <tale>MentalStateGaveUp</tale>
+    <allowBeatfire>true</allowBeatfire>
+    <escapingPrisonersIgnore>true</escapingPrisonersIgnore>
+  </MentalStateDef>-->
+</Defs>

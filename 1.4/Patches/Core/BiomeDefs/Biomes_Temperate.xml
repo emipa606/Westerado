@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Temperate Forest ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="TemperateForest"]/diseases</xpath>
+    <value>
+      <li>
+        <diseaseInc>Disease_Dysentery_Westerado</diseaseInc>
+        <commonality>80</commonality>
+      </li>
+    </value>
+  </Operation>
+  <!-- ========== Temperate Swamp ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/diseases</xpath>
+    <value>
+      <li>
+        <diseaseInc>Disease_Dysentery_Westerado</diseaseInc>
+        <commonality>80</commonality>
+      </li>
+    </value>
+  </Operation>
+</Patch>

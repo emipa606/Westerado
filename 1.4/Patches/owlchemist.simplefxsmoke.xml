@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/FleckDef[defName="Owl_Vapor"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="WoodStove_Westerado"]/comps</xpath>
+          <value>
+            <li Class="Flecker.CompProperties_Smoker">
+              <particleSize>0.66</particleSize>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="CampfireLarge"]/comps</xpath>
+          <value>
+            <li Class="Flecker.CompProperties_Smoker">
+              <particleSize>1.8</particleSize>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef>
+    <defName>WesteradoSundance</defName>
+    <label>Westerado Sundance</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/WesteradoSundance</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>WesteradoJavier</defName>
+    <label>Westerado Javier</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/WesteradoJavier</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>WesteradoPanner</defName>
+    <label>Westerado Panner</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/WesteradoPanner</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>WesteradoReverend</defName>
+    <label>Westerado Reverend</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/WesteradoReverend</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>WesteradoEspinosas</defName>
+    <label>Westerado Espinosas</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/WesteradoEspinosas</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>WesteradoHickok</defName>
+    <label>Westerado Hickok</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/WesteradoHickok</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>WesteradoWestDickens</defName>
+    <label>Westerado West Dickens</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/WesteradoWestDickens</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>WesteradoMakaveli</defName>
+    <label>Westerado Makaveli</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/WesteradoMakaveli</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>WesteradoMuttonChops</defName>
+    <label>Westerado Mutton Chops</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/WesteradoMuttonChops</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>WesteradoOakley</defName>
+    <label>Westerado Oakley</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/WesteradoOakley</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>WesteradoSacheen</defName>
+    <label>Westerado Sacheen</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/WesteradoSacheen</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+</Defs>

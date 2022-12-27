@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--========================= Saloon Doors =============================-->
+  <ThingDef ParentName="DoorBase">
+    <defName>SaloonDoor_Westerado</defName>
+    <label>saloon door</label>
+    <description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of. Can't hold a roof.</description>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToBuild>950</WorkToBuild>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Building/Door/DoorSaloon_Mover</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <!--  no damage marks because they don't move with the door
+        <rect>(0,0.12,1,0.76)</rect>-->
+        <enabled>false</enabled>
+      </damageData>
+    </graphicData>
+    <holdsRoof>false</holdsRoof>
+    <staticSunShadowHeight>0.7</staticSunShadowHeight>
+    <building>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Door/DoorSaloon_Blueprint</texPath>
+      </blueprintGraphicData>
+    </building>
+    <uiIconPath>Things/Building/Door/DoorSaloon_MenuIcon</uiIconPath>
+    <costStuffCount>20</costStuffCount>
+  </ThingDef>
+  <!--========================= Palisade =============================-->
+  <ThingDef ParentName="BuildingBase" Name="Palisade">
+    <defName>Palisade_Westerado</defName>
+    <label>palisade</label>
+    <description>An impassable palisade. Incapable of holding up a roof.</description>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Linked/Palisade/WallPalisade_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <linkType>Basic</linkType>
+      <linkFlags>
+        <li>Custom2</li>
+      </linkFlags>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+        <edgeTop>Damage/Edge</edgeTop>
+        <edgeBot>Damage/Edge</edgeBot>
+        <edgeLeft>Damage/Edge</edgeLeft>
+        <edgeRight>Damage/Edge</edgeRight>
+      </damageData>
+      <!--<shadowData>
+        <volume>(0.8, 0.3, 0.8)</volume>
+        <offset>(0, 0, 0)</offset>
+      </shadowData>-->
+    </graphicData>
+    <uiIconPath>Things/Building/Linked/Palisade/WallPalisade_MenuIcon</uiIconPath>
+    <statBases>
+      <MaxHitPoints>330</MaxHitPoints>
+      <WorkToBuild>120</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <costList>
+      <WoodLog>4</WoodLog>
+    </costList>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>false</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>false</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <holdsRoof>false</holdsRoof>
+    <designationCategory>Structure</designationCategory>
+    <staticSunShadowHeight>0.8</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
+    </building>
+    <!--<damageMultipliers>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>2</multiplier>
+      </li>
+    </damageMultipliers>-->
+    <designationHotKey>Misc5</designationHotKey>
+  </ThingDef>
+</Defs>

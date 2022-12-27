@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TaleDef>
+    <defName>Captured</defName>
+    <label>person captured</label>
+    <taleClass>Tale_DoublePawn</taleClass>
+    <type>Volatile</type>
+    <firstPawnSymbol>CAPTURER</firstPawnSymbol>
+    <secondPawnSymbol>PRISONER</secondPawnSymbol>
+    <baseInterest>3.5</baseInterest>
+    <rulePack>
+      <rulesStrings>
+        <li>tale_noun_westerado-&gt;[CAPTURER_nameDef] capturing [PRISONER_nameDef]</li>
+        <li>tale_noun_westerado-&gt;[PRISONER_nameDef] being captured by [CAPTURER_nameDef]</li>
+        <li>tale_noun_westerado-&gt;the capturing of [PRISONER_nameDef]</li>
+        <li>image_westerado-&gt;[CAPTURER_nameFull] capturing [PRISONER_nameFull] [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[CAPTURER_nameFull] tying [PRISONER_nameFull]'s hands [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[CAPTURER_nameFull] smacking [PRISONER_nameFull] while capturing [PRISONER_objective] [circumstance_group_westerado]</li>
+        <li>circumstance_phrase_westerado-&gt;as [PRISONER_pronoun] writhes on the ground</li>
+        <li>circumstance_phrase_westerado-&gt;as [PRISONER_pronoun] twists in pain</li>
+        <li>circumstance_phrase_westerado-&gt;with professional efficiency</li>
+        <li>circumstance_phrase_westerado-&gt;roughly and amateurishly</li>
+        <li>circumstance_phrase_westerado-&gt;with obviously excessive force</li>
+        <li>circumstance_phrase_westerado-&gt;with obvious pleasure</li>
+        <li>circumstance_phrase_westerado-&gt;while smiling with dominance</li>
+        <li>desc_sentence_westerado-&gt;[CAPTURER_nameDef] is looking into [PRISONER_nameDef]'s eyes with a sense of dominance.</li>
+        <li>desc_sentence_westerado-&gt;[PRISONER_nameDef] is injured and seems to be in pain.</li>
+        <li>desc_sentence_westerado-&gt;[PRISONER_nameDef] looks resigned to [PRISONER_possessive] fate.</li>
+        <li>desc_sentence_westerado-&gt;[PRISONER_nameDef] is snarling with the fury of defeat.</li>
+        <li>desc_sentence_westerado-&gt;[CAPTURER_nameDef] is slapping [PRISONER_nameDef] to subdue [PRISONER_objective].</li>
+        <li>desc_sentence_westerado-&gt;[CAPTURER_nameDef] is twisting [PRISONER_nameDef]'s ear.</li>
+        <li>desc_sentence_westerado-&gt;[CAPTURER_nameDef] is holding [PRISONER_nameDef] in a joint lock.</li>
+        <li>desc_sentence_westerado-&gt;[CAPTURER_nameDef] is spitting into [PRISONER_nameDef]'s face.</li>
+        <li>desc_sentence_westerado-&gt;[CAPTURER_nameDef] is laughing as tears well up in [PRISONER_nameDef]'s eyes.</li>
+        <li>desc_sentence_westerado-&gt;[CAPTURER_nameDef] is kicking [PRISONER_nameDef] for no obvious reason.</li>
+        <!-- DEFAULT -->
+        <li>tale_noun-&gt;[CAPTURER_nameDef] capturing [PRISONER_nameDef]</li>
+        <li>tale_noun-&gt;[PRISONER_nameDef] being captured by [CAPTURER_nameDef]</li>
+        <li>tale_noun-&gt;the capturing of [PRISONER_nameDef]</li>
+        <li>image-&gt;[CAPTURER_nameFull] capturing [PRISONER_nameFull] [circumstance_group]</li>
+        <li>image-&gt;[CAPTURER_nameFull] tying [PRISONER_nameFull]'s hands [circumstance_group]</li>
+        <li>image-&gt;[CAPTURER_nameFull] smacking [PRISONER_nameFull] while capturing [PRISONER_objective] [circumstance_group]</li>
+        <li>circumstance_phrase-&gt;as [PRISONER_pronoun] writhes on the ground</li>
+        <li>circumstance_phrase-&gt;as [PRISONER_pronoun] twists in pain</li>
+        <li>circumstance_phrase-&gt;with professional efficiency</li>
+        <li>circumstance_phrase-&gt;roughly and amateurishly</li>
+        <li>circumstance_phrase-&gt;with obviously excessive force</li>
+        <li>circumstance_phrase-&gt;with obvious pleasure</li>
+        <li>circumstance_phrase-&gt;while smiling with dominance</li>
+        <li>desc_sentence-&gt;[CAPTURER_nameDef] is looking into [PRISONER_nameDef]'s eyes with a sense of dominance.</li>
+        <li>desc_sentence-&gt;[PRISONER_nameDef] is injured and seems to be in pain.</li>
+        <li>desc_sentence-&gt;[PRISONER_nameDef] looks resigned to [PRISONER_possessive] fate.</li>
+        <li>desc_sentence-&gt;[PRISONER_nameDef] is snarling with the fury of defeat.</li>
+        <li>desc_sentence-&gt;[CAPTURER_nameDef] is slapping [PRISONER_nameDef] to subdue [PRISONER_objective].</li>
+        <li>desc_sentence-&gt;[CAPTURER_nameDef] is twisting [PRISONER_nameDef]'s ear.</li>
+        <li>desc_sentence-&gt;[CAPTURER_nameDef] is holding [PRISONER_nameDef] in a joint lock.</li>
+        <li>desc_sentence-&gt;[CAPTURER_nameDef] is spitting into [PRISONER_nameDef]'s face.</li>
+        <li>desc_sentence-&gt;[CAPTURER_nameDef] is laughing as tears well up in [PRISONER_nameDef]'s eyes.</li>
+        <li>desc_sentence-&gt;[CAPTURER_nameDef] is kicking [PRISONER_nameDef] for no obvious reason.</li>
+      </rulesStrings>
+    </rulePack>
+  </TaleDef>
+  <TaleDef>
+    <defName>Recruited</defName>
+    <label>person recruited</label>
+    <taleClass>Tale_DoublePawn</taleClass>
+    <type>Volatile</type>
+    <firstPawnSymbol>RECRUITER</firstPawnSymbol>
+    <secondPawnSymbol>JOINER</secondPawnSymbol>
+    <baseInterest>4</baseInterest>
+    <rulePack>
+      <rulesStrings>
+        <li>tale_noun_westerado-&gt;[RECRUITER_nameDef] recruiting [JOINER_nameDef]</li>
+        <li>tale_noun_westerado-&gt;[JOINER_nameDef] being recruited by [RECRUITER_nameDef]</li>
+        <li>tale_noun_westerado-&gt;the recruitment of [JOINER_nameDef]</li>
+        <li>image_westerado-&gt;[RECRUITER_nameFull] recruiting [JOINER_nameFull] [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[RECRUITER_nameFull] welcoming [JOINER_nameFull] as [JOINER_pronoun] becomes a colonist [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[RECRUITER_nameFull] speaking convincingly to [JOINER_nameFull] [circumstance_group_westerado]</li>
+        <li>circumstance_phrase_westerado-&gt;with obvious goodwill</li>
+        <li>circumstance_phrase_westerado-&gt;with a hearty handshake</li>
+        <li>circumstance_phrase_westerado-&gt;with smiles all around</li>
+        <li>circumstance_phrase_westerado-&gt;in front of the whole colony</li>
+        <li>circumstance_phrase_westerado-&gt;in a prison cell</li>
+        <li>desc_sentence_westerado-&gt;[JOINER_nameDef] is nodding in understanding.</li>
+        <li>desc_sentence_westerado-&gt;[JOINER_nameDef] is smiling and making eye contact.</li>
+        <li>desc_sentence_westerado-&gt;[JOINER_nameDef] looks relieved.</li>
+        <li>desc_sentence_westerado-&gt;[JOINER_nameDef] looks hopeful.</li>
+        <!-- DEFAULT -->
+        <li>tale_noun-&gt;[RECRUITER_nameDef] recruiting [JOINER_nameDef]</li>
+        <li>tale_noun-&gt;[JOINER_nameDef] being recruited by [RECRUITER_nameDef]</li>
+        <li>tale_noun-&gt;the recruitment of [JOINER_nameDef]</li>
+        <li>image-&gt;[RECRUITER_nameFull] recruiting [JOINER_nameFull] [circumstance_group]</li>
+        <li>image-&gt;[RECRUITER_nameFull] welcoming [JOINER_nameFull] as [JOINER_pronoun] becomes a colonist [circumstance_group]</li>
+        <li>image-&gt;[RECRUITER_nameFull] speaking convincingly to [JOINER_nameFull] [circumstance_group]</li>
+        <li>circumstance_phrase-&gt;with obvious goodwill</li>
+        <li>circumstance_phrase-&gt;with a hearty handshake</li>
+        <li>circumstance_phrase-&gt;with smiles all around</li>
+        <li>circumstance_phrase-&gt;in front of the whole colony</li>
+        <li>circumstance_phrase-&gt;in a prison cell</li>
+        <li>desc_sentence-&gt;[JOINER_nameDef] is nodding in understanding.</li>
+        <li>desc_sentence-&gt;[JOINER_nameDef] is smiling and making eye contact.</li>
+        <li>desc_sentence-&gt;[JOINER_nameDef] looks relieved.</li>
+        <li>desc_sentence-&gt;[JOINER_nameDef] looks hopeful.</li>
+      </rulesStrings>
+    </rulePack>
+  </TaleDef>
+  <TaleDef>
+    <defName>Hunted</defName>
+    <label>animal hunted</label>
+    <taleClass>Tale_DoublePawn</taleClass>
+    <type>Volatile</type>
+    <firstPawnSymbol>HUNTER</firstPawnSymbol>
+    <secondPawnSymbol>PREY</secondPawnSymbol>
+    <baseInterest>0.2</baseInterest>
+    <ignoreChance>0.5</ignoreChance>
+    <rulePack>
+      <rulesStrings>
+        <li>tale_noun_westerado-&gt;[HUNTER_nameDef] hunting [PREY_nameDef]</li>
+        <li>tale_noun_westerado-&gt;[PREY_nameDef] being hunted by [HUNTER_nameDef]</li>
+        <li>tale_noun_westerado-&gt;[HUNTER_nameDef]'s successful hunt</li>
+        <li>image_westerado-&gt;[PREY_nameFull] being hunted by [HUNTER_nameFull] [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[HUNTER_nameFull] stalking [PREY_nameFull] from afar [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[HUNTER_nameFull] hunting [PREY_nameFull] [circumstance_group_westerado]</li>
+        <li>circumstance_phrase_westerado-&gt;as [PREY_nameDef] relaxes</li>
+        <li>circumstance_phrase_westerado-&gt;as [PREY_nameDef] travels</li>
+        <li>circumstance_phrase_westerado-&gt;as [PREY_nameDef] eats</li>
+        <li>desc_sentence_westerado-&gt;[PREY_nameDef] seems totally oblivious.</li>
+        <li>desc_sentence_westerado-&gt;[HUNTER_nameDef] is gripping [HUNTER_possessive] weapon tightly.</li>
+        <li>desc_sentence_westerado-&gt;[PREY_nameDef] is looking around as though [PREY_pronoun] senses that something is wrong.</li>
+        <!-- DEFAULT -->
+        <li>tale_noun-&gt;[HUNTER_nameDef] hunting [PREY_nameDef]</li>
+        <li>tale_noun-&gt;[PREY_nameDef] being hunted by [HUNTER_nameDef]</li>
+        <li>tale_noun-&gt;[HUNTER_nameDef]'s successful hunt</li>
+        <li>image-&gt;[PREY_nameFull] being hunted by [HUNTER_nameFull] [circumstance_group]</li>
+        <li>image-&gt;[HUNTER_nameFull] stalking [PREY_nameFull] from afar [circumstance_group]</li>
+        <li>image-&gt;[HUNTER_nameFull] hunting [PREY_nameFull] [circumstance_group]</li>
+        <li>circumstance_phrase-&gt;as [PREY_nameDef] relaxes</li>
+        <li>circumstance_phrase-&gt;as [PREY_nameDef] travels</li>
+        <li>circumstance_phrase-&gt;as [PREY_nameDef] eats</li>
+        <li>desc_sentence-&gt;[PREY_nameDef] seems totally oblivious.</li>
+        <li>desc_sentence-&gt;[HUNTER_nameDef] is gripping [HUNTER_possessive] weapon tightly.</li>
+        <li>desc_sentence-&gt;[PREY_nameDef] is looking around as though [PREY_pronoun] senses that something is wrong.</li>
+      </rulesStrings>
+    </rulePack>
+  </TaleDef>
+  <TaleDef>
+    <defName>DidSurgery</defName>
+    <label>surgery performed</label>
+    <taleClass>Tale_DoublePawn</taleClass>
+    <type>Volatile</type>
+    <firstPawnSymbol>SURGEON</firstPawnSymbol>
+    <secondPawnSymbol>PATIENT</secondPawnSymbol>
+    <baseInterest>2.5</baseInterest>
+    <rulePack>
+      <rulesStrings>
+        <li>tale_noun_westerado-&gt;[SURGEON_nameDef] operating on [PATIENT_nameDef]</li>
+        <li>tale_noun_westerado-&gt;[SURGEON_nameDef] performing a medical operation on [PATIENT_nameDef]</li>
+        <li>tale_noun_westerado-&gt;[PATIENT_nameDef]'s medical operation</li>
+        <li>image_westerado-&gt;[SURGEON_nameFull] putting [PATIENT_nameFull] to sleep with anesthetic [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[SURGEON_nameFull] elbow-deep in [PATIENT_nameFull] during surgery [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[SURGEON_nameFull] slicing into [PATIENT_nameFull] during surgery [circumstance_group_westerado]</li>
+        <li>circumstance_phrase_westerado-&gt;as [PATIENT_pronoun] trembles with fear</li>
+        <li>circumstance_phrase_westerado-&gt;as blood pools at [SURGEON_nameDef]'s feet</li>
+        <li>circumstance_phrase_westerado-&gt;while surrounded by scary-looking surgical tools</li>
+        <li>circumstance_phrase_westerado-&gt;with improvised but effective tools</li>
+        <li>desc_sentence_westerado-&gt;[SURGEON_nameDef] is sweating profusely.</li>
+        <li>desc_sentence_westerado-&gt;[SURGEON_nameDef] looks incredibly focused on the task.</li>
+        <li>desc_sentence_westerado-&gt;[SURGEON_nameDef] has blood smeared on [SURGEON_possessive] face.</li>
+        <li>desc_sentence_westerado-&gt;[PATIENT_nameDef] is shaking and writhing.</li>
+        <!-- DEFAULT -->
+        <li>tale_noun-&gt;[SURGEON_nameDef] operating on [PATIENT_nameDef]</li>
+        <li>tale_noun-&gt;[SURGEON_nameDef] performing a medical operation on [PATIENT_nameDef]</li>
+        <li>tale_noun-&gt;[PATIENT_nameDef]'s medical operation</li>
+        <li>image-&gt;[SURGEON_nameFull] putting [PATIENT_nameFull] to sleep with anesthetic [circumstance_group]</li>
+        <li>image-&gt;[SURGEON_nameFull] elbow-deep in [PATIENT_nameFull] during surgery [circumstance_group]</li>
+        <li>image-&gt;[SURGEON_nameFull] slicing into [PATIENT_nameFull] during surgery [circumstance_group]</li>
+        <li>circumstance_phrase-&gt;as [PATIENT_pronoun] trembles with fear</li>
+        <li>circumstance_phrase-&gt;as blood pools at [SURGEON_nameDef]'s feet</li>
+        <li>circumstance_phrase-&gt;while surrounded by scary-looking surgical tools</li>
+        <li>circumstance_phrase-&gt;with improvised but effective tools</li>
+        <li>desc_sentence-&gt;[SURGEON_nameDef] is sweating profusely.</li>
+        <li>desc_sentence-&gt;[SURGEON_nameDef] looks incredibly focused on the task.</li>
+        <li>desc_sentence-&gt;[SURGEON_nameDef] has blood smeared on [SURGEON_possessive] face.</li>
+        <li>desc_sentence-&gt;[PATIENT_nameDef] is shaking and writhing.</li>
+      </rulesStrings>
+    </rulePack>
+  </TaleDef>
+  <TaleDef>
+    <defName>ExecutedPrisoner</defName>
+    <label>prisoner executed</label>
+    <taleClass>Tale_DoublePawn</taleClass>
+    <type>Expirable</type>
+    <firstPawnSymbol>EXECUTIONER</firstPawnSymbol>
+    <secondPawnSymbol>PRISONER</secondPawnSymbol>
+    <baseInterest>4</baseInterest>
+    <maxPerPawn>1</maxPerPawn>
+    <expireDays>20</expireDays>
+    <rulePack>
+      <rulesStrings>
+        <li>tale_noun_westerado-&gt;[executioner] executing [PRISONER_nameDef]</li>
+        <li>tale_noun_westerado-&gt;[PRISONER_nameDef] being executed by [EXECUTIONER_nameDef]</li>
+        <li>tale_noun_westerado-&gt;the execution of [PRISONER_nameDef]</li>
+        <li>image_westerado-&gt;[EXECUTIONER_nameFull] executing [PRISONER_nameFull] [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[EXECUTIONER_nameFull] putting [PRISONER_nameFull] to death [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[EXECUTIONER_nameFull] preparing to execute [PRISONER_nameFull] [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[EXECUTIONER_nameFull] entering a prison cell, going to execute [PRISONER_nameFull] [circumstance_group_westerado]</li>
+        <li>circumstance_phrase_westerado-&gt;as [PRISONER_pronoun] writhes on the ground</li>
+        <li>circumstance_phrase_westerado-&gt;as [PRISONER_pronoun] twists in pain</li>
+        <li>circumstance_phrase_westerado-&gt;as [PRISONER_pronoun] cries out in terror</li>
+        <li>circumstance_phrase_westerado-&gt;with professional efficiency</li>
+        <li>circumstance_phrase_westerado-&gt;roughly and amateurishly</li>
+        <li>circumstance_phrase_westerado-&gt;with obviously excessive force</li>
+        <li>circumstance_phrase_westerado-&gt;with obvious pleasure</li>
+        <li>circumstance_phrase_westerado-&gt;while smiling with dominance</li>
+        <li>circumstance_phrase_westerado-&gt;with tears in [EXECUTIONER_possessive] eyes</li>
+        <li>circumstance_phrase_westerado-&gt;with a look of utter indifference</li>
+        <li>circumstance_phrase_westerado-&gt;while inflicting unnecessary pain</li>
+        <li>circumstance_phrase_westerado-&gt;while thinking of something else</li>
+        <li>circumstance_phrase_westerado-&gt;for the greater good</li>
+        <li>desc_sentence_westerado-&gt;[EXECUTIONER_nameDef] is sweating profusely.</li>
+        <li>desc_sentence_westerado-&gt;[EXECUTIONER_nameDef] is drooling a little bit.</li>
+        <li>desc_sentence_westerado-&gt;[EXECUTIONER_nameDef] has blood smeared on [EXECUTIONER_possessive] face.</li>
+        <li>desc_sentence_westerado-&gt;[PRISONER_nameDef] is shaking and writhing.</li>
+        <li>desc_sentence_westerado-&gt;[PRISONER_nameDef] seems to have given up entirely.</li>
+        <li>desc_sentence_westerado-&gt;[PRISONER_nameDef] has closed [PRISONER_possessive] eyes, seeming to pray to a higher power.</li>
+        <li>desc_sentence_westerado-&gt;[PRISONER_nameDef] looks defiant.</li>
+        <!-- DEFAULT -->
+        <li>tale_noun-&gt;[executioner] executing [PRISONER_nameDef]</li>
+        <li>tale_noun-&gt;[PRISONER_nameDef] being executed by [EXECUTIONER_nameDef]</li>
+        <li>tale_noun-&gt;the execution of [PRISONER_nameDef]</li>
+        <li>image-&gt;[EXECUTIONER_nameFull] executing [PRISONER_nameFull] [circumstance_group]</li>
+        <li>image-&gt;[EXECUTIONER_nameFull] putting [PRISONER_nameFull] to death [circumstance_group]</li>
+        <li>image-&gt;[EXECUTIONER_nameFull] preparing to execute [PRISONER_nameFull] [circumstance_group]</li>
+        <li>image-&gt;[EXECUTIONER_nameFull] entering a prison cell, going to execute [PRISONER_nameFull] [circumstance_group]</li>
+        <li>circumstance_phrase-&gt;as [PRISONER_pronoun] writhes on the ground</li>
+        <li>circumstance_phrase-&gt;as [PRISONER_pronoun] twists in pain</li>
+        <li>circumstance_phrase-&gt;as [PRISONER_pronoun] cries out in terror</li>
+        <li>circumstance_phrase-&gt;with professional efficiency</li>
+        <li>circumstance_phrase-&gt;roughly and amateurishly</li>
+        <li>circumstance_phrase-&gt;with obviously excessive force</li>
+        <li>circumstance_phrase-&gt;with obvious pleasure</li>
+        <li>circumstance_phrase-&gt;while smiling with dominance</li>
+        <li>circumstance_phrase-&gt;with tears in [EXECUTIONER_possessive] eyes</li>
+        <li>circumstance_phrase-&gt;with a look of utter indifference</li>
+        <li>circumstance_phrase-&gt;while inflicting unnecessary pain</li>
+        <li>circumstance_phrase-&gt;while thinking of something else</li>
+        <li>circumstance_phrase-&gt;for the greater good</li>
+        <li>desc_sentence-&gt;[EXECUTIONER_nameDef] is sweating profusely.</li>
+        <li>desc_sentence-&gt;[EXECUTIONER_nameDef] is drooling a little bit.</li>
+        <li>desc_sentence-&gt;[EXECUTIONER_nameDef] has blood smeared on [EXECUTIONER_possessive] face.</li>
+        <li>desc_sentence-&gt;[PRISONER_nameDef] is shaking and writhing.</li>
+        <li>desc_sentence-&gt;[PRISONER_nameDef] seems to have given up entirely.</li>
+        <li>desc_sentence-&gt;[PRISONER_nameDef] has closed [PRISONER_possessive] eyes, seeming to pray to a higher power.</li>
+        <li>desc_sentence-&gt;[PRISONER_nameDef] looks defiant.</li>
+      </rulesStrings>
+    </rulePack>
+  </TaleDef>
+  <TaleDef>
+    <defName>KidnappedColonist</defName>
+    <label>colonist kidnapped</label>
+    <taleClass>Tale_DoublePawn</taleClass>
+    <type>Volatile</type>
+    <firstPawnSymbol>KIDNAPPER</firstPawnSymbol>
+    <secondPawnSymbol>VICTIM</secondPawnSymbol>
+    <baseInterest>4</baseInterest>
+    <rulePack>
+      <rulesStrings>
+        <li>tale_noun_westerado-&gt;[KIDNAPPER_nameDef] kidnapping [VICTIM_nameDef]</li>
+        <li>tale_noun_westerado-&gt;[VICTIM_nameDef] being kidnapped by [KIDNAPPER_nameDef]</li>
+        <li>tale_noun_westerado-&gt;the kidnapping of [VICTIM_nameDef]</li>
+        <li>image_westerado-&gt;[KIDNAPPER_nameFull] carrying [VICTIM_nameFull] away to [KIDNAPPER_factionName] [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[KIDNAPPER_nameFull] of [KIDNAPPER_factionName] kidnapping [VICTIM_nameFull] [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[KIDNAPPER_nameFull] kidnapping [VICTIM_nameFull] [circumstance_group_westerado]</li>
+        <li>circumstance_phrase_westerado-&gt;as [VICTIM_pronoun] twists in pain</li>
+        <li>circumstance_phrase_westerado-&gt;with professional efficiency</li>
+        <li>circumstance_phrase_westerado-&gt;roughly and amateurishly</li>
+        <li>circumstance_phrase_westerado-&gt;with obviously excessive force</li>
+        <li>circumstance_phrase_westerado-&gt;with obvious pleasure</li>
+        <li>circumstance_phrase_westerado-&gt;while smiling with dominance</li>
+        <li>circumstance_phrase_westerado-&gt;while covered in blood and filth</li>
+        <li>desc_sentence_westerado-&gt;[VICTIM_nameDef] seems to have given up entirely.</li>
+        <li>desc_sentence_westerado-&gt;[VICTIM_nameDef] has closed [VICTIM_possessive] eyes, seeming to pray to a higher power.</li>
+        <li>desc_sentence_westerado-&gt;[VICTIM_nameDef] looks defiant.</li>
+        <li>desc_sentence_westerado-&gt;[VICTIM_nameDef] is screaming with rage and terror.</li>
+        <li>desc_sentence_westerado-&gt;[VICTIM_nameDef] looks broken and exhausted.</li>
+        <li>desc_sentence_westerado-&gt;[VICTIM_nameDef] appears to be badly wounded.</li>
+        <!-- DEFAULT -->
+        <li>tale_noun-&gt;[KIDNAPPER_nameDef] kidnapping [VICTIM_nameDef]</li>
+        <li>tale_noun-&gt;[VICTIM_nameDef] being kidnapped by [KIDNAPPER_nameDef]</li>
+        <li>tale_noun-&gt;the kidnapping of [VICTIM_nameDef]</li>
+        <li>image-&gt;[KIDNAPPER_nameFull] carrying [VICTIM_nameFull] away to [KIDNAPPER_factionName] [circumstance_group]</li>
+        <li>image-&gt;[KIDNAPPER_nameFull] of [KIDNAPPER_factionName] kidnapping [VICTIM_nameFull] [circumstance_group]</li>
+        <li>image-&gt;[KIDNAPPER_nameFull] kidnapping [VICTIM_nameFull] [circumstance_group]</li>
+        <li>circumstance_phrase-&gt;as [VICTIM_pronoun] twists in pain</li>
+        <li>circumstance_phrase-&gt;with professional efficiency</li>
+        <li>circumstance_phrase-&gt;roughly and amateurishly</li>
+        <li>circumstance_phrase-&gt;with obviously excessive force</li>
+        <li>circumstance_phrase-&gt;with obvious pleasure</li>
+        <li>circumstance_phrase-&gt;while smiling with dominance</li>
+        <li>circumstance_phrase-&gt;while covered in blood and filth</li>
+        <li>desc_sentence-&gt;[VICTIM_nameDef] seems to have given up entirely.</li>
+        <li>desc_sentence-&gt;[VICTIM_nameDef] has closed [VICTIM_possessive] eyes, seeming to pray to a higher power.</li>
+        <li>desc_sentence-&gt;[VICTIM_nameDef] looks defiant.</li>
+        <li>desc_sentence-&gt;[VICTIM_nameDef] is screaming with rage and terror.</li>
+        <li>desc_sentence-&gt;[VICTIM_nameDef] looks broken and exhausted.</li>
+        <li>desc_sentence-&gt;[VICTIM_nameDef] appears to be badly wounded.</li>
+      </rulesStrings>
+    </rulePack>
+  </TaleDef>
+  <TaleDef>
+    <defName>TamedAnimal</defName>
+    <label>animal tamed</label>
+    <taleClass>Tale_DoublePawn</taleClass>
+    <type>Volatile</type>
+    <firstPawnSymbol>TAMER</firstPawnSymbol>
+    <secondPawnSymbol>ANIMAL</secondPawnSymbol>
+    <baseInterest>3</baseInterest>
+    <rulePack>
+      <rulesStrings>
+        <li>tale_noun_westerado-&gt;the taming of [ANIMAL_nameDef] by [TAMER_nameDef]</li>
+        <li>tale_noun_westerado-&gt;[TAMER_nameDef]'s taming of [ANIMAL_nameDef]</li>
+        <li>image_westerado-&gt;[TAMER_nameFull] taming [ANIMAL_nameFull] [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[TAMER_nameFull] offering a morsel of food to [ANIMAL_nameFull] [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[TAMER_nameFull] whispering to a skittish [ANIMAL_nameFull] [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[TAMER_nameFull] calming a wild [ANIMAL_nameFull] [circumstance_group_westerado]</li>
+        <li>circumstance_phrase_westerado-&gt;with great care and caution</li>
+        <li>circumstance_phrase_westerado-&gt;with a smile</li>
+        <li>circumstance_phrase_westerado-&gt;while exhausted but happy</li>
+        <li>desc_sentence_westerado-&gt;[ANIMAL_nameDef] is snarling aggressively.</li>
+        <li>desc_sentence_westerado-&gt;[ANIMAL_nameDef] looks sleepy and drunk with love.</li>
+        <li>desc_sentence_westerado-&gt;[ANIMAL_nameDef] appears to be in some sort of hypnotic state.</li>
+        <li>desc_sentence_westerado-&gt;[ANIMAL_nameDef] looks scared but interested.</li>
+        <li>desc_sentence_westerado-&gt;[ANIMAL_nameDef] appears fascinated.</li>
+        <li>desc_sentence_westerado-&gt;[TAMER_nameDef] is projecting a powerful sense of love towards [ANIMAL_nameDef].</li>
+        <!-- DEFAULT -->
+        <li>tale_noun-&gt;the taming of [ANIMAL_nameDef] by [TAMER_nameDef]</li>
+        <li>tale_noun-&gt;[TAMER_nameDef]'s taming of [ANIMAL_nameDef]</li>
+        <li>image-&gt;[TAMER_nameFull] taming [ANIMAL_nameFull] [circumstance_group]</li>
+        <li>image-&gt;[TAMER_nameFull] offering a morsel of food to [ANIMAL_nameFull] [circumstance_group]</li>
+        <li>image-&gt;[TAMER_nameFull] whispering to a skittish [ANIMAL_nameFull] [circumstance_group]</li>
+        <li>image-&gt;[TAMER_nameFull] calming a wild [ANIMAL_nameFull] [circumstance_group]</li>
+        <li>circumstance_phrase-&gt;with great care and caution</li>
+        <li>circumstance_phrase-&gt;with a smile</li>
+        <li>circumstance_phrase-&gt;while exhausted but happy</li>
+        <li>desc_sentence-&gt;[ANIMAL_nameDef] is snarling aggressively.</li>
+        <li>desc_sentence-&gt;[ANIMAL_nameDef] looks sleepy and drunk with love.</li>
+        <li>desc_sentence-&gt;[ANIMAL_nameDef] appears to be in some sort of hypnotic state.</li>
+        <li>desc_sentence-&gt;[ANIMAL_nameDef] looks scared but interested.</li>
+        <li>desc_sentence-&gt;[ANIMAL_nameDef] appears fascinated.</li>
+        <li>desc_sentence-&gt;[TAMER_nameDef] is projecting a powerful sense of love towards [ANIMAL_nameDef].</li>
+      </rulesStrings>
+    </rulePack>
+  </TaleDef>
+  <TaleDef>
+    <defName>KilledBy</defName>
+    <label>death</label>
+    <taleClass>Tale_DoublePawnKilledBy</taleClass>
+    <type>Volatile</type>
+    <firstPawnSymbol>VICTIM</firstPawnSymbol>
+    <secondPawnSymbol>KILLER</secondPawnSymbol>
+    <baseInterest>4</baseInterest>
+    <rulePack>
+      <rulesStrings>
+        <li>tale_noun_westerado-&gt;[KILLER_nameDef] killing [VICTIM_nameDef]</li>
+        <li>tale_noun_westerado-&gt;[VICTIM_nameDef] being killed by [KILLER_nameDef]</li>
+        <li>tale_noun_westerado-&gt;the killing of [VICTIM_nameDef] by [KILLER_nameDef]</li>
+        <li>tale_noun_westerado-&gt;the killing of [VICTIM_nameDef]</li>
+        <li>image_westerado-&gt;[VICTIM_nameFull] being killed by [KILLER_nameFull] [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[KILLER_nameFull] killing [VICTIM_nameFull] [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[KILLER_nameFull] ending [VICTIM_nameFull]'s life [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[KILLER_nameFull] brutally murdering [VICTIM_nameFull] [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[VICTIM_nameFull] being killed [circumstance_group_westerado]</li>
+        <li>circumstance_phrase_westerado-&gt;seemingly without remorse</li>
+        <li>circumstance_phrase_westerado-&gt;with cold efficiency</li>
+        <li>circumstance_phrase_westerado-&gt;with passionate rage</li>
+        <li>circumstance_phrase_westerado-&gt;with quick, efficient movements</li>
+        <li>circumstance_phrase_westerado-&gt;without emotion or expression</li>
+        <li>circumstance_phrase_westerado-&gt;out of bleak necessity</li>
+        <li>circumstance_phrase_westerado-&gt;in a cowardly, halfhearted way</li>
+        <li>desc_sentence_westerado-&gt;The sun is setting behind them in a symbolic echo of the event.</li>
+        <li>desc_sentence_westerado-&gt;[Quantity_adjphrase] [Animal]s look on.</li>
+        <li>desc_sentence_westerado-&gt;A [PersonJob] watches silently [side_position].</li>
+        <li>desc_sentence_westerado-&gt;Blood is pooling around [VICTIM_nameDef]'s body.</li>
+        <li>desc_sentence_westerado-&gt;[VICTIM_nameDef]'s eyes are rendered in a realistically lifeless fashion.</li>
+        <li>desc_sentence_westerado-&gt;[KILLER_nameDef] is baring [KILLER_possessive] teeth.</li>
+        <li>desc_sentence_westerado-&gt;[KILLER_nameDef] seems satisfied.</li>
+        <li>desc_sentence_westerado-&gt;[KILLER_nameDef] looks distressed at what [KILLER_pronoun] is doing.</li>
+        <li>desc_sentence_westerado-&gt;[KILLER_nameDef] looks pleased with the situation.</li>
+        <li>desc_sentence_westerado-&gt;[KILLER_nameDef] looks triumphant.</li>
+        <!-- DEFAULT -->
+        <!-- note that killer may not be filled in, so this has to be resolvable without any killer_ symbols -->
+        <li>tale_noun-&gt;[KILLER_nameDef] killing [VICTIM_nameDef]</li>
+        <li>tale_noun-&gt;[VICTIM_nameDef] being killed by [KILLER_nameDef]</li>
+        <li>tale_noun-&gt;the killing of [VICTIM_nameDef] by [KILLER_nameDef]</li>
+        <li>tale_noun-&gt;the killing of [VICTIM_nameDef]</li>
+        <li>image-&gt;[VICTIM_nameFull] being killed by [KILLER_nameFull] [circumstance_group]</li>
+        <li>image-&gt;[KILLER_nameFull] killing [VICTIM_nameFull] [circumstance_group]</li>
+        <li>image-&gt;[KILLER_nameFull] ending [VICTIM_nameFull]'s life [circumstance_group]</li>
+        <li>image-&gt;[KILLER_nameFull] brutally murdering [VICTIM_nameFull] [circumstance_group]</li>
+        <li>image-&gt;[VICTIM_nameFull] being killed [circumstance_group]</li>
+        <li>circumstance_phrase-&gt;seemingly without remorse</li>
+        <li>circumstance_phrase-&gt;with cold efficiency</li>
+        <li>circumstance_phrase-&gt;with passionate rage</li>
+        <li>circumstance_phrase-&gt;with quick, efficient movements</li>
+        <li>circumstance_phrase-&gt;without emotion or expression</li>
+        <li>circumstance_phrase-&gt;out of bleak necessity</li>
+        <li>circumstance_phrase-&gt;in a cowardly, halfhearted way</li>
+        <li>desc_sentence-&gt;The sun is setting behind them in a symbolic echo of the event.</li>
+        <li>desc_sentence-&gt;[Quantity_adjphrase] [Animal]s look on.</li>
+        <li>desc_sentence-&gt;A [PersonJob] watches silently [side_position].</li>
+        <li>desc_sentence-&gt;Blood is pooling around [VICTIM_nameDef]'s body.</li>
+        <li>desc_sentence-&gt;[VICTIM_nameDef]'s eyes are rendered in a realistically lifeless fashion.</li>
+        <li>desc_sentence-&gt;[KILLER_nameDef] is baring [KILLER_possessive] teeth.</li>
+        <li>desc_sentence-&gt;[KILLER_nameDef] seems satisfied.</li>
+        <li>desc_sentence-&gt;[KILLER_nameDef] looks distressed at what [KILLER_pronoun] is doing.</li>
+        <li>desc_sentence-&gt;[KILLER_nameDef] looks pleased with the situation.</li>
+        <li>desc_sentence-&gt;[KILLER_nameDef] looks triumphant.</li>
+      </rulesStrings>
+    </rulePack>
+  </TaleDef>
+  <TaleDef>
+    <defName>SoldPrisoner</defName>
+    <label>prisoner sold</label>
+    <taleClass>Tale_DoublePawnAndTrader</taleClass>
+    <type>Expirable</type>
+    <firstPawnSymbol>SELLER</firstPawnSymbol>
+    <secondPawnSymbol>PRISONER</secondPawnSymbol>
+    <baseInterest>3</baseInterest>
+    <maxPerPawn>1</maxPerPawn>
+    <expireDays>30</expireDays>
+    <rulePack>
+      <rulesStrings>
+        <li>tale_noun_westerado-&gt;the selling of [PRISONER_nameDef] to a trader</li>
+        <li>tale_noun_westerado-&gt;[SELLER_nameDef] selling [PRISONER_nameDef] as a slave</li>
+        <li>tale_noun_westerado-&gt;[PRISONER_nameDef] being sold as a slave by [SELLER_nameDef]</li>
+        <li>image_westerado-&gt;[TRADER_nameFull] buying [PRISONER_nameFull] from [SELLER_nameFull] [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[SELLER_nameFull] selling [PRISONER_nameFull] to [TRADER_nameFull] [circumstance_group_westerado]</li>
+        <li>circumstance_phrase_westerado-&gt;as the other colonists look on in disapproval</li>
+        <li>circumstance_phrase_westerado-&gt;while [SELLER_nameDef] counts [TRADER_possessive] money</li>
+        <li>circumstance_phrase_westerado-&gt;while [PRISONER_nameDef] moans plaintively</li>
+        <li>circumstance_phrase_westerado-&gt;to [PRISONER_nameDef]'s chagrin</li>
+        <li>desc_sentence_westerado-&gt;[TRADER_nameDef] is smiling devilishly.</li>
+        <li>desc_sentence_westerado-&gt;[SELLER_nameDef] is laughing maniacally.</li>
+        <li>desc_sentence_westerado-&gt;[SELLER_nameDef] reluctantly hands [PRISONER_nameDef] over to the trader.</li>
+        <li>desc_sentence_westerado-&gt;[PRISONER_nameDef] stares defiantly at [PRISONER_possessive] new master.</li>
+        <li>desc_sentence_westerado-&gt;[TRADER_nameDef] drags [PRISONER_nameDef] away by [PRISONER_possessive] chains.</li>
+        <li>desc_sentence_westerado-&gt;[PRISONER_nameDef] stares at [SELLER_nameDef], plotting [PRISONER_possessive] revenge.</li>
+        <li>desc_sentence_westerado-&gt;[PRISONER_nameDef] is crying.</li>
+        <li>desc_sentence_westerado-&gt;[PRISONER_nameDef] is spitting in [SELLER_nameDef]'s face.</li>
+        <li>desc_sentence_westerado-&gt;[PRISONER_nameDef] is melting into the ground.</li>
+        <li>desc_sentence_westerado-&gt;[SELLER_nameDef] is thrusting the chains of [PRISONER_nameDef] into [TRADER_nameDef]'s hands.</li>
+        <li>desc_sentence_westerado-&gt;An air of hopelessness pervades the situation.</li>
+        <!-- DEFAULT -->
+        <li>tale_noun-&gt;the selling of [PRISONER_nameDef] to a trader</li>
+        <li>tale_noun-&gt;[SELLER_nameDef] selling [PRISONER_nameDef] as a slave</li>
+        <li>tale_noun-&gt;[PRISONER_nameDef] being sold as a slave by [SELLER_nameDef]</li>
+        <li>image-&gt;[TRADER_nameFull] buying [PRISONER_nameFull] from [SELLER_nameFull] [circumstance_group]</li>
+        <li>image-&gt;[SELLER_nameFull] selling [PRISONER_nameFull] to [TRADER_nameFull] [circumstance_group]</li>
+        <li>circumstance_phrase-&gt;as the other colonists look on in disapproval</li>
+        <li>circumstance_phrase-&gt;while [SELLER_nameDef] counts [TRADER_possessive] money</li>
+        <li>circumstance_phrase-&gt;while [PRISONER_nameDef] moans plaintively</li>
+        <li>circumstance_phrase-&gt;to [PRISONER_nameDef]'s chagrin</li>
+        <li>desc_sentence-&gt;[TRADER_nameDef] is smiling devilishly.</li>
+        <li>desc_sentence-&gt;[SELLER_nameDef] is laughing maniacally.</li>
+        <li>desc_sentence-&gt;[SELLER_nameDef] reluctantly hands [PRISONER_nameDef] over to the trader.</li>
+        <li>desc_sentence-&gt;[PRISONER_nameDef] stares defiantly at [PRISONER_possessive] new master.</li>
+        <li>desc_sentence-&gt;[TRADER_nameDef] drags [PRISONER_nameDef] away by [PRISONER_possessive] chains.</li>
+        <li>desc_sentence-&gt;[PRISONER_nameDef] stares at [SELLER_nameDef], plotting [PRISONER_possessive] revenge.</li>
+        <li>desc_sentence-&gt;[PRISONER_nameDef] is crying.</li>
+        <li>desc_sentence-&gt;[PRISONER_nameDef] is spitting in [SELLER_nameDef]'s face.</li>
+        <li>desc_sentence-&gt;[PRISONER_nameDef] is melting into the ground.</li>
+        <li>desc_sentence-&gt;[SELLER_nameDef] is thrusting the chains of [PRISONER_nameDef] into [TRADER_nameDef]'s hands.</li>
+        <li>desc_sentence-&gt;An air of hopelessness pervades the situation.</li>
+      </rulesStrings>
+    </rulePack>
+  </TaleDef>
+  <TaleDef>
+    <defName>TrainedAnimal</defName>
+    <label>animal trained</label>
+    <taleClass>Tale_DoublePawnAndDef</taleClass>
+    <type>Volatile</type>
+    <firstPawnSymbol>TRAINER</firstPawnSymbol>
+    <secondPawnSymbol>ANIMAL</secondPawnSymbol>
+    <defSymbol>TRAINABLE</defSymbol>
+    <defType>TrainableDef</defType>
+    <baseInterest>0.5</baseInterest>
+    <rulePack>
+      <rulesStrings>
+        <li>tale_noun_westerado-&gt;[TRAINER_nameDef] training [ANIMAL_nameDef]</li>
+        <li>tale_noun_westerado-&gt;the training of [ANIMAL_nameDef]</li>
+        <li>tale_noun_westerado-&gt;the training of [ANIMAL_nameDef] by [TRAINER_nameDef]</li>
+        <li>image_westerado-&gt;[TRAINER_nameFull] [train_syn] [ANIMAL_nameFull] in [TRAINABLE_label] [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[TRAINER_nameFull] teaching [TRAINABLE_label] to [ANIMAL_nameFull] [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[TRAINER_nameFull] practicing [TRAINABLE_label] with [ANIMAL_nameFull] [circumstance_group_westerado]</li>
+        <!--<li>train_syn->training</li>
+        <li>train_syn->drilling</li>
+        <li>train_syn->coaching</li>
+        <li>train_syn->indoctrinating</li>
+        <li>train_syn->educating</li>-->
+        <li>circumstance_phrase_westerado-&gt;as others look on</li>
+        <li>circumstance_phrase_westerado-&gt;as wild [Animal]s look on in disgust</li>
+        <li>circumstance_phrase_westerado-&gt;as [ANIMAL_nameDef] thinks of the simpler days when [ANIMAL_pronoun] was a feral beast</li>
+        <li>circumstance_phrase_westerado-&gt;as [TRAINER_nameDef] thinks of what's for lunch</li>
+        <li>circumstance_phrase_westerado-&gt;as the other colonists do actual work</li>
+        <li>desc_sentence_westerado-&gt;[TRAINER_nameDef] is showing pleasure.</li>
+        <li>desc_sentence_westerado-&gt;[TRAINER_nameDef] is smiling.</li>
+        <li>desc_sentence_westerado-&gt;[TRAINER_nameDef] looks bored.</li>
+        <li>desc_sentence_westerado-&gt;[TRAINER_nameDef] is threateningly brandishing [TRAINER_possessive] fist.</li>
+        <li>desc_sentence_westerado-&gt;[TRAINER_nameDef] is wrinkling [TRAINER_possessive] brow in concentration.</li>
+        <li>desc_sentence_westerado-&gt;[ANIMAL_nameDef] looks puzzled.</li>
+        <li>desc_sentence_westerado-&gt;[ANIMAL_nameDef] has a weapon in [ANIMAL_possessive] mouth.</li>
+        <li>desc_sentence_westerado-&gt;[ANIMAL_nameDef] is emitting effortful grunts.</li>
+        <li>desc_sentence_westerado-&gt;[TRAINER_nameDef] is shaking [TRAINER_possessive] head is frustration.</li>
+        <li>desc_sentence_westerado-&gt;[ANIMAL_nameDef] is trembling in fear.</li>
+        <li>desc_sentence_westerado-&gt;[ANIMAL_nameDef] appears to be morphing into a [Vegetable].</li>
+        <li>desc_sentence_westerado-&gt;[ANIMAL_nameDef] is represented as a pile of power tools.</li>
+        <li>desc_sentence_westerado-&gt;[ANIMAL_nameDef] is half [Color] and half [Color].</li>
+        <li>desc_sentence_westerado-&gt;[ANIMAL_nameDef] is covered in scales.</li>
+        <li>desc_sentence_westerado-&gt;[TRAINER_nameDef] is depicted with [quantity] arms.</li>
+        <li>desc_sentence_westerado-&gt;[TRAINER_nameDef] is morphing into [ANIMAL_ShortDefinite].</li>
+        <!-- DEFAULT -->
+        <li>tale_noun-&gt;[TRAINER_nameDef] training [ANIMAL_nameDef]</li>
+        <li>tale_noun-&gt;the training of [ANIMAL_nameDef]</li>
+        <li>tale_noun-&gt;the training of [ANIMAL_nameDef] by [TRAINER_nameDef]</li>
+        <li>image-&gt;[TRAINER_nameFull] [train_syn] [ANIMAL_nameFull] in [TRAINABLE_label] [circumstance_group]</li>
+        <li>image-&gt;[TRAINER_nameFull] teaching [TRAINABLE_label] to [ANIMAL_nameFull] [circumstance_group]</li>
+        <li>image-&gt;[TRAINER_nameFull] practicing [TRAINABLE_label] with [ANIMAL_nameFull] [circumstance_group]</li>
+        <li>train_syn-&gt;training</li>
+        <li>train_syn-&gt;drilling</li>
+        <li>train_syn-&gt;coaching</li>
+        <li>train_syn-&gt;indoctrinating</li>
+        <li>train_syn-&gt;educating</li>
+        <li>circumstance_phrase-&gt;as others look on</li>
+        <li>circumstance_phrase-&gt;as wild [Animal]s look on in disgust</li>
+        <li>circumstance_phrase-&gt;as [ANIMAL_nameDef] thinks of the simpler days when [ANIMAL_pronoun] was a feral beast</li>
+        <li>circumstance_phrase-&gt;as [TRAINER_nameDef] thinks of what's for lunch</li>
+        <li>circumstance_phrase-&gt;as the other colonists do actual work</li>
+        <li>desc_sentence-&gt;[TRAINER_nameDef] is showing pleasure.</li>
+        <li>desc_sentence-&gt;[TRAINER_nameDef] is smiling.</li>
+        <li>desc_sentence-&gt;[TRAINER_nameDef] looks bored.</li>
+        <li>desc_sentence-&gt;[TRAINER_nameDef] is threateningly brandishing [TRAINER_possessive] fist.</li>
+        <li>desc_sentence-&gt;[TRAINER_nameDef] is wrinkling [TRAINER_possessive] brow in concentration.</li>
+        <li>desc_sentence-&gt;[ANIMAL_nameDef] looks puzzled.</li>
+        <li>desc_sentence-&gt;[ANIMAL_nameDef] has a weapon in [ANIMAL_possessive] mouth.</li>
+        <li>desc_sentence-&gt;[ANIMAL_nameDef] is emitting effortful grunts.</li>
+        <li>desc_sentence-&gt;[TRAINER_nameDef] is shaking [TRAINER_possessive] head is frustration.</li>
+        <li>desc_sentence-&gt;[ANIMAL_nameDef] is trembling in fear.</li>
+        <li>desc_sentence-&gt;[ANIMAL_nameDef] appears to be morphing into a [Vegetable].</li>
+        <li>desc_sentence-&gt;[ANIMAL_nameDef] is represented as a pile of power tools.</li>
+        <li>desc_sentence-&gt;[ANIMAL_nameDef] is half [Color] and half [Color].</li>
+        <li>desc_sentence-&gt;[ANIMAL_nameDef] is covered in scales.</li>
+        <li>desc_sentence-&gt;[TRAINER_nameDef] is depicted with [quantity] arms.</li>
+        <li>desc_sentence-&gt;[TRAINER_nameDef] is morphing into [ANIMAL_ShortDefinite].</li>
+      </rulesStrings>
+    </rulePack>
+  </TaleDef>
+  <TaleDef>
+    <defName>KilledColonist</defName>
+    <label>colonist killed</label>
+    <taleClass>Tale_DoublePawn</taleClass>
+    <type>Expirable</type>
+    <firstPawnSymbol>KILLER</firstPawnSymbol>
+    <secondPawnSymbol>COLONIST</secondPawnSymbol>
+    <usableForArt>false</usableForArt>
+    <maxPerPawn>1</maxPerPawn>
+    <expireDays>50</expireDays>
+  </TaleDef>
+  <TaleDef>
+    <defName>KilledColonyAnimal</defName>
+    <label>colony animal killed</label>
+    <taleClass>Tale_DoublePawn</taleClass>
+    <type>Expirable</type>
+    <firstPawnSymbol>KILLER</firstPawnSymbol>
+    <secondPawnSymbol>COLONIST</secondPawnSymbol>
+    <usableForArt>false</usableForArt>
+    <maxPerPawn>1</maxPerPawn>
+    <expireDays>25</expireDays>
+  </TaleDef>
+  <TaleDef>
+    <defName>DefeatedHostileFactionLeader</defName>
+    <label>defeated hostile leader</label>
+    <taleClass>Tale_DoublePawn</taleClass>
+    <type>Expirable</type>
+    <firstPawnSymbol>KILLER</firstPawnSymbol>
+    <secondPawnSymbol>COLONIST</secondPawnSymbol>
+    <usableForArt>false</usableForArt>
+    <maxPerPawn>1</maxPerPawn>
+    <expireDays>10</expireDays>
+  </TaleDef>
+  <TaleDef>
+    <defName>TradedWith</defName>
+    <label>traded with someone</label>
+    <taleClass>Tale_DoublePawn</taleClass>
+    <type>Volatile</type>
+    <firstPawnSymbol>BUYER</firstPawnSymbol>
+    <secondPawnSymbol>SELLER</secondPawnSymbol>
+    <baseInterest>1</baseInterest>
+    <rulePack>
+      <rulesStrings>
+        <li>tale_noun_westerado-&gt;a trade between [SELLER_nameFull] and [BUYER_nameFull]</li>
+        <li>image_westerado-&gt;[BUYER_nameFull] buying goods from [SELLER_nameFull] [circumstance_group_westerado]</li>
+        <li>image_westerado-&gt;[SELLER_nameFull] selling goods to [BUYER_nameFull] [circumstance_group_westerado]</li>
+        <li>circumstance_phrase_westerado-&gt;with greedy intent</li>
+        <li>circumstance_phrase_westerado-&gt;while [SELLER_nameDef] smirks at [BUYER_shortNameDef]</li>
+        <li>desc_sentence_westerado-&gt;[BUYER_nameDef] is examining [SELLER_nameDef]'s wares.</li>
+        <li>desc_sentence_westerado-&gt;[SELLER_nameDef] considers an item.</li>
+        <li>desc_sentence_westerado-&gt;[SELLER_nameDef] starts haggling.</li>
+        <li>desc_sentence_westerado-&gt;[BUYER_nameDef] argues with [SELLER_nameDef].</li>
+        <li>desc_sentence_westerado-&gt;[SELLER_nameDef] and [BUYER_nameDef] agree on a price.</li>
+        <li>desc_sentence_westerado-&gt;[BUYER_nameDef] pays for the item.</li>
+        <li>desc_sentence_westerado-&gt;[SELLER_nameDef] is counting [SELLER_possessive] money.</li>
+        <li>desc_sentence_westerado-&gt;[BUYER_nameDef] is taking [BUYER_possessive] goods.</li>
+        <!-- DEFAULT -->
+        <li>tale_noun-&gt;a trade between [SELLER_nameFull] and [BUYER_nameFull]</li>
+        <li>image-&gt;[BUYER_nameFull] buying goods from [SELLER_nameFull] [circumstance_group]</li>
+        <li>image-&gt;[SELLER_nameFull] selling goods to [BUYER_nameFull] [circumstance_group]</li>
+        <li>circumstance_phrase-&gt;with greedy intent</li>
+        <li>circumstance_phrase-&gt;while [SELLER_nameDef] smirks at [BUYER_shortNameDef]</li>
+        <li>desc_sentence-&gt;[BUYER_nameDef] is examining [SELLER_nameDef]'s wares.</li>
+        <li>desc_sentence-&gt;[SELLER_nameDef] considers an item.</li>
+        <li>desc_sentence-&gt;[SELLER_nameDef] starts haggling.</li>
+        <li>desc_sentence-&gt;[BUYER_nameDef] argues with [SELLER_nameDef].</li>
+        <li>desc_sentence-&gt;[SELLER_nameDef] and [BUYER_nameDef] agree on a price.</li>
+        <li>desc_sentence-&gt;[BUYER_nameDef] pays for the item.</li>
+        <li>desc_sentence-&gt;[SELLER_nameDef] is counting [SELLER_possessive] money.</li>
+        <li>desc_sentence-&gt;[BUYER_nameDef] is taking [BUYER_possessive] goods.</li>
+      </rulesStrings>
+    </rulePack>
+  </TaleDef>
+</Defs>

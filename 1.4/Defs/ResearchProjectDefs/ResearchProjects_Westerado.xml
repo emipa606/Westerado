@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--============================== Packs Categories ==============================-->
+  <ResearchProjectDef>
+    <defName>FrontierTech_Westerado</defName>
+    <label>Frontier Equipment</label>
+    <description>Researches Frontier Equipment. \n\nUnlocks the Bowie knife, trapper hat, and panning spot.</description>
+    <tab>RTab_Westerado</tab>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tags>
+      <li>WesteradoStart</li>
+    </tags>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+    <prerequisites>
+      <li>Smithing</li>
+      <li>ComplexClothing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>DistillingTech_Westerado</defName>
+    <label>distilling</label>
+    <description>Build a distillery to distill plant matter into very strong alcohols.</description>
+    <baseCost>800</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>1</researchViewX>
+    <researchViewY>1.5</researchViewY>
+    <prerequisites>
+      <li>Brewing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <!--============================== New Weapon Tech ==============================-->
+  <!--=============== Percussion Lock ===============-->
+  <ResearchProjectDef>
+    <defName>PercussionTech_Westerado</defName>
+    <label>percussion lock</label>
+    <description>Craft simple manually-operated percussion lock guns like pistols, and rifles.</description>
+    <baseCost>250</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Machining</li>
+    </prerequisites>
+    <researchViewX>6</researchViewX>
+    <researchViewY>3.4</researchViewY>
+  </ResearchProjectDef>
+  <!--=============== Single-Action ===============-->
+  <ResearchProjectDef>
+    <defName>SingleActionTech_Westerado</defName>
+    <label>single-action</label>
+    <description>Craft intricate manually-operated single-actions guns like revolvers, and breech-loading rifles.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PercussionTech_Westerado</li>
+    </prerequisites>
+    <researchViewX>7</researchViewX>
+    <researchViewY>3.4</researchViewY>
+  </ResearchProjectDef>
+  <!--=============== Double-Action ===============-->
+  <ResearchProjectDef>
+    <defName>DoubleActionTech_Westerado</defName>
+    <label>double-action</label>
+    <description>Craft complex manually-operated double-action guns like revolvers.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>SingleActionTech_Westerado</li>
+    </prerequisites>
+    <researchViewX>8</researchViewX>
+    <researchViewY>3.4</researchViewY>
+  </ResearchProjectDef>
+  <!--=============== Repeating Action ===============-->
+  <ResearchProjectDef>
+    <defName>RepeatingActionTech_Westerado</defName>
+    <label>repeating action</label>
+    <description>Craft intricate manually-operated lever-action, lever-action shotguns, and repeating rifles.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PercussionTech_Westerado</li>
+    </prerequisites>
+    <researchViewX>7</researchViewX>
+    <researchViewY>4.1</researchViewY>
+  </ResearchProjectDef>
+  <!--=============== Bolt Action ===============-->
+  <ResearchProjectDef>
+    <defName>BoltActionTech_Westerado</defName>
+    <label>bolt action</label>
+    <description>Craft complex manually-operated bolt action guns like pistols, rifles, and sniper rifles.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>RepeatingActionTech_Westerado</li>
+    </prerequisites>
+    <researchViewX>8</researchViewX>
+    <researchViewY>4.1</researchViewY>
+  </ResearchProjectDef>
+  <!--=============== Break-action ===============-->
+  <ResearchProjectDef>
+    <defName>BreakActionTech_Westerado</defName>
+    <label>break-action</label>
+    <description>Craft simple manually-operated break-action guns, like coach guns.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PercussionTech_Westerado</li>
+    </prerequisites>
+    <researchViewX>7</researchViewX>
+    <researchViewY>4.8</researchViewY>
+  </ResearchProjectDef>
+  <!--=============== Pump-action ===============-->
+  <ResearchProjectDef>
+    <defName>PumpActionTech_Westerado</defName>
+    <label>pump-action</label>
+    <description>Craft intricate manually-operated pump-action guns like pump shotguns.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BreakActionTech_Westerado</li>
+    </prerequisites>
+    <researchViewX>8</researchViewX>
+    <researchViewY>4.8</researchViewY>
+  </ResearchProjectDef>
+</Defs>

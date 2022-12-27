@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef ParentName="FactionBase" Name="FirstNationBase_Westerado" Abstract="True">
+    <pawnSingular>rimind</pawnSingular>
+    <pawnsPlural>riminds</pawnsPlural>
+    <listOrderPriority>25</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canStageAttacks>true</canStageAttacks>
+    <factionIconPath>World/WorldObjects/Expanding/FirstNationOutpost</factionIconPath>
+    <factionNameMaker>NamerFactionFirstNation_Westerado</factionNameMaker>
+    <settlementNameMaker>NamerSettlementFirstNation_Westerado</settlementNameMaker>
+    <techLevel>Medieval</techLevel>
+    <backstoryCategories>
+      <li>Tribal</li>
+    </backstoryCategories>
+    <leaderTitle>chief</leaderTitle>
+    <allowedCultures>
+      <li>FirstNation</li>
+    </allowedCultures>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(0, 1)</li>
+        <!--Constant 1 at all points levels-->
+      </points>
+    </raidCommonalityFromPointsCurve>
+    <caravanTraderKinds>
+      <li>Caravan_Neolithic_BulkGoods</li>
+      <li>Caravan_Neolithic_WarMerchant</li>
+      <li>Caravan_Neolithic_Slaver</li>
+      <li>Caravan_Neolithic_ShamanMerchant</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Neolithic_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Neolithic_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(800, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <FirstNation_Slave_Westerado>5</FirstNation_Slave_Westerado>
+          <FirstNation_Warrior_Westerado>5</FirstNation_Warrior_Westerado>
+          <FirstNation_Archer_Westerado>10</FirstNation_Archer_Westerado>
+          <FirstNation_Stalker_Westerado>10</FirstNation_Stalker_Westerado>
+          <FirstNation_BisonWarrior_Westerado>5</FirstNation_BisonWarrior_Westerado>
+          <FirstNation_ChiefRanged_Westerado>3</FirstNation_ChiefRanged_Westerado>
+          <FirstNation_ChiefMelee_Westerado>1.5</FirstNation_ChiefMelee_Westerado>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <FirstNation_Archer_Westerado>10</FirstNation_Archer_Westerado>
+          <FirstNation_Stalker_Westerado>10</FirstNation_Stalker_Westerado>
+          <FirstNation_ChiefRanged_Westerado>5</FirstNation_ChiefRanged_Westerado>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, melee only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <FirstNation_Slave_Westerado>10</FirstNation_Slave_Westerado>
+          <FirstNation_Warrior_Westerado>10</FirstNation_Warrior_Westerado>
+          <FirstNation_BisonWarrior_Westerado>10</FirstNation_BisonWarrior_Westerado>
+          <FirstNation_ChiefMelee_Westerado>5</FirstNation_ChiefMelee_Westerado>
+        </options>
+      </li>
+      <li>
+        <!-- Peaceful -->
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <FirstNation_Warrior_Westerado>20</FirstNation_Warrior_Westerado>
+          <FirstNation_Archer_Westerado>10</FirstNation_Archer_Westerado>
+          <FirstNation_Stalker_Westerado>10</FirstNation_Stalker_Westerado>
+          <FirstNation_BisonWarrior_Westerado>5</FirstNation_BisonWarrior_Westerado>
+          <FirstNation_ChiefRanged_Westerado>3</FirstNation_ChiefRanged_Westerado>
+          <FirstNation_ChiefMelee_Westerado>1.5</FirstNation_ChiefMelee_Westerado>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <FirstNation_Trader_Westerado>1</FirstNation_Trader_Westerado>
+        </traders>
+        <carriers>
+          <Muffalo>1.5</Muffalo>
+          <Dromedary>3</Dromedary>
+          <Alpaca>6</Alpaca>
+          <BrownDonkey_Westerado>3</BrownDonkey_Westerado>
+          <BlackDonkey_Westerado>2</BlackDonkey_Westerado>
+          <GreyDonkey_Westerado>2</GreyDonkey_Westerado>
+        </carriers>
+        <guards>
+          <FirstNation_Warrior_Westerado>7</FirstNation_Warrior_Westerado>
+          <FirstNation_Archer_Westerado>10</FirstNation_Archer_Westerado>
+          <FirstNation_Stalker_Westerado>10</FirstNation_Stalker_Westerado>
+          <FirstNation_BisonWarrior_Westerado>7</FirstNation_BisonWarrior_Westerado>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <FirstNation_Warrior_Westerado>7</FirstNation_Warrior_Westerado>
+          <FirstNation_Archer_Westerado>10</FirstNation_Archer_Westerado>
+          <FirstNation_Stalker_Westerado>10</FirstNation_Stalker_Westerado>
+          <FirstNation_BisonWarrior_Westerado>7</FirstNation_BisonWarrior_Westerado>
+          <FirstNation_ChiefRanged_Westerado>10</FirstNation_ChiefRanged_Westerado>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
+  </FactionDef>
+  <FactionDef ParentName="FirstNationBase_Westerado">
+    <defName>FirstNationCivil</defName>
+    <label>cordial rimind tribe</label>
+    <description>These people have been here a very long time. Maybe their ancestors crashed here a thousand years ago. Maybe they survived some cataclysm that destroyed a technological civilization here. In any case, the tribals are mostly nomadic people who live off the land using primitive tools and weapons.\n\nDespite their apparent technological weakness, the tribals can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThis particular tribe pursues a gentle way of life where they can. They are quite open to trade and alliances, even with strange peoples.</description>
+    <colorSpectrum>
+      <li>(0.86, 0.45, 0.39)</li>
+      <li>(0.82, 0.71, 0.31)</li>
+    </colorSpectrum>
+  </FactionDef>
+  <FactionDef ParentName="FirstNationBase_Westerado">
+    <defName>FirstNationRough</defName>
+    <label>savage rimind tribe</label>
+    <description>These people have been here a very long time. Maybe their ancestors crashed here a thousand years ago. Maybe they survived some cataclysm that destroyed a technological civilization here. In any case, the tribals are mostly nomadic people who live off the land using primitive tools and weapons.\n\nDespite their apparent technological weakness, the tribals can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThis particular tribe values warlike dominance; its impossible to turn them into an ally.</description>
+    <colorSpectrum>
+      <li>(0.46, 0.05, 0.01)</li>
+      <li>(0.42, 0.31, 0.01)</li>
+    </colorSpectrum>
+    <permanentEnemy>true</permanentEnemy>
+  </FactionDef>
+</Defs>

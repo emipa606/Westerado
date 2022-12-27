@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=====================================================================-->
+  <!--=============================== Eggs ================================-->
+  <!--=====================================================================-->
+  <!-- Gila Monster -->
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggGilaMonsterFertilized_Westerado</defName>
+    <label>gila monster egg (fert.)</label>
+    <description>A fertilized gila monster egg. If all goes well, it should hatch into a baby gila monster. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+      <color>(225,225,225)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>33.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>28.5</hatcherDaystoHatch>
+        <hatcherPawn>GilaMonster_Westerado</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

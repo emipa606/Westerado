@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="ResourceVerbBase_Westerado" ParentName="ResourceBase" Abstract="True">
+    <equipmentType>Primary</equipmentType>
+    <techLevel>Neolithic</techLevel>
+    <stackLimit>10</stackLimit>
+    <comps>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+    </comps>
+    <stuffProps>
+      <categories>
+        <li>HornsAndAntlers_Westerado</li>
+      </categories>
+      <commonality>0.0025</commonality>
+      <statFactors>
+        <MaxHitPoints>1.5</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+    <thingCategories>
+      <li>HornsAndAntlerThing_Westerado</li>
+    </thingCategories>
+  </ThingDef>
+  <!--=============== Bison horn ====================-->
+  <ThingDef ParentName="ResourceVerbBase_Westerado">
+    <defName>BisonHorn_Westerado</defName>
+    <label>bison horn</label>
+    <description>A bison's horn. It is quite durable and very valuable. While somewhat unwieldy as a melee weapon, it can still be deadly.</description>
+    <graphicData>
+      <texPath>Things/Item/Special/BisonHorn_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>14</MarketValue>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>0.4</Mass>
+      <Flammability>0.9</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+    <stuffProps>
+      <stuffAdjective>bison horn</stuffAdjective>
+      <color>(106,90,48)</color>
+      <commonality>0.04</commonality>
+    </stuffProps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <!--=============== Boar tusk ====================-->
+  <ThingDef ParentName="ResourceVerbBase_Westerado">
+    <defName>BoarTusk_Westerado</defName>
+    <label>boar tusk</label>
+    <description>A boar's tusk. It is very durable but not very valuable. While somewhat unwieldy as a melee weapon, it can still be deadly.</description>
+    <graphicData>
+      <texPath>Things/Item/Special/BoarTusk_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>3</MarketValue>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>0.6</Mass>
+      <Flammability>0.9</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>13.2</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+    </tools>
+    <stuffProps>
+      <stuffAdjective>boar tusk</stuffAdjective>
+      <color>(146,146,146)</color>
+      <commonality>0.2</commonality>
+    </stuffProps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <!--=============== Caribou antler ====================-->
+  <ThingDef ParentName="ResourceVerbBase_Westerado">
+    <defName>CaribouAntler_Westerado</defName>
+    <label>caribou antler</label>
+    <description>A caribou's antler. It is durable and reasonably valuable. While somewhat unwieldy as a melee weapon, it can still be deadly.</description>
+    <graphicData>
+      <texPath>Things/Item/Special/CaribouAntler_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>9</MarketValue>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>0.7</Mass>
+      <Flammability>0.9</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+    <stuffProps>
+      <stuffAdjective>caribou antler</stuffAdjective>
+      <color>(199,171,121)</color>
+      <commonality>0.08</commonality>
+    </stuffProps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <!--=============== Deer antler ====================-->
+  <ThingDef ParentName="ResourceVerbBase_Westerado">
+    <defName>DeerAntler_Westerado</defName>
+    <label>deer antler</label>
+    <description>A buck's antler. It is very durable but reasonably valuable. While somewhat unwieldy as a melee weapon, it can still be deadly.</description>
+    <graphicData>
+      <texPath>Things/Item/Special/DeerAntler_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>6</MarketValue>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>0.8</Mass>
+      <Flammability>0.9</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+    <stuffProps>
+      <stuffAdjective>deer antler</stuffAdjective>
+      <color>(189,182,132)</color>
+      <commonality>0.11</commonality>
+    </stuffProps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <!--=============== Elk antler ====================-->
+  <ThingDef ParentName="ResourceVerbBase_Westerado">
+    <defName>ElkAntler_Westerado</defName>
+    <label>elk antler</label>
+    <description>An elk's antler. It is very durable and reasonably valuable. While somewhat unwieldy as a melee weapon, it can still be deadly.</description>
+    <graphicData>
+      <texPath>Things/Item/Special/ElkAntler_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>7</MarketValue>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>0.8</Mass>
+      <Flammability>0.9</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+    <stuffProps>
+      <stuffAdjective>elk antler</stuffAdjective>
+      <color>(156,150,115)</color>
+      <commonality>0.09</commonality>
+    </stuffProps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <!--=============== Gazelle horn ====================-->
+  <ThingDef ParentName="ResourceVerbBase_Westerado">
+    <defName>GazelleHorn_Westerado</defName>
+    <label>gazelle horn</label>
+    <description>A gazelle's horn. It is very durable and reasonably valuable. While somewhat unwieldy as a melee weapon, it can still be deadly.</description>
+    <graphicData>
+      <texPath>Things/Item/Special/GazelleHorn_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-90</equippedAngleOffset>
+    <statBases>
+      <MarketValue>5</MarketValue>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>0.8</Mass>
+      <Flammability>0.9</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+    </tools>
+    <stuffProps>
+      <stuffAdjective>gazelle horn</stuffAdjective>
+      <color>(99,85,66)</color>
+      <commonality>0.10</commonality>
+    </stuffProps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <!--=============== Ibex horn ====================-->
+  <ThingDef ParentName="ResourceVerbBase_Westerado">
+    <defName>IbexHorn_Westerado</defName>
+    <label>ibex horn</label>
+    <description>An ibex's horn. It is very durable but not valuable. While somewhat unwieldy as a melee weapon, it can still be deadly.</description>
+    <graphicData>
+      <texPath>Things/Item/Special/IbexHorn_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>3</MarketValue>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>0.9</Mass>
+      <Flammability>0.9</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+    </tools>
+    <stuffProps>
+      <stuffAdjective>ibex horn</stuffAdjective>
+      <color>(84,71,54)</color>
+      <commonality>0.11</commonality>
+    </stuffProps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <!--=============== Moose antler ====================-->
+  <ThingDef ParentName="ResourceVerbBase_Westerado">
+    <defName>MooseAntler_Westerado</defName>
+    <label>moose antler</label>
+    <description>A moose's antler. It is very durable and quite valuable. While somewhat unwieldy as a melee weapon, it can still be deadly.</description>
+    <graphicData>
+      <texPath>Things/Item/Special/MooseAntler_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>12</MarketValue>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>0.8</Mass>
+      <Flammability>0.9</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+    <stuffProps>
+      <stuffAdjective>moose antler</stuffAdjective>
+      <color>(154,139,116)</color>
+      <commonality>0.04</commonality>
+    </stuffProps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <!--=============== Rhino horn ====================-->
+  <ThingDef ParentName="ResourceVerbBase_Westerado">
+    <defName>RhinoHorn_Westerado</defName>
+    <label>rhinoceros horn</label>
+    <description>A rhinoceros's horn. It is extremely durable and very valuable. While somewhat unwieldy as a melee weapon, it can still be deadly.</description>
+    <graphicData>
+      <texPath>Things/Item/Special/RhinoHorn_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>18</MarketValue>
+      <MaxHitPoints>140</MaxHitPoints>
+      <Mass>0.8</Mass>
+      <Flammability>0.9</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+    </tools>
+    <stuffProps>
+      <stuffAdjective>rhino horn</stuffAdjective>
+      <color>(173,174,173)</color>
+      <commonality>0.01</commonality>
+    </stuffProps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <!--=============== Thrumbo horn ====================-->
+  <!-- <ThingDef ParentName="ResourceVerbBase_Westerado">
+    <defName>ThrumboHorn</defName>
+    <label>thrumbo horn</label>
+    <description>A thrumbo's horn. It's razor-sharp, rock-hard, and priceless in most markets. This is a true trophy, as well as a deadly melee weapon.</description>
+    <graphicData>
+      <texPath>Things/Item/Special/ThrumboHorn</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>800</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>3</Mass>
+      <Flammability>0.4</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <stuffProps>
+      <stuffAdjective>thrumbo horn</stuffAdjective>
+      <color>(206,215,222)</color>
+      <commonality>0.0001</commonality>
+    </stuffProps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef> -->
+  <!--=============== Elephant tusk ====================-->
+  <!-- <ThingDef ParentName="ResourceVerbBase_Westerado">
+    <defName>ElephantTusk</defName>
+    <label>elephant tusk</label>
+    <description>An elephant's tusk. It is very durable and valuable. While somewhat unwieldy as a melee weapon, it can still be deadly.</description>
+    <graphicData>
+      <texPath>Things/Item/Special/ElephantTusk</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>80</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>1.8</Mass>
+      <Flammability>0.9</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>18.2</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+    </tools>
+    <stuffProps>
+      <stuffAdjective>ivory</stuffAdjective>
+      <color>(244,244,240)</color>
+      <commonality>0.05</commonality>
+    </stuffProps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef> -->
+</Defs>

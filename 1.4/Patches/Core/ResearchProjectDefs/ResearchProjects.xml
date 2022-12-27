@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Brewing ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="Brewing"]/label</xpath>
+        <value>
+          <label>brewing</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="Brewing"]/description</xpath>
+        <value>
+          <description>Build a brewery and fermenting vats to transform plant matter into tasty, tasty alcohol.</description>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Devilstrand ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="Devilstrand"]/researchViewX</xpath>
+        <value>
+          <researchViewX>0</researchViewX>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="Devilstrand"]/researchViewY</xpath>
+        <value>
+          <researchViewY>5.25</researchViewY>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Gunsmithing ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]/description</xpath>
+        <value>
+          <description>Craft simple manually-operated flintlock guns like pistols, and rifles.</description>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]/researchViewX</xpath>
+        <value>
+          <researchViewX>3</researchViewX>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]/prerequisites</xpath>
+        <value>
+          <prerequisites>
+            <li>Smithing</li>
+          </prerequisites>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]/baseCost</xpath>
+        <value>
+          <baseCost>800</baseCost>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Machining ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="Machining"]/prerequisites</xpath>
+        <value>
+          <prerequisites>
+            <li>Electricity</li>
+            <li>Gunsmithing</li>
+          </prerequisites>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Prosthetics ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="Prosthetics"]/researchViewY</xpath>
+        <value>
+          <researchViewY>5</researchViewY>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Bionics ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="Bionics"]/researchViewY</xpath>
+        <value>
+          <researchViewY>5</researchViewY>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Electricity ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="Electricity"]/researchViewY</xpath>
+        <value>
+          <researchViewY>0.75</researchViewY>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Microelectronics ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="MicroelectronicsBasics"]/researchViewY</xpath>
+        <value>
+          <researchViewY>0.75</researchViewY>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Blowback Operation ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="BlowbackOperation"]/researchViewX</xpath>
+        <value>
+          <researchViewX>9</researchViewX>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="BlowbackOperation"]/prerequisites</xpath>
+        <value>
+          <prerequisites>
+            <li>DoubleActionTech_Westerado</li>
+            <li>BoltActionTech_Westerado</li>
+          </prerequisites>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Mortars ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="Mortars"]/label</xpath>
+        <value>
+          <label>artillery</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="Mortars"]/researchViewX</xpath>
+        <value>
+          <researchViewX>6</researchViewX>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="Mortars"]/prerequisites</xpath>
+        <value>
+          <prerequisites>
+            <li>Machining</li>
+          </prerequisites>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Gas Operation ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="GasOperation"]/description</xpath>
+        <value>
+          <description>Craft high-power guns like chain shotguns, LMGs, heavy SMGs, and incendiary launchers.</description>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="GasOperation"]/researchViewX</xpath>
+        <value>
+          <researchViewX>10</researchViewX>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="GasOperation"]/researchViewY</xpath>
+        <value>
+          <researchViewY>3.4</researchViewY>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Gun Turrets ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="GunTurrets"]/researchViewX</xpath>
+        <value>
+          <researchViewX>10</researchViewX>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="GunTurrets"]/researchViewY</xpath>
+        <value>
+          <researchViewY>4</researchViewY>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Auto Cannon ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="HeavyTurrets"]/researchViewX</xpath>
+        <value>
+          <researchViewX>11</researchViewX>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="HeavyTurrets"]/researchViewY</xpath>
+        <value>
+          <researchViewY>4</researchViewY>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Precision Rifling ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="PrecisionRifling"]/researchViewX</xpath>
+        <value>
+          <researchViewX>11</researchViewX>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="PrecisionRifling"]/researchViewY</xpath>
+        <value>
+          <researchViewY>3.4</researchViewY>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Multibarrel weapons ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="MultibarrelWeapons"]/researchViewX</xpath>
+        <value>
+          <researchViewX>11</researchViewX>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Uranium slug ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="SniperTurret"]/researchViewY</xpath>
+        <value>
+          <researchViewY>4</researchViewY>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

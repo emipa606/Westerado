@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Meditative -->
+  <JoyGiverDef>
+    <defName>Whittle_Westerado</defName>
+    <giverClass>JoyGiver_InPrivateRoom</giverClass>
+    <baseChance>1</baseChance>
+    <pctPawnsEverDo>0.5</pctPawnsEverDo>
+    <jobDef>Whittle_Westerado</jobDef>
+    <joyKind>Meditative</joyKind>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+  <!-- Cerebral Play -->
+  <JoyGiverDef>
+    <defName>Play_Poker_Westerado</defName>
+    <giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
+    <baseChance>4</baseChance>
+    <thingDefs>
+      <li>PokerTable_Westerado</li>
+    </thingDefs>
+    <jobDef>PlayPoker_Westerado</jobDef>
+    <joyKind>Gaming_Cerebral</joyKind>
+    <requiredCapacities>
+      <li>Sight</li>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+  <!-- Food Consumption -->
+  <JoyGiverDef>
+    <defName>EatPopcorn_Westerado</defName>
+    <giverClass>JoyGiver_Ingest</giverClass>
+    <baseChance>2.75</baseChance>
+    <thingDefs>
+      <li>Popcorn_Westerado</li>
+    </thingDefs>
+    <joyKind>Gluttonous</joyKind>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+</Defs>

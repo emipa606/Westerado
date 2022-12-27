@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ============= Misc ============= -->
+  <WorkGiverDef>
+    <defName>DoBillsGoldPanning</defName>
+    <label>pan for gold</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Mining</workType>
+    <priorityInType>62</priorityInType>
+    <fixedBillGiverDefs>
+      <li>PanningSpot_Westerado</li>
+    </fixedBillGiverDefs>
+    <verb>pan</verb>
+    <gerund>panning at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  <!-- ============= Cooking ============= -->
+  <WorkGiverDef>
+    <defName>DoBillsCookCampfireLarge</defName>
+    <label>cook meals at campfire</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Cooking</workType>
+    <priorityInType>98</priorityInType>
+    <fixedBillGiverDefs>
+      <li>CampfireLarge</li>
+    </fixedBillGiverDefs>
+    <verb>cook</verb>
+    <gerund>cooking at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  <!-- ============= Hauling ============= -->
+  <WorkGiverDef>
+    <defName>DoBillsHaulCampfireLarge</defName>
+    <label>do bills at campfire</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Hauling</workType>
+    <priorityInType>32</priorityInType>
+    <fixedBillGiverDefs>
+      <li>CampfireLarge</li>
+    </fixedBillGiverDefs>
+    <verb>work at</verb>
+    <gerund>working at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  <ThingDef Name="BambooCampfireInsertion_Westerado" Abstract="True" />
+  <!-- ============= Brewing Stuff ============= -->
+  <!-- <ThingDef Name="VG_BrewInsertion" Abstract="True" />
+  <WorkGiverDef>
+    <defName>VG_WorkGiver_TakeProductOutOfUniversalFermenter</defName>
+    <label>empty alcohol fermenter</label>
+    <giverClass>Drinks.WorkGiver_TakeProductOutOfUniversalFermenter</giverClass>
+    <workType>VG_Brewing</workType>
+    <verb>take product</verb>
+    <gerund>taking product from</gerund>
+    <priorityInType>26</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>VG_WorkGiver_FillUniversalFermenter</defName>
+    <label>fill alcohol fermenter</label>
+    <giverClass>Drinks.WorkGiver_FillUniversalFermenter</giverClass>
+    <workType>VG_Brewing</workType>
+    <verb>fill</verb>
+    <gerund>filling</gerund>
+    <priorityInType>25</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>DoBillsBrew</defName>
+    <label>brew liquors</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>VG_Brewing</workType>
+    <priorityInType>30</priorityInType>
+    <fixedBillGiverDefs>
+      <li>Brewery</li>
+    </fixedBillGiverDefs>
+    <verb>brew</verb>
+    <gerund>brewing at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef> -->
+</Defs>
