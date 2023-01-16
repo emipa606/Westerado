@@ -68,7 +68,7 @@
     <comps>
       <li Class="CombatExtended.CompProperties_Fragments">
         <fragments>
-          <Fragment_Shell>120</Fragment_Shell>
+          <Fragment_Small>120</Fragment_Small>
         </fragments>
       </li>
     </comps>
@@ -89,7 +89,7 @@
     <comps>
       <li Class="CombatExtended.CompProperties_Fragments">
         <fragments>
-          <Fragment_Shell>20</Fragment_Shell>
+          <Fragment_Small>20</Fragment_Small>
         </fragments>
       </li>
     </comps>
