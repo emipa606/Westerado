@@ -16,14 +16,23 @@
     </operations>
   </Operation>
   <!-- ========== Rhino horns ========== -->
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/PawnKindDef[defName="Rhinoceros"]/lifeStages/li[3]</xpath>
-    <value>
-      <butcherBodyPart>
-        <bodyPartGroup>HornAttackTool</bodyPartGroup>
-        <thing>RhinoHorn_Westerado</thing>
-        <allowFemale>true</allowFemale>
-      </butcherBodyPart>
-    </value>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/PawnKindDef[defName="Rhinoceros"]/lifeStages/li[3]/butcherBodyPart/allowFemale</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/PawnKindDef[defName="Rhinoceros"]/lifeStages/li[3]</xpath>
+        <value>
+          <butcherBodyPart>
+            <bodyPartGroup>HornAttackTool</bodyPartGroup>
+            <thing>RhinoHorn_Westerado</thing>
+            <allowFemale>true</allowFemale>
+          </butcherBodyPart>
+        </value>
+      </li>
+    </operations>
   </Operation>
 </Patch>
