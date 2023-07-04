@@ -36,7 +36,7 @@
     </tradeTags>
   </ThingDef>
   <!-- ================== Projectiles ================== -->
-  <ThingDef Class="CombatExtended.AmmoDef" Name="Base12PoundCannonShell" ParentName="BaseBullet" Abstract="true">
+  <ThingDef Class="CombatExtended.AmmoDef" Name="Base12PoundCannonShell" ParentName="BaseBulletCE" Abstract="true">
     <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
     <graphicData>
       <shaderType>TransparentPostLight</shaderType>

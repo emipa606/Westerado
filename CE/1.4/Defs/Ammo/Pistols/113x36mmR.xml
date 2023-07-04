@@ -71,7 +71,7 @@
     <cookOffProjectile>Bullet_113x36mmR_HP</cookOffProjectile>
   </ThingDef>
   <!-- ================== Projectiles ================== -->
-  <ThingDef Class="CombatExtended.AmmoDef" Name="Base113x36mmRBullet" ParentName="BaseBullet" Abstract="true">
+  <ThingDef Class="CombatExtended.AmmoDef" Name="Base113x36mmRBullet" ParentName="BaseBulletCE" Abstract="true">
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>

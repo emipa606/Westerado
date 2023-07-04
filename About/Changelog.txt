@@ -1,5 +1,8 @@
 # Changelog for Westerado
 
+1.4.4 - Fixed the CE-patch, thanks AvemRobin!
+
+
 1.4.3 - Added test for rihno butcher products
 
 

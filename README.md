@@ -134,7 +134,7 @@ If you're looking for something like this but slightly different you can checkou
 All original content (e.g. text, imagery, sounds) in this mod is licensed under the All original content (e.g. text, imagery, sounds) in this mod is licensed under the http://creativecommons.org/licenses/by-sa/4.0/]CC-BY-SA 4.0 license.
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2236973780]Last updated 2023-05-21
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2236973780]Last updated 2023-07-04
 
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
