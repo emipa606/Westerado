@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef ParentName="FurnitureWithQualityBase">
+  <ThingDef ParentName="ShelfBase">
     <defName>BarCabinet_Westerado</defName>
     <label>Bar Cabinet</label>
     <graphicData>
@@ -23,8 +23,8 @@
     <costStuffCount>120</costStuffCount>
     <size>(2,1)</size>
     <building>
-      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
-      <fixedStorageSettings>
+      <maxItemsInCell>1</maxItemsInCell>
+      <fixedStorageSettings Inherit="False">
         <priority>Preferred</priority>
         <filter>
           <categories>
@@ -32,6 +32,14 @@
           </categories>
         </filter>
       </fixedStorageSettings>
+      <defaultStorageSettings Inherit="False">
+        <priority>Preferred</priority>
+        <filter>
+          <categories>
+            <li>Drugs</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
     </building>
     <staticSunShadowHeight Inherit="False">0.33</staticSunShadowHeight>
   </ThingDef>
