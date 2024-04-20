@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ================ Artillery ==================-->
+  <!-- High-explosive -->
+  <ThingDef ParentName="MakeableShellBase">
+    <defName>Shell_Cannonball_Westerado</defName>
+    <label>cannonball</label>
+    <description>A spherical piece of metal. Can be fired from cannons.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Shell/CannonBall</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>9</stackLimit>
+    <!--<comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>2.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+        <wickTicks>
+          <min>30</min>
+          <max>60</max>
+        </wickTicks>
+      </li>
+    </comps>-->
+    <projectileWhenLoaded>Bullet_Shell_Cannonball_Westerado</projectileWhenLoaded>
+    <costList>
+      <Steel>25</Steel>
+      <!--<Chemfuel>10</Chemfuel>-->
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Shell_Cannonball_Westerado</defName>
+    <label>cannonball</label>
+    <graphicData>
+      <texPath>Things/Projectile/CannonBall</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>CannonballBomb_Westerado</damageDef>
+      <!-- damage amount is the damage def default -->
+      <speed>90</speed>
+      <explosionRadius>2.5</explosionRadius>
+      <flyOverhead>false</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+      <postExplosionSpawnThingDef>Filth_Dirt</postExplosionSpawnThingDef>
+      <postExplosionSpawnChance>1</postExplosionSpawnChance>
+      <postExplosionSpawnThingCount>3</postExplosionSpawnThingCount>
+    </projectile>
+  </ThingDef>
+  <!-- Grapeshot -->
+  <ThingDef ParentName="MakeableShellBase">
+    <defName>Shell_Grapeshot_Westerado</defName>
+    <label>grapeshot</label>
+    <description>A bunch of smaller spherical pieces of metal. Can be fired from cannons.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Shell/Grapeshot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>(1.15,1.15)</drawSize>
+    </graphicData>
+    <stackLimit>9</stackLimit>
+    <!--<comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>2.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+        <wickTicks>
+          <min>30</min>
+          <max>60</max>
+        </wickTicks>
+      </li>
+    </comps>-->
+    <projectileWhenLoaded>Bullet_Shell_Grapeshot_Westerado</projectileWhenLoaded>
+    <costList>
+      <Steel>20</Steel>
+      <Cloth>5</Cloth>
+      <!--<Chemfuel>10</Chemfuel>-->
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Shell_Grapeshot_Westerado</defName>
+    <label>grapeshot</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+      <drawSize>1.4</drawSize>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <!-- damage amount is the damage def default -->
+      <speed>77</speed>
+      <explosionRadius>1.5</explosionRadius>
+      <flyOverhead>false</flyOverhead>
+      <damageAmountBase>45</damageAmountBase>
+      <stoppingPower>6</stoppingPower>
+      <armorPenetrationBase>0.12</armorPenetrationBase>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>Grain_Drop</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>
+    <!--<projectile>
+      <damageDef>Bullet</damageDef>
+			<speed>77</speed>
+			<flyOverhead>false</flyOverhead>
+      <damageAmountBase>45</damageAmountBase>
+      <stoppingPower>6</stoppingPower>
+      <armorPenetrationBase>0.12</armorPenetrationBase>
+    </projectile>-->
+  </ThingDef>
+  <!-- Punt Gun Shell -->
+  <!--<ThingDef ParentName="MakeableShellBase">
+    <defName>Shell_PuntGun_Westerado</defName>
+    <label>punt gun shell</label>
+    <description>A bunch of smaller spherical pieces of metal. Can be fired from cannons.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Shell/PuntShell</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(1.15,1.15)</drawSize>
+    </graphicData>
+		<stackLimit>9</stackLimit>
+    <projectileWhenLoaded>Bullet_Shell_PuntGun_Westerado</projectileWhenLoaded>
+    <costList>
+      <Steel>15</Steel>
+			<Cloth>5</Cloth>
+    </costList>
+  </ThingDef>-->
+  <!--<ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Shell_PuntGun_Westerado</defName>
+    <label>punt gun blast</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.8</drawSize>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <speed>70</speed>
+      <explosionRadius>1.5</explosionRadius>
+      <flyOverhead>false</flyOverhead>
+			<damageAmountBase>33</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.08</armorPenetrationBase>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>Grain_Drop</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>-->
+  <!--<projectile>
+      <damageDef>Bullet</damageDef>
+			<speed>77</speed>
+			<flyOverhead>false</flyOverhead>
+      <damageAmountBase>45</damageAmountBase>
+      <stoppingPower>6</stoppingPower>
+      <armorPenetrationBase>0.12</armorPenetrationBase>
+    </projectile>-->
+  <!--</ThingDef>-->
+</Defs>

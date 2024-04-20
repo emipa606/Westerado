@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Parka ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_Parka"]/apparel/tags</xpath>
+    <value>
+      <li>Outlaw_Westerado</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_Parka"]</xpath>
+    <value>
+      <generateCommonality>0.60</generateCommonality>
+    </value>
+  </Operation>
+  <!-- ========== Pants ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_Pants"]/apparel/tags</xpath>
+    <value>
+      <li>Outlaw_Westerado</li>
+      <li>FirstNationApparel_Westerado</li>
+    </value>
+  </Operation>
+  <!-- ========== T-shirt ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_BasicShirt"]/apparel/tags</xpath>
+    <value>
+      <li>Outlaw_Westerado</li>
+    </value>
+  </Operation>
+  <!-- ========== Button-down shirt ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_CollarShirt"]/apparel/tags</xpath>
+    <value>
+      <li>Outlaw_Westerado</li>
+    </value>
+  </Operation>
+  <!-- ========== Duster ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_Duster"]/apparel/tags</xpath>
+    <value>
+      <li>Outlaw_Westerado</li>
+    </value>
+  </Operation>
+  <!-- ========== Jacket ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_Jacket"]/apparel/tags</xpath>
+    <value>
+      <li>Outlaw_Westerado</li>
+      <!--<li>FirstNationApparel_Westerado</li>-->
+    </value>
+  </Operation>
+  <!-- ========== Armor vest ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_FlakVest"]/apparel/tags</xpath>
+    <value>
+      <li>Outlaw_Westerado</li>
+    </value>
+  </Operation>
+</Patch>

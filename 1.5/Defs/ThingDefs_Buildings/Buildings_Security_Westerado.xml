@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ================ Artillery ==================-->
+  <ThingDef Name="BaseArtilleryBuilding_Westerado" ParentName="BuildingBase" Abstract="True">
+    <thingClass>Building_TurretGun</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Building/Security/12PoundCannon_Base</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4,4)</drawSize>
+      <damageData>
+        <rect>(0.38,0.2,0.56375,0.8)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+      </damageData>
+      <shadowData>
+        <offset>(-0.13,-0.87,-0.1)</offset>
+        <volume>(0.5,0.4,1.05)</volume>
+      </shadowData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <stealable>false</stealable>
+    <size>(2,2)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>60</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <tickerType>Normal</tickerType>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <costList>
+      <Steel>220</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <inspectorTabs>
+      <li>ITab_Shells</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Mannable">
+        <manWorkType>Violent</manWorkType>
+      </li>
+    </comps>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>0.7</Flammability>
+      <WorkToBuild>3600</WorkToBuild>
+      <Mass>626</Mass>
+      <Beauty>5</Beauty>
+    </statBases>
+    <building>
+      <turretBurstWarmupTime>10.0</turretBurstWarmupTime>
+      <turretBurstCooldownTime>5.0</turretBurstCooldownTime>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Security/12PoundCannon_Blueprint</texPath>
+      </blueprintGraphicData>
+      <buildingTags>
+        <li>Artillery</li>
+      </buildingTags>
+    </building>
+    <placeWorkers>
+      <!--<li>PlaceWorker_NotUnderRoof</li>-->
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>Mortars</li>
+    </researchPrerequisites>
+    <uiIconScale>1.1</uiIconScale>
+  </ThingDef>
+  <ThingDef Name="BaseArtilleryWeapon_Westerado" Abstract="True">
+    <category>Item</category>
+    <thingClass>ThingWithComps</thingClass>
+    <label>artillery error</label>
+    <useHitPoints>false</useHitPoints>
+    <equipmentType>Primary</equipmentType>
+    <tickerType>Never</tickerType>
+    <techLevel>Industrial</techLevel>
+    <destroyOnDrop>True</destroyOnDrop>
+    <tradeability>None</tradeability>
+    <weaponTags>
+      <li>Artillery</li>
+    </weaponTags>
+    <comps>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li Class="CompProperties_ChangeableProjectile" />
+    </comps>
+    <building>
+      <fixedStorageSettings>
+        <filter>
+          <thingDefs>
+            <li>Shell_Cannonball_Westerado</li>
+            <li>Shell_Grapeshot_Westerado</li>
+          </thingDefs>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <filter>
+          <thingDefs>
+            <li>Shell_Cannonball_Westerado</li>
+            <li>Shell_Grapeshot_Westerado</li>
+          </thingDefs>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+  </ThingDef>
+  <!--=============== 12-Pounder Cannon ===============-->
+  <ThingDef ParentName="BaseArtilleryBuilding_Westerado">
+    <defName>Turret_Cannon_Westerado</defName>
+    <label>12-pound cannon</label>
+    <description>A manned 12-pound cannon that launches cannonballs. While it can inflict devastating damage, the cannon's need for direct line of fire makes it more useful for attacking groups of enemies in the field than large fortifications.</description>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>2.9</explosiveRadius>
+        <explosiveDamageType>CannonballBomb_Westerado</explosiveDamageType>
+      </li>
+    </comps>
+    <!--<designationHotKey>Misc4</designationHotKey>-->
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <building>
+      <turretGunDef>Artillery_Cannon_Westerado</turretGunDef>
+      <turretTopDrawSize>3</turretTopDrawSize>
+      <buildingTags>
+        <li>Artillery_BaseDestroyer</li>
+      </buildingTags>
+    </building>
+    <uiIconPath>Things/Building/Security/12PoundCannon_MenuIcon</uiIconPath>
+    <uiIconScale>0.9</uiIconScale>
+  </ThingDef>
+  <ThingDef ParentName="BaseArtilleryWeapon_Westerado">
+    <defName>Artillery_Cannon_Westerado</defName>
+    <label>12-pound cannon</label>
+    <description>Cannon. Lobs cannonballs towards the enemy. Somewhat inaccurate with decent range.</description>
+    <weaponTags>
+      <li>Artillery_BaseDestroyer</li>
+    </weaponTags>
+    <graphicData>
+      <texPath>Things/Building/Security/12PoundCannon_11</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <hasStandardCommand>true</hasStandardCommand>
+        <warmupTime>6.0</warmupTime>
+        <forcedMissRadius>4</forcedMissRadius>
+        <requireLineOfSight>true</requireLineOfSight>
+        <minRange>6.9</minRange>
+        <range>120</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Mortar_LaunchA</soundCast>
+        <muzzleFlashScale>16</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!--=============== Punt Gun ===============-->
+  <!--<ThingDef ParentName="BaseArtilleryBuilding_Westerado">
+    <defName>Turret_PuntGun_Westerado</defName>
+    <label>punt gun</label>
+    <description>A manned punt gun that shoots massive shotgun shells.</description>
+    <graphicData>
+      <texPath>Things/Building/Security/PuntGun_Base</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+		<costList>
+			<Steel>150</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+    <statBases>
+      <MaxHitPoints>160</MaxHitPoints>
+      <Flammability>0.9</Flammability>
+      <WorkToBuild>3200</WorkToBuild>
+      <Mass>43</Mass>
+      <Beauty>-10</Beauty>
+    </statBases>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <building>
+      <turretGunDef>PuntGun_Westerado</turretGunDef>
+			<turretTopDrawSize>3</turretTopDrawSize>
+      <buildingTags>
+        <li>TurretGun</li>
+      </buildingTags>
+    </building>
+	<uiIconPath>Things/Building/Security/PuntGun_MenuIcon</uiIconPath>
+	<uiIconScale>0.9</uiIconScale>
+	<researchPrerequisites>
+		<li>PercussionTech_Westerado</li>
+	</researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseArtilleryWeapon_Westerado">
+    <defName>PuntGun_Westerado</defName>
+    <label>punt gun</label>
+    <description>Punt gun. Shoots massive shotgun shells. Somewhat inaccurate with decent range.</description>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <graphicData>
+      <texPath>Things/Building/Security/PuntGun_11</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  </graphicData>
+		<building Inherit="False">
+      <fixedStorageSettings>
+        <filter>
+          <thingDefs>
+						<li>Shell_PuntGun_Westerado</li>
+          </thingDefs>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <filter>
+          <thingDefs>
+						<li>Shell_PuntGun_Westerado</li>
+          </thingDefs>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <hasStandardCommand>true</hasStandardCommand>
+        <warmupTime>3.0</warmupTime>
+        <forcedMissRadius>2</forcedMissRadius>
+        <requireLineOfSight>true</requireLineOfSight>
+        <minRange>2.9</minRange>
+        <range>31.9</range>
+        <soundCast>Shot_PuntGun_Westerado</soundCast>
+        <muzzleFlashScale>16</muzzleFlashScale>
+        <targetParams>
+					<canTargetLocations>false</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef>-->
+  <!--<ThingDef ParentName="BuildingBase">
+    <defName>PuntGunManned_Westerado</defName>
+    <label>punt gun turret</label>
+    <thingClass>Building_TurretGun</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Building/Security/PuntGun_Base</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <damageData>
+        <rect>(0.38,0.2,0.56375,0.8)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+    </thingCategories>
+    <altitudeLayer>Building</altitudeLayer>
+		<hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <stealable>false</stealable>
+    <statBases>
+      <MaxHitPoints>160</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>3500</WorkToBuild>
+      <Mass>180</Mass>
+      <Beauty>-30</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Mannable">
+        <manWorkType>Violent</manWorkType>
+      </li>
+			<li Class="CompProperties_Refuelable">
+        <fuelLabel>Shots until reloading</fuelLabel>
+        <fuelGizmoLabel>Loaded shells</fuelGizmoLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>Shell_Grapeshot_Westerado</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelCapacity>1</fuelCapacity>
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <fuelMultiplier>1</fuelMultiplier>
+        <factorByDifficulty>true</factorByDifficulty>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <outOfFuelMessage>Punt gun: Needs reloading</outOfFuelMessage>
+        <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+      </li>
+    </comps>
+    <description>Shredder turret is designed for close range. It doesn't explodes when destroyed thus making it a perfect choice for indoor defense, the only downside is that it takes more space than an ordinary variant. This manned design is cheaper at the cost of needing an operator.</description>
+    <size>(2,2)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <castEdgeShadows>false</castEdgeShadows>
+    <fillPercent>0.4</fillPercent>
+    <costList>
+      <Steel>195</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <specialDisplayRadius>20</specialDisplayRadius>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <building>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_PuntGunManned_Westerado</turretGunDef>
+			<turretTopDrawSize>3</turretTopDrawSize>
+    </building>
+		<uiIconPath>Things/Building/Security/PuntGun_MenuIcon</uiIconPath>
+		<uiIconScale>0.9</uiIconScale>
+    <researchPrerequisites>
+      <li>PercussionTech_Westerado</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_TurretPuntGun_Westerado</defName>
+    <label>punt gun blast</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>52</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Gun_PuntGunManned_Westerado</defName>
+    <label>manned shredder turret gun</label>
+    <graphicData>
+      <texPath>Things/Building/Security/PuntGun_11</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>Massive shotgun attached to a a base.</description>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
+    <statBases>
+			<Mass>40</Mass>
+      <AccuracyTouch>1.0</AccuracyTouch>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.6</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags Inherit="false">
+      <li>TurretGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_TurretPuntGun_Westerado</defaultProjectile>
+        <warmupTime>2.2</warmupTime>
+        <range>32.9</range>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>16</muzzleFlashScale>
+        <consumeFuelPerShot>1</consumeFuelPerShot>
+      </li>
+    </verbs>
+  </ThingDef>-->
+  <!--==================== Traps ======================== -->
+  <!--=============== Bear Trap ===============-->
+  <ThingDef ParentName="BuildingBase">
+    <defName>TrapBearTrap_Westerado</defName>
+    <label>bear trap</label>
+    <description>Jaws of death held away from snapping by a delicate trigger. When the victim disturbs the trigger, the jaws snap together and hurt the victim.</description>
+    <thingClass>Building_TrapDamager</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Security/BearTrapArmed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0,0,1,0.15)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawerType>RealtimeOnly</drawerType>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <stealable>false</stealable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <statBases>
+      <Mass>3.2</Mass>
+      <MaxHitPoints>40</MaxHitPoints>
+      <WorkToBuild>3600</WorkToBuild>
+      <Flammability>0.5</Flammability>
+      <Beauty>-4</Beauty>
+      <Cleanliness>-5</Cleanliness>
+      <TrapMeleeDamage>120</TrapMeleeDamage>
+      <TrapSpringChance>0.8</TrapSpringChance>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>55</costStuffCount>
+    <designationCategory>Security</designationCategory>
+    <building>
+      <isTrap>true</isTrap>
+      <trapDestroyOnSpring>true</trapDestroyOnSpring>
+      <!--<trapUnarmedGraphic>Things/Building/Security/BearTrapUnarmed</trapUnarmedGraphic>-->
+      <trapDamageCategory>Sharp</trapDamageCategory>
+      <expandHomeArea>false</expandHomeArea>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <!--<trapUnarmedGraphicData>
+			<texPath>Things/Building/Security/BearTrapUnarmed</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+		</trapUnarmedGraphicData>-->
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>FrontierTech_Westerado</li>
+    </researchPrerequisites>
+    <placeWorkers>
+      <li>PlaceWorker_NeverAdjacentTrap</li>
+    </placeWorkers>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Boar tusks ========== -->
+  <!-- updated 9-4-2020 -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/PawnKindDef[defName="WildBoar"]/lifeStages/li/butcherBodyPart</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/PawnKindDef[defName="WildBoar"]/lifeStages/li/butcherBodyPart</xpath>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="WildBoar"]/lifeStages/li[3]</xpath>
+    <value>
+      <butcherBodyPart>
+        <bodyPartGroup>TuskAttackTool</bodyPartGroup>
+        <thing>BoarTusk_Westerado</thing>
+        <allowFemale>true</allowFemale>
+      </butcherBodyPart>
+    </value>
+  </Operation>
+  <!-- ========== Caribou antlers ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Caribou"]/lifeStages/li[3]</xpath>
+    <value>
+      <butcherBodyPart>
+        <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+        <thing>CaribouAntler_Westerado</thing>
+        <allowFemale>true</allowFemale>
+      </butcherBodyPart>
+    </value>
+  </Operation>
+  <!-- ========== Deer antlers ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Deer"]/lifeStages/li[3]</xpath>
+    <value>
+      <butcherBodyPart>
+        <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+        <thing>DeerAntler_Westerado</thing>
+        <allowFemale>false</allowFemale>
+      </butcherBodyPart>
+    </value>
+  </Operation>
+  <!-- ========== Elk antlers ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Elk"]/lifeStages/li[3]</xpath>
+    <value>
+      <butcherBodyPart>
+        <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+        <thing>ElkAntler_Westerado</thing>
+        <allowFemale>false</allowFemale>
+      </butcherBodyPart>
+    </value>
+  </Operation>
+  <!-- ========== Ibex horns ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Ibex"]/lifeStages/li[3]</xpath>
+    <value>
+      <butcherBodyPart>
+        <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+        <thing>IbexHorn_Westerado</thing>
+        <allowFemale>true</allowFemale>
+      </butcherBodyPart>
+    </value>
+  </Operation>
+</Patch>

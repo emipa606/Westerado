@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>Popcorn_Westerado</defName>
+    <label>popcorn</label>
+    <description>A delicious preparation of popped corn. It fulfills the need for recreation, but it is not very nutritious.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/Popcorn</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <!--<drawSize>0.88</drawSize>-->
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <MarketValue>1.15</MarketValue>
+      <Mass>0.1</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>8</DeteriorationRate>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <foodType>Processed</foodType>
+      <joy>0.06</joy>
+      <joyKind>Gluttonous</joyKind>
+      <maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+</Defs>

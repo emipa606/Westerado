@@ -1,5 +1,8 @@
 # Changelog for Westerado
 
+1.5.0 - Updated for 1.5
+
+
 1.4.5 - Fixed the storage settings for the bar cabinet
 
 

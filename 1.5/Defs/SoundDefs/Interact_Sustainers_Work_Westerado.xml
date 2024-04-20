@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SoundDef>
+    <defName>Recipe_PanningSound_Westerado</defName>
+    <sustain>True</sustain>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxVoices>3</maxVoices>
+    <priorityMode>PrioritizeNearest</priorityMode>
+    <sustainStartSound>PanningSound_Start_Westerado</sustainStartSound>
+    <sustainStopSound>PanningSound_Stop_Westerado</sustainStopSound>
+    <sustainFadeoutTime>0.25</sustainFadeoutTime>
+    <subSounds>
+      <li>
+        <muteWhenPaused>True</muteWhenPaused>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Interact/Work/Panning/Loop</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>15</min>
+          <max>15</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9541177</min>
+          <max>1.137647</max>
+        </pitchRange>
+        <distRange>
+          <min>10</min>
+          <max>50</max>
+        </distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>PanningSound_Start_Westerado</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Interact/Work/Panning/Start</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>8.70588</min>
+          <max>8.70588</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>PanningSound_Stop_Westerado</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Interact/Work/Panning/Stop</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>8.380299</min>
+          <max>8.380299</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

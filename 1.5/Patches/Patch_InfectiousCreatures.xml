@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="ExtractSnakeVenomGland"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="ExtractSnakeVenomGland"]/ingredients/li/filter/thingDefs</xpath>
+          <value>
+            <li>Corpse_Rattlesnake_Westerado</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="ExtractSnakeVenomGland"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>Corpse_Rattlesnake_Westerado</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Cowboy Hat ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_CowboyHat"]/apparel/tags</xpath>
+    <value>
+      <li>Outlaw_Westerado</li>
+    </value>
+  </Operation>
+  <!-- ========== Bowler Hat ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_BowlerHat"]/apparel</xpath>
+    <value>
+      <tags>
+        <li>IndustrialBasic</li>
+        <li>Outlaw_Westerado</li>
+      </tags>
+    </value>
+  </Operation>
+  <!-- ========== Tuque ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_Tuque"]/apparel/tags</xpath>
+    <value>
+      <li>Outlaw_Westerado</li>
+    </value>
+  </Operation>
+</Patch>

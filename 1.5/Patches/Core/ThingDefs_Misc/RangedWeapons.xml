@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Bolt action ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/ThingDef[defName="Gun_BoltActionRifle"]/recipeMaker/researchPrerequisite</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_BoltActionRifle"]/recipeMaker</xpath>
+        <value>
+          <researchPrerequisite>BoltActionTech_Westerado</researchPrerequisite>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Revolver ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/ThingDef[defName="Gun_Revolver"]/recipeMaker/researchPrerequisite</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_Revolver"]/recipeMaker</xpath>
+        <value>
+          <researchPrerequisite>DoubleActionTech_Westerado</researchPrerequisite>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Pump Shottie ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/ThingDef[defName="Gun_PumpShotgun"]/recipeMaker/researchPrerequisite</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_PumpShotgun"]/recipeMaker</xpath>
+        <value>
+          <researchPrerequisite>PumpActionTech_Westerado</researchPrerequisite>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- ========== Incendiary Launcher ========== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/ThingDef[defName="Gun_IncendiaryLauncher"]/recipeMaker/researchPrerequisite</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_IncendiaryLauncher"]/recipeMaker</xpath>
+        <value>
+          <researchPrerequisite>GasOperation</researchPrerequisite>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

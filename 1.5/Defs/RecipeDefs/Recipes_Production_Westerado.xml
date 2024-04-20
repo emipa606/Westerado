@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>PanForGold_Westerado</defName>
+    <label>pan for gold</label>
+    <description>Use a pan to sift through mud and silt for gold.</description>
+    <jobString>Panning for gold.</jobString>
+    <!--<surgerySuccessChanceFactor>0.5</surgerySuccessChanceFactor>-->
+    <workAmount>7500</workAmount>
+    <workSkill>Mining</workSkill>
+    <workSkillLearnFactor>0.5</workSkillLearnFactor>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>GoldPanEffect_Westerado</effectWorking>
+    <soundWorking>Recipe_PanningSound_Westerado</soundWorking>
+    <products>
+      <Gold>1</Gold>
+    </products>
+  </RecipeDef>
+</Defs>

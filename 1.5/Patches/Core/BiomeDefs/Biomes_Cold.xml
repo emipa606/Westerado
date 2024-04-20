@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Boreal Forest ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="BorealForest"]/diseases</xpath>
+    <value>
+      <li>
+        <diseaseInc>Disease_Dysentery_Westerado</diseaseInc>
+        <commonality>80</commonality>
+      </li>
+    </value>
+  </Operation>
+  <!-- ========== Tundra ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="Tundra"]/diseases</xpath>
+    <value>
+      <li>
+        <diseaseInc>Disease_Dysentery_Westerado</diseaseInc>
+        <commonality>80</commonality>
+      </li>
+    </value>
+  </Operation>
+  <!-- ========== Cold Bog ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="ColdBog"]/diseases</xpath>
+    <value>
+      <li>
+        <diseaseInc>Disease_Dysentery_Westerado</diseaseInc>
+        <commonality>80</commonality>
+      </li>
+    </value>
+  </Operation>
+  <!-- ========== Ice Sheet ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="IceSheet"]/diseases</xpath>
+    <value>
+      <li>
+        <diseaseInc>Disease_Dysentery_Westerado</diseaseInc>
+        <commonality>80</commonality>
+      </li>
+    </value>
+  </Operation>
+  <!-- ========== Sea Ice ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="SeaIce"]/diseases</xpath>
+    <value>
+      <li>
+        <diseaseInc>Disease_Dysentery_Westerado</diseaseInc>
+        <commonality>80</commonality>
+      </li>
+    </value>
+  </Operation>
+</Patch>
