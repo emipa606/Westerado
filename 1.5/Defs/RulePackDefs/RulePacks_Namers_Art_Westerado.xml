@@ -1,13 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!--======== Utility ========-->
   <RulePackDef>
     <defName>ArtNameUtility_Westerado</defName>
     <rulePack>
       <rulesFiles>
-        <li>AnimalBadass_Westerado-&gt;Words/Nouns/Animals_Badass_Westerado</li>
-        <li>ColorBadass_Westerado-&gt;Words/Nouns/Colors_Badass_Westerado</li>
-        <li>ConceptBadass_Westerado-&gt;Words/Nouns/Concepts_Badass_Westerado</li>
+        <li>AnimalBadass_Westerado->Words/Nouns/Animals_Badass_Westerado</li>
+        <li>ColorBadass_Westerado->Words/Nouns/Colors_Badass_Westerado</li>
+        <li>ConceptBadass_Westerado->Words/Nouns/Concepts_Badass_Westerado</li>
       </rulesFiles>
     </rulePack>
   </RulePackDef>
@@ -20,19 +20,19 @@
     <rulePack>
       <rulesStrings>
         <!-- General -->
-        <li>r_art_name-&gt;[ConceptBadass_Westerado]</li>
-        <li>r_art_name-&gt;The [AnimalBadass_Westerado]</li>
-        <li>r_art_name-&gt;[AdjectiveBadass] [AnimalBadass_Westerado]</li>
-        <li>r_art_name-&gt;[ColorBadass_Westerado] [AnimalBadass_Westerado]</li>
-        <li>r_art_name-&gt;[ConceptBadass_Westerado] [ColorBadass_Westerado]</li>
+        <li>r_art_name->[ConceptBadass_Westerado]</li>
+        <li>r_art_name->The [AnimalBadass_Westerado]</li>
+        <li>r_art_name->[AdjectiveBadass] [AnimalBadass_Westerado]</li>
+        <li>r_art_name->[ColorBadass_Westerado] [AnimalBadass_Westerado]</li>
+        <li>r_art_name->[ConceptBadass_Westerado] [ColorBadass_Westerado]</li>
         <!-- Person. High probability; if we can use these we want to -->
-        <li>r_art_name(p=3)-&gt;[ANYPAWN_nameIndef]'s [ConceptBadass_Westerado]</li>
-        <li>r_art_name(p=3)-&gt;[ANYPAWN_nameIndef]'s [AnimalBadass_Westerado]</li>
-        <li>r_art_name(p=3)-&gt;[ANYPAWN_nameIndef]'s [PersonBadass]</li>
-        <li>r_art_name(p=3)-&gt;[ANYPAWN_nameIndef]'s [PersonAlly]</li>
-        <li>r_art_name(p=3)-&gt;[ANYPAWN_nameIndef]'s [PersonFamily]</li>
-        <li>r_art_name(p=3)-&gt;[ConceptBadass_Westerado] of [ANYPAWN_nameIndef]</li>
-        <li>r_art_name(p=3)-&gt;[ColorBadass_Westerado] [ANYPAWN_nameIndef]</li>
+        <li>r_art_name(p=3)->[ANYPAWN_nameIndef]'s [ConceptBadass_Westerado]</li>
+        <li>r_art_name(p=3)->[ANYPAWN_nameIndef]'s [AnimalBadass_Westerado]</li>
+        <li>r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonBadass]</li>
+        <li>r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonAlly]</li>
+        <li>r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonFamily]</li>
+        <li>r_art_name(p=3)->[ConceptBadass_Westerado] of [ANYPAWN_nameIndef]</li>
+        <li>r_art_name(p=3)->[ColorBadass_Westerado] [ANYPAWN_nameIndef]</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>

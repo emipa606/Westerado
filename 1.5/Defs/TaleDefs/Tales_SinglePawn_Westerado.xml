@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <TaleDef>
     <defName>LandedInPod</defName>
@@ -8,50 +8,50 @@
     <baseInterest>1.0</baseInterest>
     <rulePack>
       <rulesStrings>
-        <li>tale_noun_westerado-&gt;[PAWN_nameDef]'s arrival by horse</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] arriving by horse [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] appearing on a horse [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] walking along a horse [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] riding on a horse [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] bareback riding a horse [circumstance_group_westerado]</li>
-        <li>circumstance_phrase_westerado-&gt;in front of a [TerrainFeature]</li>
-        <li>circumstance_phrase_westerado-&gt;with incredible stride</li>
-        <li>circumstance_phrase_westerado-&gt;in a plume of dust and rocks</li>
-        <li>circumstance_phrase_westerado-&gt;with the horse rearing dramatically</li>
-        <li>circumstance_phrase_westerado-&gt;in a gallop</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] is concentrating intently on the reins.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] has [PAWN_possessive] eyes closed and looks afraid.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] is unconscious, [PAWN_possessive] tongue lolling out, drool dripping.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] is smiling with grim joy.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] seems to have no idea what [PAWN_pronoun] is doing.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] is strapped in with [PAWN_possessive] eyes closed, totally helpless.</li>
-        <li>desc_sentence_westerado-&gt;There are horseshoe prints in the ground behind the horse.</li>
-        <li>desc_sentence_westerado-&gt;A nearby [Animal] is looking around, startled.</li>
-        <li>desc_sentence_westerado-&gt;A [Animal] is fleeing the scene.</li>
-        <li>desc_sentence_westerado-&gt;There is a [TerrainFeature] in the background.</li>
-        <li>desc_sentence_westerado-&gt;A [PersonJob] watches silently from afar.</li>
+        <li>tale_noun_westerado->[PAWN_nameDef]'s arrival by horse</li>
+        <li>image_westerado->[PAWN_nameFull] arriving by horse [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] appearing on a horse [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] walking along a horse [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] riding on a horse [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] bareback riding a horse [circumstance_group_westerado]</li>
+        <li>circumstance_phrase_westerado->in front of a [TerrainFeature]</li>
+        <li>circumstance_phrase_westerado->with incredible stride</li>
+        <li>circumstance_phrase_westerado->in a plume of dust and rocks</li>
+        <li>circumstance_phrase_westerado->with the horse rearing dramatically</li>
+        <li>circumstance_phrase_westerado->in a gallop</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] is concentrating intently on the reins.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] has [PAWN_possessive] eyes closed and looks afraid.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] is unconscious, [PAWN_possessive] tongue lolling out, drool dripping.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] is smiling with grim joy.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] seems to have no idea what [PAWN_pronoun] is doing.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] is strapped in with [PAWN_possessive] eyes closed, totally helpless.</li>
+        <li>desc_sentence_westerado->There are horseshoe prints in the ground behind the horse.</li>
+        <li>desc_sentence_westerado->A nearby [Animal] is looking around, startled.</li>
+        <li>desc_sentence_westerado->A [Animal] is fleeing the scene.</li>
+        <li>desc_sentence_westerado->There is a [TerrainFeature] in the background.</li>
+        <li>desc_sentence_westerado->A [PersonJob] watches silently from afar.</li>
         <!-- DEFAULT -->
-        <li>tale_noun-&gt;[PAWN_nameDef]'s landing in a drop pod</li>
-        <li>image-&gt;[PAWN_nameFull] landing in a drop pod [circumstance_group]</li>
-        <li>image-&gt;[PAWN_nameFull] touching down in a drop pod [circumstance_group]</li>
-        <li>image-&gt;[PAWN_nameFull] striking earth in a drop pod [circumstance_group]</li>
-        <li>image-&gt;[PAWN_nameFull] riding in a drop pod [circumstance_group]</li>
-        <li>circumstance_phrase-&gt;in front of a [TerrainFeature]</li>
-        <li>circumstance_phrase-&gt;with incredible force</li>
-        <li>circumstance_phrase-&gt;in a plume of dust and rocks</li>
-        <li>circumstance_phrase-&gt;with retro-rockets firing dramatically</li>
-        <li>circumstance_phrase-&gt;in a precision landing</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] is concentrating intently on the controls.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] has [PAWN_possessive] eyes closed and looks afraid.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] is unconscious, [PAWN_possessive] tongue lolling out, drool dripping.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] is smiling with grim joy.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] seems to have no idea what [PAWN_pronoun] is doing.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] is strapped in with [PAWN_possessive] eyes closed, totally helpless.</li>
-        <li>desc_sentence-&gt;There is a flame trail licking off the back of the pod.</li>
-        <li>desc_sentence-&gt;A nearby [Animal] is looking up, startled.</li>
-        <li>desc_sentence-&gt;A [Animal] is fleeing the impact in fear.</li>
-        <li>desc_sentence-&gt;There is a [TerrainFeature] in the background.</li>
-        <li>desc_sentence-&gt;A [PersonJob] watches silently from afar.</li>
+        <li>tale_noun->[PAWN_nameDef]'s landing in a drop pod</li>
+        <li>image->[PAWN_nameFull] landing in a drop pod [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] touching down in a drop pod [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] striking earth in a drop pod [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] riding in a drop pod [circumstance_group]</li>
+        <li>circumstance_phrase->in front of a [TerrainFeature]</li>
+        <li>circumstance_phrase->with incredible force</li>
+        <li>circumstance_phrase->in a plume of dust and rocks</li>
+        <li>circumstance_phrase->with retro-rockets firing dramatically</li>
+        <li>circumstance_phrase->in a precision landing</li>
+        <li>desc_sentence->[PAWN_pronoun] is concentrating intently on the controls.</li>
+        <li>desc_sentence->[PAWN_pronoun] has [PAWN_possessive] eyes closed and looks afraid.</li>
+        <li>desc_sentence->[PAWN_pronoun] is unconscious, [PAWN_possessive] tongue lolling out, drool dripping.</li>
+        <li>desc_sentence->[PAWN_pronoun] is smiling with grim joy.</li>
+        <li>desc_sentence->[PAWN_pronoun] seems to have no idea what [PAWN_pronoun] is doing.</li>
+        <li>desc_sentence->[PAWN_pronoun] is strapped in with [PAWN_possessive] eyes closed, totally helpless.</li>
+        <li>desc_sentence->There is a flame trail licking off the back of the pod.</li>
+        <li>desc_sentence->A nearby [Animal] is looking up, startled.</li>
+        <li>desc_sentence->A [Animal] is fleeing the impact in fear.</li>
+        <li>desc_sentence->There is a [TerrainFeature] in the background.</li>
+        <li>desc_sentence->A [PersonJob] watches silently from afar.</li>
       </rulesStrings>
     </rulePack>
   </TaleDef>
@@ -64,41 +64,41 @@
     <ignoreChance>0.5</ignoreChance>
     <rulePack>
       <rulesStrings>
-        <li>tale_noun_westerado-&gt;[PAWN_nameDef]'s vomiting</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] spewing vomit onto the ground [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] looking disgusted while covered with dried vomit [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] doubled over and retching onto the floor [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] on [PAWN_possessive] knees, vomiting on the floor [circumstance_group_westerado]</li>
-        <li>circumstance_phrase_westerado-&gt;while looking pained</li>
-        <li>circumstance_phrase_westerado-&gt;with great shame</li>
-        <li>circumstance_phrase_westerado-&gt;as others look on</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] seems totally unaware of what is around [PAWN_objective].</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_possessive] face itself seems to be swelling.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] is nearly unconscious, [PAWN_possessive] tongue lolling out, drool dripping.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] is convulsing violently.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] looks ashamed.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] seems to be trying to laugh, despite the circumstances.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] looks almost deflated, as though totally emptied by the intense vomiting.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] is surrounded by an artistically rendered halo of filth.</li>
-        <li>desc_sentence_westerado-&gt;A [Animal] is eating from the trail of vomit in the background.</li>
+        <li>tale_noun_westerado->[PAWN_nameDef]'s vomiting</li>
+        <li>image_westerado->[PAWN_nameFull] spewing vomit onto the ground [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] looking disgusted while covered with dried vomit [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] doubled over and retching onto the floor [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] on [PAWN_possessive] knees, vomiting on the floor [circumstance_group_westerado]</li>
+        <li>circumstance_phrase_westerado->while looking pained</li>
+        <li>circumstance_phrase_westerado->with great shame</li>
+        <li>circumstance_phrase_westerado->as others look on</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] seems totally unaware of what is around [PAWN_objective].</li>
+        <li>desc_sentence_westerado->[PAWN_possessive] face itself seems to be swelling.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] is nearly unconscious, [PAWN_possessive] tongue lolling out, drool dripping.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] is convulsing violently.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] looks ashamed.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] seems to be trying to laugh, despite the circumstances.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] looks almost deflated, as though totally emptied by the intense vomiting.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] is surrounded by an artistically rendered halo of filth.</li>
+        <li>desc_sentence_westerado->A [Animal] is eating from the trail of vomit in the background.</li>
         <!-- DEFAULT -->
-        <li>tale_noun-&gt;[PAWN_nameDef]'s vomiting</li>
-        <li>image-&gt;[PAWN_nameFull] spewing vomit onto the ground [circumstance_group]</li>
-        <li>image-&gt;[PAWN_nameFull] looking disgusted while covered with dried vomit [circumstance_group]</li>
-        <li>image-&gt;[PAWN_nameFull] doubled over and retching onto the floor [circumstance_group]</li>
-        <li>image-&gt;[PAWN_nameFull] on [PAWN_possessive] knees, vomiting on the floor [circumstance_group]</li>
-        <li>circumstance_phrase-&gt;while looking pained</li>
-        <li>circumstance_phrase-&gt;with great shame</li>
-        <li>circumstance_phrase-&gt;as others look on</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] seems totally unaware of what is around [PAWN_objective].</li>
-        <li>desc_sentence-&gt;[PAWN_possessive] face itself seems to be swelling.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] is nearly unconscious, [PAWN_possessive] tongue lolling out, drool dripping.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] is convulsing violently.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] looks ashamed.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] seems to be trying to laugh, despite the circumstances.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] looks almost deflated, as though totally emptied by the intense vomiting.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] is surrounded by an artistically rendered halo of filth.</li>
-        <li>desc_sentence-&gt;A [Animal] is eating from the trail of vomit in the background.</li>
+        <li>tale_noun->[PAWN_nameDef]'s vomiting</li>
+        <li>image->[PAWN_nameFull] spewing vomit onto the ground [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] looking disgusted while covered with dried vomit [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] doubled over and retching onto the floor [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] on [PAWN_possessive] knees, vomiting on the floor [circumstance_group]</li>
+        <li>circumstance_phrase->while looking pained</li>
+        <li>circumstance_phrase->with great shame</li>
+        <li>circumstance_phrase->as others look on</li>
+        <li>desc_sentence->[PAWN_pronoun] seems totally unaware of what is around [PAWN_objective].</li>
+        <li>desc_sentence->[PAWN_possessive] face itself seems to be swelling.</li>
+        <li>desc_sentence->[PAWN_pronoun] is nearly unconscious, [PAWN_possessive] tongue lolling out, drool dripping.</li>
+        <li>desc_sentence->[PAWN_pronoun] is convulsing violently.</li>
+        <li>desc_sentence->[PAWN_pronoun] looks ashamed.</li>
+        <li>desc_sentence->[PAWN_pronoun] seems to be trying to laugh, despite the circumstances.</li>
+        <li>desc_sentence->[PAWN_pronoun] looks almost deflated, as though totally emptied by the intense vomiting.</li>
+        <li>desc_sentence->[PAWN_pronoun] is surrounded by an artistically rendered halo of filth.</li>
+        <li>desc_sentence->A [Animal] is eating from the trail of vomit in the background.</li>
       </rulesStrings>
     </rulePack>
   </TaleDef>
@@ -110,67 +110,67 @@
     <baseInterest>0.35</baseInterest>
     <rulePack>
       <rulesStrings>
-        <li>tale_noun_westerado-&gt;[PAWN_nameDef]'s extreme drunkenness</li>
-        <li>tale_noun_westerado-&gt;[PAWN_nameDef] getting extremely drunk</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] staggering around drunk [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] tilting [PAWN_possessive] head back and guzzling liquor [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] greedily collecting bottles of liquor [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] drinking heavily [circumstance_group_westerado]</li>
-        <li>circumstance_phrase_westerado-&gt;oblivious to [PAWN_possessive] surroundings</li>
-        <li>circumstance_phrase_westerado-&gt;in a brooding stupor</li>
-        <li>circumstance_phrase_westerado-&gt;while questioning [PAWN_possessive] own existence</li>
-        <li>circumstance_phrase_westerado-&gt;with tears in [PAWN_possessive] eyes</li>
-        <li>circumstance_phrase_westerado-&gt;while chuckling madly</li>
-        <li>circumstance_phrase_westerado-&gt;while sobbing</li>
-        <li>circumstance_phrase_westerado-&gt;while looking pathetic</li>
-        <li>circumstance_phrase_westerado-&gt;while glaring angrily at people around [PAWN_objective]</li>
-        <li>circumstance_phrase_westerado-&gt;while leering at someone nearby</li>
-        <li>circumstance_phrase_westerado-&gt;while attempting to disrobe</li>
-        <li>circumstance_phrase_westerado-&gt;with a finger in [PAWN_possessive] mouth</li>
-        <li>circumstance_phrase_westerado-&gt;while holding back vomit</li>
-        <li>circumstance_phrase_westerado-&gt;without a care in the world</li>
-        <li>circumstance_phrase_westerado-&gt;with a lustful glint in [PAWN_possessive] eye</li>
-        <li>circumstance_phrase_westerado-&gt;while reviewing the ghosts of [PAWN_possessive] past</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] seems totally unaware of what is around [PAWN_objective].</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_possessive] face itself seems to be swelling.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] is nearly unconscious, [PAWN_possessive] tongue lolling out, drool dripping.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] looks happy and sad at the same time.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] has stains down [PAWN_possessive] front.</li>
-        <li>desc_sentence_westerado-&gt;There is a trail of discarded beverage containers behind [PAWN_objective].</li>
-        <li>desc_sentence_westerado-&gt;There is a white substance on [PAWN_possessive] pants.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] seems to have lost a shoe.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_possessive] hair is totally mussed up.</li>
+        <li>tale_noun_westerado->[PAWN_nameDef]'s extreme drunkenness</li>
+        <li>tale_noun_westerado->[PAWN_nameDef] getting extremely drunk</li>
+        <li>image_westerado->[PAWN_nameFull] staggering around drunk [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] tilting [PAWN_possessive] head back and guzzling liquor [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] greedily collecting bottles of liquor [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] drinking heavily [circumstance_group_westerado]</li>
+        <li>circumstance_phrase_westerado->oblivious to [PAWN_possessive] surroundings</li>
+        <li>circumstance_phrase_westerado->in a brooding stupor</li>
+        <li>circumstance_phrase_westerado->while questioning [PAWN_possessive] own existence</li>
+        <li>circumstance_phrase_westerado->with tears in [PAWN_possessive] eyes</li>
+        <li>circumstance_phrase_westerado->while chuckling madly</li>
+        <li>circumstance_phrase_westerado->while sobbing</li>
+        <li>circumstance_phrase_westerado->while looking pathetic</li>
+        <li>circumstance_phrase_westerado->while glaring angrily at people around [PAWN_objective]</li>
+        <li>circumstance_phrase_westerado->while leering at someone nearby</li>
+        <li>circumstance_phrase_westerado->while attempting to disrobe</li>
+        <li>circumstance_phrase_westerado->with a finger in [PAWN_possessive] mouth</li>
+        <li>circumstance_phrase_westerado->while holding back vomit</li>
+        <li>circumstance_phrase_westerado->without a care in the world</li>
+        <li>circumstance_phrase_westerado->with a lustful glint in [PAWN_possessive] eye</li>
+        <li>circumstance_phrase_westerado->while reviewing the ghosts of [PAWN_possessive] past</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] seems totally unaware of what is around [PAWN_objective].</li>
+        <li>desc_sentence_westerado->[PAWN_possessive] face itself seems to be swelling.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] is nearly unconscious, [PAWN_possessive] tongue lolling out, drool dripping.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] looks happy and sad at the same time.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] has stains down [PAWN_possessive] front.</li>
+        <li>desc_sentence_westerado->There is a trail of discarded beverage containers behind [PAWN_objective].</li>
+        <li>desc_sentence_westerado->There is a white substance on [PAWN_possessive] pants.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] seems to have lost a shoe.</li>
+        <li>desc_sentence_westerado->[PAWN_possessive] hair is totally mussed up.</li>
         <!-- DEFAULT -->
-        <li>tale_noun-&gt;[PAWN_nameDef]'s extreme drunkenness</li>
-        <li>tale_noun-&gt;[PAWN_nameDef] getting extremely drunk</li>
-        <li>image-&gt;[PAWN_nameFull] staggering around drunk [circumstance_group]</li>
-        <li>image-&gt;[PAWN_nameFull] tilting [PAWN_possessive] head back and guzzling liquor [circumstance_group]</li>
-        <li>image-&gt;[PAWN_nameFull] greedily collecting bottles of liquor [circumstance_group]</li>
-        <li>image-&gt;[PAWN_nameFull] drinking heavily [circumstance_group]</li>
-        <li>circumstance_phrase-&gt;oblivious to [PAWN_possessive] surroundings</li>
-        <li>circumstance_phrase-&gt;in a brooding stupor</li>
-        <li>circumstance_phrase-&gt;while questioning [PAWN_possessive] own existence</li>
-        <li>circumstance_phrase-&gt;with tears in [PAWN_possessive] eyes</li>
-        <li>circumstance_phrase-&gt;while chuckling madly</li>
-        <li>circumstance_phrase-&gt;while sobbing</li>
-        <li>circumstance_phrase-&gt;while looking pathetic</li>
-        <li>circumstance_phrase-&gt;while glaring angrily at people around [PAWN_objective]</li>
-        <li>circumstance_phrase-&gt;while leering at someone nearby</li>
-        <li>circumstance_phrase-&gt;while attempting to disrobe</li>
-        <li>circumstance_phrase-&gt;with a finger in [PAWN_possessive] mouth</li>
-        <li>circumstance_phrase-&gt;while holding back vomit</li>
-        <li>circumstance_phrase-&gt;without a care in the world</li>
-        <li>circumstance_phrase-&gt;with a lustful glint in [PAWN_possessive] eye</li>
-        <li>circumstance_phrase-&gt;while reviewing the ghosts of [PAWN_possessive] past</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] seems totally unaware of what is around [PAWN_objective].</li>
-        <li>desc_sentence-&gt;[PAWN_possessive] face itself seems to be swelling.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] is nearly unconscious, [PAWN_possessive] tongue lolling out, drool dripping.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] looks happy and sad at the same time.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] has stains down [PAWN_possessive] front.</li>
-        <li>desc_sentence-&gt;There is a trail of discarded beverage containers behind [PAWN_objective].</li>
-        <li>desc_sentence-&gt;There is a white substance on [PAWN_possessive] pants.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] seems to have lost a shoe.</li>
-        <li>desc_sentence-&gt;[PAWN_possessive] hair is totally mussed up.</li>
+        <li>tale_noun->[PAWN_nameDef]'s extreme drunkenness</li>
+        <li>tale_noun->[PAWN_nameDef] getting extremely drunk</li>
+        <li>image->[PAWN_nameFull] staggering around drunk [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] tilting [PAWN_possessive] head back and guzzling liquor [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] greedily collecting bottles of liquor [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] drinking heavily [circumstance_group]</li>
+        <li>circumstance_phrase->oblivious to [PAWN_possessive] surroundings</li>
+        <li>circumstance_phrase->in a brooding stupor</li>
+        <li>circumstance_phrase->while questioning [PAWN_possessive] own existence</li>
+        <li>circumstance_phrase->with tears in [PAWN_possessive] eyes</li>
+        <li>circumstance_phrase->while chuckling madly</li>
+        <li>circumstance_phrase->while sobbing</li>
+        <li>circumstance_phrase->while looking pathetic</li>
+        <li>circumstance_phrase->while glaring angrily at people around [PAWN_objective]</li>
+        <li>circumstance_phrase->while leering at someone nearby</li>
+        <li>circumstance_phrase->while attempting to disrobe</li>
+        <li>circumstance_phrase->with a finger in [PAWN_possessive] mouth</li>
+        <li>circumstance_phrase->while holding back vomit</li>
+        <li>circumstance_phrase->without a care in the world</li>
+        <li>circumstance_phrase->with a lustful glint in [PAWN_possessive] eye</li>
+        <li>circumstance_phrase->while reviewing the ghosts of [PAWN_possessive] past</li>
+        <li>desc_sentence->[PAWN_pronoun] seems totally unaware of what is around [PAWN_objective].</li>
+        <li>desc_sentence->[PAWN_possessive] face itself seems to be swelling.</li>
+        <li>desc_sentence->[PAWN_pronoun] is nearly unconscious, [PAWN_possessive] tongue lolling out, drool dripping.</li>
+        <li>desc_sentence->[PAWN_pronoun] looks happy and sad at the same time.</li>
+        <li>desc_sentence->[PAWN_pronoun] has stains down [PAWN_possessive] front.</li>
+        <li>desc_sentence->There is a trail of discarded beverage containers behind [PAWN_objective].</li>
+        <li>desc_sentence->There is a white substance on [PAWN_possessive] pants.</li>
+        <li>desc_sentence->[PAWN_pronoun] seems to have lost a shoe.</li>
+        <li>desc_sentence->[PAWN_possessive] hair is totally mussed up.</li>
       </rulesStrings>
     </rulePack>
   </TaleDef>
@@ -184,43 +184,43 @@
     <colonistOnly>false</colonistOnly>
     <rulePack>
       <rulesStrings>
-        <li>tale_noun_westerado-&gt;[PAWN_nameDef] catching fire</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] frantically beating out a fire attached to [PAWN_possessive] body [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] enveloped by flame [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] kneeling, hands over head, trying to extinguish flames on [PAWN_possessive] body [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] rolling on the floor while burning [circumstance_group_westerado]</li>
-        <li>circumstance_phrase_westerado-&gt;while others look on</li>
-        <li>circumstance_phrase_westerado-&gt;while nearly naked</li>
-        <li>circumstance_phrase_westerado-&gt;with focused intent</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_possessive] flesh is visibly charring.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_possessive] eyes are wide with panic.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] seems to be barely conscious; [PAWN_possessive] eyes are lifeless.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_possessive] mouth is open as [PAWN_pronoun] screams for help.</li>
-        <li>desc_sentence_westerado-&gt;The flames are about to envelope his head.</li>
-        <li>desc_sentence_westerado-&gt;A symbolic halo of fire surrounds his face.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] is laughing maniacally.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] seems to be losing [PAWN_objective]self.</li>
-        <li>desc_sentence_westerado-&gt;A plume of smoke is rising off [PAWN_objective].</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] is rendered artistically in a corpse-like way.</li>
+        <li>tale_noun_westerado->[PAWN_nameDef] catching fire</li>
+        <li>image_westerado->[PAWN_nameFull] frantically beating out a fire attached to [PAWN_possessive] body [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] enveloped by flame [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] kneeling, hands over head, trying to extinguish flames on [PAWN_possessive] body [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] rolling on the floor while burning [circumstance_group_westerado]</li>
+        <li>circumstance_phrase_westerado->while others look on</li>
+        <li>circumstance_phrase_westerado->while nearly naked</li>
+        <li>circumstance_phrase_westerado->with focused intent</li>
+        <li>desc_sentence_westerado->[PAWN_possessive] flesh is visibly charring.</li>
+        <li>desc_sentence_westerado->[PAWN_possessive] eyes are wide with panic.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] seems to be barely conscious; [PAWN_possessive] eyes are lifeless.</li>
+        <li>desc_sentence_westerado->[PAWN_possessive] mouth is open as [PAWN_pronoun] screams for help.</li>
+        <li>desc_sentence_westerado->The flames are about to envelope his head.</li>
+        <li>desc_sentence_westerado->A symbolic halo of fire surrounds his face.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] is laughing maniacally.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] seems to be losing [PAWN_objective]self.</li>
+        <li>desc_sentence_westerado->A plume of smoke is rising off [PAWN_objective].</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] is rendered artistically in a corpse-like way.</li>
         <!-- DEFAULT -->
-        <li>tale_noun-&gt;[PAWN_nameDef] catching fire</li>
-        <li>image-&gt;[PAWN_nameFull] frantically beating out a fire attached to [PAWN_possessive] body [circumstance_group]</li>
-        <li>image-&gt;[PAWN_nameFull] enveloped by flame [circumstance_group]</li>
-        <li>image-&gt;[PAWN_nameFull] kneeling, hands over head, trying to extinguish flames on [PAWN_possessive] body [circumstance_group]</li>
-        <li>image-&gt;[PAWN_nameFull] rolling on the floor while burning [circumstance_group]</li>
-        <li>circumstance_phrase-&gt;while others look on</li>
-        <li>circumstance_phrase-&gt;while nearly naked</li>
-        <li>circumstance_phrase-&gt;with focused intent</li>
-        <li>desc_sentence-&gt;[PAWN_possessive] flesh is visibly charring.</li>
-        <li>desc_sentence-&gt;[PAWN_possessive] eyes are wide with panic.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] seems to be barely conscious; [PAWN_possessive] eyes are lifeless.</li>
-        <li>desc_sentence-&gt;[PAWN_possessive] mouth is open as [PAWN_pronoun] screams for help.</li>
-        <li>desc_sentence-&gt;The flames are about to envelope his head.</li>
-        <li>desc_sentence-&gt;A symbolic halo of fire surrounds his face.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] is laughing maniacally.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] seems to be losing [PAWN_objective]self.</li>
-        <li>desc_sentence-&gt;A plume of smoke is rising off [PAWN_objective].</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] is rendered artistically in a corpse-like way.</li>
+        <li>tale_noun->[PAWN_nameDef] catching fire</li>
+        <li>image->[PAWN_nameFull] frantically beating out a fire attached to [PAWN_possessive] body [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] enveloped by flame [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] kneeling, hands over head, trying to extinguish flames on [PAWN_possessive] body [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] rolling on the floor while burning [circumstance_group]</li>
+        <li>circumstance_phrase->while others look on</li>
+        <li>circumstance_phrase->while nearly naked</li>
+        <li>circumstance_phrase->with focused intent</li>
+        <li>desc_sentence->[PAWN_possessive] flesh is visibly charring.</li>
+        <li>desc_sentence->[PAWN_possessive] eyes are wide with panic.</li>
+        <li>desc_sentence->[PAWN_pronoun] seems to be barely conscious; [PAWN_possessive] eyes are lifeless.</li>
+        <li>desc_sentence->[PAWN_possessive] mouth is open as [PAWN_pronoun] screams for help.</li>
+        <li>desc_sentence->The flames are about to envelope his head.</li>
+        <li>desc_sentence->A symbolic halo of fire surrounds his face.</li>
+        <li>desc_sentence->[PAWN_pronoun] is laughing maniacally.</li>
+        <li>desc_sentence->[PAWN_pronoun] seems to be losing [PAWN_objective]self.</li>
+        <li>desc_sentence->A plume of smoke is rising off [PAWN_objective].</li>
+        <li>desc_sentence->[PAWN_pronoun] is rendered artistically in a corpse-like way.</li>
       </rulesStrings>
     </rulePack>
   </TaleDef>
@@ -232,53 +232,53 @@
     <baseInterest>4</baseInterest>
     <rulePack>
       <rulesStrings>
-        <li>tale_noun_westerado-&gt;[PAWN_nameDef] going berserk</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] flying into a berserk rage [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] becoming madly, violently insane [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] stumbling forward with a psychotic look on [PAWN_possessive] face [circumstance_group_westerado]</li>
-        <li>circumstance_phrase_westerado-&gt;while attempting to disrobe</li>
-        <li>circumstance_phrase_westerado-&gt;seemingly without reason</li>
-        <li>circumstance_phrase_westerado-&gt;as others cower in fear</li>
-        <li>circumstance_phrase_westerado-&gt;as a friend flees</li>
-        <li>circumstance_phrase_westerado-&gt;because of the stress</li>
-        <li>circumstance_phrase_westerado-&gt;as a last step</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] is shaking with ungovernable rage.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_possessive] teeth are bared in a deadly snarl.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_possessive] eyes are dead pools of madness.</li>
-        <li>desc_sentence_westerado-&gt;Spittle is flying from [PAWN_possessive] mouth as [PAWN_possessive] screams with insane rage.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] has lost part of [PAWN_possessive] clothing.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] is grimacing in misery.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] seems smiling maniacally.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] is depicted with the snarling face of a [Animal].</li>
-        <li>desc_sentence_westerado-&gt;[Animal]s symbolically surround [PAWN_possessive] head.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] has a murderous glint in [PAWN_possessive] eye.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_possessive] entire body seems to be trembling with hatred.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_possessive] face is set in a look of twisted serenity.</li>
-        <li>desc_sentence_westerado-&gt;A single tear rolls down [PAWN_possessive] face.</li>
+        <li>tale_noun_westerado->[PAWN_nameDef] going berserk</li>
+        <li>image_westerado->[PAWN_nameFull] flying into a berserk rage [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] becoming madly, violently insane [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] stumbling forward with a psychotic look on [PAWN_possessive] face [circumstance_group_westerado]</li>
+        <li>circumstance_phrase_westerado->while attempting to disrobe</li>
+        <li>circumstance_phrase_westerado->seemingly without reason</li>
+        <li>circumstance_phrase_westerado->as others cower in fear</li>
+        <li>circumstance_phrase_westerado->as a friend flees</li>
+        <li>circumstance_phrase_westerado->because of the stress</li>
+        <li>circumstance_phrase_westerado->as a last step</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] is shaking with ungovernable rage.</li>
+        <li>desc_sentence_westerado->[PAWN_possessive] teeth are bared in a deadly snarl.</li>
+        <li>desc_sentence_westerado->[PAWN_possessive] eyes are dead pools of madness.</li>
+        <li>desc_sentence_westerado->Spittle is flying from [PAWN_possessive] mouth as [PAWN_possessive] screams with insane rage.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] has lost part of [PAWN_possessive] clothing.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] is grimacing in misery.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] seems smiling maniacally.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] is depicted with the snarling face of a [Animal].</li>
+        <li>desc_sentence_westerado->[Animal]s symbolically surround [PAWN_possessive] head.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] has a murderous glint in [PAWN_possessive] eye.</li>
+        <li>desc_sentence_westerado->[PAWN_possessive] entire body seems to be trembling with hatred.</li>
+        <li>desc_sentence_westerado->[PAWN_possessive] face is set in a look of twisted serenity.</li>
+        <li>desc_sentence_westerado->A single tear rolls down [PAWN_possessive] face.</li>
         <!-- DEFAULT -->
-        <li>tale_noun-&gt;[PAWN_nameDef] going berserk</li>
-        <li>image-&gt;[PAWN_nameFull] flying into a berserk rage [circumstance_group]</li>
-        <li>image-&gt;[PAWN_nameFull] becoming madly, violently insane [circumstance_group]</li>
-        <li>image-&gt;[PAWN_nameFull] stumbling forward with a psychotic look on [PAWN_possessive] face [circumstance_group]</li>
-        <li>circumstance_phrase-&gt;while attempting to disrobe</li>
-        <li>circumstance_phrase-&gt;seemingly without reason</li>
-        <li>circumstance_phrase-&gt;as others cower in fear</li>
-        <li>circumstance_phrase-&gt;as a friend flees</li>
-        <li>circumstance_phrase-&gt;because of the stress</li>
-        <li>circumstance_phrase-&gt;as a last step</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] is shaking with ungovernable rage.</li>
-        <li>desc_sentence-&gt;[PAWN_possessive] teeth are bared in a deadly snarl.</li>
-        <li>desc_sentence-&gt;[PAWN_possessive] eyes are dead pools of madness.</li>
-        <li>desc_sentence-&gt;Spittle is flying from [PAWN_possessive] mouth as [PAWN_possessive] screams with insane rage.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] has lost part of [PAWN_possessive] clothing.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] is grimacing in misery.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] seems smiling maniacally.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] is depicted with the snarling face of a [Animal].</li>
-        <li>desc_sentence-&gt;[Animal]s symbolically surround [PAWN_possessive] head.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] has a murderous glint in [PAWN_possessive] eye.</li>
-        <li>desc_sentence-&gt;[PAWN_possessive] entire body seems to be trembling with hatred.</li>
-        <li>desc_sentence-&gt;[PAWN_possessive] face is set in a look of twisted serenity.</li>
-        <li>desc_sentence-&gt;A single tear rolls down [PAWN_possessive] face.</li>
+        <li>tale_noun->[PAWN_nameDef] going berserk</li>
+        <li>image->[PAWN_nameFull] flying into a berserk rage [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] becoming madly, violently insane [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] stumbling forward with a psychotic look on [PAWN_possessive] face [circumstance_group]</li>
+        <li>circumstance_phrase->while attempting to disrobe</li>
+        <li>circumstance_phrase->seemingly without reason</li>
+        <li>circumstance_phrase->as others cower in fear</li>
+        <li>circumstance_phrase->as a friend flees</li>
+        <li>circumstance_phrase->because of the stress</li>
+        <li>circumstance_phrase->as a last step</li>
+        <li>desc_sentence->[PAWN_pronoun] is shaking with ungovernable rage.</li>
+        <li>desc_sentence->[PAWN_possessive] teeth are bared in a deadly snarl.</li>
+        <li>desc_sentence->[PAWN_possessive] eyes are dead pools of madness.</li>
+        <li>desc_sentence->Spittle is flying from [PAWN_possessive] mouth as [PAWN_possessive] screams with insane rage.</li>
+        <li>desc_sentence->[PAWN_pronoun] has lost part of [PAWN_possessive] clothing.</li>
+        <li>desc_sentence->[PAWN_pronoun] is grimacing in misery.</li>
+        <li>desc_sentence->[PAWN_pronoun] seems smiling maniacally.</li>
+        <li>desc_sentence->[PAWN_pronoun] is depicted with the snarling face of a [Animal].</li>
+        <li>desc_sentence->[Animal]s symbolically surround [PAWN_possessive] head.</li>
+        <li>desc_sentence->[PAWN_pronoun] has a murderous glint in [PAWN_possessive] eye.</li>
+        <li>desc_sentence->[PAWN_possessive] entire body seems to be trembling with hatred.</li>
+        <li>desc_sentence->[PAWN_possessive] face is set in a look of twisted serenity.</li>
+        <li>desc_sentence->A single tear rolls down [PAWN_possessive] face.</li>
       </rulesStrings>
     </rulePack>
   </TaleDef>
@@ -290,45 +290,45 @@
     <baseInterest>4</baseInterest>
     <rulePack>
       <rulesStrings>
-        <li>tale_noun_westerado-&gt;[PAWN_nameDef] giving up in despair</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] finally giving up under stress [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] sobbing uncontrollably [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] stumbling around with a completely broken expression on [PAWN_possessive] face [circumstance_group_westerado]</li>
-        <li>circumstance_phrase_westerado-&gt;while attempting to disrobe</li>
-        <li>circumstance_phrase_westerado-&gt;seemingly without reason</li>
-        <li>circumstance_phrase_westerado-&gt;as others offer sympathy</li>
-        <li>circumstance_phrase_westerado-&gt;as a friend cries</li>
-        <li>circumstance_phrase_westerado-&gt;because of the stress</li>
-        <li>circumstance_phrase_westerado-&gt;as a last step</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] has tears streaming down [PAWN_possessive] face.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] is laughing in the depths of [PAWN_possessive] depression.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_nameDef] is looking upward, as if to ask for help from above.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] is tearing at [PAWN_possessive] own clothes.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] seems totally unaware of what is around [PAWN_objective].</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] looks happy and sad at the same time.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] has stains down [PAWN_possessive] front.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] seems to have lost a shoe.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_possessive] hair is totally mussed up.</li>
+        <li>tale_noun_westerado->[PAWN_nameDef] giving up in despair</li>
+        <li>image_westerado->[PAWN_nameFull] finally giving up under stress [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] sobbing uncontrollably [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] stumbling around with a completely broken expression on [PAWN_possessive] face [circumstance_group_westerado]</li>
+        <li>circumstance_phrase_westerado->while attempting to disrobe</li>
+        <li>circumstance_phrase_westerado->seemingly without reason</li>
+        <li>circumstance_phrase_westerado->as others offer sympathy</li>
+        <li>circumstance_phrase_westerado->as a friend cries</li>
+        <li>circumstance_phrase_westerado->because of the stress</li>
+        <li>circumstance_phrase_westerado->as a last step</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] has tears streaming down [PAWN_possessive] face.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] is laughing in the depths of [PAWN_possessive] depression.</li>
+        <li>desc_sentence_westerado->[PAWN_nameDef] is looking upward, as if to ask for help from above.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] is tearing at [PAWN_possessive] own clothes.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] seems totally unaware of what is around [PAWN_objective].</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] looks happy and sad at the same time.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] has stains down [PAWN_possessive] front.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] seems to have lost a shoe.</li>
+        <li>desc_sentence_westerado->[PAWN_possessive] hair is totally mussed up.</li>
         <!-- DEFAULT -->
-        <li>tale_noun-&gt;[PAWN_nameDef] giving up in despair</li>
-        <li>image-&gt;[PAWN_nameFull] finally giving up under stress [circumstance_group]</li>
-        <li>image-&gt;[PAWN_nameFull] sobbing uncontrollably [circumstance_group]</li>
-        <li>image-&gt;[PAWN_nameFull] stumbling around with a completely broken expression on [PAWN_possessive] face [circumstance_group]</li>
-        <li>circumstance_phrase-&gt;while attempting to disrobe</li>
-        <li>circumstance_phrase-&gt;seemingly without reason</li>
-        <li>circumstance_phrase-&gt;as others offer sympathy</li>
-        <li>circumstance_phrase-&gt;as a friend cries</li>
-        <li>circumstance_phrase-&gt;because of the stress</li>
-        <li>circumstance_phrase-&gt;as a last step</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] has tears streaming down [PAWN_possessive] face.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] is laughing in the depths of [PAWN_possessive] depression.</li>
-        <li>desc_sentence-&gt;[PAWN_nameDef] is looking upward, as if to ask for help from above.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] is tearing at [PAWN_possessive] own clothes.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] seems totally unaware of what is around [PAWN_objective].</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] looks happy and sad at the same time.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] has stains down [PAWN_possessive] front.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] seems to have lost a shoe.</li>
-        <li>desc_sentence-&gt;[PAWN_possessive] hair is totally mussed up.</li>
+        <li>tale_noun->[PAWN_nameDef] giving up in despair</li>
+        <li>image->[PAWN_nameFull] finally giving up under stress [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] sobbing uncontrollably [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] stumbling around with a completely broken expression on [PAWN_possessive] face [circumstance_group]</li>
+        <li>circumstance_phrase->while attempting to disrobe</li>
+        <li>circumstance_phrase->seemingly without reason</li>
+        <li>circumstance_phrase->as others offer sympathy</li>
+        <li>circumstance_phrase->as a friend cries</li>
+        <li>circumstance_phrase->because of the stress</li>
+        <li>circumstance_phrase->as a last step</li>
+        <li>desc_sentence->[PAWN_pronoun] has tears streaming down [PAWN_possessive] face.</li>
+        <li>desc_sentence->[PAWN_pronoun] is laughing in the depths of [PAWN_possessive] depression.</li>
+        <li>desc_sentence->[PAWN_nameDef] is looking upward, as if to ask for help from above.</li>
+        <li>desc_sentence->[PAWN_pronoun] is tearing at [PAWN_possessive] own clothes.</li>
+        <li>desc_sentence->[PAWN_pronoun] seems totally unaware of what is around [PAWN_objective].</li>
+        <li>desc_sentence->[PAWN_pronoun] looks happy and sad at the same time.</li>
+        <li>desc_sentence->[PAWN_pronoun] has stains down [PAWN_possessive] front.</li>
+        <li>desc_sentence->[PAWN_pronoun] seems to have lost a shoe.</li>
+        <li>desc_sentence->[PAWN_possessive] hair is totally mussed up.</li>
       </rulesStrings>
     </rulePack>
   </TaleDef>
@@ -341,11 +341,11 @@
     <baseInterest>0.5</baseInterest>
     <rulePack>
       <rulesStrings>
-        <li>tale_noun_westerado-&gt;[PAWN_nameDef] walking around naked</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] [nude_action] while in a state of nature [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] [nude_action] in the nude [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] [nude_action], naked, [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] [nude_action] without any clothes on [circumstance_group_westerado]</li>
+        <li>tale_noun_westerado->[PAWN_nameDef] walking around naked</li>
+        <li>image_westerado->[PAWN_nameFull] [nude_action] while in a state of nature [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] [nude_action] in the nude [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] [nude_action], naked, [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] [nude_action] without any clothes on [circumstance_group_westerado]</li>
         <!--<li>nude_action->prancing</li>
         <li>nude_action->frolicking</li>
         <li>nude_action->gambolling</li>
@@ -355,39 +355,39 @@
         <li>nude_action->tiptoeing</li>
         <li>nude_action->promenading</li>
         <li>nude_action->surveying the area</li>-->
-        <li>circumstance_phrase_westerado-&gt;with a sense of purpose</li>
-        <li>circumstance_phrase_westerado-&gt;with no hint of shame</li>
-        <li>circumstance_phrase_westerado-&gt;while others look on</li>
-        <li>circumstance_phrase_westerado-&gt;for no apparent reason</li>
-        <li>circumstance_phrase_westerado-&gt;while confused animals look on</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_nameDef] is visibly aroused.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_nameDef] is covered in unexplained moisture.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_nameDef] is breathing heavily for no obvious reason.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_nameDef] is fondling a shrub.</li>
+        <li>circumstance_phrase_westerado->with a sense of purpose</li>
+        <li>circumstance_phrase_westerado->with no hint of shame</li>
+        <li>circumstance_phrase_westerado->while others look on</li>
+        <li>circumstance_phrase_westerado->for no apparent reason</li>
+        <li>circumstance_phrase_westerado->while confused animals look on</li>
+        <li>desc_sentence_westerado->[PAWN_nameDef] is visibly aroused.</li>
+        <li>desc_sentence_westerado->[PAWN_nameDef] is covered in unexplained moisture.</li>
+        <li>desc_sentence_westerado->[PAWN_nameDef] is breathing heavily for no obvious reason.</li>
+        <li>desc_sentence_westerado->[PAWN_nameDef] is fondling a shrub.</li>
         <!-- DEFAULT -->
-        <li>tale_noun-&gt;[PAWN_nameDef] walking around naked</li>
-        <li>image-&gt;[PAWN_nameFull] [nude_action] while in a state of nature [circumstance_group]</li>
-        <li>image-&gt;[PAWN_nameFull] [nude_action] in the nude [circumstance_group]</li>
-        <li>image-&gt;[PAWN_nameFull] [nude_action], naked, [circumstance_group]</li>
-        <li>image-&gt;[PAWN_nameFull] [nude_action] without any clothes on [circumstance_group]</li>
-        <li>nude_action-&gt;prancing</li>
-        <li>nude_action-&gt;frolicking</li>
-        <li>nude_action-&gt;gambolling</li>
-        <li>nude_action-&gt;walking</li>
-        <li>nude_action-&gt;strutting [PAWN_possessive] stuff</li>
-        <li>nude_action-&gt;sashaying</li>
-        <li>nude_action-&gt;tiptoeing</li>
-        <li>nude_action-&gt;promenading</li>
-        <li>nude_action-&gt;surveying the area</li>
-        <li>circumstance_phrase-&gt;with a sense of purpose</li>
-        <li>circumstance_phrase-&gt;with no hint of shame</li>
-        <li>circumstance_phrase-&gt;while others look on</li>
-        <li>circumstance_phrase-&gt;for no apparent reason</li>
-        <li>circumstance_phrase-&gt;while confused animals look on</li>
-        <li>desc_sentence-&gt;[PAWN_nameDef] is visibly aroused.</li>
-        <li>desc_sentence-&gt;[PAWN_nameDef] is covered in unexplained moisture.</li>
-        <li>desc_sentence-&gt;[PAWN_nameDef] is breathing heavily for no obvious reason.</li>
-        <li>desc_sentence-&gt;[PAWN_nameDef] is fondling a shrub.</li>
+        <li>tale_noun->[PAWN_nameDef] walking around naked</li>
+        <li>image->[PAWN_nameFull] [nude_action] while in a state of nature [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] [nude_action] in the nude [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] [nude_action], naked, [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] [nude_action] without any clothes on [circumstance_group]</li>
+        <li>nude_action->prancing</li>
+        <li>nude_action->frolicking</li>
+        <li>nude_action->gambolling</li>
+        <li>nude_action->walking</li>
+        <li>nude_action->strutting [PAWN_possessive] stuff</li>
+        <li>nude_action->sashaying</li>
+        <li>nude_action->tiptoeing</li>
+        <li>nude_action->promenading</li>
+        <li>nude_action->surveying the area</li>
+        <li>circumstance_phrase->with a sense of purpose</li>
+        <li>circumstance_phrase->with no hint of shame</li>
+        <li>circumstance_phrase->while others look on</li>
+        <li>circumstance_phrase->for no apparent reason</li>
+        <li>circumstance_phrase->while confused animals look on</li>
+        <li>desc_sentence->[PAWN_nameDef] is visibly aroused.</li>
+        <li>desc_sentence->[PAWN_nameDef] is covered in unexplained moisture.</li>
+        <li>desc_sentence->[PAWN_nameDef] is breathing heavily for no obvious reason.</li>
+        <li>desc_sentence->[PAWN_nameDef] is fondling a shrub.</li>
       </rulesStrings>
     </rulePack>
   </TaleDef>
@@ -401,10 +401,10 @@
     <expireDays>20</expireDays>
     <rulePack>
       <rulesStrings>
-        <li>tale_noun_westerado-&gt;[PAWN_nameDef]'s eating of human meat</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] [eat_gerund] the meat of a fellow humanoid [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] [eat_gerund] meat from a humanlike arm [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] [eat_gerund] flesh of a humanoid [circumstance_group_westerado]</li>
+        <li>tale_noun_westerado->[PAWN_nameDef]'s eating of human meat</li>
+        <li>image_westerado->[PAWN_nameFull] [eat_gerund] the meat of a fellow humanoid [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] [eat_gerund] meat from a humanlike arm [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] [eat_gerund] flesh of a humanoid [circumstance_group_westerado]</li>
         <!--<li>eat_gerund->eating</li>
         <li>eat_gerund->ingesting</li>
         <li>eat_gerund->chewing</li>
@@ -412,44 +412,44 @@
         <li>eat_gerund->consuming</li>
         <li>eat_gerund->swallowing</li>
         <li>eat_gerund->cannibalizing</li>-->
-        <li>circumstance_phrase_westerado-&gt;with a sense of purpose</li>
-        <li>circumstance_phrase_westerado-&gt;with no hint of shame</li>
-        <li>circumstance_phrase_westerado-&gt;with a look of shame</li>
-        <li>circumstance_phrase_westerado-&gt;while others look on</li>
-        <li>circumstance_phrase_westerado-&gt;with gusto</li>
-        <li>circumstance_phrase_westerado-&gt;frantically, like [PAWN_possessive] life depended on it</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_nameDef]'s face is covered with blood and fluid.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_nameDef] is licking [PAWN_possessive] fingers.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_nameDef] has blood and gore bits all down [PAWN_possessive] front.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_nameDef] is in the middle of a large pool of blood.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_nameDef] is eyeing someone else nearby with dark interest.</li>
-        <li>desc_sentence_westerado-&gt;The meat is glistening and appears very succulent.</li>
-        <li>desc_sentence_westerado-&gt;The meat is spilling all over [PAWN_nameDef]'s body.</li>
+        <li>circumstance_phrase_westerado->with a sense of purpose</li>
+        <li>circumstance_phrase_westerado->with no hint of shame</li>
+        <li>circumstance_phrase_westerado->with a look of shame</li>
+        <li>circumstance_phrase_westerado->while others look on</li>
+        <li>circumstance_phrase_westerado->with gusto</li>
+        <li>circumstance_phrase_westerado->frantically, like [PAWN_possessive] life depended on it</li>
+        <li>desc_sentence_westerado->[PAWN_nameDef]'s face is covered with blood and fluid.</li>
+        <li>desc_sentence_westerado->[PAWN_nameDef] is licking [PAWN_possessive] fingers.</li>
+        <li>desc_sentence_westerado->[PAWN_nameDef] has blood and gore bits all down [PAWN_possessive] front.</li>
+        <li>desc_sentence_westerado->[PAWN_nameDef] is in the middle of a large pool of blood.</li>
+        <li>desc_sentence_westerado->[PAWN_nameDef] is eyeing someone else nearby with dark interest.</li>
+        <li>desc_sentence_westerado->The meat is glistening and appears very succulent.</li>
+        <li>desc_sentence_westerado->The meat is spilling all over [PAWN_nameDef]'s body.</li>
         <!-- DEFAULT -->
-        <li>tale_noun-&gt;[PAWN_nameDef]'s eating of human meat</li>
-        <li>image-&gt;[PAWN_nameFull] [eat_gerund] the meat of a fellow humanoid [circumstance_group]</li>
-        <li>image-&gt;[PAWN_nameFull] [eat_gerund] meat from a humanlike arm [circumstance_group]</li>
-        <li>image-&gt;[PAWN_nameFull] [eat_gerund] flesh of a humanoid [circumstance_group]</li>
-        <li>eat_gerund-&gt;eating</li>
-        <li>eat_gerund-&gt;ingesting</li>
-        <li>eat_gerund-&gt;chewing</li>
-        <li>eat_gerund-&gt;chowing down on</li>
-        <li>eat_gerund-&gt;consuming</li>
-        <li>eat_gerund-&gt;swallowing</li>
-        <li>eat_gerund-&gt;cannibalizing</li>
-        <li>circumstance_phrase-&gt;with a sense of purpose</li>
-        <li>circumstance_phrase-&gt;with no hint of shame</li>
-        <li>circumstance_phrase-&gt;with a look of shame</li>
-        <li>circumstance_phrase-&gt;while others look on</li>
-        <li>circumstance_phrase-&gt;with gusto</li>
-        <li>circumstance_phrase-&gt;frantically, like [PAWN_possessive] life depended on it</li>
-        <li>desc_sentence-&gt;[PAWN_nameDef]'s face is covered with blood and fluid.</li>
-        <li>desc_sentence-&gt;[PAWN_nameDef] is licking [PAWN_possessive] fingers.</li>
-        <li>desc_sentence-&gt;[PAWN_nameDef] has blood and gore bits all down [PAWN_possessive] front.</li>
-        <li>desc_sentence-&gt;[PAWN_nameDef] is in the middle of a large pool of blood.</li>
-        <li>desc_sentence-&gt;[PAWN_nameDef] is eyeing someone else nearby with dark interest.</li>
-        <li>desc_sentence-&gt;The meat is glistening and appears very succulent.</li>
-        <li>desc_sentence-&gt;The meat is spilling all over [PAWN_nameDef]'s body.</li>
+        <li>tale_noun->[PAWN_nameDef]'s eating of human meat</li>
+        <li>image->[PAWN_nameFull] [eat_gerund] the meat of a fellow humanoid [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] [eat_gerund] meat from a humanlike arm [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] [eat_gerund] flesh of a humanoid [circumstance_group]</li>
+        <li>eat_gerund->eating</li>
+        <li>eat_gerund->ingesting</li>
+        <li>eat_gerund->chewing</li>
+        <li>eat_gerund->chowing down on</li>
+        <li>eat_gerund->consuming</li>
+        <li>eat_gerund->swallowing</li>
+        <li>eat_gerund->cannibalizing</li>
+        <li>circumstance_phrase->with a sense of purpose</li>
+        <li>circumstance_phrase->with no hint of shame</li>
+        <li>circumstance_phrase->with a look of shame</li>
+        <li>circumstance_phrase->while others look on</li>
+        <li>circumstance_phrase->with gusto</li>
+        <li>circumstance_phrase->frantically, like [PAWN_possessive] life depended on it</li>
+        <li>desc_sentence->[PAWN_nameDef]'s face is covered with blood and fluid.</li>
+        <li>desc_sentence->[PAWN_nameDef] is licking [PAWN_possessive] fingers.</li>
+        <li>desc_sentence->[PAWN_nameDef] has blood and gore bits all down [PAWN_possessive] front.</li>
+        <li>desc_sentence->[PAWN_nameDef] is in the middle of a large pool of blood.</li>
+        <li>desc_sentence->[PAWN_nameDef] is eyeing someone else nearby with dark interest.</li>
+        <li>desc_sentence->The meat is glistening and appears very succulent.</li>
+        <li>desc_sentence->The meat is spilling all over [PAWN_nameDef]'s body.</li>
       </rulesStrings>
     </rulePack>
   </TaleDef>
@@ -461,25 +461,25 @@
     <baseInterest>1</baseInterest>
     <rulePack>
       <rulesStrings>
-        <li>tale_noun_westerado-&gt;the time [PAWN_nameDef] crafted [THING_indefinite]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] crafting [THING_indefinite] [circumstance_group_westerado]. [quality_sentence]. [title_sentence]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] completing [PAWN_possessive] work on [THING_indefinite] [circumstance_group_westerado]. [quality_sentence]. [title_sentence]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] working on [THING_indefinite] [circumstance_group_westerado]. [quality_sentence]. [title_sentence]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] making [THING_indefinite] [circumstance_group_westerado]. [quality_sentence]. [title_sentence]</li>
-        <li>circumstance_phrase_westerado-&gt;with total concentration</li>
-        <li>circumstance_phrase_westerado-&gt;with a look of satisfaction on [PAWN_possessive] face</li>
-        <li>circumstance_phrase_westerado-&gt;at [PAWN_possessive] work bench</li>
-        <li>circumstance_phrase_westerado-&gt;with great intensity</li>
-        <li>desc_sentence_westerado-&gt;There are tools scattered all around.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] is scratched and scarred from work injuries.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] is covered in sweat.</li>
-        <li>desc_sentence_westerado-&gt;The work area is highly organized, with every tool in its proper place.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_pronoun] is rendered in an exaggerated way to appear more powerful.</li>
-        <li>desc_sentence_westerado-&gt;The size of [THING_definite] is exaggerated to emphasize its importance.</li>
-        <li>desc_sentence_westerado-&gt;[THING_definite] has an artistic glow added to it. It seems almost angelic.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_nameDef] is faded into the background to emphasize [PAWN_possessive] new creation.</li>
-        <li>desc_sentence_westerado-&gt;[Quantity_adjphrase] onlookers surround [PAWN_objective].</li>
-        <li>desc_sentence_westerado-&gt;A crowd cheers from the background.</li>
+        <li>tale_noun_westerado->the time [PAWN_nameDef] crafted [THING_indefinite]</li>
+        <li>image_westerado->[PAWN_nameFull] crafting [THING_indefinite] [circumstance_group_westerado]. [quality_sentence]. [title_sentence]</li>
+        <li>image_westerado->[PAWN_nameFull] completing [PAWN_possessive] work on [THING_indefinite] [circumstance_group_westerado]. [quality_sentence]. [title_sentence]</li>
+        <li>image_westerado->[PAWN_nameFull] working on [THING_indefinite] [circumstance_group_westerado]. [quality_sentence]. [title_sentence]</li>
+        <li>image_westerado->[PAWN_nameFull] making [THING_indefinite] [circumstance_group_westerado]. [quality_sentence]. [title_sentence]</li>
+        <li>circumstance_phrase_westerado->with total concentration</li>
+        <li>circumstance_phrase_westerado->with a look of satisfaction on [PAWN_possessive] face</li>
+        <li>circumstance_phrase_westerado->at [PAWN_possessive] work bench</li>
+        <li>circumstance_phrase_westerado->with great intensity</li>
+        <li>desc_sentence_westerado->There are tools scattered all around.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] is scratched and scarred from work injuries.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] is covered in sweat.</li>
+        <li>desc_sentence_westerado->The work area is highly organized, with every tool in its proper place.</li>
+        <li>desc_sentence_westerado->[PAWN_pronoun] is rendered in an exaggerated way to appear more powerful.</li>
+        <li>desc_sentence_westerado->The size of [THING_definite] is exaggerated to emphasize its importance.</li>
+        <li>desc_sentence_westerado->[THING_definite] has an artistic glow added to it. It seems almost angelic.</li>
+        <li>desc_sentence_westerado->[PAWN_nameDef] is faded into the background to emphasize [PAWN_possessive] new creation.</li>
+        <li>desc_sentence_westerado->[Quantity_adjphrase] onlookers surround [PAWN_objective].</li>
+        <li>desc_sentence_westerado->A crowd cheers from the background.</li>
         <!--<li>quality_sentence->[THING_definite] looks to be of [THING_quality] quality</li>
         <li>quality_sentence->[THING_definite] is of [THING_quality] quality</li>
         <li>quality_sentence->[PAWN_nameDef]'s work is of [THING_quality] quality</li>
@@ -487,31 +487,31 @@
         <li>title_sentence->[THING_definite] is emblazoned with its title: [THING_title]</li>
         <li>title_sentence->The title of [THING_definite], [THING_title], hangs in the background</li>-->
         <!-- DEFAULT -->
-        <li>tale_noun-&gt;the time [PAWN_nameDef] crafted [THING_indefinite]</li>
-        <li>image-&gt;[PAWN_nameFull] crafting [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-        <li>image-&gt;[PAWN_nameFull] completing [PAWN_possessive] work on [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-        <li>image-&gt;[PAWN_nameFull] working on [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-        <li>image-&gt;[PAWN_nameFull] making [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-        <li>circumstance_phrase-&gt;with total concentration</li>
-        <li>circumstance_phrase-&gt;with a look of satisfaction on [PAWN_possessive] face</li>
-        <li>circumstance_phrase-&gt;at [PAWN_possessive] work bench</li>
-        <li>circumstance_phrase-&gt;with great intensity</li>
-        <li>desc_sentence-&gt;There are tools scattered all around.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] is scratched and scarred from work injuries.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] is covered in sweat.</li>
-        <li>desc_sentence-&gt;The work area is highly organized, with every tool in its proper place.</li>
-        <li>desc_sentence-&gt;[PAWN_pronoun] is rendered in an exaggerated way to appear more powerful.</li>
-        <li>desc_sentence-&gt;The size of [THING_definite] is exaggerated to emphasize its importance.</li>
-        <li>desc_sentence-&gt;[THING_definite] has an artistic glow added to it. It seems almost angelic.</li>
-        <li>desc_sentence-&gt;[PAWN_nameDef] is faded into the background to emphasize [PAWN_possessive] new creation.</li>
-        <li>desc_sentence-&gt;[Quantity_adjphrase] onlookers surround [PAWN_objective].</li>
-        <li>desc_sentence-&gt;A crowd cheers from the background.</li>
-        <li>quality_sentence-&gt;[THING_definite] looks to be of [THING_quality] quality</li>
-        <li>quality_sentence-&gt;[THING_definite] is of [THING_quality] quality</li>
-        <li>quality_sentence-&gt;[PAWN_nameDef]'s work is of [THING_quality] quality</li>
-        <li>title_sentence-&gt;[PAWN_nameDef]'s title for [THING_definite] is written underneath: [THING_title]</li>
-        <li>title_sentence-&gt;[THING_definite] is emblazoned with its title: [THING_title]</li>
-        <li>title_sentence-&gt;The title of [THING_definite], [THING_title], hangs in the background</li>
+        <li>tale_noun->the time [PAWN_nameDef] crafted [THING_indefinite]</li>
+        <li>image->[PAWN_nameFull] crafting [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+        <li>image->[PAWN_nameFull] completing [PAWN_possessive] work on [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+        <li>image->[PAWN_nameFull] working on [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+        <li>image->[PAWN_nameFull] making [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+        <li>circumstance_phrase->with total concentration</li>
+        <li>circumstance_phrase->with a look of satisfaction on [PAWN_possessive] face</li>
+        <li>circumstance_phrase->at [PAWN_possessive] work bench</li>
+        <li>circumstance_phrase->with great intensity</li>
+        <li>desc_sentence->There are tools scattered all around.</li>
+        <li>desc_sentence->[PAWN_pronoun] is scratched and scarred from work injuries.</li>
+        <li>desc_sentence->[PAWN_pronoun] is covered in sweat.</li>
+        <li>desc_sentence->The work area is highly organized, with every tool in its proper place.</li>
+        <li>desc_sentence->[PAWN_pronoun] is rendered in an exaggerated way to appear more powerful.</li>
+        <li>desc_sentence->The size of [THING_definite] is exaggerated to emphasize its importance.</li>
+        <li>desc_sentence->[THING_definite] has an artistic glow added to it. It seems almost angelic.</li>
+        <li>desc_sentence->[PAWN_nameDef] is faded into the background to emphasize [PAWN_possessive] new creation.</li>
+        <li>desc_sentence->[Quantity_adjphrase] onlookers surround [PAWN_objective].</li>
+        <li>desc_sentence->A crowd cheers from the background.</li>
+        <li>quality_sentence->[THING_definite] looks to be of [THING_quality] quality</li>
+        <li>quality_sentence->[THING_definite] is of [THING_quality] quality</li>
+        <li>quality_sentence->[PAWN_nameDef]'s work is of [THING_quality] quality</li>
+        <li>title_sentence->[PAWN_nameDef]'s title for [THING_definite] is written underneath: [THING_title]</li>
+        <li>title_sentence->[THING_definite] is emblazoned with its title: [THING_title]</li>
+        <li>title_sentence->The title of [THING_definite], [THING_title], hangs in the background</li>
         <!-- needed for when we craft something that has no title -->
       </rulesStrings>
     </rulePack>
@@ -524,35 +524,35 @@
     <baseInterest>1</baseInterest>
     <rulePack>
       <rulesStrings>
-        <li>tale_noun_westerado-&gt;[PAWN_nameDef] striking [THING_label]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] striking [THING_label] [circumstance_group_westerado]</li>
-        <li>circumstance_phrase_westerado-&gt;while mining</li>
-        <li>circumstance_phrase_westerado-&gt;while digging</li>
-        <li>circumstance_phrase_westerado-&gt;while tunnelling</li>
-        <li>circumstance_phrase_westerado-&gt;with a look of surprise</li>
-        <li>circumstance_phrase_westerado-&gt;with a satisfied expression</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_nameDef] is wiping [PAWN_possessive] brow.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_nameDef] is jumping for joy.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_nameDef] is high-fiving a friend.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_nameDef] is screaming with happiness.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_nameDef] is laughing uncontrollably.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_nameDef] is sweaty and dirty from work.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_nameDef] is sweaty and dirty from work.</li>
+        <li>tale_noun_westerado->[PAWN_nameDef] striking [THING_label]</li>
+        <li>image_westerado->[PAWN_nameFull] striking [THING_label] [circumstance_group_westerado]</li>
+        <li>circumstance_phrase_westerado->while mining</li>
+        <li>circumstance_phrase_westerado->while digging</li>
+        <li>circumstance_phrase_westerado->while tunnelling</li>
+        <li>circumstance_phrase_westerado->with a look of surprise</li>
+        <li>circumstance_phrase_westerado->with a satisfied expression</li>
+        <li>desc_sentence_westerado->[PAWN_nameDef] is wiping [PAWN_possessive] brow.</li>
+        <li>desc_sentence_westerado->[PAWN_nameDef] is jumping for joy.</li>
+        <li>desc_sentence_westerado->[PAWN_nameDef] is high-fiving a friend.</li>
+        <li>desc_sentence_westerado->[PAWN_nameDef] is screaming with happiness.</li>
+        <li>desc_sentence_westerado->[PAWN_nameDef] is laughing uncontrollably.</li>
+        <li>desc_sentence_westerado->[PAWN_nameDef] is sweaty and dirty from work.</li>
+        <li>desc_sentence_westerado->[PAWN_nameDef] is sweaty and dirty from work.</li>
         <!-- DEFAULT -->
-        <li>tale_noun-&gt;[PAWN_nameDef] striking [THING_label]</li>
-        <li>image-&gt;[PAWN_nameFull] striking [THING_label] [circumstance_group]</li>
-        <li>circumstance_phrase-&gt;while mining</li>
-        <li>circumstance_phrase-&gt;while digging</li>
-        <li>circumstance_phrase-&gt;while tunnelling</li>
-        <li>circumstance_phrase-&gt;with a look of surprise</li>
-        <li>circumstance_phrase-&gt;with a satisfied expression</li>
-        <li>desc_sentence-&gt;[PAWN_nameDef] is wiping [PAWN_possessive] brow.</li>
-        <li>desc_sentence-&gt;[PAWN_nameDef] is jumping for joy.</li>
-        <li>desc_sentence-&gt;[PAWN_nameDef] is high-fiving a friend.</li>
-        <li>desc_sentence-&gt;[PAWN_nameDef] is screaming with happiness.</li>
-        <li>desc_sentence-&gt;[PAWN_nameDef] is laughing uncontrollably.</li>
-        <li>desc_sentence-&gt;[PAWN_nameDef] is sweaty and dirty from work.</li>
-        <li>desc_sentence-&gt;[PAWN_nameDef] is sweaty and dirty from work.</li>
+        <li>tale_noun->[PAWN_nameDef] striking [THING_label]</li>
+        <li>image->[PAWN_nameFull] striking [THING_label] [circumstance_group]</li>
+        <li>circumstance_phrase->while mining</li>
+        <li>circumstance_phrase->while digging</li>
+        <li>circumstance_phrase->while tunnelling</li>
+        <li>circumstance_phrase->with a look of surprise</li>
+        <li>circumstance_phrase->with a satisfied expression</li>
+        <li>desc_sentence->[PAWN_nameDef] is wiping [PAWN_possessive] brow.</li>
+        <li>desc_sentence->[PAWN_nameDef] is jumping for joy.</li>
+        <li>desc_sentence->[PAWN_nameDef] is high-fiving a friend.</li>
+        <li>desc_sentence->[PAWN_nameDef] is screaming with happiness.</li>
+        <li>desc_sentence->[PAWN_nameDef] is laughing uncontrollably.</li>
+        <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
+        <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
       </rulesStrings>
     </rulePack>
   </TaleDef>
@@ -566,31 +566,31 @@
     <baseInterest>1.5</baseInterest>
     <rulePack>
       <rulesStrings>
-        <li>tale_noun_westerado-&gt;[PAWN_nameDef] finishing research on [PROJECT_label]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] working on [PROJECT_label] research project [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] studying the secrets of [PROJECT_label] [circumstance_group_westerado]</li>
-        <li>image_westerado-&gt;[PAWN_nameFull] researching [PROJECT_label] [circumstance_group_westerado]</li>
-        <li>circumstance_phrase_westerado-&gt;with great intensity</li>
-        <li>circumstance_phrase_westerado-&gt;alone at [PAWN_possessive] bench</li>
-        <li>circumstance_phrase_westerado-&gt;while holding papers in [PAWN_possessive] hand</li>
-        <li>circumstance_phrase_westerado-&gt;with a look of gleeful fascination</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_nameDef] is sweating.</li>
-        <li>desc_sentence_westerado-&gt;The work appears to be exceptionally complex.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_nameDef] is completely surrounded by an array of tools and apparatuses.</li>
-        <li>desc_sentence_westerado-&gt;[PAWN_nameDef] is staring at [PAWN_possessive] discovery with a sense of wonder.</li>
+        <li>tale_noun_westerado->[PAWN_nameDef] finishing research on [PROJECT_label]</li>
+        <li>image_westerado->[PAWN_nameFull] working on [PROJECT_label] research project [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] studying the secrets of [PROJECT_label] [circumstance_group_westerado]</li>
+        <li>image_westerado->[PAWN_nameFull] researching [PROJECT_label] [circumstance_group_westerado]</li>
+        <li>circumstance_phrase_westerado->with great intensity</li>
+        <li>circumstance_phrase_westerado->alone at [PAWN_possessive] bench</li>
+        <li>circumstance_phrase_westerado->while holding papers in [PAWN_possessive] hand</li>
+        <li>circumstance_phrase_westerado->with a look of gleeful fascination</li>
+        <li>desc_sentence_westerado->[PAWN_nameDef] is sweating.</li>
+        <li>desc_sentence_westerado->The work appears to be exceptionally complex.</li>
+        <li>desc_sentence_westerado->[PAWN_nameDef] is completely surrounded by an array of tools and apparatuses.</li>
+        <li>desc_sentence_westerado->[PAWN_nameDef] is staring at [PAWN_possessive] discovery with a sense of wonder.</li>
         <!-- DEFAULT -->
-        <li>tale_noun-&gt;[PAWN_nameDef] finishing research on [PROJECT_label]</li>
-        <li>image-&gt;[PAWN_nameFull] working on [PROJECT_label] research project [circumstance_group]</li>
-        <li>image-&gt;[PAWN_nameFull] studying the secrets of [PROJECT_label] [circumstance_group]</li>
-        <li>image-&gt;[PAWN_nameFull] researching [PROJECT_label] [circumstance_group]</li>
-        <li>circumstance_phrase-&gt;with great intensity</li>
-        <li>circumstance_phrase-&gt;alone at [PAWN_possessive] bench</li>
-        <li>circumstance_phrase-&gt;while holding papers in [PAWN_possessive] hand</li>
-        <li>circumstance_phrase-&gt;with a look of gleeful fascination</li>
-        <li>desc_sentence-&gt;[PAWN_nameDef] is sweating.</li>
-        <li>desc_sentence-&gt;The work appears to be exceptionally complex.</li>
-        <li>desc_sentence-&gt;[PAWN_nameDef] is completely surrounded by an array of tools and apparatuses.</li>
-        <li>desc_sentence-&gt;[PAWN_nameDef] is staring at [PAWN_possessive] discovery with a sense of wonder.</li>
+        <li>tale_noun->[PAWN_nameDef] finishing research on [PROJECT_label]</li>
+        <li>image->[PAWN_nameFull] working on [PROJECT_label] research project [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] studying the secrets of [PROJECT_label] [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] researching [PROJECT_label] [circumstance_group]</li>
+        <li>circumstance_phrase->with great intensity</li>
+        <li>circumstance_phrase->alone at [PAWN_possessive] bench</li>
+        <li>circumstance_phrase->while holding papers in [PAWN_possessive] hand</li>
+        <li>circumstance_phrase->with a look of gleeful fascination</li>
+        <li>desc_sentence->[PAWN_nameDef] is sweating.</li>
+        <li>desc_sentence->The work appears to be exceptionally complex.</li>
+        <li>desc_sentence->[PAWN_nameDef] is completely surrounded by an array of tools and apparatuses.</li>
+        <li>desc_sentence->[PAWN_nameDef] is staring at [PAWN_possessive] discovery with a sense of wonder.</li>
       </rulesStrings>
     </rulePack>
   </TaleDef>

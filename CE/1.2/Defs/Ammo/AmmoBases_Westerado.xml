@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Base for musket weapons -->
   <RecipeDef ParentName="AmmoRecipeBase" Name="MinieAmmoRecipeBase" Abstract="true">

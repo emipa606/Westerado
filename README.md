@@ -1,4 +1,4 @@
-# Westerado
+# [Westerado (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2236973780)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -20,22 +20,20 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1634367989
 - Fixed graphics for animals and added a Wapiti as an Elk-variant instead of overwriting vanilla.
 - Added patches for Vanilla Plants Expanded and Vanilla Furniture Expanded - Security, via Röstli 
 - Added patch for Infectious Creatures to harvest rattlesnake venom-gland
-- Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=2451324814][SYR] Trait Value
-- Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=2574489704]Simple FX: Smoke
+- Added support for [[SYR] Trait Value](https://steamcommunity.com/sharedfiles/filedetails/?id=2451324814)
+- Added support for [Simple FX: Smoke](https://steamcommunity.com/sharedfiles/filedetails/?id=2574489704)
 
 Works well with
 
 
--  https://steamcommunity.com/sharedfiles/filedetails/?id=2237006050]Westerado Wilderness (Continued)
--  https://steamcommunity.com/sharedfiles/filedetails/?id=2236991059]Westerado The Gun Jesus Revelations (Continued)
+-  [Westerado Wilderness (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2237006050)
+-  [Westerado The Gun Jesus Revelations (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2236991059)
 
 
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
-
 
 ![Image](https://i.imgur.com/NJgZUDK.png)
 
@@ -62,49 +60,20 @@ We're also planning on releasing future content updates!
 
 ![Image](https://i.imgur.com/1pcYJRI.png)
 
-Got any questions? Ask them in the https://steamcommunity.com/workshop/filedetails/discussion/1613533435/1744482417434703082/]aptly named Suggestions Thread and we'll answer them when we can. Got any suggestions? Feel free to post them in the comments, and we'll respond as to the suggestion's feasibility when we can.
+Got any questions? Ask them in the [aptly named Suggestions Thread](https://steamcommunity.com/workshop/filedetails/discussion/1613533435/1744482417434703082/) and we'll answer them when we can. Got any suggestions? Feel free to post them in the comments, and we'll respond as to the suggestion's feasibility when we can.
 
 # Add-ons and Recommended Mods
 
 We suggest using all the add-ons, but **none** of them are *required*.
 
 
-    - Add-on: https://steamcommunity.com/sharedfiles/filedetails/?id=1613534100]Westerado Wilderness, overhauls biomes to have more of a western-feel, including many new plants
-    - Add-on: https://steamcommunity.com/sharedfiles/filedetails/?id=1634367989]Westerado Gunslinger, adds compatibility with https://steamcommunity.com/workshop/filedetails/?id=1631756268]Combat Extended
-    - Add-on: https://steamcommunity.com/sharedfiles/filedetails/?id=1617051027]Westerado The Gun Jesus Revelations, renames guns to their 'proper' label
-    - Add-on: https://steamcommunity.com/sharedfiles/filedetails/?id=1233906319]Horses by SpiderCamp, adds horses!
-    - Recommended: https://steamcommunity.com/sharedfiles/filedetails/?id=1322101066]Snowy Trees by Nandonalt and Tejko, plants get snowy when it snows
+    - Add-on: [Westerado Wilderness](https://steamcommunity.com/sharedfiles/filedetails/?id=1613534100), overhauls biomes to have more of a western-feel, including many new plants
+    - Add-on: [Westerado Gunslinger](https://steamcommunity.com/sharedfiles/filedetails/?id=1634367989), adds compatibility with [Combat Extended](https://steamcommunity.com/workshop/filedetails/?id=1631756268)
+    - Add-on: [Westerado The Gun Jesus Revelations](https://steamcommunity.com/sharedfiles/filedetails/?id=1617051027), renames guns to their 'proper' label
+    - Add-on: [Horses by SpiderCamp](https://steamcommunity.com/sharedfiles/filedetails/?id=1233906319), adds horses!
+    - Recommended: [Snowy Trees by Nandonalt and Tejko](https://steamcommunity.com/sharedfiles/filedetails/?id=1322101066), plants get snowy when it snows
 
 
-
-# Mod loading order
-
-Westerado does well at the bottom-end of the mod load order. Westerado Wilderness should be loaded after Westerado (Core), if you're using https://steamcommunity.com/sharedfiles/filedetails/?id=1322101066]Snowy Trees by Nandonalt and Tejko put that before Westerado (Core). Something like:
-
-
-    - *Most other mods*
-    - https://steamcommunity.com/sharedfiles/filedetails/?id=1322101066]Snowy Trees by Nandonalt and Tejko
-    - Westerado
-    - Westerado Wilderness
-    - Westerado Gunslinger
-    - Westerado The Gun Jesus Revelations
-
-
-
-# Compatibility
-
-Should be compatible with most things. Special care was taken to be compatible with Vegetable Garden by dismarzero. 
-
-Things that could cause problems:
-
-
-    - Complete conversion mods
-    - Mods that make alteration to Rimworld's tale system
-    - Mods that make radical changes to research
-
-
-
-Have you found a compatibility issue? Please inform us in the comments and we'll try to patch it when we can! Make sure to include a list of mods you've used and any potential error messages.
 
 # Questions and Answers
 
@@ -118,23 +87,20 @@ Have you found a compatibility issue? Please inform us in the comments and we'll
 
 Soyuz - XML, Artwork
 DanRatherman - Artwork, Sound
-SpiderCamp - Artwork, XML, https://steamcommunity.com/id/SpiderCmp/myworkshopfiles/]Workshop Link
-Ods - Artwork, https://steamcommunity.com/profiles/76561198087553011/myworkshopfiles/?appid=294100]Workshop Link
-dismarzero - Artwork, XML, Programming, https://steamcommunity.com/sharedfiles/filedetails/?id=1185265132]Vegetable Garden
+SpiderCamp - Artwork, XML, [Workshop Link](https://steamcommunity.com/id/SpiderCmp/myworkshopfiles/)
+Ods - Artwork, [Workshop Link](https://steamcommunity.com/profiles/76561198087553011/myworkshopfiles/?appid=294100)
+dismarzero - Artwork, XML, Programming, [Vegetable Garden](https://steamcommunity.com/sharedfiles/filedetails/?id=1185265132)
 
 Thanks to dizmarzero for letting us use his brewing system!
 
 Inspiration from:
-https://steamcommunity.com/sharedfiles/filedetails/?id=728381322]Apparello 2 by Shinzy
+[Apparello 2](https://steamcommunity.com/sharedfiles/filedetails/?id=728381322) by Shinzy
 
-If you're looking for something like this but slightly different you can checkout the https://steamcommunity.com/sharedfiles/filedetails/?id=1119081000]Rimworld Westernization Project by JackeryFox and Tamias.
+If you're looking for something like this but slightly different you can checkout the [Rimworld Westernization Project](https://steamcommunity.com/sharedfiles/filedetails/?id=1119081000) by JackeryFox and Tamias.
 
 # Licensing
 
-All original content (e.g. text, imagery, sounds) in this mod is licensed under the All original content (e.g. text, imagery, sounds) in this mod is licensed under the http://creativecommons.org/licenses/by-sa/4.0/]CC-BY-SA 4.0 license.
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2236973780]![Image](https://img.shields.io/github/v/release/emipa606/Westerado?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+All original content (e.g. text, imagery, sounds) in this mod is licensed under the All original content (e.g. text, imagery, sounds) in this mod is licensed under the [CC-BY-SA 4.0 license](http://creativecommons.org/licenses/by-sa/4.0/).
 
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
@@ -142,10 +108,12 @@ https://steamcommunity.com/sharedfiles/filedetails/changelog/2236973780]![Image]
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
 
+
+[![Image](https://img.shields.io/github/v/release/emipa606/Westerado?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2236973780)

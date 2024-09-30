@@ -1,48 +1,48 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Outlaws -->
   <RulePackDef>
     <defName>NamerFactionOutlaws_Westerado</defName>
     <rulePack>
       <rulesStrings>
-        <li>r_name-&gt;The [Gangs_Westerado]</li>
-        <li>r_name-&gt;The [AnimalBadass_Westerado]s</li>
-        <li>r_name-&gt;The [AnimalBadass_Westerado] Men</li>
-        <li>r_name-&gt;The [AnimalBadass_Westerado]s of [ConceptBadass_Westerado]</li>
-        <li>r_name-&gt;The [PersonBadass]s of [ConceptBadass_Westerado]</li>
-        <li>r_name-&gt;The [PersonBadass]s</li>
-        <li>r_name-&gt;The [Enemy_Westerado]s</li>
-        <li>r_name-&gt;The [Weapon_Westerado] Men</li>
-        <li>r_name-&gt;The [Weapon_Westerado]s</li>
-        <li>r_name-&gt;The [Weapon_Westerado] [AnimalBadass_Westerado]s</li>
-        <li>r_name-&gt;The [Weapon_Westerado] [Enemy_Westerado]s</li>
-        <li>r_name-&gt;The [ColorBadass_Westerado] [Weapon_Westerado]s</li>
-        <li>r_name-&gt;The [ColorBadass_Westerado] [AnimalBadass_Westerado]s</li>
-        <li>r_name-&gt;The [ColorBadass_Westerado] [PersonBadass]s</li>
-        <li>r_name-&gt;The [ColorBadass_Westerado] [Enemy_Westerado]s</li>
-        <li>r_name-&gt;The [PersonBadass] [Gangs_Westerado]</li>
-        <li>r_name-&gt;The [Enemy_Westerado] [Enemy_Westerado]s</li>
-        <li>r_name-&gt;The [AdjectiveBadass] [Gangs_Westerado]</li>
-        <li>r_name-&gt;The [AdjectiveBadass] [AnimalBadass_Westerado]s</li>
-        <li>r_name-&gt;The [AdjectiveBadass] [Enemy_Westerado]s</li>
-        <li>r_name-&gt;The [AdjectiveBadass] [PersonBadass]s</li>
-        <li>r_name-&gt;The [PersonAlly]s of [ConceptBadass_Westerado]</li>
-        <li>r_name(p=0.4)-&gt;The Eaters of [Gore]</li>
-        <li>r_name-&gt;[NamePerson]'s [Enemy_Westerado]s</li>
-        <li>r_name-&gt;[NamePerson]'s [AnimalBadass_Westerado]s</li>
-        <li>r_name-&gt;[NamePerson]'s [Weapon_Westerado]s</li>
-        <li>r_name-&gt;[Weapon_Westerado] [Gangs_Westerado]</li>
-        <li>r_name-&gt;[ConceptBadass_Westerado] [Gangs_Westerado]</li>
+        <li>r_name->The [Gangs_Westerado]</li>
+        <li>r_name->The [AnimalBadass_Westerado]s</li>
+        <li>r_name->The [AnimalBadass_Westerado] Men</li>
+        <li>r_name->The [AnimalBadass_Westerado]s of [ConceptBadass_Westerado]</li>
+        <li>r_name->The [PersonBadass]s of [ConceptBadass_Westerado]</li>
+        <li>r_name->The [PersonBadass]s</li>
+        <li>r_name->The [Enemy_Westerado]s</li>
+        <li>r_name->The [Weapon_Westerado] Men</li>
+        <li>r_name->The [Weapon_Westerado]s</li>
+        <li>r_name->The [Weapon_Westerado] [AnimalBadass_Westerado]s</li>
+        <li>r_name->The [Weapon_Westerado] [Enemy_Westerado]s</li>
+        <li>r_name->The [ColorBadass_Westerado] [Weapon_Westerado]s</li>
+        <li>r_name->The [ColorBadass_Westerado] [AnimalBadass_Westerado]s</li>
+        <li>r_name->The [ColorBadass_Westerado] [PersonBadass]s</li>
+        <li>r_name->The [ColorBadass_Westerado] [Enemy_Westerado]s</li>
+        <li>r_name->The [PersonBadass] [Gangs_Westerado]</li>
+        <li>r_name->The [Enemy_Westerado] [Enemy_Westerado]s</li>
+        <li>r_name->The [AdjectiveBadass] [Gangs_Westerado]</li>
+        <li>r_name->The [AdjectiveBadass] [AnimalBadass_Westerado]s</li>
+        <li>r_name->The [AdjectiveBadass] [Enemy_Westerado]s</li>
+        <li>r_name->The [AdjectiveBadass] [PersonBadass]s</li>
+        <li>r_name->The [PersonAlly]s of [ConceptBadass_Westerado]</li>
+        <li>r_name(p=0.4)->The Eaters of [Gore]</li>
+        <li>r_name->[NamePerson]'s [Enemy_Westerado]s</li>
+        <li>r_name->[NamePerson]'s [AnimalBadass_Westerado]s</li>
+        <li>r_name->[NamePerson]'s [Weapon_Westerado]s</li>
+        <li>r_name->[Weapon_Westerado] [Gangs_Westerado]</li>
+        <li>r_name->[ConceptBadass_Westerado] [Gangs_Westerado]</li>
       </rulesStrings>
       <rulesFiles>
-        <li>AnimalBadass_Westerado-&gt;Words/Nouns/Animals_Badass_Westerado</li>
-        <li>ConceptBadass_Westerado-&gt;Words/Nouns/Concepts_Badass_Westerado</li>
-        <li>ColorBadass_Westerado-&gt;Words/Nouns/Colors_Badass_Westerado</li>
-        <li>Surnames_Westerado-&gt;Names/Surnames_Westerado</li>
-        <li>Gangs_Westerado-&gt;Words/Nouns/Gangs_Westerado</li>
-        <li>Weapon_Westerado-&gt;Words/Nouns/Weapons_Westerado</li>
+        <li>AnimalBadass_Westerado->Words/Nouns/Animals_Badass_Westerado</li>
+        <li>ConceptBadass_Westerado->Words/Nouns/Concepts_Badass_Westerado</li>
+        <li>ColorBadass_Westerado->Words/Nouns/Colors_Badass_Westerado</li>
+        <li>Surnames_Westerado->Names/Surnames_Westerado</li>
+        <li>Gangs_Westerado->Words/Nouns/Gangs_Westerado</li>
+        <li>Weapon_Westerado->Words/Nouns/Weapons_Westerado</li>
         <!-- Default -->
-        <li>groupname-&gt;Words/Nouns/GroupNames</li>
+        <li>groupname->Words/Nouns/GroupNames</li>
       </rulesFiles>
     </rulePack>
   </RulePackDef>
@@ -50,58 +50,58 @@
     <defName>NamerSettlementOutlaws_Westerado</defName>
     <rulePack>
       <rulesStrings>
-        <li>r_name(p=4)-&gt;[townname_combo]</li>
-        <li>r_name-&gt;[townname_wordgen]</li>
-        <li>townname_combo-&gt;[NobleMetal_Westerado] [geography]</li>
-        <li>townname_combo-&gt;[Weather_Westerado] swept [geography]</li>
-        <li>townname_combo-&gt;[AnimalBadass_Westerado] [geography]</li>
-        <li>townname_combo-&gt;[AnimalBadass_Westerado]'s [geography]</li>
-        <li>townname_combo-&gt;[ConceptBadass_Westerado] [geography]</li>
-        <li>townname_combo-&gt;[ConceptBadass_Westerado]'s' [geography]</li>
-        <li>townname_combo-&gt;[PersonBadass] [geography]</li>
-        <li>townname_combo-&gt;[PersonBadass]'s [geography]</li>
-        <li>townname_combo-&gt;[Enemy_Westerado]'s [geography]</li>
-        <li>townname_combo-&gt;[Enemy_Westerado] [geography]</li>
-        <li>townname_combo-&gt;[Weapon_Westerado]'s [geography]</li>
-        <li>townname_combo-&gt;[Weapon_Westerado] [geography]</li>
-        <li>townname_combo-&gt;[ColorBadass_Westerado] [geography]</li>
-        <li>geography(p=2)-&gt;[TerrainFeature]</li>
-        <li>geography-&gt;[Community]</li>
-        <li>townname_wordgen(p=2)-&gt;[SylE][SylE]</li>
-        <li>townname_wordgen(p=2)-&gt;[SylE][SylE][SylE]</li>
-        <li>townname_wordgen(p=2)-&gt;[SylE][townendevil]</li>
-        <li>townname_wordgen(p=2)-&gt;[SylE][SylE][townendevil]</li>
-        <li>townendevil-&gt;vast</li>
-        <li>townendevil-&gt;varg</li>
-        <li>townendevil-&gt;vix</li>
-        <li>townendevil-&gt;tor</li>
-        <li>townendevil-&gt;tear</li>
-        <li>townendevil-&gt;cut</li>
-        <li>townendevil-&gt;lop</li>
-        <li>townendevil-&gt;oze</li>
-        <li>townendevil-&gt;ozzle</li>
-        <li>townendevil-&gt;latch</li>
-        <li>townendevil-&gt;lock</li>
-        <li>townendevil-&gt;burn</li>
-        <li>townendevil-&gt;sear</li>
-        <li>townendevil-&gt;shank</li>
-        <li>townendevil-&gt;hurt</li>
-        <li>townendevil-&gt;vash</li>
-        <li>townendevil-&gt;warg</li>
-        <li>townendevil-&gt;wug</li>
-        <li>townendevil-&gt;thot</li>
-        <li>townendevil-&gt;thard</li>
-        <li>townendevil-&gt;thad</li>
+        <li>r_name(p=4)->[townname_combo]</li>
+        <li>r_name->[townname_wordgen]</li>
+        <li>townname_combo->[NobleMetal_Westerado] [geography]</li>
+        <li>townname_combo->[Weather_Westerado] swept [geography]</li>
+        <li>townname_combo->[AnimalBadass_Westerado] [geography]</li>
+        <li>townname_combo->[AnimalBadass_Westerado]'s [geography]</li>
+        <li>townname_combo->[ConceptBadass_Westerado] [geography]</li>
+        <li>townname_combo->[ConceptBadass_Westerado]'s' [geography]</li>
+        <li>townname_combo->[PersonBadass] [geography]</li>
+        <li>townname_combo->[PersonBadass]'s [geography]</li>
+        <li>townname_combo->[Enemy_Westerado]'s [geography]</li>
+        <li>townname_combo->[Enemy_Westerado] [geography]</li>
+        <li>townname_combo->[Weapon_Westerado]'s [geography]</li>
+        <li>townname_combo->[Weapon_Westerado] [geography]</li>
+        <li>townname_combo->[ColorBadass_Westerado] [geography]</li>
+        <li>geography(p=2)->[TerrainFeature]</li>
+        <li>geography->[Community]</li>
+        <li>townname_wordgen(p=2)->[SylE][SylE]</li>
+        <li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
+        <li>townname_wordgen(p=2)->[SylE][townendevil]</li>
+        <li>townname_wordgen(p=2)->[SylE][SylE][townendevil]</li>
+        <li>townendevil->vast</li>
+        <li>townendevil->varg</li>
+        <li>townendevil->vix</li>
+        <li>townendevil->tor</li>
+        <li>townendevil->tear</li>
+        <li>townendevil->cut</li>
+        <li>townendevil->lop</li>
+        <li>townendevil->oze</li>
+        <li>townendevil->ozzle</li>
+        <li>townendevil->latch</li>
+        <li>townendevil->lock</li>
+        <li>townendevil->burn</li>
+        <li>townendevil->sear</li>
+        <li>townendevil->shank</li>
+        <li>townendevil->hurt</li>
+        <li>townendevil->vash</li>
+        <li>townendevil->warg</li>
+        <li>townendevil->wug</li>
+        <li>townendevil->thot</li>
+        <li>townendevil->thard</li>
+        <li>townendevil->thad</li>
       </rulesStrings>
       <rulesFiles>
-        <li>AnimalBadass_Westerado-&gt;Words/Nouns/Animals_Badass_Westerado</li>
-        <li>ConceptBadass_Westerado-&gt;Words/Nouns/Concepts_Badass_Westerado</li>
-        <li>ColorBadass_Westerado-&gt;Words/Nouns/Colors_Badass_Westerado</li>
-        <li>Surnames_Westerado-&gt;Names/Surnames_Westerado</li>
-        <li>Gangs_Westerado-&gt;Words/Nouns/Gangs_Westerado</li>
-        <li>NobleMetal_Westerado-&gt;Words/Nouns/Noble_Metals_Westerado</li>
-        <li>Weapon_Westerado-&gt;Words/Nouns/Weapons_Westerado</li>
-        <li>Weather_Westerado-&gt;Words/Nouns/Weather_Westerado</li>
+        <li>AnimalBadass_Westerado->Words/Nouns/Animals_Badass_Westerado</li>
+        <li>ConceptBadass_Westerado->Words/Nouns/Concepts_Badass_Westerado</li>
+        <li>ColorBadass_Westerado->Words/Nouns/Colors_Badass_Westerado</li>
+        <li>Surnames_Westerado->Names/Surnames_Westerado</li>
+        <li>Gangs_Westerado->Words/Nouns/Gangs_Westerado</li>
+        <li>NobleMetal_Westerado->Words/Nouns/Noble_Metals_Westerado</li>
+        <li>Weapon_Westerado->Words/Nouns/Weapons_Westerado</li>
+        <li>Weather_Westerado->Words/Nouns/Weather_Westerado</li>
       </rulesFiles>
     </rulePack>
   </RulePackDef>

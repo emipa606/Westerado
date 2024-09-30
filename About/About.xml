@@ -100,29 +100,6 @@ We suggest using all the add-ons, but [b]none[/b] of them are [i]required[/i].
     [*]Recommended: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1322101066]Snowy Trees by Nandonalt and Tejko[/url], plants get snowy when it snows
 [/list]
 
-[h1]Mod loading order[/h1]
-Westerado does well at the bottom-end of the mod load order. Westerado Wilderness should be loaded after Westerado (Core), if you're using [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1322101066]Snowy Trees by Nandonalt and Tejko[/url] put that before Westerado (Core). Something like:
-[list]
-    [*][i]Most other mods[/i]
-    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1322101066]Snowy Trees by Nandonalt and Tejko[/url]
-    [*]Westerado
-    [*]Westerado Wilderness
-    [*]Westerado Gunslinger
-    [*]Westerado The Gun Jesus Revelations
-[/list]
-
-[h1]Compatibility[/h1]
-Should be compatible with most things. Special care was taken to be compatible with Vegetable Garden by dismarzero. 
-
-Things that could cause problems:
-[list]
-    [*]Complete conversion mods
-    [*]Mods that make alteration to Rimworld's tale system
-    [*]Mods that make radical changes to research
-[/list]
-
-Have you found a compatibility issue? Please inform us in the comments and we'll try to patch it when we can! Make sure to include a list of mods you've used and any potential error messages.
-
 [h1]Questions and Answers[/h1]
 [list]
     [*][b]Q: Does this remove technology that does not fit the western-theme?[/b] A: No. This is a vanilla-extension mod. This builds onto the vanilla experience, it doesn't remove anything. If you're looking to mod your game to only have western themed things check out Rimworld Westernization Project by JackeryFox and Tamias.
@@ -145,8 +122,6 @@ If you're looking for something like this but slightly different you can checkou
 [h1]Licensing[/h1]
 All original content (e.g. text, imagery, sounds) in this mod is licensed under the All original content (e.g. text, imagery, sounds) in this mod is licensed under the [url=http://creativecommons.org/licenses/by-sa/4.0/]CC-BY-SA 4.0 license[/url].
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2236973780][img]https://img.shields.io/github/v/release/emipa606/Westerado?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url]
-
 [img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
@@ -156,6 +131,8 @@ All original content (e.g. text, imagery, sounds) in this mod is licensed under 
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
-[/list]</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.5.0</modVersion>
+[/list]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2236973780][img]https://img.shields.io/github/v/release/emipa606/Westerado?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url]</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.5.1</modVersion>
 </ModMetaData>

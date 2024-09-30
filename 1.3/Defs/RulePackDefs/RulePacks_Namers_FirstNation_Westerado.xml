@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- First Nation -->
   <RulePackDef>
@@ -8,15 +8,15 @@
     </include>
     <rulePack>
       <rulesStrings>
-        <li>r_name-&gt;[tribalworld] [political_union_firstnation]</li>
-        <li>r_name-&gt;The [tribalworld] [political_union_firstnation]</li>
-        <li>r_name-&gt;The [FirstNationColour_Westerado] [TerrainFeature] [political_union_firstnation]</li>
-        <li>r_name-&gt;[political_union_firstnation] of [WordFirstNation_Westerado]</li>
-        <li>r_name-&gt;The [FirstNationColour_Westerado] [Animal] [WordTribal]</li>
-        <li>r_name-&gt;[WordFirstNation_Westerado] [political_union_firstnation]</li>
+        <li>r_name->[tribalworld] [political_union_firstnation]</li>
+        <li>r_name->The [tribalworld] [political_union_firstnation]</li>
+        <li>r_name->The [FirstNationColour_Westerado] [TerrainFeature] [political_union_firstnation]</li>
+        <li>r_name->[political_union_firstnation] of [WordFirstNation_Westerado]</li>
+        <li>r_name->The [FirstNationColour_Westerado] [Animal] [WordTribal]</li>
+        <li>r_name->[WordFirstNation_Westerado] [political_union_firstnation]</li>
       </rulesStrings>
       <rulesFiles>
-        <li>political_union_firstnation-&gt;Words/Nouns/PoliticalUnions_FirstNation_Westerado</li>
+        <li>political_union_firstnation->Words/Nouns/PoliticalUnions_FirstNation_Westerado</li>
       </rulesFiles>
     </rulePack>
   </RulePackDef>
@@ -27,10 +27,10 @@
     </include>
     <rulePack>
       <rulesStrings>
-        <li>r_name(p=2)-&gt;[WordFirstNation_Westerado]</li>
-        <li>r_name-&gt;[FirstNationColour_Westerado] [WordFirstNation_Westerado]</li>
-        <li>r_name-&gt;[FirstNationColour_Westerado] [TerrainFeature]</li>
-        <li>r_name-&gt;[WordFirstNation_Westerado] [TerrainFeature]</li>
+        <li>r_name(p=2)->[WordFirstNation_Westerado]</li>
+        <li>r_name->[FirstNationColour_Westerado] [WordFirstNation_Westerado]</li>
+        <li>r_name->[FirstNationColour_Westerado] [TerrainFeature]</li>
+        <li>r_name->[WordFirstNation_Westerado] [TerrainFeature]</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
