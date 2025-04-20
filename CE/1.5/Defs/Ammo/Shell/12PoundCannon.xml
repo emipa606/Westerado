@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>Ammo12PoundCannonShells</defName>
+    <label>12 pound cannon ammo</label>
+    <parent>AmmoShells</parent>
+    <iconPath>UI/Icons/ThingCategories/CaliberStone</iconPath>
+  </ThingCategoryDef>
+  <!-- ==================== AmmoSet ========================== -->
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_12PoundCannonShell</defName>
+    <label>12 pound cannon ammo</label>
+    <ammoTypes>
+      <!-- Overrides vanilla artillery shell -->
+      <Shell_Cannonball_Westerado>Bullet_12PoundCannonShell_HE</Shell_Cannonball_Westerado>
+      <Shell_Grapeshot_Westerado>Bullet_12PoundCannonShell_Grape</Shell_Grapeshot_Westerado>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+  <!-- ==================== Ammo ========================== -->
+  <ThingDef Class="CombatExtended.AmmoDef" Name="12PoundCannonShellBase" ParentName="AmmoBase" Abstract="True">
+    <description>Low-velocity shell designed to be fired from a mortar.</description>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+    </statBases>
+    <thingCategories>
+      <li>Ammo12PoundCannonShells</li>
+    </thingCategories>
+    <stackLimit>9</stackLimit>
+    <cookOffFlashScale>30</cookOffFlashScale>
+    <cookOffSound>MortarBomb_Explode</cookOffSound>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" Name="12PoundCannonShellBaseCraftableBase" ParentName="12PoundCannonShellBase" Abstract="True">
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting_TableMachining</li>
+    </tradeTags>
+  </ThingDef>
+  <!-- ================== Projectiles ================== -->
+  <ThingDef Class="CombatExtended.AmmoDef" Name="Base12PoundCannonShell" ParentName="BaseBulletCE" Abstract="true">
+    <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+    <graphicData>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <speed>100</speed>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+      <flyOverhead>false</flyOverhead>
+      <dropsCasings>false</dropsCasings>
+      <!--<casingMoteDefname>Mote_BigShell</casingMoteDefname>-->
+    </projectile>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base12PoundCannonShell">
+    <defName>Bullet_12PoundCannonShell_HE</defName>
+    <label>12 pound cannonball</label>
+    <graphicData>
+      <texPath>Things/Projectile/CannonBall</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>CannonballBomb_Westerado</damageDef>
+      <damageAmountBase>250</damageAmountBase>
+      <explosionRadius>2.5</explosionRadius>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+    </projectile>
+    <comps>
+      <li Class="CombatExtended.CompProperties_Fragments">
+        <fragments>
+          <Fragment_Small>120</Fragment_Small>
+        </fragments>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base12PoundCannonShell">
+    <defName>Bullet_12PoundCannonShell_Grape</defName>
+    <label>12 pound grapeshot</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>45</damageAmountBase>
+      <explosionRadius>1.5</explosionRadius>
+      <soundExplode>Grain_Drop</soundExplode>
+    </projectile>
+    <comps>
+      <li Class="CombatExtended.CompProperties_Fragments">
+        <fragments>
+          <Fragment_Small>20</Fragment_Small>
+        </fragments>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- ==================== Recipes ========================== -->
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeShell_Cannonball_Westerado</defName>
+    <label>make 12 pound cannonballs x5</label>
+    <description>Craft 5 12 pound cannonballs.</description>
+    <jobString>Making 12 pound cannonballs.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>22</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Shell_Cannonball_Westerado>5</Shell_Cannonball_Westerado>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeShell_Grapeshot_Westerado</defName>
+    <label>make 12 pound grapeshot x5</label>
+    <description>Craft 5 12 pound grapeshot.</description>
+    <jobString>Making 12 pound grapeshot.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Cloth</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Shell_Grapeshot_Westerado>5</Shell_Grapeshot_Westerado>
+    </products>
+  </RecipeDef>
+</Defs>

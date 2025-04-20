@@ -1,5 +1,8 @@
 # Changelog for Westerado
 
+1.5.2 - Fixed missing ce-folder for 1.5
+
+
 1.5.1 - Updated reference to the continued version of [SYR] Trait Value
 
 

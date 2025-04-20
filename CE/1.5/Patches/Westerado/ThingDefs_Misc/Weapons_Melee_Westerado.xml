@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Bowie Knife ========== -->
+  <!-- Patch stats -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_BowieKnife_Westerado"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>handle</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>7</power>
+          <cooldownTime>1.2</cooldownTime>
+          <armorPenetration>0.11</armorPenetration>
+          <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>blade</label>
+          <capacities>
+            <li>Cut</li>
+          </capacities>
+          <power>10.4</power>
+          <cooldownTime>1.2</cooldownTime>
+          <armorPenetration>0.12</armorPenetration>
+          <linkedBodyPartsGroup>Blade</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>point</label>
+          <capacities>
+            <li>Stab</li>
+          </capacities>
+          <power>12.5</power>
+          <cooldownTime>1.2</cooldownTime>
+          <chanceFactor>1.33</chanceFactor>
+          <armorPenetration>0.32</armorPenetration>
+          <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_BowieKnife_Westerado"]/statBases</xpath>
+    <value>
+      <Bulk>1.5</Bulk>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_BowieKnife_Westerado"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <MeleeCritChance>0.33</MeleeCritChance>
+        <MeleeParryChance>0.33</MeleeParryChance>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <!-- Add tags -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/ThingDef[defName="MeleeWeapon_BowieKnife_Westerado"]/weaponTags</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="MeleeWeapon_BowieKnife_Westerado"]</xpath>
+        <value>
+          <weaponTags />
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_BowieKnife_Westerado"]/weaponTags</xpath>
+    <value>
+      <li>CE_Sidearm_Melee</li>
+      <li>CE_OneHandedWeapon</li>
+    </value>
+  </Operation>
+  <!-- ========== Tomahawk ========== -->
+  <!-- Patch stats -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_Tomahawk_Westerado"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>handle</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>7</power>
+          <cooldownTime>1.6</cooldownTime>
+          <armorPenetration>0.06</armorPenetration>
+          <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>axe head</label>
+          <capacities>
+            <li>Cut</li>
+          </capacities>
+          <power>14</power>
+          <cooldownTime>1.2</cooldownTime>
+          <chanceFactor>1.33</chanceFactor>
+          <armorPenetration>0.12</armorPenetration>
+          <linkedBodyPartsGroup>Blade</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>poll</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>12</power>
+          <cooldownTime>1.5</cooldownTime>
+          <chanceFactor>0.66</chanceFactor>
+          <armorPenetration>0.16</armorPenetration>
+          <linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>pipe</label>
+          <capacities>
+            <li>Stab</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>1.6</cooldownTime>
+          <chanceFactor>0.33</chanceFactor>
+          <armorPenetration>0.08</armorPenetration>
+          <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_Tomahawk_Westerado"]/statBases</xpath>
+    <value>
+      <Bulk>2.5</Bulk>
+      <MeleeCounterParryBonus>1.33</MeleeCounterParryBonus>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_Tomahawk_Westerado"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <MeleeCritChance>0.25</MeleeCritChance>
+        <MeleeParryChance>0.20</MeleeParryChance>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <!-- Add tags -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/ThingDef[defName="MeleeWeapon_Tomahawk_Westerado"]/weaponTags</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="MeleeWeapon_Tomahawk_Westerado"]</xpath>
+        <value>
+          <weaponTags />
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_Tomahawk_Westerado"]/weaponTags</xpath>
+    <value>
+      <li>FirstNationTomahawk_Westerado</li>
+      <li>CE_OneHandedWeapon</li>
+    </value>
+  </Operation>
+  <!-- ========== Cavalary Saber ========== -->
+  <!-- Patch stats -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_CavalrySaber_Westerado"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>handle</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>1.9</cooldownTime>
+          <armorPenetration>0.11</armorPenetration>
+          <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>point</label>
+          <capacities>
+            <li>Stab</li>
+          </capacities>
+          <power>16</power>
+          <cooldownTime>1.9</cooldownTime>
+          <armorPenetration>0.253</armorPenetration>
+          <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>edge</label>
+          <capacities>
+            <li>Cut</li>
+          </capacities>
+          <power>27.5</power>
+          <cooldownTime>1.8</cooldownTime>
+          <chanceFactor>1.45</chanceFactor>
+          <armorPenetration>0.127</armorPenetration>
+          <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_CavalrySaber_Westerado"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <MeleeCritChance>0.70</MeleeCritChance>
+        <MeleeParryChance>0.80</MeleeParryChance>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_CavalrySaber_Westerado"]/statBases</xpath>
+    <value>
+      <Bulk>7</Bulk>
+      <MeleeCounterParryBonus>2</MeleeCounterParryBonus>
+    </value>
+  </Operation>
+  <!-- Add tags -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/ThingDef[defName="MeleeWeapon_CavalrySaber_Westerado"]/weaponTags</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="MeleeWeapon_CavalrySaber_Westerado"]</xpath>
+        <value>
+          <weaponTags />
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_CavalrySaber_Westerado"]/weaponTags</xpath>
+    <value>
+      <li>CE_OneHandedWeapon</li>
+    </value>
+  </Operation>
+</Patch>
