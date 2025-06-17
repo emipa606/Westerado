@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Patch for CE -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/TraitDef[defName="ShootingAccuracy"]/degreeDatas/li[label="careful shooter"]/statOffsets/ShootingAccuracyPawn</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/TraitDef[defName="ShootingAccuracy"]/degreeDatas/li[label="careful shooter"]</xpath>
+        <value>
+          <statFactors>
+            <ShootingAccuracyPawn>1.5</ShootingAccuracyPawn>
+          </statFactors>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/TraitDef[defName="ShootingAccuracy"]/degreeDatas/li[label="trigger-happy"]/statOffsets/ShootingAccuracyPawn</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/TraitDef[defName="ShootingAccuracy"]/degreeDatas/li[label="trigger-happy"]</xpath>
+        <value>
+          <statFactors>
+            <ShootingAccuracyPawn>0.5</ShootingAccuracyPawn>
+          </statFactors>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--=== Patch for Westerado ===-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/TraitDef[defName="DeadEyeTraits_Westerado"]/degreeDatas/li[label="blood of Harlow"]/statOffsets/ShootingAccuracyPawn</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/TraitDef[defName="DeadEyeTraits_Westerado"]/degreeDatas/li[label="blood of Harlow"]</xpath>
+        <value>
+          <statFactors>
+            <ShootingAccuracyPawn>1.75</ShootingAccuracyPawn>
+          </statFactors>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/TraitDef[defName="DeadEyeTraits_Westerado"]/degreeDatas/li[label="blood of Harlow"]/statOffsets</xpath>
+        <value>
+          <AimingAccuracy>1.25</AimingAccuracy>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/TraitDef[defName="DeadEyeTraits_Westerado"]/degreeDatas/li[label="dead eye"]/statOffsets/ShootingAccuracyPawn</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/TraitDef[defName="DeadEyeTraits_Westerado"]/degreeDatas/li[label="dead eye"]</xpath>
+        <value>
+          <statFactors>
+            <ShootingAccuracyPawn>1.25</ShootingAccuracyPawn>
+          </statFactors>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/TraitDef[defName="DeadEyeTraits_Westerado"]/degreeDatas/li[label="dead eye"]/statOffsets</xpath>
+        <value>
+          <AimingAccuracy>1.15</AimingAccuracy>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/TraitDef[defName="DollarTrilogyTraits_Westerado"]/degreeDatas/li[label="good"]/statOffsets/ShootingAccuracyPawn</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/TraitDef[defName="DollarTrilogyTraits_Westerado"]/degreeDatas/li[label="good"]</xpath>
+        <value>
+          <statFactors>
+            <ShootingAccuracyPawn>1.15</ShootingAccuracyPawn>
+          </statFactors>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/TraitDef[defName="DollarTrilogyTraits_Westerado"]/degreeDatas/li[label="bad"]/statOffsets</xpath>
+        <value>
+          <MeleeCritChance>0.15</MeleeCritChance>
+          <Suppressability>-0.15</Suppressability>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

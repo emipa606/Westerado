@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Resource Exotic ========== -->
+  <!-- Bison Horn -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BisonHorn_Westerado"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>edge</label>
+          <capacities>
+            <li>Cut</li>
+          </capacities>
+          <power>10</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.145</armorPenetration>
+          <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>point</label>
+          <capacities>
+            <li>Stab</li>
+          </capacities>
+          <power>10</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.255</armorPenetration>
+          <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>base</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>8</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.11</armorPenetration>
+          <linkedBodyPartsGroup>Base</linkedBodyPartsGroup>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BisonHorn_Westerado"]/statBases</xpath>
+    <value>
+      <Bulk>8</Bulk>
+      <MeleeCounterParryBonus>1.1</MeleeCounterParryBonus>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BisonHorn_Westerado"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <MeleeCritChance>0.12</MeleeCritChance>
+        <MeleeParryChance>0.08</MeleeParryChance>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <!-- Boar Tusk -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BoarTusk_Westerado"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>edge</label>
+          <capacities>
+            <li>Cut</li>
+          </capacities>
+          <power>12</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.145</armorPenetration>
+          <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>point</label>
+          <capacities>
+            <li>Stab</li>
+          </capacities>
+          <power>12</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.255</armorPenetration>
+          <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>base</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>8</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.11</armorPenetration>
+          <linkedBodyPartsGroup>Base</linkedBodyPartsGroup>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BoarTusk_Westerado"]/statBases</xpath>
+    <value>
+      <Bulk>8</Bulk>
+      <MeleeCounterParryBonus>1.2</MeleeCounterParryBonus>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BoarTusk_Westerado"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <MeleeCritChance>0.15</MeleeCritChance>
+        <MeleeParryChance>0.08</MeleeParryChance>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <!-- Caribou Antler -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CaribouAntler_Westerado"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>edge</label>
+          <capacities>
+            <li>Cut</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.145</armorPenetration>
+          <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>point</label>
+          <capacities>
+            <li>Stab</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.255</armorPenetration>
+          <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>base</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>11</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.11</armorPenetration>
+          <linkedBodyPartsGroup>Base</linkedBodyPartsGroup>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="CaribouAntler_Westerado"]/statBases</xpath>
+    <value>
+      <Bulk>10</Bulk>
+      <MeleeCounterParryBonus>1.5</MeleeCounterParryBonus>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="CaribouAntler_Westerado"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <MeleeCritChance>0.12</MeleeCritChance>
+        <MeleeParryChance>0.15</MeleeParryChance>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <!-- Deer Antler -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DeerAntler_Westerado"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>edge</label>
+          <capacities>
+            <li>Cut</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.145</armorPenetration>
+          <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>point</label>
+          <capacities>
+            <li>Stab</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.255</armorPenetration>
+          <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>base</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>11</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.11</armorPenetration>
+          <linkedBodyPartsGroup>Base</linkedBodyPartsGroup>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DeerAntler_Westerado"]/statBases</xpath>
+    <value>
+      <Bulk>9</Bulk>
+      <MeleeCounterParryBonus>1.4</MeleeCounterParryBonus>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DeerAntler_Westerado"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <MeleeCritChance>0.11</MeleeCritChance>
+        <MeleeParryChance>0.14</MeleeParryChance>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <!-- Elk Antler -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ElkAntler_Westerado"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>edge</label>
+          <capacities>
+            <li>Cut</li>
+          </capacities>
+          <power>11</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.245</armorPenetration>
+          <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>point</label>
+          <capacities>
+            <li>Stab</li>
+          </capacities>
+          <power>11</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.325</armorPenetration>
+          <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>base</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.11</armorPenetration>
+          <linkedBodyPartsGroup>Base</linkedBodyPartsGroup>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="ElkAntler_Westerado"]/statBases</xpath>
+    <value>
+      <Bulk>10</Bulk>
+      <MeleeCounterParryBonus>1.5</MeleeCounterParryBonus>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="ElkAntler_Westerado"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <MeleeCritChance>0.13</MeleeCritChance>
+        <MeleeParryChance>0.16</MeleeParryChance>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <!-- Gazelle Horn -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="GazelleHorn_Westerado"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>edge</label>
+          <capacities>
+            <li>Cut</li>
+          </capacities>
+          <power>12</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.145</armorPenetration>
+          <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>point</label>
+          <capacities>
+            <li>Stab</li>
+          </capacities>
+          <power>12</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.365</armorPenetration>
+          <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>base</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>8</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.11</armorPenetration>
+          <linkedBodyPartsGroup>Base</linkedBodyPartsGroup>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="GazelleHorn_Westerado"]/statBases</xpath>
+    <value>
+      <Bulk>9</Bulk>
+      <MeleeCounterParryBonus>1.44</MeleeCounterParryBonus>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="GazelleHorn_Westerado"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <MeleeCritChance>0.14</MeleeCritChance>
+        <MeleeParryChance>0.14</MeleeParryChance>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <!-- Ibex Horn -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="IbexHorn_Westerado"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>edge</label>
+          <capacities>
+            <li>Cut</li>
+          </capacities>
+          <power>11</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.145</armorPenetration>
+          <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>point</label>
+          <capacities>
+            <li>Stab</li>
+          </capacities>
+          <power>8</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.245</armorPenetration>
+          <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>base</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>10</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.11</armorPenetration>
+          <linkedBodyPartsGroup>Base</linkedBodyPartsGroup>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="IbexHorn_Westerado"]/statBases</xpath>
+    <value>
+      <Bulk>11</Bulk>
+      <MeleeCounterParryBonus>1.62</MeleeCounterParryBonus>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="IbexHorn_Westerado"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <MeleeCritChance>0.04</MeleeCritChance>
+        <MeleeParryChance>0.22</MeleeParryChance>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <!-- Moose Antler -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="MooseAntler_Westerado"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>edge</label>
+          <capacities>
+            <li>Cut</li>
+          </capacities>
+          <power>10</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.145</armorPenetration>
+          <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>point</label>
+          <capacities>
+            <li>Stab</li>
+          </capacities>
+          <power>12</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.245</armorPenetration>
+          <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>base</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>12</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.11</armorPenetration>
+          <linkedBodyPartsGroup>Base</linkedBodyPartsGroup>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="MooseAntler_Westerado"]/statBases</xpath>
+    <value>
+      <Bulk>12</Bulk>
+      <MeleeCounterParryBonus>1.66</MeleeCounterParryBonus>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="MooseAntler_Westerado"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <MeleeCritChance>0.12</MeleeCritChance>
+        <MeleeParryChance>0.22</MeleeParryChance>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <!-- Rhino Horn -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RhinoHorn_Westerado"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>edge</label>
+          <capacities>
+            <li>Cut</li>
+          </capacities>
+          <power>8</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.145</armorPenetration>
+          <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>point</label>
+          <capacities>
+            <li>Stab</li>
+          </capacities>
+          <power>11</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.245</armorPenetration>
+          <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>base</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>10</power>
+          <cooldownTime>1.55</cooldownTime>
+          <armorPenetration>0.11</armorPenetration>
+          <linkedBodyPartsGroup>Base</linkedBodyPartsGroup>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="RhinoHorn_Westerado"]/statBases</xpath>
+    <value>
+      <Bulk>8</Bulk>
+      <MeleeCounterParryBonus>1.22</MeleeCounterParryBonus>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="RhinoHorn_Westerado"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <MeleeCritChance>0.14</MeleeCritChance>
+        <MeleeParryChance>0.08</MeleeParryChance>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+</Patch>

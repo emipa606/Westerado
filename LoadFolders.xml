@@ -7,6 +7,7 @@
     <li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
     <li IfModActive="syrchalis.traitvalue">SYRTraitValue</li>
     <li IfModActive="Mlie.SYRTraitValue">SYRTraitValue</li>
+    <li>LegacyAssets</li>
   </v1.2>
   <v1.3>
     <li>/</li>
@@ -15,6 +16,7 @@
     <li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
     <li IfModActive="syrchalis.traitvalue">SYRTraitValue</li>
     <li IfModActive="Mlie.SYRTraitValue">SYRTraitValue</li>
+    <li>LegacyAssets</li>
   </v1.3>
   <v1.4>
     <li>/</li>
@@ -23,6 +25,7 @@
     <li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
     <li IfModActive="syrchalis.traitvalue">SYRTraitValue</li>
     <li IfModActive="Mlie.SYRTraitValue">SYRTraitValue</li>
+    <li>LegacyAssets</li>
   </v1.4>
   <v1.5>
     <li>/</li>
@@ -31,5 +34,15 @@
     <li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
     <li IfModActive="syrchalis.traitvalue">SYRTraitValue</li>
     <li IfModActive="Mlie.SYRTraitValue">SYRTraitValue</li>
+    <li>LegacyAssets</li>
   </v1.5>
+  <v1.6>
+    <li>/</li>
+    <li>1.6</li>
+    <li IfModActive="CETeam.CombatExtended">CE/1.6</li>
+    <li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
+    <li IfModActive="syrchalis.traitvalue">SYRTraitValue</li>
+    <li IfModActive="Mlie.SYRTraitValue">SYRTraitValue</li>
+    <li>Assets</li>
+  </v1.6>
 </loadFolders>

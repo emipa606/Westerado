@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Rebel Hats ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_RebelHat_Westerado" or defName="Apparel_RebelOfficerHat_Westerado"]/statBases</xpath>
+    <value>
+      <Bulk>1</Bulk>
+      <WornBulk>1</WornBulk>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_RebelOfficerHat_Westerado"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <SocialImpact>-0.15</SocialImpact>
+        <Suppressability>-0.15</Suppressability>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <!-- ========== Indian Hats ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_WarBonnetHat_Westerado" or defName="Apparel_BisonWarBonnetHat_Westerado" or defName="Apparel_SingleFeatherBonnetHat_Westerado"]/statBases</xpath>
+    <value>
+      <Bulk>1</Bulk>
+      <WornBulk>1</WornBulk>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_WarBonnetHat_Westerado"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <SocialImpact>0.20</SocialImpact>
+        <Suppressability>-0.20</Suppressability>
+        <MeleeParryChance>0.20</MeleeParryChance>
+        <MeleeCritChance>0.05</MeleeCritChance>
+        <MeleeDodgeChance>0.05</MeleeDodgeChance>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <!-- ========== Indian Bison War Bonnet ========== -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_BisonWarBonnetHat_Westerado"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <SocialImpact>0.20</SocialImpact>
+        <Suppressability>-0.20</Suppressability>
+        <MeleeParryChance>0.20</MeleeParryChance>
+        <MeleeCritChance>0.05</MeleeCritChance>
+        <MeleeDodgeChance>0.05</MeleeDodgeChance>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <!-- ========== Indian Single Feather Bonnet ========== -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_SingleFeatherBonnetHat_Westerado"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <SocialImpact>0.10</SocialImpact>
+        <Suppressability>-0.05</Suppressability>
+        <MeleeCritChance>0.05</MeleeCritChance>
+        <MeleeDodgeChance>0.05</MeleeDodgeChance>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+</Patch>
